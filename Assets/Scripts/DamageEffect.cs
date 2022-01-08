@@ -4,22 +4,37 @@ using UnityEngine;
 
 public class DamageEffect : MonoBehaviour
 {
-    public GameObject rend;
-    public float cooldownTrans = 0.5f;
+    public MeshRenderer rend;
+    public float cooldownTrans = 0.1f;
     [SerializeField] private int countTrans = 3;
     private int count = 0;
 
-    public void DEffect()
+    private void Start()
     {
         //rend = GetComponent<GameObject>();
-        while (countTrans > count)
+    }
+    public void DEffect()
+    {
+        StartCoroutine(DamEffect());
+    }
+
+    //Efecto de parpadeo simplon para comprobar si molesta o beneficia al jugador
+
+    IEnumerator DamEffect()
+    {
+        if (countTrans > count)
         {
-            rend.SetActive(false);
-            new WaitForSeconds(cooldownTrans);
-            rend.SetActive(true);
-            new WaitForSeconds(cooldownTrans);
+            rend.enabled = false;
+            yield return new WaitForSeconds(cooldownTrans);
+            rend.enabled = true;
+            yield return new WaitForSeconds(cooldownTrans);
             count++;
+            StartCoroutine(DamEffect());
         }
-        count = 0;
+
+        else
+        {
+            count = 0;
+        }
     }
 }

@@ -9,12 +9,14 @@ public class LifeSystem:MonoBehaviour
     public UnityEvent onHeal;
     public UnityEvent onDamage;
 
+    //Recibe daño
     public void Damage(int damage)
     {
         life -= damage;
         onDamage.Invoke();
     }
 
+    //Cura para ambos casos pido lo que se quita por si un enemigo o el jugador quita o cura diferente
     public void Heal(int heal)
     {
         life += heal;
