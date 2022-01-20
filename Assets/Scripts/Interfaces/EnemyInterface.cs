@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -11,7 +12,9 @@ public interface EnemyInterface
     /// <param name="speed">Movement Speed (Will be multiplied by Time.deltaTime)</param>
     void Movement(NavMeshAgent navigation, Transform playerMove, float speed);
     bool IsDeath(int health);
-    void CastingSkill(string skillName);
+    string RandomizeSkill();
+    void ThrowSkill(string skillName);
     void ReceiveDamage(int damageReceived);
-
+    IEnumerator CastSkill();
+    void ChangeStates();
 }

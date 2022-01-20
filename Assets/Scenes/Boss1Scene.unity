@@ -333,7 +333,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &43389564
 Transform:
   m_ObjectHideFlags: 0
@@ -467,7 +467,7 @@ MonoBehaviour:
   current: 2
   mask: {fileID: 663726775}
   fill: {fileID: 2128230671}
-  fillColor: {r: 0.509434, g: 0.11426716, b: 0.093716644, a: 1}
+  fillColor: {r: 0.41509432, g: 0.09202562, b: 0.09506659, a: 1}
 --- !u!114 &245658117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -720,7 +720,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &662243839
 Transform:
   m_ObjectHideFlags: 0
@@ -998,7 +998,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &707460902
 Transform:
   m_ObjectHideFlags: 0
@@ -1161,7 +1161,7 @@ GameObject:
   - component: {fileID: 800705285}
   - component: {fileID: 800705284}
   m_Layer: 5
-  m_Name: Image
+  m_Name: ScareImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1307,7 +1307,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 39.2
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1332,13 +1332,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817372268}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.040005337, y: -0, z: -0, w: 0.99919945}
+  m_LocalPosition: {x: 0, y: 8.6, z: -52.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 4.585, y: 0, z: 0}
 --- !u!1 &910931928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2106,15 +2106,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCastingSkill: 0
   skillNames:
-  - HachaSuelo
-  - LanzamientoHacha
-  - HachaDeFuego
+  - FloorAxe
+  - AxeThrow
+  - FireAxe
+  - AxeOtherDirectoin
+  - Shoot
+  - JumpArea
+  - FloorAxeFast
+  - ShootLast
+  - AxeThrowReThrow
+  - JumpChangeDirection
+  - ChargePinball
+  coolDown: 8.9
   scare: 3
   isDeath: 0
+  scareImages: []
+  imageScare: {fileID: 800705284}
   scareLife: {fileID: 245658116}
   phases: 0
   phasesName: []
   speedMovement: 1200
+  offsetPlayer: {x: 2, y: 0, z: 2}
   state: 0
   _animator: {fileID: 1485747226}
   name: 
@@ -2623,7 +2635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.509434, g: 0.11426716, b: 0.093716644, a: 1}
+  m_Color: {r: 0.41509432, g: 0.09202562, b: 0.09506659, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2716,6 +2728,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: coolDown
+      value: 8.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: scareBar
       value: 
       objectReference: {fileID: 0}
@@ -2724,8 +2740,20 @@ PrefabInstance:
       value: 1200
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
-      propertyPath: skillNames.Array.size
+      propertyPath: offsetPlayer.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: offsetPlayer.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: scareColor.Array.size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: skillNames.Array.size
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: scareColors.Array.size
@@ -2733,15 +2761,83 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: skillNames.Array.data[0]
-      value: HachaSuelo
+      value: FloorAxe
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: skillNames.Array.data[1]
-      value: LanzamientoHacha
+      value: AxeThrow
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: skillNames.Array.data[2]
-      value: HachaDeFuego
+      value: FireAxe
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: skillNames.Array.data[3]
+      value: AxeOtherDirectoin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: skillNames.Array.data[4]
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: skillNames.Array.data[5]
+      value: JumpArea
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: skillNames.Array.data[6]
+      value: FloorAxeFast
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: skillNames.Array.data[7]
+      value: ShootLast
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: skillNames.Array.data[8]
+      value: AxeThrowReThrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: skillNames.Array.data[9]
+      value: JumpChangeDirection
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: skillNames.Array.data[10]
+      value: ChargePinball
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: scareColor.Array.data[0].b
+      value: 0.43943575
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: scareColor.Array.data[0].g
+      value: 0.43943575
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: scareColor.Array.data[0].r
+      value: 0.745283
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: scareColor.Array.data[1].b
+      value: 0.13550198
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: scareColor.Array.data[1].g
+      value: 0.13550198
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: scareColor.Array.data[1].r
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: scareColor.Array.data[2].b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: scareColor.Array.data[2].g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: scareColor.Array.data[2].r
+      value: 0.33962262
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: scareColors.Array.data[0].b
