@@ -25,23 +25,14 @@ public class Enemy : MonoBehaviour
     [Header("Other Stats")]
     [SerializeField][Range(0f,2000f)] protected float speedMovement;
 
+   
+
     [SerializeField]  protected Vector3 offsetPlayer;
     [Header("States")]
     [SerializeField] protected States state = States.Idle;
 
     [Header("Anims")] 
     [SerializeField] protected Animator _animator;
-
-    private int skillsCasted;
-
-    public int SkillCasted
-    {
-        get => skillsCasted;
-        set => skillsCasted = value;
-
-    }
-
-    public string name;
   
     protected enum States
     {
@@ -52,7 +43,11 @@ public class Enemy : MonoBehaviour
         Scared
     }
 
-
+    public float SpeedMovement
+    {
+        get => speedMovement;
+        set => speedMovement = value;
+    }
     public Enemy(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, int phases, string[] phasesName, float speedMovement,Animator _animator)
     {
         this.isCastingSkill = isCastingSkill;

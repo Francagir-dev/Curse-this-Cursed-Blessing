@@ -2007,6 +2007,16 @@ GameObject:
   - component: {fileID: 1533958742}
   - component: {fileID: 1533958743}
   - component: {fileID: 1533958745}
+  - component: {fileID: 1533958755}
+  - component: {fileID: 1533958754}
+  - component: {fileID: 1533958753}
+  - component: {fileID: 1533958752}
+  - component: {fileID: 1533958751}
+  - component: {fileID: 1533958750}
+  - component: {fileID: 1533958749}
+  - component: {fileID: 1533958748}
+  - component: {fileID: 1533958747}
+  - component: {fileID: 1533958746}
   m_Layer: 0
   m_Name: Aprendiz
   m_TagString: Untagged
@@ -2109,7 +2119,7 @@ MonoBehaviour:
   - FloorAxe
   - AxeThrow
   - FireAxe
-  - AxeOtherDirectoin
+  - AxeOtherDirection
   - Shoot
   - JumpArea
   - FloorAxeFast
@@ -2132,6 +2142,7 @@ MonoBehaviour:
   name: 
   playerTransform: {fileID: 0}
   _navMeshAgent: {fileID: 1533958743}
+  floorAxe: {fileID: 0}
   stage: 0
 --- !u!195 &1533958743
 NavMeshAgent:
@@ -2181,12 +2192,164 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1533958737}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0475e247d99ee154481fab4e17f7b2e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animator: {fileID: 1485747226}
+  skillName: FloorAxe
+  skillAprendiz: {fileID: 0}
+--- !u!114 &1533958746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533958737}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbf4712671a98124a901f040b91a9ce8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   _animator: {fileID: 0}
+  skillName: FloorAxe
+  skillAprendiz: {fileID: 0}
+--- !u!114 &1533958747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533958737}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a007552593ba27644b189f7fd22e8414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
+  skillName: FloorAxe
+  skillAprendiz: {fileID: 0}
+--- !u!114 &1533958748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533958737}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7465e80d5db7b4cb97532be735f4ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
+  skillName: FloorAxe
+  skillAprendiz: {fileID: 0}
+--- !u!114 &1533958749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533958737}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92ea3fd6a76975a48ae53dc7187ff125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
+  skillName: FloorAxe
+  skillAprendiz: {fileID: 0}
+--- !u!114 &1533958750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533958737}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a867f256ac8b2ca43a18d473c3142ea7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
+  skillName: FloorAxe
+  skillAprendiz: {fileID: 0}
+--- !u!114 &1533958751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533958737}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 925032b8c7368c14d8e80f2b5ec91da1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
+  skillName: FloorAxe
+  skillAprendiz: {fileID: 0}
+--- !u!114 &1533958752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533958737}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c3876c3fa658949967ed1032ac566e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
+  skillName: FloorAxe
+  skillAprendiz: {fileID: 0}
+--- !u!114 &1533958753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533958737}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce32771897f0a344595d6ffd3d48dafb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
+  skillName: FloorAxe
+  skillAprendiz: {fileID: 0}
+--- !u!114 &1533958754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533958737}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec08ad3bfa3b9d341859336111caade3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
+  skillName: FloorAxe
+  skillAprendiz: {fileID: 0}
+--- !u!114 &1533958755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533958737}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ecc1ea276a7c340ae6b17e1bedc8e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
+  skillName: FloorAxe
+  skillAprendiz: {fileID: 0}
 --- !u!1 &1552053093
 GameObject:
   m_ObjectHideFlags: 0
@@ -2725,6 +2888,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: name
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: scare
       value: 3
       objectReference: {fileID: 0}
@@ -2774,7 +2941,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: skillNames.Array.data[3]
-      value: AxeOtherDirectoin
+      value: AxeOtherDirection
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: skillNames.Array.data[4]

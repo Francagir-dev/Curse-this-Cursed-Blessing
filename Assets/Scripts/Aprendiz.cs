@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using Random = UnityEngine.Random;
@@ -8,6 +9,8 @@ public class Aprendiz : Enemy, EnemyInterface
 {
     [SerializeField] private Transform playerTransform;
     [SerializeField] private NavMeshAgent _navMeshAgent;
+    public FloorAxe floorAxe;
+
     private enum Stages
     {
         Heavy,
@@ -16,29 +19,39 @@ public class Aprendiz : Enemy, EnemyInterface
     }
 
     [SerializeField] private Stages stage = Stages.Heavy;
-    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, int phases, string[] phasesName, float speedMovement, Animator _animator) : base(isCastingSkill, skillNames, scare, isDeath, phases, phasesName, speedMovement, _animator)
-    { }
+
+    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, int phases, string[] phasesName,
+        float speedMovement, Animator _animator) : base(isCastingSkill, skillNames, scare, isDeath, phases, phasesName,
+        speedMovement, _animator)
+    {
+    }
+
     private void Awake()
     {
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         // _animator = GetComponentInChildren<Animator>();
     }
+
     private void Start()
     {
         StartCoroutine(CastSkill());
+        floorAxe = GetComponent<FloorAxe>();
+        floorAxe.enabled = false;
     }
+
     // Update is called once per frame
     void Update()
     {
         Movement(_navMeshAgent, playerTransform, speedMovement);
         //  ReceiveDamage(1);
     }
-    
+
     public void Movement(NavMeshAgent navigation, Transform playerTransform, float speed)
     {
         navigation.speed = speed * Time.deltaTime;
         navigation.destination = playerTransform.position - offsetPlayer;
     }
+
     public bool IsDeath(int health)
     {
         if (health >= 100)
@@ -51,6 +64,7 @@ public class Aprendiz : Enemy, EnemyInterface
             return false;
         }
     }
+
     public string RandomizeSkill()
     {
         int skillProbability = 0;
@@ -70,12 +84,13 @@ public class Aprendiz : Enemy, EnemyInterface
 
         return skillNames[skillProbability];
     }
+
     public void ThrowSkill(string skillName)
     {
         switch (skillName)
         {
             case "FloorAxe":
-                ;
+                GetComponent<FloorAxe>().enabled = true;
                 break;
             case "AxeThrow":
                 ;
@@ -108,14 +123,16 @@ public class Aprendiz : Enemy, EnemyInterface
 
         Debug.Log(skillName);
     }
+
     public IEnumerator CastSkill()
     {
-        while (!IsDeath(scare))
+        while (!IsDeath(scare) && !isCastingSkill)
         {
             ThrowSkill(RandomizeSkill());
             yield return new WaitForSeconds(coolDown);
         }
     }
+
     public void ChangeStates()
     {
         if (scare > 33 && scare < 67)
@@ -127,6 +144,7 @@ public class Aprendiz : Enemy, EnemyInterface
             stage = Stages.Light;
         }
     }
+
     public void ReceiveDamage(int damageReceived)
     {
         scare += damageReceived;
