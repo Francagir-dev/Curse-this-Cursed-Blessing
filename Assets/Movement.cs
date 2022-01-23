@@ -18,7 +18,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 
     [Header("Dash")]
     public float dashSpeedMult = 1.5f;
-    public float dashDistance = 1;
+    public float dashDurat = 1;
     public float dashCooldown = .3f;
 
     //Private Variables
@@ -26,7 +26,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     float originalSpeed;
     float origDashCooldown;
     Rigidbody rig;
-    Vector3 dashOrig;
+    float dashActualDuration;
 
     private void Awake()
     {
@@ -45,13 +45,12 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     {
         if (dashing || dashCooldown > 0 || context.phase != InputActionPhase.Started) return;
 
-        if (inputMove.sqrMagnitude < .03f)
-            inputMove = transform.forward;
+        inputMove = transform.forward;
 
         moveDirection = Quaternion.LookRotation(inputMove);
         speed *= dashSpeedMult;
 
-        dashOrig = transform.position;
+        dashActualDuration = dashDurat;
         dashing = true;
 
     }
@@ -61,6 +60,9 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         if (dashing) return;
 
         var input = context.ReadValue<Vector2>();
+
+        if (input.sqrMagnitude < .025f) input = Vector2.zero;
+
         inputMove = new Vector3(input.x, rig.velocity.y, input.y);
 
         //No puede sacar una rotación si el movimiento es zero
@@ -70,7 +72,11 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 
     private void Update()
     {
-        if (dashCooldown > 0)
+        if (dashActualDuration > 0)
+        {
+            dashActualDuration -= Time.deltaTime;
+        }
+        else if (dashCooldown > 0)
         {
             dashCooldown -= Time.deltaTime;
         }
@@ -79,7 +85,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         if (inputMove.sqrMagnitude > .03f)
             transform.rotation = Quaternion.Slerp(transform.rotation, moveDirection, rotTime);
 
-        if (dashing && Vector3.Distance(transform.position, dashOrig) >= dashDistance)
+        if (dashing && dashActualDuration <= 0)
         {
             speed = originalSpeed;
             dashing = false;
