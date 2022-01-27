@@ -20,9 +20,9 @@ public class Aprendiz : Enemy, EnemyInterface
 
     [SerializeField] private Stages stage = Stages.Heavy;
 
-    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, int phases, string[] phasesName,
-        float speedMovement, Animator _animator) : base(isCastingSkill, skillNames, scare, isDeath, phases, phasesName,
-        speedMovement, _animator)
+    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, string[] phasesName,
+        float speedMovement, Animator animator) : base(isCastingSkill, skillNames, scare, isDeath, phasesName,
+        speedMovement, animator)
     {
     }
 
@@ -35,8 +35,6 @@ public class Aprendiz : Enemy, EnemyInterface
     private void Start()
     {
         StartCoroutine(CastSkill());
-        floorAxe = GetComponent<FloorAxe>();
-        floorAxe.enabled = false;
     }
 
     // Update is called once per frame
@@ -48,7 +46,16 @@ public class Aprendiz : Enemy, EnemyInterface
 
     public void Movement(NavMeshAgent navigation, Transform playerTransform, float speed)
     {
-        navigation.speed = speed * Time.deltaTime;
+        if (!isCastingSkill)
+        {
+            state = States.Moving;
+            navigation.speed = speed * Time.deltaTime;
+        }
+        else
+        {
+            state = States.Attacking;
+            navigation.speed = 0;
+        }
         navigation.destination = playerTransform.position - offsetPlayer;
     }
 
@@ -68,30 +75,60 @@ public class Aprendiz : Enemy, EnemyInterface
     public string RandomizeSkill()
     {
         int skillProbability = 0;
-        int numSkill=-1;
+        int numSkill = -1;
         switch (stage)
         {
             case Stages.Heavy:
-                
+
                 if (Vector3.Distance(playerTransform.position, transform.position) > offsetDistanceSkill)
                 {
-                    skillProbability = Random.Range(10, 31);
-                    if (skillProbability >= 10 && skillProbability < 21) numSkill = 1;
+                    skillProbability = Random.Range(10, 30);
+                    if (skillProbability >= 10 && skillProbability < 20)
+                        numSkill = 1;
                     else numSkill = 2;
                 }
                 else
                 {
                     numSkill = 0;
                 }
+
                 break;
             case Stages.Medium:
-                skillProbability = Random.Range(3, 7);
+                if (Vector3.Distance(playerTransform.position, transform.position) > 16)
+                {
+                    skillProbability = Random.Range(30, 50);
+                    if (skillProbability >= 30 && skillProbability < 40)
+                        numSkill = 3;
+                    else
+                        numSkill = 4;
+                }
+                else
+                {
+                    skillProbability = Random.Range(30, 60);
+                    if (skillProbability >= 30 && skillProbability < 40)
+                        numSkill = 3;
+                    else if (skillProbability >= 40 && skillProbability < 50)
+                        numSkill = 4;
+                    else
+                        numSkill = 5;
+                }
+
                 break;
             case Stages.Light:
-                skillProbability = Random.Range(7, 12);
+                skillProbability = Random.Range(60, 110);
+                if (skillProbability >= 60 && skillProbability < 70)
+                    numSkill = 6;
+                else if (skillProbability >= 70 && skillProbability < 80)
+                    numSkill = 7;
+                else if (skillProbability >= 80 && skillProbability < 90)
+                    numSkill = 8;
+                else if (skillProbability >= 90 && skillProbability < 100)
+                    numSkill = 9;
+                else
+                    numSkill = 10;
                 break;
         }
-             
+
         return skillNames[numSkill];
     }
 
