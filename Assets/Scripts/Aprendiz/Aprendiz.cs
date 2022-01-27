@@ -72,7 +72,7 @@ public class Aprendiz : Enemy, EnemyInterface
         switch (stage)
         {
             case Stages.Heavy:
-                skillProbability = Random.Range(0, 3);
+                skillProbability = Random.Range(0, 3);             
                 break;
             case Stages.Medium:
                 skillProbability = Random.Range(3, 6);
@@ -80,6 +80,10 @@ public class Aprendiz : Enemy, EnemyInterface
             case Stages.Light:
                 skillProbability = Random.Range(6, 11);
                 break;
+        }
+        if(Vector3.Distance(playerTransform.position, playerTransform.position) > 2f)
+        {
+            Debug.Log("Esta a más distacia");
         }
 
         return skillNames[skillProbability];
