@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 394161910}
   - component: {fileID: 394161911}
   m_Layer: 0
-  m_Name: Ejemplo
+  m_Name: Objeto2
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,6 +376,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55beeb71c62117941ab98bfd75a78e4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checker: 0
+  OAI: 
 --- !u!23 &932303608
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -509,8 +511,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 932303607}
         m_TargetAssemblyTypeName: ImprovedInteraction, Assembly-CSharp
-        m_MethodName: Interact
-        m_Mode: 1
+        m_MethodName: OnInteract
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
