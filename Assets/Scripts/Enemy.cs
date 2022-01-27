@@ -9,17 +9,16 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected bool isCastingSkill;
     [SerializeField] protected string[] skillNames;
     [SerializeField] [Range(0, 30)]protected float coolDown;
-    
+    [SerializeField] [Range(0f, 50f)] protected float offsetDistanceSkill;
+
     [Header("Health")]
     [SerializeField][Range(0,100)] protected int scare;
     [SerializeField] protected bool isDeath;
     [SerializeField] protected Sprite[] scareImages;
-    [SerializeField] protected Image imageScare;
-    protected Color [] scareColors;
+    [SerializeField] protected Image imageScare; 
     [SerializeField] protected ProgressBar scareLife;
     
     [Header("Phases")]
-    [SerializeField][Range(3,5)] protected int phases;
     [SerializeField] protected string [] phasesName;
     
     [Header("Other Stats")]
