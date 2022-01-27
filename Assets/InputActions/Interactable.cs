@@ -10,7 +10,7 @@ public class Interactable : MonoBehaviour
         Debug.Log("Funciono");
         if(other.tag == "Player")
         {
-            PlayerPrefs.SetInt("Checkeador", 1);
+            other.gameobject.GetComponent<ImprovedInteraction>().checker = 1;
         }
     }
 
@@ -19,7 +19,7 @@ public class Interactable : MonoBehaviour
         Debug.Log("Funcionoxd");
         if (other.tag == "Player")
         {
-            PlayerPrefs.SetInt("Checkeador", 0);
+            other.gameobject.GetComponent<ImprovedInteraction>().checker = 0;
         }
     }
 }
