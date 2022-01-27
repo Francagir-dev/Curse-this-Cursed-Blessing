@@ -68,25 +68,31 @@ public class Aprendiz : Enemy, EnemyInterface
     public string RandomizeSkill()
     {
         int skillProbability = 0;
-
+        int numSkill=-1;
         switch (stage)
         {
             case Stages.Heavy:
-                skillProbability = Random.Range(0, 3);             
+                
+                if (Vector3.Distance(playerTransform.position, transform.position) > offsetDistanceSkill)
+                {
+                    skillProbability = Random.Range(10, 31);
+                    if (skillProbability >= 10 && skillProbability < 21) numSkill = 1;
+                    else numSkill = 2;
+                }
+                else
+                {
+                    numSkill = 0;
+                }
                 break;
             case Stages.Medium:
-                skillProbability = Random.Range(3, 6);
+                skillProbability = Random.Range(3, 7);
                 break;
             case Stages.Light:
-                skillProbability = Random.Range(6, 11);
+                skillProbability = Random.Range(7, 12);
                 break;
         }
-        if(Vector3.Distance(playerTransform.position, playerTransform.position) > 2f)
-        {
-            Debug.Log("Esta a más distacia");
-        }
-
-        return skillNames[skillProbability];
+             
+        return skillNames[numSkill];
     }
 
     public void ThrowSkill(string skillName)
