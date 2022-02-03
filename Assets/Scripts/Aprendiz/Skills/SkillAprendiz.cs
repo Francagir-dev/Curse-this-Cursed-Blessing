@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class SkillAprendiz : MonoBehaviour, SkillInterface
     [SerializeField] protected string skillName;
     [SerializeField] protected SkillAprendiz skillAprendiz; 
     [SerializeField] protected float damageSkill;
+    [SerializeField] protected Aprendiz _aprendiz;
     private float prevSpeed;
     public SkillAprendiz(Animator animator, string skillName)
     {
@@ -20,7 +22,8 @@ public class SkillAprendiz : MonoBehaviour, SkillInterface
     {
         yield return new WaitForSeconds(delay);
         _animator.SetBool(nameSkill, false);
-        skillAprendiz.enabled = false;
+        enabled = false;
+        GetComponentInParent<Aprendiz>().IsCastingSkill = false;
     }
 
     private void OnEnable()
@@ -33,8 +36,10 @@ public class SkillAprendiz : MonoBehaviour, SkillInterface
 
     private void OnDisable()
     {
-        skillAprendiz.GetComponentInParent<Enemy>().SpeedMovement = prevSpeed;
+        _aprendiz.SpeedMovement = 1200f;
+        _aprendiz.IsCastingSkill = false;
     }
+
 
     public void Animate(string nameSkill, SkillAprendiz skillAprendiz)
     {

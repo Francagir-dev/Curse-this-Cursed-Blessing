@@ -448,7 +448,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 1050, y: 45}
+  m_SizeDelta: {x: 1147, y: 62}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &245658116
 MonoBehaviour:
@@ -464,10 +464,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minimum: 1
   maximum: 100
-  current: 2
+  current: 172
   mask: {fileID: 663726775}
   fill: {fileID: 2128230671}
-  fillColor: {r: 0.41509432, g: 0.09202562, b: 0.09506659, a: 1}
+  fillColor: {r: 0.5660378, g: 0.17932993, b: 0.16286935, a: 1}
 --- !u!114 &245658117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -488,8 +488,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 71ef1d3d57cdf5c419b1b6ad20b0a954, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 74d6c9eb48bdf8c4aaffae1283139781, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -831,10 +831,10 @@ RectTransform:
   m_Father: {fileID: 245658115}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -10, y: -6}
+  m_SizeDelta: {x: 1147, y: 62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &663726774
 MonoBehaviour:
@@ -869,12 +869,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 71ef1d3d57cdf5c419b1b6ad20b0a954, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c9b86dc55c3c30340a5844c57f15a9ac, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.01010101
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -2004,8 +2004,8 @@ GameObject:
   - component: {fileID: 1533958739}
   - component: {fileID: 1533958744}
   - component: {fileID: 1533958738}
-  - component: {fileID: 1533958742}
   - component: {fileID: 1533958743}
+  - component: {fileID: 1533958742}
   - component: {fileID: 1533958745}
   - component: {fileID: 1533958755}
   - component: {fileID: 1533958754}
@@ -2127,20 +2127,19 @@ MonoBehaviour:
   - AxeThrowReThrow
   - JumpChangeDirection
   - ChargePinball
-  coolDown: 8.9
-  scare: 3
+  coolDown: 1.9
+  scare: 0
   isDeath: 0
   scareImages: []
   imageScare: {fileID: 800705284}
   scareLife: {fileID: 245658116}
   phases: 0
   phasesName: []
-  speedMovement: 1200
+  speedMovement: 1673
   offsetPlayer: {x: 2, y: 0, z: 2}
   state: 0
   _animator: {fileID: 1485747226}
-  name: 
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 1262041396}
   _navMeshAgent: {fileID: 1533958743}
   floorAxe: {fileID: 0}
   stage: 0
@@ -2200,6 +2199,8 @@ MonoBehaviour:
   _animator: {fileID: 1485747226}
   skillName: FloorAxe
   skillAprendiz: {fileID: 0}
+  damageSkill: 1
+  _aprendiz: {fileID: 1533958742}
 --- !u!114 &1533958746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2215,6 +2216,8 @@ MonoBehaviour:
   _animator: {fileID: 0}
   skillName: FloorAxe
   skillAprendiz: {fileID: 0}
+  damageSkill: 0
+  _aprendiz: {fileID: 0}
 --- !u!114 &1533958747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2230,6 +2233,8 @@ MonoBehaviour:
   _animator: {fileID: 0}
   skillName: FloorAxe
   skillAprendiz: {fileID: 0}
+  damageSkill: 0
+  _aprendiz: {fileID: 0}
 --- !u!114 &1533958748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2245,6 +2250,8 @@ MonoBehaviour:
   _animator: {fileID: 0}
   skillName: FloorAxe
   skillAprendiz: {fileID: 0}
+  damageSkill: 0
+  _aprendiz: {fileID: 0}
 --- !u!114 &1533958749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2260,6 +2267,8 @@ MonoBehaviour:
   _animator: {fileID: 0}
   skillName: FloorAxe
   skillAprendiz: {fileID: 0}
+  damageSkill: 0
+  _aprendiz: {fileID: 0}
 --- !u!114 &1533958750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2275,6 +2284,8 @@ MonoBehaviour:
   _animator: {fileID: 0}
   skillName: FloorAxe
   skillAprendiz: {fileID: 0}
+  damageSkill: 0
+  _aprendiz: {fileID: 0}
 --- !u!114 &1533958751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2290,6 +2301,8 @@ MonoBehaviour:
   _animator: {fileID: 0}
   skillName: FloorAxe
   skillAprendiz: {fileID: 0}
+  damageSkill: 0
+  _aprendiz: {fileID: 0}
 --- !u!114 &1533958752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2305,6 +2318,8 @@ MonoBehaviour:
   _animator: {fileID: 0}
   skillName: FloorAxe
   skillAprendiz: {fileID: 0}
+  damageSkill: 0
+  _aprendiz: {fileID: 0}
 --- !u!114 &1533958753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2320,6 +2335,8 @@ MonoBehaviour:
   _animator: {fileID: 0}
   skillName: FloorAxe
   skillAprendiz: {fileID: 0}
+  damageSkill: 0
+  _aprendiz: {fileID: 0}
 --- !u!114 &1533958754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2333,8 +2350,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 0}
-  skillName: FloorAxe
+  skillName: AxeThrow
   skillAprendiz: {fileID: 0}
+  damageSkill: 0
+  _aprendiz: {fileID: 1533958742}
 --- !u!114 &1533958755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2350,6 +2369,8 @@ MonoBehaviour:
   _animator: {fileID: 0}
   skillName: FloorAxe
   skillAprendiz: {fileID: 0}
+  damageSkill: 0
+  _aprendiz: {fileID: 0}
 --- !u!1 &1552053093
 GameObject:
   m_ObjectHideFlags: 0
@@ -2799,7 +2820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.41509432, g: 0.09202562, b: 0.09506659, a: 1}
+  m_Color: {r: 0.5660378, g: 0.17932993, b: 0.16286935, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2893,11 +2914,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: scare
-      value: 3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: isDeath
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: coolDown
-      value: 8.9
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: scareBar
@@ -2905,7 +2930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: speedMovement
-      value: 1200
+      value: 1673
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: offsetPlayer.x
@@ -3093,23 +3118,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2520145702466688030, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.24
+      value: 4.86
       objectReference: {fileID: 0}
     - target: {fileID: 2520145702466688030, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.48229
+      value: -0.5667919
       objectReference: {fileID: 0}
     - target: {fileID: 2520145702466688030, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.87601167
+      value: -0.42278475
       objectReference: {fileID: 0}
     - target: {fileID: 2520145702466688030, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.42278484
       objectReference: {fileID: 0}
     - target: {fileID: 2520145702466688030, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.56679195
       objectReference: {fileID: 0}
     - target: {fileID: 2520145702466688030, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3117,11 +3142,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2520145702466688030, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 270
+      value: -1006.56
       objectReference: {fileID: 0}
     - target: {fileID: 2520145702466688030, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 261.401
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 3004617311659314852, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: m_Name

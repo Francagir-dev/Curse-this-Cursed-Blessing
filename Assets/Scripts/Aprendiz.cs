@@ -20,34 +20,31 @@ public class Aprendiz : Enemy, EnemyInterface
 
     [SerializeField] private Stages stage = Stages.Heavy;
 
-    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, int phases, string[] phasesName,
-        float speedMovement, Animator _animator) : base(isCastingSkill, skillNames, scare, isDeath, phases, phasesName,
-        speedMovement, _animator)
+    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, int phases, string[] phasesName, float speedMovement, Animator _animator) : 
+        base(isCastingSkill, skillNames, scare, isDeath, phases, phasesName, speedMovement, _animator)
     {
     }
 
     private void Awake()
     {
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
-        // _animator = GetComponentInChildren<Animator>();
     }
 
     private void Start()
     {
         StartCoroutine(CastSkill());
-        floorAxe = GetComponent<FloorAxe>();
-        floorAxe.enabled = false;
+
     }
 
     // Update is called once per frame
     void Update()
     {
         Movement(_navMeshAgent, playerTransform, speedMovement);
-        //  ReceiveDamage(1);
     }
 
     public void Movement(NavMeshAgent navigation, Transform playerTransform, float speed)
     {
+      
         navigation.speed = speed * Time.deltaTime;
         navigation.destination = playerTransform.position - offsetPlayer;
     }
@@ -93,43 +90,41 @@ public class Aprendiz : Enemy, EnemyInterface
                 GetComponent<FloorAxe>().enabled = true;
                 break;
             case "AxeThrow":
-                ;
+                 GetComponent<AxeThrow>().enabled = true;
                 break;
             case "FireAxe":
-                ;
-                break;
+               // GetComponent<FireAxe>().enabled = true;
+                break;               
             case "Shoot":
-                ;
+               // GetComponent<Shoot>().enabled = true;
                 break;
             case "JumpArea":
-                ;
+                // GetComponent<JumpArea>().enabled = true;
                 break;
             case "FloorAxeFast":
-                ;
+                // GetComponent<FloorAxeFast>().enabled = true;
                 break;
             case "ShootLast":
-                ;
+                // GetComponent<ShootLast>().enabled = true;
                 break;
             case "AxeThrowReThrow":
-                ;
+                // GetComponent<AxeThrowReThrow>().enabled = true;
                 break;
             case "JumpChangeDirection":
-                ;
+                // GetComponent<JumpChangeDirection>().enabled = true;
                 break;
             case "ChargePinball":
-                ;
+                // GetComponent<ChargePinball>().enabled = true;
                 break;
         }
-
-        Debug.Log(skillName);
     }
 
     public IEnumerator CastSkill()
     {
-        while (!IsDeath(scare) && !isCastingSkill)
+        while (!IsDeath(scare)& !isCastingSkill)
         {
-            ThrowSkill(RandomizeSkill());
             yield return new WaitForSeconds(coolDown);
+            ThrowSkill(RandomizeSkill());
         }
     }
 
