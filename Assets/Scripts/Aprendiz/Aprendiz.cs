@@ -7,10 +7,9 @@ using Random = UnityEngine.Random;
 
 public class Aprendiz : Enemy, EnemyInterface
 {
-    [SerializeField] private Transform playerTransform;
-    [SerializeField] private NavMeshAgent _navMeshAgent;
-    public FloorAxe floorAxe;
-
+    [SerializeField] Transform playerTransform;
+    [SerializeField] NavMeshAgent _navMeshAgent;
+    [SerializeField] SkillAprendiz skill;
     private enum Stages
     {
         Heavy,
@@ -21,8 +20,8 @@ public class Aprendiz : Enemy, EnemyInterface
     [SerializeField] private Stages stage = Stages.Heavy;
 
     public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, string[] phasesName,
-        float speedMovement, Animator animator) : base(isCastingSkill, skillNames, scare, isDeath, phasesName,
-        speedMovement, animator)
+        float speedMovement, Animator animatorCharacter, Animator animatorSkill) : base(isCastingSkill, skillNames, scare, isDeath, phasesName,
+        speedMovement, animatorCharacter, animatorSkill)
     {
     }
 
@@ -137,7 +136,7 @@ public class Aprendiz : Enemy, EnemyInterface
         switch (skillName)
         {
             case "FloorAxe":
-                GetComponent<FloorAxe>().enabled = true;
+                skill.name = "FloorAxe";
                 break;
             case "AxeThrow":
                 ;
@@ -167,8 +166,7 @@ public class Aprendiz : Enemy, EnemyInterface
                 ;
                 break;
         }
-
-        Debug.Log(skillName);
+        skill.enabled = true;
     }
 
     public IEnumerator CastSkill()

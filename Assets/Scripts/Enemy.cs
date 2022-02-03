@@ -29,7 +29,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected States state = States.Idle;
 
     [Header("Anims")] 
-    [SerializeField] protected Animator animator;
+    [SerializeField] protected Animator animatorCharacter;
+    [SerializeField] protected Animator animatorSkill;
 
     public enum States
     {
@@ -52,7 +53,7 @@ public class Enemy : MonoBehaviour
         set => state = value;
     }
 
-    public Enemy(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, string[] phasesName, float speedMovement,Animator animator)
+    public Enemy(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, string[] phasesName, float speedMovement,Animator animatorCharacter, Animator skillaAim)
     {
         this.isCastingSkill = isCastingSkill;
         this.skillNames = skillNames;
