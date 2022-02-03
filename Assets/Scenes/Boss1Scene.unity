@@ -2127,15 +2127,15 @@ MonoBehaviour:
   - JumpChangeDirection
   - ChargePinball
   coolDown: 0.8
-  offsetDistanceSkill: 0
+  offsetDistanceSkill: 10.4
   scare: 3
   isDeath: 0
   scareImages: []
   imageScare: {fileID: 800705284}
   scareLife: {fileID: 245658116}
   phasesName: []
-  speedMovement: 1200
-  offsetPlayer: {x: 2, y: 0, z: 2}
+  speedMovement: 1679
+  offsetPlayer: {x: 0, y: 0, z: 0}
   state: 0
   animatorCharacter: {fileID: 0}
   animatorSkill: {fileID: 1485747226}
@@ -2198,7 +2198,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 1485747226}
   skillName: FloorAxe
-  skillAprendiz: {fileID: 0}
   damageSkill: 0
   enemy: {fileID: 0}
 --- !u!114 &1533958746
@@ -2215,7 +2214,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 1485747226}
   skillName: 
-  skillAprendiz: {fileID: 1533958746}
   damageSkill: 20
   enemy: {fileID: 1533958742}
 --- !u!114 &1533958748
@@ -2232,7 +2230,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 0}
   skillName: FloorAxe
-  skillAprendiz: {fileID: 0}
   damageSkill: 0
   enemy: {fileID: 0}
 --- !u!114 &1533958749
@@ -2249,7 +2246,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 0}
   skillName: FloorAxe
-  skillAprendiz: {fileID: 0}
   damageSkill: 0
   enemy: {fileID: 0}
 --- !u!114 &1533958750
@@ -2266,7 +2262,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 0}
   skillName: FloorAxe
-  skillAprendiz: {fileID: 0}
   damageSkill: 0
   enemy: {fileID: 0}
 --- !u!114 &1533958751
@@ -2283,7 +2278,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 0}
   skillName: FloorAxe
-  skillAprendiz: {fileID: 0}
   damageSkill: 0
   enemy: {fileID: 0}
 --- !u!114 &1533958752
@@ -2300,7 +2294,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 0}
   skillName: FloorAxe
-  skillAprendiz: {fileID: 0}
   damageSkill: 0
   enemy: {fileID: 0}
 --- !u!114 &1533958753
@@ -2317,7 +2310,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 0}
   skillName: FloorAxe
-  skillAprendiz: {fileID: 0}
   damageSkill: 0
   enemy: {fileID: 0}
 --- !u!114 &1533958754
@@ -2334,7 +2326,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 0}
   skillName: FloorAxe
-  skillAprendiz: {fileID: 0}
   damageSkill: 0
   enemy: {fileID: 0}
 --- !u!114 &1533958755
@@ -2351,7 +2342,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 0}
   skillName: FloorAxe
-  skillAprendiz: {fileID: 0}
   damageSkill: 0
   enemy: {fileID: 0}
 --- !u!1 &1552053093
@@ -2909,15 +2899,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: speedMovement
-      value: 1200
+      value: 1679
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: offsetPlayer.x
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: offsetPlayer.z
-      value: 2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
+      propertyPath: offsetDistanceSkill
+      value: 10.4
       objectReference: {fileID: 0}
     - target: {fileID: 1083895526559264110, guid: d800268251f41d14bb2523ce5eb8b24d, type: 3}
       propertyPath: scareColor.Array.size

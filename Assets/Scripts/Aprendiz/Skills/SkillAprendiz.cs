@@ -4,12 +4,26 @@ using UnityEngine;
 
 public class SkillAprendiz : MonoBehaviour, SkillInterface
 {
+    
     [SerializeField] protected Animator _animator;
     [SerializeField] protected string skillName;
-    [SerializeField] protected SkillAprendiz skillAprendiz; 
     [SerializeField] protected float damageSkill;
     private float prevSpeed;
     [SerializeField] private Enemy enemy;
+    
+    public string SkillName
+    {
+        get => skillName;
+        set => skillName = value;
+    }
+
+    public float DamageSkill
+    {
+        get => damageSkill;
+        set => damageSkill = value;
+    }
+
+   
     public SkillAprendiz(Animator animator, string skillName)
     {
         _animator = animator;
@@ -33,7 +47,7 @@ public class SkillAprendiz : MonoBehaviour, SkillInterface
 
     private void OnDisable()
     {
-        GetComponentInParent<Enemy>().SpeedMovement = 1200f;
+        GetComponent<Enemy>().SpeedMovement = 1200f;
     }
 
     public void Animate(string nameSkill)

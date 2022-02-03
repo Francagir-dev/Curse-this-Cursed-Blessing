@@ -10,6 +10,7 @@ public class Aprendiz : Enemy, EnemyInterface
     [SerializeField] Transform playerTransform;
     [SerializeField] NavMeshAgent _navMeshAgent;
     [SerializeField] SkillAprendiz skill;
+
     private enum Stages
     {
         Heavy,
@@ -20,7 +21,8 @@ public class Aprendiz : Enemy, EnemyInterface
     [SerializeField] private Stages stage = Stages.Heavy;
 
     public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, string[] phasesName,
-        float speedMovement, Animator animatorCharacter, Animator animatorSkill) : base(isCastingSkill, skillNames, scare, isDeath, phasesName,
+        float speedMovement, Animator animatorCharacter, Animator animatorSkill) : base(isCastingSkill, skillNames,
+        scare, isDeath, phasesName,
         speedMovement, animatorCharacter, animatorSkill)
     {
     }
@@ -40,7 +42,6 @@ public class Aprendiz : Enemy, EnemyInterface
     void Update()
     {
         Movement(_navMeshAgent, playerTransform, speedMovement);
-        //  ReceiveDamage(1);
     }
 
     public void Movement(NavMeshAgent navigation, Transform playerTransform, float speed)
@@ -55,6 +56,7 @@ public class Aprendiz : Enemy, EnemyInterface
             state = States.Attacking;
             navigation.speed = 0;
         }
+
         navigation.destination = playerTransform.position - offsetPlayer;
     }
 
@@ -75,11 +77,14 @@ public class Aprendiz : Enemy, EnemyInterface
     {
         int skillProbability = 0;
         int numSkill = -1;
+        float distance = Vector3.Distance(playerTransform.position, transform.position);
+        Debug.Log(distance);
         switch (stage)
         {
             case Stages.Heavy:
 
-                if (Vector3.Distance(playerTransform.position, transform.position) > offsetDistanceSkill)
+
+                if (distance > offsetDistanceSkill)
                 {
                     skillProbability = Random.Range(10, 30);
                     if (skillProbability >= 10 && skillProbability < 20)
@@ -93,7 +98,7 @@ public class Aprendiz : Enemy, EnemyInterface
 
                 break;
             case Stages.Medium:
-                if (Vector3.Distance(playerTransform.position, transform.position) > 16)
+                if (distance > 16)
                 {
                     skillProbability = Random.Range(30, 50);
                     if (skillProbability >= 30 && skillProbability < 40)
@@ -133,39 +138,7 @@ public class Aprendiz : Enemy, EnemyInterface
 
     public void ThrowSkill(string skillName)
     {
-        switch (skillName)
-        {
-            case "FloorAxe":
-                skill.name = "FloorAxe";
-                break;
-            case "AxeThrow":
-                ;
-                break;
-            case "FireAxe":
-                ;
-                break;
-            case "Shoot":
-                ;
-                break;
-            case "JumpArea":
-                ;
-                break;
-            case "FloorAxeFast":
-                ;
-                break;
-            case "ShootLast":
-                ;
-                break;
-            case "AxeThrowReThrow":
-                ;
-                break;
-            case "JumpChangeDirection":
-                ;
-                break;
-            case "ChargePinball":
-                ;
-                break;
-        }
+        ChangeNameSkill(skillName);
         skill.enabled = true;
     }
 
@@ -204,5 +177,10 @@ public class Aprendiz : Enemy, EnemyInterface
         {
             Debug.Log("Sigue vivo");
         }
+    }
+
+    void ChangeNameSkill(string name)
+    {
+        skill.SkillName = name;
     }
 }
