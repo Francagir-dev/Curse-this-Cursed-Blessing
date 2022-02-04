@@ -20,7 +20,7 @@ public class Aprendiz : Enemy, EnemyInterface
 
     [SerializeField] private Stages stage = Stages.Heavy;
 
-    public Aprendiz(bool isCastingSkill, string[] skillNames, LifeSystem scare, bool isDeath, string[] phasesName, float speedMovement, Animator animatorCharacter, Animator animatorSkill) 
+    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, string[] phasesName, float speedMovement, Animator animatorCharacter, Animator animatorSkill) 
         : base(isCastingSkill, skillNames, scare, isDeath, phasesName, speedMovement, animatorCharacter, animatorSkill)
     {
         
@@ -54,6 +54,7 @@ public class Aprendiz : Enemy, EnemyInterface
             state = States.Attacking;
             navigation.speed = 0;
         }
+        
         navigation.destination = playerTransform.position - offsetPlayer;
     }
 
@@ -134,16 +135,12 @@ public class Aprendiz : Enemy, EnemyInterface
     public void ThrowSkill(string skillName)
     {
         ChangeNameSkill(skillName);
-        if (skillName.Equals("JumpArea"))
-        {
-            skill.Animator = GetComponent<Animator>();
-        }
         skill.enabled = true;
     }
 
     public IEnumerator CastSkill()
     {
-        while (!IsDeath(scare.life) && !isCastingSkill)
+        while (!IsDeath(scare) && !isCastingSkill)
         {
             ThrowSkill(RandomizeSkill());
             isCastingSkill = true;
@@ -153,11 +150,11 @@ public class Aprendiz : Enemy, EnemyInterface
 
     public void ChangeStates()
     {
-        if (scare.life > 33 && scare.life < 67)
+        if (scare > 33 && scare < 67)
         {
             stage = Stages.Medium;
         }
-        else if (scare.life > 67)
+        else if (scare > 67)
         {
             stage = Stages.Light;
         }
@@ -165,11 +162,11 @@ public class Aprendiz : Enemy, EnemyInterface
 
     public void ReceiveDamage(int damageReceived)
     {
-        scare.life += damageReceived;
-        scareLife.Current = scare.life;
+        scare += damageReceived;
+        scareLife.Current = scare;
         ChangeStates();
 
-        if (IsDeath(scare.life))
+        if (IsDeath(scare))
         {
             return;
         }
