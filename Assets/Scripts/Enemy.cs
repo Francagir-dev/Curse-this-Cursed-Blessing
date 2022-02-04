@@ -7,6 +7,9 @@ public class Enemy : MonoBehaviour
 {
     [Header("Skills")]
     [SerializeField] protected bool isCastingSkill;
+
+   
+
     [SerializeField] protected string[] skillNames;
     [SerializeField] [Range(0, 30)]protected float coolDown;
     [SerializeField] [Range(0f, 50f)] protected float offsetDistanceSkill;
@@ -22,7 +25,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected string [] phasesName;
     
     [Header("Other Stats")]
-    [SerializeField][Range(0f,2000f)] protected float speedMovement;
+    [SerializeField][Range(0f,20f)] protected float speedMovement;
     [SerializeField]  protected Vector3 offsetPlayer;
   
     [Header("States")]
@@ -53,6 +56,11 @@ public class Enemy : MonoBehaviour
         set => state = value;
     }
 
+    public bool IsCastingSkill
+    {
+        get => isCastingSkill;
+        set => isCastingSkill = value;
+    }
     public Enemy(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, string[] phasesName, float speedMovement,Animator animatorCharacter, Animator skillaAim)
     {
         this.isCastingSkill = isCastingSkill;
