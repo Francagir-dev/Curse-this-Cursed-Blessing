@@ -20,10 +20,10 @@ public class Aprendiz : Enemy, EnemyInterface
 
     [SerializeField] private Stages stage = Stages.Heavy;
 
-    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, string[] phasesName, float speedMovement, Animator animatorCharacter, Animator animatorSkill) 
+    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, string[] phasesName,
+        float speedMovement, Animator animatorCharacter, Animator animatorSkill)
         : base(isCastingSkill, skillNames, scare, isDeath, phasesName, speedMovement, animatorCharacter, animatorSkill)
     {
-        
     }
 
     private void Awake()
@@ -36,7 +36,7 @@ public class Aprendiz : Enemy, EnemyInterface
         StartCoroutine(CastSkill());
     }
 
-   
+
     void Update()
     {
         Movement(_navMeshAgent, playerTransform, speedMovement);
@@ -54,8 +54,10 @@ public class Aprendiz : Enemy, EnemyInterface
             state = States.Attacking;
             navigation.speed = 0;
         }
-        
-        navigation.destination = playerTransform.position - offsetPlayer;
+
+        Vector3 playerPos = playerTransform.position;
+        transform.LookAt(playerPos);
+        navigation.destination = playerPos - offsetPlayer;
     }
 
     public bool IsDeath(int health)
@@ -128,7 +130,7 @@ public class Aprendiz : Enemy, EnemyInterface
                     numSkill = 10;
                 break;
         }
-    
+
         return skillNames[numSkill];
     }
 

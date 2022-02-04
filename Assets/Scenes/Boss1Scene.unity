@@ -2783,7 +2783,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262041392}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.57, z: -34.15}
+  m_LocalPosition: {x: 0, y: 0.869, z: -34.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2801,9 +2801,9 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!114 &1262041398
 MonoBehaviour:
@@ -2817,7 +2817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37b47e2f23c3b1e4f9528a8681ca80ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 20
   acceleration: 0.5
   rotTime: 0.2
   dashSpeedMult: 1.5
@@ -3230,7 +3230,7 @@ GameObject:
   - component: {fileID: 1533958746}
   - component: {fileID: 1533958745}
   m_Layer: 0
-  m_Name: Aprendiz
+  m_Name: ElBichoPelao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3347,7 +3347,7 @@ MonoBehaviour:
   imageScare: {fileID: 800705284}
   scareLife: {fileID: 245658116}
   phasesName: []
-  speedMovement: 1679
+  speedMovement: 20000
   offsetPlayer: {x: 0, y: 0, z: 0}
   state: 0
   animatorCharacter: {fileID: 0}

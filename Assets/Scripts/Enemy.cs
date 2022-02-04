@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected string [] phasesName;
     
     [Header("Other Stats")]
-    [SerializeField][Range(0f,20f)] protected float speedMovement;
+    [SerializeField][Range(400f,1000f)] protected float speedMovement;
     [SerializeField]  protected Vector3 offsetPlayer;
   
     [Header("States")]

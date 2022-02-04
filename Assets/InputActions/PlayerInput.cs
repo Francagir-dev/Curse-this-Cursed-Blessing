@@ -40,7 +40,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""id"": ""7437555e-6378-4178-a4df-116cacd8d08f"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": ""Hold""
+                    ""interactions"": """"
                 },
                 {
                     ""name"": ""Interact"",
@@ -56,7 +56,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""id"": ""7f3364c7-a1a3-4199-b5b6-fd2f0639c868"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
-                    ""interactions"": ""Press""
+                    ""interactions"": """"
                 },
                 {
                     ""name"": ""SelectOption"",
@@ -64,7 +64,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""id"": ""3ce6f91f-5006-4f80-bcc6-08e2500898f4"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
-                    ""interactions"": ""Press""
+                    ""interactions"": """"
                 },
                 {
                     ""name"": ""Pause"",
@@ -72,7 +72,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""id"": ""cc02f4cc-b4e5-4ae1-8727-906dc319ab9c"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": ""Press""
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
