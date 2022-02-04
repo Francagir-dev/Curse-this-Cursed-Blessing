@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class LifeSystem:MonoBehaviour
+public class LifeSystem: MonoBehaviour
 {
     public int life;
     public UnityEvent onHeal;
