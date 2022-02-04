@@ -2446,6 +2446,7 @@ GameObject:
   - component: {fileID: 1262041394}
   - component: {fileID: 1262041393}
   - component: {fileID: 1262041397}
+  - component: {fileID: 1262041398}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Player
@@ -2545,6 +2546,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1262041398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262041392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b47e2f23c3b1e4f9528a8681ca80ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  acceleration: 0.5
+  rotTime: 0.2
+  dashSpeedMult: 1.5
+  dashDurat: 1
+  dashCooldown: 0.3
 --- !u!1 &1307816180
 GameObject:
   m_ObjectHideFlags: 0
@@ -2900,15 +2919,6 @@ GameObject:
   - component: {fileID: 1533958743}
   - component: {fileID: 1533958742}
   - component: {fileID: 1533958746}
-  - component: {fileID: 1533958745}
-  - component: {fileID: 1533958755}
-  - component: {fileID: 1533958754}
-  - component: {fileID: 1533958753}
-  - component: {fileID: 1533958752}
-  - component: {fileID: 1533958751}
-  - component: {fileID: 1533958750}
-  - component: {fileID: 1533958749}
-  - component: {fileID: 1533958748}
   m_Layer: 0
   m_Name: Aprendiz
   m_TagString: Untagged
@@ -3077,22 +3087,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1533958745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533958737}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0475e247d99ee154481fab4e17f7b2e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animator: {fileID: 1485747226}
-  skillName: FloorAxe
-  damageSkill: 0
-  enemy: {fileID: 0}
 --- !u!114 &1533958746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3107,136 +3101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 1485747226}
   skillName: 
-  damageSkill: 20
   enemy: {fileID: 1533958742}
---- !u!114 &1533958748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533958737}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e7465e80d5db7b4cb97532be735f4ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animator: {fileID: 0}
-  skillName: FloorAxe
-  damageSkill: 0
-  enemy: {fileID: 0}
---- !u!114 &1533958749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533958737}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92ea3fd6a76975a48ae53dc7187ff125, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animator: {fileID: 0}
-  skillName: FloorAxe
-  damageSkill: 0
-  enemy: {fileID: 0}
---- !u!114 &1533958750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533958737}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a867f256ac8b2ca43a18d473c3142ea7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animator: {fileID: 0}
-  skillName: FloorAxe
-  damageSkill: 0
-  enemy: {fileID: 0}
---- !u!114 &1533958751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533958737}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 925032b8c7368c14d8e80f2b5ec91da1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animator: {fileID: 0}
-  skillName: FloorAxe
-  damageSkill: 0
-  enemy: {fileID: 0}
---- !u!114 &1533958752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533958737}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59c3876c3fa658949967ed1032ac566e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animator: {fileID: 0}
-  skillName: FloorAxe
-  damageSkill: 0
-  enemy: {fileID: 0}
---- !u!114 &1533958753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533958737}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce32771897f0a344595d6ffd3d48dafb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animator: {fileID: 0}
-  skillName: FloorAxe
-  damageSkill: 0
-  enemy: {fileID: 0}
---- !u!114 &1533958754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533958737}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec08ad3bfa3b9d341859336111caade3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animator: {fileID: 0}
-  skillName: FloorAxe
-  damageSkill: 0
-  enemy: {fileID: 0}
---- !u!114 &1533958755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533958737}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31ecc1ea276a7c340ae6b17e1bedc8e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animator: {fileID: 0}
-  skillName: FloorAxe
-  damageSkill: 0
-  enemy: {fileID: 0}
 --- !u!1 &1552053093
 GameObject:
   m_ObjectHideFlags: 0

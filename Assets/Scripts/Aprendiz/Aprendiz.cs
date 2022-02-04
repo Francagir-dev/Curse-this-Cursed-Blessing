@@ -20,17 +20,15 @@ public class Aprendiz : Enemy, EnemyInterface
 
     [SerializeField] private Stages stage = Stages.Heavy;
 
-    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, string[] phasesName,
-        float speedMovement, Animator animatorCharacter, Animator animatorSkill) : base(isCastingSkill, skillNames,
-        scare, isDeath, phasesName,
-        speedMovement, animatorCharacter, animatorSkill)
+    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, string[] phasesName, float speedMovement, Animator animatorCharacter, Animator animatorSkill) 
+        : base(isCastingSkill, skillNames, scare, isDeath, phasesName, speedMovement, animatorCharacter, animatorSkill)
     {
+        
     }
 
     private void Awake()
     {
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
-        // _animator = GetComponentInChildren<Animator>();
     }
 
     private void Start()
@@ -38,7 +36,7 @@ public class Aprendiz : Enemy, EnemyInterface
         StartCoroutine(CastSkill());
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         Movement(_navMeshAgent, playerTransform, speedMovement);
@@ -49,14 +47,13 @@ public class Aprendiz : Enemy, EnemyInterface
         if (!isCastingSkill)
         {
             state = States.Moving;
-            navigation.speed = speed * Time.deltaTime;
+            navigation.speed = speed;
         }
         else
         {
             state = States.Attacking;
             navigation.speed = 0;
         }
-
         navigation.destination = playerTransform.position - offsetPlayer;
     }
 
@@ -82,8 +79,6 @@ public class Aprendiz : Enemy, EnemyInterface
         switch (stage)
         {
             case Stages.Heavy:
-
-
                 if (distance > offsetDistanceSkill)
                 {
                     skillProbability = Random.Range(10, 30);
@@ -132,13 +127,17 @@ public class Aprendiz : Enemy, EnemyInterface
                     numSkill = 10;
                 break;
         }
-
+    
         return skillNames[numSkill];
     }
 
     public void ThrowSkill(string skillName)
     {
         ChangeNameSkill(skillName);
+        if (skillName.Equals("JumpArea"))
+        {
+            skill.Animator = GetComponent<Animator>();
+        }
         skill.enabled = true;
     }
 
@@ -147,6 +146,7 @@ public class Aprendiz : Enemy, EnemyInterface
         while (!IsDeath(scare) && !isCastingSkill)
         {
             ThrowSkill(RandomizeSkill());
+            isCastingSkill = true;
             yield return new WaitForSeconds(coolDown);
         }
     }
