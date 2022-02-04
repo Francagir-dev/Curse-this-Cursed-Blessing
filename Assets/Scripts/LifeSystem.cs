@@ -10,9 +10,9 @@ public class LifeSystem:MonoBehaviour
     public UnityEvent onDamage;
 
     /// <summary>
-    /// Recibe daño
+    /// Recibe daÃ±o
     /// </summary>
-    /// <param name="damage">Daño que recibe</param>
+    /// <param name="damage">DaÃ±o que recibe</param>
     public void Damage(int damage)
     {
         life -= damage;
