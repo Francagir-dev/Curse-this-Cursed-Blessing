@@ -10,6 +10,9 @@ public class Aprendiz : Enemy, EnemyInterface
     [SerializeField] Transform playerTransform;
 
     [SerializeField] SkillAprendiz skill;
+
+    [SerializeField] JumpArea jumpArea;
+
     private Vector3 playerPos;
     private enum Stages
     {
@@ -30,6 +33,7 @@ public class Aprendiz : Enemy, EnemyInterface
     private void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
+        jumpArea = GetComponent<JumpArea>();
         speedMovement = navMeshAgent.speed;
         StartCoroutine(CastSkill());
     }
@@ -135,6 +139,11 @@ public class Aprendiz : Enemy, EnemyInterface
     public void ThrowSkill(string skillName)
     {
         ChangeNameSkill(skillName);
+
+        if (skillName == "JumpArea")
+        {
+            jumpArea.enabled = true;
+        }
         skill.enabled = true;
     }
 

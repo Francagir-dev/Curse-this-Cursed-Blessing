@@ -3229,6 +3229,7 @@ GameObject:
   - component: {fileID: 1533958742}
   - component: {fileID: 1533958746}
   - component: {fileID: 1533958745}
+  - component: {fileID: 1533958747}
   m_Layer: 0
   m_Name: Aprendiz
   m_TagString: Untagged
@@ -3384,6 +3385,7 @@ MonoBehaviour:
       m_Calls: []
   playerTransform: {fileID: 1262041396}
   skill: {fileID: 1533958746}
+  jumpArea: {fileID: 0}
   stage: 0
 --- !u!195 &1533958743
 NavMeshAgent:
@@ -3457,6 +3459,21 @@ MonoBehaviour:
   _animator: {fileID: 1485747226}
   skillName: 
   enemy: {fileID: 1533958742}
+--- !u!114 &1533958747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533958737}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92ea3fd6a76975a48ae53dc7187ff125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  upForce: 50
+  fallCooldown: 4.97
 --- !u!1 &1552053093
 GameObject:
   m_ObjectHideFlags: 0
