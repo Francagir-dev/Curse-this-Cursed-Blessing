@@ -8,9 +8,9 @@ using Random = UnityEngine.Random;
 public class Aprendiz : Enemy, EnemyInterface
 {
     [SerializeField] Transform playerTransform;
-    [SerializeField] NavMeshAgent _navMeshAgent;
-    [SerializeField] SkillAprendiz skill;
 
+    [SerializeField] SkillAprendiz skill;
+    private Vector3 playerPos;
     private enum Stages
     {
         Heavy,
@@ -26,20 +26,18 @@ public class Aprendiz : Enemy, EnemyInterface
     {
     }
 
-    private void Awake()
-    {
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
-    }
 
     private void Start()
     {
+        navMeshAgent = GetComponent<NavMeshAgent>();
+        speedMovement = navMeshAgent.speed;
         StartCoroutine(CastSkill());
     }
 
 
     void Update()
     {
-        Movement(_navMeshAgent, playerTransform, speedMovement);
+        Movement(navMeshAgent, playerTransform, speedMovement);
     }
 
     public void Movement(NavMeshAgent navigation, Transform playerTransform, float speed)
@@ -47,7 +45,7 @@ public class Aprendiz : Enemy, EnemyInterface
         if (!isCastingSkill)
         {
             state = States.Moving;
-            navigation.speed = speed;
+            navigation.speed = speedMovement;
         }
         else
         {
@@ -55,9 +53,9 @@ public class Aprendiz : Enemy, EnemyInterface
             navigation.speed = 0;
         }
 
-        Vector3 playerPos = playerTransform.position;
+        playerPos = playerTransform.position;
         transform.LookAt(playerPos);
-        navigation.destination = playerPos - offsetPlayer;
+        navigation.SetDestination(playerPos);
     }
 
     public bool IsDeath(int health)
@@ -156,9 +154,14 @@ public class Aprendiz : Enemy, EnemyInterface
         {
             stage = Stages.Medium;
         }
-        else if (scare > 67)
+        else if (scare > 67 && scare < 100)
         {
             stage = Stages.Light;
+        }
+        else
+        {
+            isDeath = true;
+            State = States.Scared;
         }
     }
 
@@ -166,16 +169,6 @@ public class Aprendiz : Enemy, EnemyInterface
     {
         scare += damageReceived;
         scareLife.Current = scare;
-        ChangeStates();
-
-        if (IsDeath(scare))
-        {
-            return;
-        }
-        else
-        {
-            Debug.Log("Sigue vivo");
-        }
     }
 
     void ChangeNameSkill(string name)

@@ -1,13 +1,14 @@
 using System;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.AI;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
     [Header("Skills")]
     [SerializeField] protected bool isCastingSkill;
-
    
 
     [SerializeField] protected string[] skillNames;
@@ -26,14 +27,19 @@ public class Enemy : MonoBehaviour
     
     [Header("Other Stats")]
     [SerializeField][Range(400f,1000f)] protected float speedMovement;
-    [SerializeField]  protected Vector3 offsetPlayer;
-  
+   // [SerializeField] protected Vector3 offsetPlayer;
+    [SerializeField] protected NavMeshAgent navMeshAgent;
     [Header("States")]
     [SerializeField] protected States state = States.Idle;
 
     [Header("Anims")] 
     [SerializeField] protected Animator animatorCharacter;
     [SerializeField] protected Animator animatorSkill;
+
+    [Header("Events")] [SerializeField] private UnityEvent OnDamageReceived;
+    [Header("Events")] [SerializeField] private UnityEvent OnCastSkill;
+
+    
 
     public enum States
     {

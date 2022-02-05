@@ -65,7 +65,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 
         inputMove = new Vector3(input.x, rig.velocity.y, input.y);
 
-        //No puede sacar una rotación si el movimiento es zero
+        //No puede sacar una rotaciÃ³n si el movimiento es zero
         if (inputMove != Vector3.zero) 
             moveDirection = Quaternion.LookRotation(inputMove);
     }
