@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     //Player Input Related
     PlayerInput playerInput;
     Vector3 inputMove;
+    Vector3 dashDir;
     Quaternion moveDirection;
     
     [Header("Movement")]
@@ -28,6 +29,9 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     Rigidbody rig;
     float dashActualDuration;
 
+    //TEMPORAL
+    ChoiceController choice;
+
     private void Awake()
     {
         originalSpeed = speed;
@@ -39,26 +43,26 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         playerInput.Player.SetCallbacks(this);
         playerInput.Enable();
         rig = GetComponent<Rigidbody>();
+
+        //TEMPORAL
+        choice = FindObjectOfType<ChoiceController>();
     }
 
     public void OnDash(InputAction.CallbackContext context)
     {
         if (dashing || dashCooldown > 0 || context.phase != InputActionPhase.Started) return;
 
-        inputMove = transform.forward;
+        dashDir = transform.forward;
 
         moveDirection = Quaternion.LookRotation(inputMove);
         speed *= dashSpeedMult;
 
         dashActualDuration = dashDurat;
         dashing = true;
-
     }
 
     public void OnMovement(InputAction.CallbackContext context)
     {
-        if (dashing) return;
-
         var input = context.ReadValue<Vector2>();
 
         if (input.sqrMagnitude < .025f) input = Vector2.zero;
@@ -68,6 +72,22 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         //No puede sacar una rotación si el movimiento es zero
         if (inputMove != Vector3.zero) 
             moveDirection = Quaternion.LookRotation(inputMove);
+    }
+
+    public void OnSelectOption(InputAction.CallbackContext context)
+    {
+        if (context.phase != InputActionPhase.Performed) return;
+        int trueAnsw = -1;
+        Vector2 answ = context.ReadValue<Vector2>();
+
+        if (answ.x != 0)
+            trueAnsw = answ.x == 1 ? 1 : 3;
+        else if (answ.y != 0)
+            trueAnsw = answ.y == 1 ? 0 : 2;
+
+        if (trueAnsw == -1) return;
+
+        choice.ChooseOption(trueAnsw);
     }
 
     private void Update()
@@ -81,8 +101,8 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
             dashCooldown -= Time.deltaTime;
         }
 
-        rig.velocity = Vector3.Lerp(rig.velocity, inputMove * speed, acceleration);
-        if (inputMove.sqrMagnitude > .03f)
+        rig.velocity = Vector3.Lerp(rig.velocity, (dashing ? dashDir : inputMove) * speed, acceleration);
+        if (!dashing && inputMove.sqrMagnitude > .03f)
             transform.rotation = Quaternion.Slerp(transform.rotation, moveDirection, rotTime);
 
         if (dashing && dashActualDuration <= 0)
@@ -91,7 +111,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
             dashing = false;
             dashCooldown = origDashCooldown;
             //Para evitar un deslize si esta quieto
-            inputMove = Vector2.zero;
+            rig.velocity = Vector3.zero;
         }
     }
 
@@ -117,11 +137,6 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     }
 
     public void OnPause(UnityEngine.InputSystem.InputAction.CallbackContext context)
-    {
-        //throw new System.NotImplementedException();
-    }
-
-    public void OnSelectOption(UnityEngine.InputSystem.InputAction.CallbackContext context)
     {
         //throw new System.NotImplementedException();
     }
