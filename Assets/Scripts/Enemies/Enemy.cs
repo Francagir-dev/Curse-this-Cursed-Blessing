@@ -22,9 +22,6 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected Image imageScare; 
     [SerializeField] protected ProgressBar scareLife;
     
-    [Header("Phases")]
-    [SerializeField] protected string [] phasesName;
-    
     [Header("Other Stats")]
     [SerializeField][Range(400f,1000f)] protected float speedMovement;
    // [SerializeField] protected Vector3 offsetPlayer;
@@ -67,13 +64,12 @@ public class Enemy : MonoBehaviour
         get => isCastingSkill;
         set => isCastingSkill = value;
     }
-    public Enemy(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, string[] phasesName, float speedMovement,Animator animatorCharacter, Animator skillaAim)
+    public Enemy(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, float speedMovement)
     {
         this.isCastingSkill = isCastingSkill;
         this.skillNames = skillNames;
         this.scare = scare;
         this.isDeath = isDeath;
-        this.phasesName = phasesName;
         this.speedMovement = speedMovement;
     }
 }

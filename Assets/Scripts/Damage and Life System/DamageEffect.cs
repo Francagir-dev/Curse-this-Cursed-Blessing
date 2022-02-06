@@ -11,7 +11,7 @@ public class DamageEffect : MonoBehaviour
 
     private void Start()
     {
-        //rend = GetComponent<GameObject>();
+       rend = GetComponent<MeshRenderer>();
     }
     public void DEffect()
     {

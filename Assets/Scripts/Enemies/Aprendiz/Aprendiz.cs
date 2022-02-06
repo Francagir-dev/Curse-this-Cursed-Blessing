@@ -8,12 +8,12 @@ using Random = UnityEngine.Random;
 public class Aprendiz : Enemy, EnemyInterface
 {
     [SerializeField] Transform playerTransform;
+    [SerializeField] Transform whereToLook;
 
     [SerializeField] SkillAprendiz skill;
 
-    [SerializeField] JumpArea jumpArea;
-
     private Vector3 playerPos;
+
     private enum Stages
     {
         Heavy,
@@ -23,9 +23,8 @@ public class Aprendiz : Enemy, EnemyInterface
 
     [SerializeField] private Stages stage = Stages.Heavy;
 
-    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, string[] phasesName,
-        float speedMovement, Animator animatorCharacter, Animator animatorSkill)
-        : base(isCastingSkill, skillNames, scare, isDeath, phasesName, speedMovement, animatorCharacter, animatorSkill)
+    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, float speedMovement, Animator animatorCharacter, Animator animatorSkill)
+        : base(isCastingSkill, skillNames, scare, isDeath, speedMovement)
     {
     }
 
@@ -33,9 +32,8 @@ public class Aprendiz : Enemy, EnemyInterface
     private void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
-        jumpArea = GetComponent<JumpArea>();
         speedMovement = navMeshAgent.speed;
-        StartCoroutine(CastSkill());
+        StartCoroutine("CastSkill");
     }
 
 
@@ -58,7 +56,7 @@ public class Aprendiz : Enemy, EnemyInterface
         }
 
         playerPos = playerTransform.position;
-        transform.LookAt(playerPos);
+        transform.LookAt(new Vector3(playerPos.x, 3.0f, playerPos.z));
         navigation.SetDestination(playerPos);
     }
 
@@ -139,11 +137,6 @@ public class Aprendiz : Enemy, EnemyInterface
     public void ThrowSkill(string skillName)
     {
         ChangeNameSkill(skillName);
-
-        if (skillName == "JumpArea")
-        {
-            jumpArea.enabled = true;
-        }
         skill.enabled = true;
     }
 
@@ -151,9 +144,10 @@ public class Aprendiz : Enemy, EnemyInterface
     {
         while (!IsDeath(scare) && !isCastingSkill)
         {
+            yield return new WaitForSeconds(coolDown);
             ThrowSkill(RandomizeSkill());
             isCastingSkill = true;
-            yield return new WaitForSeconds(coolDown);
+            yield return new WaitForSeconds(skill.Animator.GetCurrentAnimatorStateInfo(0).length*coolDown);
         }
     }
 
