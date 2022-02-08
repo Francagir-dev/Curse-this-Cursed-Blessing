@@ -33,8 +33,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected Animator animatorCharacter;
     [SerializeField] protected Animator animatorSkill;
 
-    [Header("Events")] [SerializeField] private UnityEvent OnDamageReceived;
-    [Header("Events")] [SerializeField] private UnityEvent OnCastSkill;
+    [Header("Events")] [SerializeField] public UnityEvent<int> OnDamageReceived;
+    [Header("Events")] [SerializeField] private UnityEvent OnCastSkill ;
 
     
 
