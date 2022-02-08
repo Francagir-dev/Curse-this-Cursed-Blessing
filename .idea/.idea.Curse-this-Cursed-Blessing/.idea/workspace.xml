@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Boss1Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Boss1Scene.unity" afterDir="false" />
-    </list>
+    <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +85,7 @@
       <workItem from="1644077826573" duration="6158000" />
       <workItem from="1644148350540" duration="1210000" />
       <workItem from="1644163401650" duration="3369000" />
+      <workItem from="1644337644197" duration="5000" />
     </task>
     <servers />
   </component>
@@ -153,84 +152,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs</url>
-          <line>147</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Aprendiz.cs" initialLine="148" containingFunctionPresentation="method 'CastSkill'">
-            <startOffsets>
-              <option value="4153" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4182" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs</url>
-          <line>148</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Aprendiz.cs" initialLine="149" containingFunctionPresentation="method 'CastSkill'">
-            <startOffsets>
-              <option value="4195" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4217" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs</url>
-          <line>149</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Aprendiz.cs" initialLine="150" containingFunctionPresentation="method 'CastSkill'">
-            <startOffsets>
-              <option value="4230" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4325" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs</url>
-          <line>139</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Aprendiz.cs" initialLine="141" containingFunctionPresentation="method 'ThrowSkill'">
-            <startOffsets>
-              <option value="3955" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3976" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs</url>
-          <line>138</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Aprendiz.cs" initialLine="140" containingFunctionPresentation="method 'ThrowSkill'">
-            <startOffsets>
-              <option value="3919" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3946" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs</url>
-          <line>178</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Aprendiz.cs" initialLine="179" containingFunctionPresentation="method 'ChangeNameSkill'">
-            <startOffsets>
-              <option value="4857" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4880" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
