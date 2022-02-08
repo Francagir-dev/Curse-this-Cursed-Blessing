@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="" />
+    <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Hacha.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Hacha.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Boss1Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Boss1Scene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +90,7 @@
       <workItem from="1644148350540" duration="1210000" />
       <workItem from="1644163401650" duration="3369000" />
       <workItem from="1644337644197" duration="5000" />
-      <workItem from="1644337890270" duration="1199000" />
+      <workItem from="1644337890270" duration="2293000" />
     </task>
     <servers />
   </component>
