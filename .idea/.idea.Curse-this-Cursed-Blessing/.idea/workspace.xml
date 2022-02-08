@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Hacha.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Hacha.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Boss1Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Boss1Scene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +18,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/38/0adb6279/Void.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cafb29d5233847fbb4edcf8d7c32b1e3299c90/cb/1839dfec/Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/be28439f7b014fc38435d198c0640ff713ae00/81/9bcae977/UnityEvent`1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="23psqlwCvmBPUQIVBe53ANOILPr" />
   <component name="ProjectViewState">
@@ -90,7 +89,7 @@
       <workItem from="1644148350540" duration="1210000" />
       <workItem from="1644163401650" duration="3369000" />
       <workItem from="1644337644197" duration="5000" />
-      <workItem from="1644337890270" duration="2293000" />
+      <workItem from="1644337890270" duration="3075000" />
     </task>
     <servers />
   </component>
