@@ -48,6 +48,9 @@ public class Aprendiz : Enemy, EnemyInterface
         {
             state = States.Moving;
             navigation.speed = speedMovement;
+            playerPos = playerTransform.position;
+            transform.LookAt(new Vector3(playerPos.x, 3.0f, playerPos.z));
+            navigation.SetDestination(playerPos);
         }
         else
         {
@@ -55,9 +58,6 @@ public class Aprendiz : Enemy, EnemyInterface
             navigation.speed = 0;
         }
 
-        playerPos = playerTransform.position;
-        transform.LookAt(new Vector3(playerPos.x, 3.0f, playerPos.z));
-        navigation.SetDestination(playerPos);
     }
 
     public bool IsDeath(int health)
@@ -147,7 +147,7 @@ public class Aprendiz : Enemy, EnemyInterface
             yield return new WaitForSeconds(coolDown);
             ThrowSkill(RandomizeSkill());
             isCastingSkill = true;
-            yield return new WaitForSeconds(skill.Animator.GetCurrentAnimatorStateInfo(0).length*coolDown);
+            yield return new WaitForSeconds(skill.Animator.GetCurrentAnimatorStateInfo(0).length+coolDown);
         }
     }
 
