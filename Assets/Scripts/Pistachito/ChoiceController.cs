@@ -51,6 +51,8 @@ public class ChoiceController : MonoBehaviour
     [SerializeField] float timeSlow = .5f;
     [SerializeField] float timeSlowDuration = 3;
 
+    Enemy enemy;
+
     //Temporal
     public Answers answerPool;
 
@@ -70,6 +72,7 @@ public class ChoiceController : MonoBehaviour
     private void Awake()
     {
         Application.targetFrameRate = 60;
+        enemy = FindObjectOfType<Enemy>();
         SetUI(GameObject.Find("--PlayerWheel--"));
         ResetBoxes();
         //EnableUI(false);
@@ -190,7 +193,8 @@ public class ChoiceController : MonoBehaviour
     {
         canChoose = false;
 
-        //Llamar evento here
+        enemy.OnDamageReceived.Invoke(textBox[choosen].power);
+        timeSlowTimeLeft = .1f;
 
         for (int i = 0; i < textBox.Length; i++)
         {
