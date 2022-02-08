@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Boss1Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Boss1Scene.unity" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/be28439f7b014fc38435d198c0640ff713ae00/07/2b94ae13/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollowIsometric.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/38/0adb6279/Void.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cafb29d5233847fbb4edcf8d7c32b1e3299c90/cb/1839dfec/Single.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="23psqlwCvmBPUQIVBe53ANOILPr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.21072589" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.72938144" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="" />
+      <created>1642442562130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642442562130</updated>
+      <workItem from="1642442571296" duration="735000" />
+      <workItem from="1642494098460" duration="187000" />
+      <workItem from="1642526413897" duration="6235000" />
+      <workItem from="1642546653094" duration="520000" />
+      <workItem from="1642585212572" duration="2235000" />
+      <workItem from="1642607678710" duration="1638000" />
+      <workItem from="1642613575059" duration="11775000" />
+      <workItem from="1642699314326" duration="6097000" />
+      <workItem from="1642784553578" duration="5826000" />
+      <workItem from="1642864125910" duration="665000" />
+      <workItem from="1642954123539" duration="790000" />
+      <workItem from="1642954999371" duration="239000" />
+      <workItem from="1643017013976" duration="57000" />
+      <workItem from="1643049172846" duration="865000" />
+      <workItem from="1643113202088" duration="506000" />
+      <workItem from="1643137605694" duration="2882000" />
+      <workItem from="1643741982417" duration="1296000" />
+      <workItem from="1643992181734" duration="6395000" />
+      <workItem from="1644056156043" duration="2244000" />
+      <workItem from="1644077826573" duration="6158000" />
+      <workItem from="1644148350540" duration="1210000" />
+      <workItem from="1644163401650" duration="3369000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Skills/JumpArea.cs</url>
+          <line>23</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Skills\JumpArea.cs" initialLine="18" containingFunctionPresentation="method 'OnEnable'">
+            <startOffsets>
+              <option value="696" />
+            </startOffsets>
+            <endOffsets>
+              <option value="717" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Skills/JumpArea.cs</url>
+          <line>31</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Skills\JumpArea.cs" initialLine="26" containingFunctionPresentation="method 'Fall'">
+            <startOffsets>
+              <option value="900" />
+            </startOffsets>
+            <endOffsets>
+              <option value="991" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Skills/JumpArea.cs</url>
+          <line>34</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Skills\JumpArea.cs" initialLine="28" containingFunctionPresentation="method 'Fall'">
+            <startOffsets>
+              <option value="1064" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1080" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs</url>
+          <line>147</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Aprendiz.cs" initialLine="148" containingFunctionPresentation="method 'CastSkill'">
+            <startOffsets>
+              <option value="4153" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4182" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs</url>
+          <line>148</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Aprendiz.cs" initialLine="149" containingFunctionPresentation="method 'CastSkill'">
+            <startOffsets>
+              <option value="4195" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4217" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs</url>
+          <line>149</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Aprendiz.cs" initialLine="150" containingFunctionPresentation="method 'CastSkill'">
+            <startOffsets>
+              <option value="4230" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4325" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs</url>
+          <line>139</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Aprendiz.cs" initialLine="141" containingFunctionPresentation="method 'ThrowSkill'">
+            <startOffsets>
+              <option value="3955" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3976" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs</url>
+          <line>138</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Aprendiz.cs" initialLine="140" containingFunctionPresentation="method 'ThrowSkill'">
+            <startOffsets>
+              <option value="3919" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3946" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs</url>
+          <line>178</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Aprendiz.cs" initialLine="179" containingFunctionPresentation="method 'ChangeNameSkill'">
+            <startOffsets>
+              <option value="4857" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4880" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
