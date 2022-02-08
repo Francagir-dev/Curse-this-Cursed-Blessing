@@ -36,6 +36,12 @@ public class ProgressBar : MonoBehaviour
         mask.fillAmount = fillAmount;
         fill.color = fillColor;
     }
+
+    private void OnValidate()
+    {
+        current = Mathf.Clamp(current, 0, maximum);
+    }
+
 #if UNITY_EDITOR
     /// <summary>
     ///     Adds to Unity Menu (UI => A Linear Progress bar and instantiate it, as child of the selected Game Object in

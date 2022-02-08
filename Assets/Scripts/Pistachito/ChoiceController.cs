@@ -52,6 +52,7 @@ public class ChoiceController : MonoBehaviour
     [SerializeField] float timeSlowDuration = 3;
 
     Enemy enemy;
+    ProgressBar bar;
 
     //Temporal
     public Answers answerPool;
@@ -73,6 +74,7 @@ public class ChoiceController : MonoBehaviour
     {
         Application.targetFrameRate = 60;
         enemy = FindObjectOfType<Enemy>();
+        enemy.OnDamageReceived.AddListener((enemy as Aprendiz).ReceiveDamage);
         SetUI(GameObject.Find("--PlayerWheel--"));
         ResetBoxes();
         //EnableUI(false);
@@ -90,9 +92,11 @@ public class ChoiceController : MonoBehaviour
         if (timeLeft <= 0) return;
 
         timeLeft -= Time.unscaledDeltaTime;
+        bar.Current = Mathf.FloorToInt((timeLeft / choiceDuration)*100);
 
         if (timeLeft > 0) return;
 
+        timeSlowTimeLeft = .1f;
         if (canChoose) EnableUI(false);
         else EnableChoices();
     }
@@ -193,7 +197,7 @@ public class ChoiceController : MonoBehaviour
     {
         canChoose = false;
 
-        enemy.OnDamageReceived.Invoke(textBox[choosen].power);
+        enemy.OnDamageReceived.Invoke(textBox[choosen].power * 10);
         timeSlowTimeLeft = .1f;
 
         for (int i = 0; i < textBox.Length; i++)
@@ -230,6 +234,7 @@ public class ChoiceController : MonoBehaviour
         SetBackAlpha(0, 0);
 
         choicesUI = ui.transform.Find("--Choices--");
+        bar = choicesUI.Find("--Bar--").gameObject.GetComponent<ProgressBar>();
 
         for (int i = 0; i < textBox.Length; i++)
             textBox[i] = new TextBox(choicesUI.transform.Find("--" + Translate(i) + "--").gameObject);

@@ -56,6 +56,7 @@ public class Aprendiz : Enemy, EnemyInterface
         {
             state = States.Attacking;
             navigation.speed = 0;
+            navigation.SetDestination(transform.position);
         }
 
     }
@@ -142,12 +143,13 @@ public class Aprendiz : Enemy, EnemyInterface
 
     public IEnumerator CastSkill()
     {
-        while (!IsDeath(scare) && !isCastingSkill)
+        while (!IsDeath(scare))
         {
+            while (isCastingSkill)
+                yield return null;
             yield return new WaitForSeconds(coolDown);
             ThrowSkill(RandomizeSkill());
             isCastingSkill = true;
-            yield return new WaitForSeconds(skill.Animator.GetCurrentAnimatorStateInfo(0).length+coolDown);
         }
     }
 
