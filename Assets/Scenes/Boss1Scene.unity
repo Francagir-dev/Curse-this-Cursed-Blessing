@@ -2901,7 +2901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422caddf24d640448acace99bd8f5e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 0
+  life: 4
   onHeal:
     m_PersistentCalls:
       m_Calls: []
@@ -3451,19 +3451,7 @@ MonoBehaviour:
   animatorSkill: {fileID: 1485747226}
   OnDamageReceived:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1533958742}
-        m_TargetAssemblyTypeName: Aprendiz, Assembly-CSharp
-        m_MethodName: ChangeStates
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   OnCastSkill:
     m_PersistentCalls:
       m_Calls: []
