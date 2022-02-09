@@ -136,9 +136,9 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         //throw new System.NotImplementedException();
     }
 
-    public void OnPause(UnityEngine.InputSystem.InputAction.CallbackContext context)
+    public void OnPause(InputAction.CallbackContext context)
     {
-        //throw new System.NotImplementedException();
+        Application.Quit();
     }
     #endregion
 }

@@ -60,6 +60,6 @@ public class SkillAprendiz : MonoBehaviour, SkillInterface
                 break;
             }
         }
-        StartCoroutine(EndAttack(trueClip.length, nameSkill));
+        StartCoroutine(EndAttack(trueClip.length + .5f, nameSkill));
     }
 }
