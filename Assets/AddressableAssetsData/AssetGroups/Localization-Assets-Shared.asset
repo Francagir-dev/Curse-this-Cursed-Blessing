@@ -15,11 +15,15 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-Shared
   m_Data:
     m_SerializedData: []
-  m_GUID: c361c1f8dd90e094f807c1d52a99119d
-  m_SerializeEntries: []
+  m_GUID: d3b6abb1bcfb73042851cbe2c20836d7
+  m_SerializeEntries:
+  - m_GUID: 7c4e5b5853f173f46a4df4a72e00bcc2
+    m_Address: Assets/Frases Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: c2a2c8fc466e5f846b8a5380414752c5, type: 2}
+  m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: b52d2d890d0af7548ad93b4f2c310943, type: 2}
-    - {fileID: 11400000, guid: f90c08dd7752c8549ad7574fd1f1ad4a, type: 2}
+    - {fileID: 11400000, guid: f3707119b0163fd439e1b45e62ca6a8c, type: 2}
+    - {fileID: 11400000, guid: affeb4e394682d845acfdb4d02f96448, type: 2}

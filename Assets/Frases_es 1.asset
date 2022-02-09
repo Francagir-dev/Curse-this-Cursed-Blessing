@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Frases_es 1
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 7c4e5b5853f173f46a4df4a72e00bcc2, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 16301494272
+    m_Localized: "Lucha, lucha hasta que caigas, lucha hasta que no puedas m\xE1s,
+      lucha. Es lo que todos esperan de ti, \xBFverdad?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40930447360
+    m_Localized: "Incluso en sus \xFAltimos momentos, es todo lo que pod\xEDa pensar. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45913280512
+    m_Localized: "Al final del d\xEDa, esta era su misi\xF3n, este era su destino,
+      esta es la persona que eligi\xF3 ser, o al menos, la que le impusieron ser."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51659476992
+    m_Localized: Pero esta no es la historia de la lucha entre dos poderes colosales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59980976128
+    m_Localized: "Esta es la historia de una peque\xF1a e inofensiva planta."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1631506993152
+    m_Localized: Sus deseos no eran diferentes de los de cualquier otra planta; vivir
+      tranquilamente, sin interrupciones, sin molestias.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1633167937536
+    m_Localized: "No es de extra\xF1ar que pasara desapercibida entre otros monstruos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1633868386304
+    m_Localized: "De todos modos, tampoco es que pudiera hacer mucho m\xE1s, no podr\xEDa
+      hacerle da\xF1o ni a una mosca."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1634568835072
+    m_Localized: "Aquel d\xEDa, el d\xEDa que la tierra tembl\xF3, monstruos y humanos
+      por igual, huyeron."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1635214757888
+    m_Localized: "Esconderse es lo m\xE1s sensato, buscar refugio y sobrevivir. Mantenerse
+      con vida es lo que todo ser vivo suele priorizar, no es com\xFAn que alguien
+      quiera cambiar la palabra tras \u201Cser\u201D de vivo a muerto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1636577906688
+    m_Localized: "As\xED que todos huyeron, menos nuestro protagonista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1690516656128
+    m_Localized: "Te preguntar\xE1s cu\xE1l era su motivaci\xF3n, \xBFquiz\xE1s era
+      un ser heroico como el h\xE9roe de la historia? \xBFQuiz\xE1s quer\xEDa sacrificarse
+      por el bien com\xFAn, ayudar a evacuar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1693570109440
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1694274752512
+    m_Localized: "Se qued\xF3 dormido."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1694941646848
+    m_Localized: "No es imposible, ya ocurri\xF3 anteriormente en la historia, imagino
+      que habr\xE9is o\xEDdo hablar de Pompeya."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1695692427264
+    m_Localized: "Sea cual fuere, el hecho es que nuestro protagonista no se molest\xF3
+      en esconderse."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1696376098816
+    m_Localized: "Eventualmente nuestro Protagonista despert\xF3.\r\nNo le tom\xF3
+      mucho tiempo darse cuenta de que estaba completamente solo.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1697105907712
+    m_Localized: 'Bueno, completamente no.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1697726664704
+    m_Localized: "Hab\xEDa un humano malherido frente a \xE9l."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1698401947648
+    m_Localized: "No sab\xEDa qu\xE9 pensar, no sol\xEDa ver muchos humanos por aqu\xED,
+      y siempre que lo hac\xEDa, se escond\xEDa de ellos.\r\nPero este est\xE1 delante
+      suya, y \xE9l es d\xE9bil, y el humano est\xE1 enfrente suya, \xBFpero el humano
+      tambi\xE9n parece estar d\xE9bil? No, espera, tiene un hacha, \xBFes este el
+      fin?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1699098202112
+    m_Localized: "Antes de poder reaccionar, el humano se desplom\xF3 frente a \xE9l."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1699811233792
+    m_Localized: "Nuestro protagonista estaba tan sorprendido que se qued\xF3 congelado
+      en el sitio.\r\nCasi pod\xEDas ver los engranajes girando en su cabeza.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1700520071168
+    m_Localized: "Inadvertido a que los dem\xE1s seres empezaron a salir de sus escondites.\r\nSeres
+      que, sin haber visto qu\xE9 hab\xEDa ocurrido, se encontraron con la planta
+      en pie y al humano en el suelo.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1701207937024
+    m_Localized: "La planta hab\xEDa derrotado al h\xE9roe, el h\xE9roe del mundo,
+      el humano m\xE1s poderoso.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1701782556672
+    m_Localized: "Los monstruos no tardaron en celebrar, encantados de que el h\xE9roe
+      hubiera sido derrotado.\r\nComenzaron a gritar que la planta lo hab\xEDa hecho,
+      que era el monstruo m\xE1s fuerte.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4122952929280
+    m_Localized: "El protagonista pod\xEDa ver como toda su vida se desmoronaba en
+      un instante, su rutina, sus siestas, por primera vez en su vida, no sab\xEDa
+      lo que iba a ocurrir al d\xEDa siguiente."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4123695321088
+    m_Localized: "Y t\xFA pensar\xE1s, querido espectador, \u201Cpero a\xFAn estaba
+      a tiempo, a\xFAn pod\xEDa solucionar el malentendido\u201D.\r\nPero ten\xE9is
+      que tener en cuenta que nuestro protagonista no es el ser m\xE1s social, no
+      habla con nadie y pasa 16 horas al d\xEDa durmiendo.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4124727119872
+    m_Localized: Le dio pereza.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4126245457920
+    m_Localized: "Pens\xF3 que le dejar\xEDan en paz si simplemente lo confirmaba,
+      era m\xE1s r\xE1pido decir \u201Cs\xED\u201D que tener que explicar todo el
+      malentendido, pens\xF3 que podr\xEDa volver a su vida tranquilamente."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4126954295296
+    m_Localized: Pero oh desafortunada planta, la providencia no es tu talento.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4127600218112
+    m_Localized: Al humano le quedaban demasiados asuntos pendientes, demasiados
+      remordimientos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4129043058688
+    m_Localized: Demasiado que discutir consigo mismo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4129688981504
+    m_Localized: "Una peque\xF1a sombra empez\xF3 a emerger del cad\xE1ver, nada
+      m\xE1s y nada menos, que el espectro del h\xE9roe."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4130389430272
+    m_Localized: "La confusi\xF3n se apoder\xF3 de la multitud r\xE1pidamente.\r\nLa
+      confusi\xF3n dio paso al reconocimiento, y el reconocimiento dio paso a la
+      burla.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4131081490432
+    m_Localized: "\u201C\xBFTan j\xF3ven y ya has muerto?\u201D \u201C\xBFNo eras
+      el h\xE9roe m\xE1s fuerte?\u201D \u201C\xA1Nuestro \xEDdolo te ha vencido en
+      tan solo 2 minutos!\u201D, entre otras cosas hirientes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4131794522112
+    m_Localized: "El esp\xEDritu del h\xE9roe no pudo evitar sentirse ofendido, \xBFc\xF3mo
+      que esta planta me ha vencido? \xBFNo veis que eso es imposible?\r\nNo tard\xF3
+      en tratar de decirlo en voz alta, esta planta no hab\xEDa acabado con su vida,
+      hab\xEDa sido una criatura poderosa por el amor de un dios.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4132524331008
+    m_Localized: "Sin embargo, nuestra peque\xF1a planta viendo c\xF3mo el esp\xEDritu
+      empezaba a abrir la boca, pudo ver pasar ante sus ojos la humillaci\xF3n, su
+      reputaci\xF3n arruinada, como no pod\xEDa evadir el hecho de que hab\xEDa admitido
+      haber matado al h\xE9roe, como se hab\xEDa atribuido un honor que no le correspond\xEDa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4133224779776
+    m_Localized: "R\xE1pidamente agarr\xF3 al esp\xEDritu y huy\xF3 del lugar."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
