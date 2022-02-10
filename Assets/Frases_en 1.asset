@@ -224,5 +224,108 @@ MonoBehaviour:
     m_Localized: Quickly, he grabbed the ghost and ran away.
     m_Metadata:
       m_Items: []
+  - m_Id: 4133912645632
+    m_Localized: "And that\u2019s how he got into this mess\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4134659231744
+    m_Localized: 'Can you stop berating me and help me search?
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4135338708992
+    m_Localized: 'This seems to be the X category, not the advanced witchcraft one.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4136018186240
+    m_Localized: "Keep looking, we don\u2019t want our little secret to see the light
+      of day, do we?\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4136739606528
+    m_Localized: 'Instead of reminding me of our deal, you could try to help.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4137549107200
+    m_Localized: 'Or you could have been truthful in the first place and save yourself
+      all this trouble
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4138320859136
+    m_Localized: Easy for a dead guy to say that.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4139012919296
+    m_Localized: Look who comes to rub salt on the wound!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4139625287680
+    m_Localized: "All this wouldn\u2019t have happened if you hadn\u2019t dropped
+      dead in front of me!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4140321542144
+    m_Localized: "Oh! My sincerest apologies for \u2018allowing myself to be killed\u2019
+      by such an insignificant being such as yourself!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4141680496640
+    m_Localized: "*Ahem* I\u2019ve come to challenge you, hero-slayer."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4140988436480
+    m_Localized: " Oh my god, how did I fail that\u2026 ok Okla, breathe in, you\u2019ve
+      done this lots of times before. Just because the supreme-wonderful-extremely-beautiful-genius
+      is in front of you doesn\u2019t mean you have to get nervous\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4142318030848
+    m_Localized: "If I were you, I\u2019d start running."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4142972342272
+    m_Localized: "H-Hey! Wait! I still haven\u2019t\u2026 shown you what I can do\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4144402599936
+    m_Localized: Why is he running?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288014059315200
+    m_Localized: Maybe he was in a rush
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288014961090560
+    m_Localized: "Doesn\u2019t it look like he\u2019s running awa-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288015799951360
+    m_Localized: "HE DOESN\u2019T ACKNOWLEDGE ME AS A RIVAL! As you\u2019d expect
+      from the supreme-wonderful-extremely-beautiful-genius..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288016471040000
+    m_Localized: The what?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288017276346368
+    m_Localized: "I\u2019ll have to show him. Get him!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288018106818560
+    m_Localized: "... you guys go ahead, I\u2019ll catch up!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288018853404672
+    m_Localized: "Yes ma\u2019am!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
