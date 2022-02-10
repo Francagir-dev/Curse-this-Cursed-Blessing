@@ -52,6 +52,7 @@ public class ChoiceController : MonoBehaviour
     [SerializeField] float timeSlowDuration = 3;
 
     Enemy enemy;
+    private Movement player;
     ProgressBar bar;
 
     //Temporal
@@ -74,6 +75,7 @@ public class ChoiceController : MonoBehaviour
     {
         Application.targetFrameRate = 60;
         enemy = FindObjectOfType<Enemy>();
+        player = FindObjectOfType<Movement>();
         enemy.OnDamageReceived.AddListener((enemy as Aprendiz).ReceiveDamage);
         SetUI(GameObject.Find("--PlayerWheel--"));
         ResetBoxes();
@@ -91,8 +93,17 @@ public class ChoiceController : MonoBehaviour
     {
         if (timeLeft <= 0) return;
 
-        timeLeft -= Time.unscaledDeltaTime;
-        bar.Current = Mathf.FloorToInt((timeLeft / choiceDuration)*100);
+        float distance = 1;
+        float modyfier = 1;
+        if (!canChoose)
+        {
+            distance = Vector3.Distance(enemy.transform.position, player.transform.position);
+            modyfier = 10;
+        }
+        timeLeft -= Time.unscaledDeltaTime * modyfier / distance;
+        Debug.Log(timeLeft);
+        
+        bar.Current = Mathf.FloorToInt((timeLeft / choiceDuration) * 100);
 
         if (timeLeft > 0) return;
 
@@ -184,9 +195,9 @@ public class ChoiceController : MonoBehaviour
     /// <summary>
     /// Setear una respuesta de las elecciones
     /// </summary>
-    /// <param name="choice">Indice de la elección</param>
-    /// <param name="text">Texto de la elección</param>
-    /// <param name="power">Poder de la elección</param>
+    /// <param name="choice">Indice de la elecciï¿½n</param>
+    /// <param name="text">Texto de la elecciï¿½n</param>
+    /// <param name="power">Poder de la elecciï¿½n</param>
     public void SetAnswer(int choice, string text, int power)
     {
         textBox[choice].text.text = text;

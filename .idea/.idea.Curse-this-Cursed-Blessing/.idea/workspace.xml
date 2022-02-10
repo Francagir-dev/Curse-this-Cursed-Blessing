@@ -4,6 +4,9 @@
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Boss1Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Boss1Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pistachito/ChoiceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pistachito/ChoiceController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,12 +17,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/be28439f7b014fc38435d198c0640ff713ae00/07/2b94ae13/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollowIsometric.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/38/0adb6279/Void.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cafb29d5233847fbb4edcf8d7c32b1e3299c90/cb/1839dfec/Single.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/be28439f7b014fc38435d198c0640ff713ae00/81/9bcae977/UnityEvent`1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="23psqlwCvmBPUQIVBe53ANOILPr" />
   <component name="ProjectViewState">
@@ -110,7 +109,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -122,40 +120,19 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Skills/JumpArea.cs</url>
           <line>23</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Skills\JumpArea.cs" initialLine="18" containingFunctionPresentation="method 'OnEnable'">
-            <startOffsets>
-              <option value="696" />
-            </startOffsets>
-            <endOffsets>
-              <option value="717" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Skills\JumpArea.cs" initialLine="18" containingFunctionPresentation="method 'OnEnable'" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Skills/JumpArea.cs</url>
           <line>31</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Skills\JumpArea.cs" initialLine="26" containingFunctionPresentation="method 'Fall'">
-            <startOffsets>
-              <option value="900" />
-            </startOffsets>
-            <endOffsets>
-              <option value="991" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Skills\JumpArea.cs" initialLine="26" containingFunctionPresentation="method 'Fall'" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Skills/JumpArea.cs</url>
           <line>34</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Skills\JumpArea.cs" initialLine="28" containingFunctionPresentation="method 'Fall'">
-            <startOffsets>
-              <option value="1064" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1080" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Skills\JumpArea.cs" initialLine="28" containingFunctionPresentation="method 'Fall'" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

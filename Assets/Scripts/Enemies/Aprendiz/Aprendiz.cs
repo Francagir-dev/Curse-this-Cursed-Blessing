@@ -49,6 +49,8 @@ public class Aprendiz : Enemy, EnemyInterface
             state = States.Moving;
             navigation.speed = speedMovement;
             playerPos = playerTransform.position;
+           // Quaternion toRotation = Quaternion.FromToRotation(transform.forward, playerPos + new Vector3(0f, 2f, 0f));
+            // transform.rotation = Quaternion.Lerp(transform.rotation,toRotation, 10*Time.deltaTime);
             transform.LookAt(new Vector3(playerPos.x, 3.0f, playerPos.z));
             navigation.SetDestination(playerPos);
         }
