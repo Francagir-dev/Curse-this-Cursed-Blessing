@@ -101,8 +101,7 @@ public class ChoiceController : MonoBehaviour
             modyfier = 10;
         }
         timeLeft -= Time.unscaledDeltaTime * modyfier / distance;
-        Debug.Log(timeLeft);
-        
+
         bar.Current = Mathf.FloorToInt((timeLeft / choiceDuration) * 100);
 
         if (timeLeft > 0) return;

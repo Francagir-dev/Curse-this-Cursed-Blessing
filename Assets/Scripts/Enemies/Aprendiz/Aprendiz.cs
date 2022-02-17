@@ -1,18 +1,14 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
-public class Aprendiz : Enemy, EnemyInterface
+public class Aprendiz : Enemy
 {
     [SerializeField] Transform playerTransform;
-    [SerializeField] Transform whereToLook;
-
     [SerializeField] SkillAprendiz skill;
 
-    private Vector3 playerPos;
+    private Vector3 _playerPos;
 
     private enum Stages
     {
@@ -23,62 +19,87 @@ public class Aprendiz : Enemy, EnemyInterface
 
     [SerializeField] private Stages stage = Stages.Heavy;
 
-    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, float speedMovement, Animator animatorCharacter, Animator animatorSkill)
+    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, float speedMovement)
         : base(isCastingSkill, skillNames, scare, isDeath, speedMovement)
     {
     }
-
 
     private void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
         speedMovement = navMeshAgent.speed;
-        StartCoroutine("CastSkill");
+        StartCoroutine(CastSkill());
     }
 
 
-    void Update()
+    private void Update()
     {
         Movement(navMeshAgent, playerTransform, speedMovement);
+        if (canRotate)
+            transform.LookAt(new Vector3(_playerPos.x, 3.0f, _playerPos.z));
     }
 
-    public void Movement(NavMeshAgent navigation, Transform playerTransform, float speed)
+    #region Movement
+
+    protected override void Movement(NavMeshAgent navigation, Transform pistachitoTransform, float speed)
     {
-        if (!isCastingSkill)
+        if (state != States.Moving) return;
+        _playerPos = pistachitoTransform.position;
+        navigation.SetDestination(_playerPos);
+    }
+
+    protected override void StopAgent()
+    {
+        navMeshAgent.speed = 0;
+        navMeshAgent.isStopped = true;
+    }
+
+    #endregion
+
+    #region States
+
+    public override void ChangeState(States stateToChange)
+    {
+        state = stateToChange;
+        switch (state)
         {
-            state = States.Moving;
-            navigation.speed = speedMovement;
-            playerPos = playerTransform.position;
-           // Quaternion toRotation = Quaternion.FromToRotation(transform.forward, playerPos + new Vector3(0f, 2f, 0f));
-            // transform.rotation = Quaternion.Lerp(transform.rotation,toRotation, 10*Time.deltaTime);
-            transform.LookAt(new Vector3(playerPos.x, 3.0f, playerPos.z));
-            navigation.SetDestination(playerPos);
+            case States.Moving:
+                navMeshAgent.speed = speedMovement;
+                navMeshAgent.isStopped = false;
+                IsCastingSkill = false;
+                break;
+            case States.Attacking:
+                StopAgent();
+                break;
+            case States.Scared:
+                isDeath = true;
+                break;
+        }
+    }
+
+    protected override void ChangeStates()
+    {
+        if (scare > 33 && scare < 67)
+        {
+            stage = Stages.Medium;
+        }
+        else if (scare > 67 && scare < 100)
+        {
+            stage = Stages.Light;
         }
         else
         {
-            state = States.Attacking;
-            navigation.speed = 0;
-            navigation.SetDestination(transform.position);
-        }
-
-    }
-
-    public bool IsDeath(int health)
-    {
-        if (health >= 100)
-        {
-            state = States.Scared;
-            return true;
-        }
-        else
-        {
-            return false;
+            ChangeState(States.Scared);
         }
     }
 
-    public string RandomizeSkill()
+    #endregion
+
+    #region Skills
+
+    protected override string RandomizeSkill()
     {
-        int skillProbability = 0;
+        int skillProbability;
         int numSkill = -1;
         float distance = Vector3.Distance(playerTransform.position, transform.position);
         Debug.Log(distance);
@@ -137,15 +158,16 @@ public class Aprendiz : Enemy, EnemyInterface
         return skillNames[numSkill];
     }
 
-    public void ThrowSkill(string skillName)
+    protected override void ThrowSkill(string skillName)
     {
         ChangeNameSkill(skillName);
+        ChangeState(States.Attacking);
         skill.enabled = true;
     }
 
-    public IEnumerator CastSkill()
+    protected override IEnumerator CastSkill()
     {
-        while (!IsDeath(scare))
+        while (state != States.Scared)
         {
             while (isCastingSkill)
                 yield return null;
@@ -155,31 +177,21 @@ public class Aprendiz : Enemy, EnemyInterface
         }
     }
 
-    public void ChangeStates()
+
+    protected override void ChangeNameSkill(string nameOfSkill)
     {
-        if (scare > 33 && scare < 67)
-        {
-            stage = Stages.Medium;
-        }
-        else if (scare > 67 && scare < 100)
-        {
-            stage = Stages.Light;
-        }
-        else
-        {
-            isDeath = true;
-            State = States.Scared;
-        }
+        skill.SkillName = nameOfSkill;
     }
 
-    public void ReceiveDamage(int damageReceived)
+    #endregion
+
+    #region Life
+
+    public override void ReceiveDamage(int damageReceived)
     {
         scare += damageReceived;
         scareLife.Current = scare;
     }
 
-    void ChangeNameSkill(string name)
-    {
-        skill.SkillName = name;
-    }
+    #endregion
 }

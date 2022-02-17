@@ -35,8 +35,7 @@ public class SkillAprendiz : MonoBehaviour, SkillInterface
     {
         yield return new WaitForSeconds(delay);
         _animator.SetBool(nameSkill, false);
-        enemy.IsCastingSkill = false;
-        enemy.State = Enemy.States.Moving;
+        enemy.ChangeState(Enemy.States.Moving);
         enabled = false;
     }
 
