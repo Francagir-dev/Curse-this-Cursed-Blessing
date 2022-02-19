@@ -31,6 +31,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 
     //TEMPORAL
     ChoiceController choice;
+    Interactable[] interactables;
 
     private void Awake()
     {
@@ -48,17 +49,9 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         choice = FindObjectOfType<ChoiceController>();
     }
 
-    public void OnDash(InputAction.CallbackContext context)
+    private void Start()
     {
-        if (dashing || dashCooldown > 0 || context.phase != InputActionPhase.Started) return;
-
-        dashDir = transform.forward;
-
-        moveDirection = Quaternion.LookRotation(inputMove);
-        speed *= dashSpeedMult;
-
-        dashActualDuration = dashDurat;
-        dashing = true;
+        interactables = FindObjectsOfType<Interactable>();
     }
 
     public void OnMovement(InputAction.CallbackContext context)
@@ -72,6 +65,20 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         //No puede sacar una rotación si el movimiento es zero
         if (inputMove != Vector3.zero) 
             moveDirection = Quaternion.LookRotation(inputMove);
+    }
+
+    public void OnDash(InputAction.CallbackContext context)
+    {
+        if (dashing || dashCooldown > 0 || context.phase != InputActionPhase.Started) return;
+
+        transform.rotation = moveDirection;
+        dashDir = transform.forward;
+
+        moveDirection = Quaternion.LookRotation(inputMove);
+        speed *= dashSpeedMult;
+
+        dashActualDuration = dashDurat;
+        dashing = true;
     }
 
     public void OnSelectOption(InputAction.CallbackContext context)
@@ -122,15 +129,24 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         playerInput.Disable();
     }
 
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        foreach (var item in interactables)
+        {
+            if (item.PlayerDetected)
+            {
+                item.onTrigger.Invoke();
+                break;
+            }
+        }
+    }
+
     #region NotImplemented
     public void OnCameraMov(UnityEngine.InputSystem.InputAction.CallbackContext context)
     {
         //throw new System.NotImplementedException();
     }
-    public void OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext context)
-    {
-        //throw new System.NotImplementedException();
-    }
+    
     public void OnOpenDialog(UnityEngine.InputSystem.InputAction.CallbackContext context)
     {
         //throw new System.NotImplementedException();

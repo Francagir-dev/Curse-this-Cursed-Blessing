@@ -44,6 +44,8 @@ public class ChoiceController : MonoBehaviour
         }
     }
 
+    public bool enableTime;
+
     [Header("Stats")]
     [SerializeField] float intervals = 10; 
     [SerializeField] float choiceDuration = 10; 
@@ -74,13 +76,12 @@ public class ChoiceController : MonoBehaviour
     private void Awake()
     {
         Application.targetFrameRate = 60;
-        enemy = FindObjectOfType<Enemy>();
+        //enemy = FindObjectOfType<Enemy>();
         player = FindObjectOfType<Movement>();
-        enemy.OnDamageReceived.AddListener((enemy as Aprendiz).ReceiveDamage);
+        //enemy.OnDamageReceived.AddListener((enemy as Aprendiz).ReceiveDamage);
         SetUI(GameObject.Find("--PlayerWheel--"));
         ResetBoxes();
-        //EnableUI(false);
-        EnableChoices();
+        EnableUI(false);
     }
 
     private void Update()
@@ -91,7 +92,7 @@ public class ChoiceController : MonoBehaviour
 
     void CheckTime()
     {
-        if (timeLeft <= 0) return;
+        if (timeLeft <= 0 || !enableTime) return;
 
         float distance = 1;
         float modyfier = 1;
