@@ -35,9 +35,8 @@ public class SkillAprendiz : MonoBehaviour, SkillInterface
     {
         yield return new WaitForSeconds(delay);
         _animator.SetBool(nameSkill, false);
+        enemy.ChangeState(Enemy.States.Moving);
         enabled = false;
-        enemy.IsCastingSkill = false;
-        enemy.State = Enemy.States.Moving;
     }
 
     private void OnEnable()
@@ -50,6 +49,16 @@ public class SkillAprendiz : MonoBehaviour, SkillInterface
     {
         //if we use a Bool to decide who is the correct animation in the animation's tree (Maybe change)
         _animator.SetBool(nameSkill, true);
-        StartCoroutine(EndAttack(_animator.GetCurrentAnimatorStateInfo(0).length, nameSkill));
+        AnimationClip[] clips = _animator.runtimeAnimatorController.animationClips;
+        AnimationClip trueClip = null;
+        foreach (var item in clips)
+        {
+            if (item.name == nameSkill)
+            {
+                trueClip = item;
+                break;
+            }
+        }
+        StartCoroutine(EndAttack(trueClip.length + .5f, nameSkill));
     }
 }

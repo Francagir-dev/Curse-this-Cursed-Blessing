@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Aprendiz.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Skills/SkillAprendiz.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Skills/SkillAprendiz.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IEnemy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IEnemy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pistachito/ChoiceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pistachito/ChoiceController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollowIsometric.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23psqlwCvmBPUQIVBe53ANOILPr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.21072589" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.72938144" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="" />
+      <created>1642442562130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642442562130</updated>
+      <workItem from="1642442571296" duration="735000" />
+      <workItem from="1642494098460" duration="187000" />
+      <workItem from="1642526413897" duration="6235000" />
+      <workItem from="1642546653094" duration="520000" />
+      <workItem from="1642585212572" duration="2235000" />
+      <workItem from="1642607678710" duration="1638000" />
+      <workItem from="1642613575059" duration="11775000" />
+      <workItem from="1642699314326" duration="6097000" />
+      <workItem from="1642784553578" duration="5826000" />
+      <workItem from="1642864125910" duration="665000" />
+      <workItem from="1642954123539" duration="790000" />
+      <workItem from="1642954999371" duration="239000" />
+      <workItem from="1643017013976" duration="57000" />
+      <workItem from="1643049172846" duration="865000" />
+      <workItem from="1643113202088" duration="506000" />
+      <workItem from="1643137605694" duration="2882000" />
+      <workItem from="1643741982417" duration="1296000" />
+      <workItem from="1643992181734" duration="6395000" />
+      <workItem from="1644056156043" duration="2244000" />
+      <workItem from="1644077826573" duration="6158000" />
+      <workItem from="1644148350540" duration="1210000" />
+      <workItem from="1644163401650" duration="3369000" />
+      <workItem from="1644337644197" duration="5000" />
+      <workItem from="1644337890270" duration="3075000" />
+      <workItem from="1645087178600" duration="5424000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Skills/JumpArea.cs</url>
+          <line>23</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Skills\JumpArea.cs" initialLine="18" containingFunctionPresentation="method 'OnEnable'" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Skills/JumpArea.cs</url>
+          <line>31</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Skills\JumpArea.cs" initialLine="26" containingFunctionPresentation="method 'Fall'" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemies/Aprendiz/Skills/JumpArea.cs</url>
+          <line>34</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\Scripts\Enemies\Aprendiz\Skills\JumpArea.cs" initialLine="28" containingFunctionPresentation="method 'Fall'" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
