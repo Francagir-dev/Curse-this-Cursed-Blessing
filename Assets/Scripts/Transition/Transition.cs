@@ -12,7 +12,7 @@ public class Transition : MonoBehaviour
     [SerializeField] private Image image;
 
     private float alpha = 255f;
-    [SerializeField] private float cooldDown = 2f;
+    [SerializeField] private float cooldDown = 1f;
 
     public UnityEvent onOff;
     public UnityEvent onOn;
@@ -48,9 +48,9 @@ public class Transition : MonoBehaviour
     }
     IEnumerator TransitionToOn(bool doble)
     {
-        yield return new WaitForSeconds(cooldDown);
         alpha = 255;
         image.color = new Color(image.color.r, image.color.g, image.color.b, alpha);
+        yield return new WaitForSeconds(cooldDown);
         if (doble)
         {
             effect = Off;
