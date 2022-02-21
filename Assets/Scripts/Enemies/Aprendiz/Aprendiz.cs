@@ -5,11 +5,6 @@ using Random = UnityEngine.Random;
 
 public class Aprendiz : Enemy
 {
-    [SerializeField] Transform playerTransform;
-    [SerializeField] SkillAprendiz skill;
-
-    private Vector3 _playerPos;
-
     private enum Stages
     {
         Heavy,
@@ -18,64 +13,6 @@ public class Aprendiz : Enemy
     }
 
     [SerializeField] private Stages stage = Stages.Heavy;
-
-    public Aprendiz(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, float speedMovement)
-        : base(isCastingSkill, skillNames, scare, isDeath, speedMovement)
-    {
-    }
-
-    private void Start()
-    {
-        navMeshAgent = GetComponent<NavMeshAgent>();
-        speedMovement = navMeshAgent.speed;
-        StartCoroutine(CastSkill());
-    }
-
-
-    private void Update()
-    {
-        Movement(navMeshAgent, playerTransform, speedMovement);
-        if (canRotate)
-            transform.LookAt(new Vector3(_playerPos.x, 3.0f, _playerPos.z));
-    }
-
-    #region Movement
-
-    protected override void Movement(NavMeshAgent navigation, Transform pistachitoTransform, float speed)
-    {
-        if (state != States.Moving) return;
-        _playerPos = pistachitoTransform.position;
-        navigation.SetDestination(_playerPos);
-    }
-
-    protected override void StopAgent()
-    {
-        navMeshAgent.speed = 0;
-        navMeshAgent.isStopped = true;
-    }
-
-    #endregion
-
-    #region States
-
-    public override void ChangeState(States stateToChange)
-    {
-        state = stateToChange;
-        switch (state)
-        {
-            case States.Moving:
-                navMeshAgent.speed = speedMovement;
-                navMeshAgent.isStopped = false;
-                IsCastingSkill = false;
-                break;
-            case States.Attacking:
-                StopAgent();
-                break;
-            case States.Scared:
-                isDeath = true;
-                break;
-        }
-    }
 
     protected override void ChangeStates()
     {
@@ -93,15 +30,11 @@ public class Aprendiz : Enemy
         }
     }
 
-    #endregion
-
-    #region Skills
-
     protected override string RandomizeSkill()
     {
         int skillProbability;
         int numSkill = -1;
-        float distance = Vector3.Distance(playerTransform.position, transform.position);
+        float distance = Vector3.Distance(playerTransf.position, transform.position);
         Debug.Log(distance);
         switch (stage)
         {
@@ -157,41 +90,4 @@ public class Aprendiz : Enemy
 
         return skillNames[numSkill];
     }
-
-    protected override void ThrowSkill(string skillName)
-    {
-        ChangeNameSkill(skillName);
-        ChangeState(States.Attacking);
-        skill.enabled = true;
-    }
-
-    protected override IEnumerator CastSkill()
-    {
-        while (state != States.Scared)
-        {
-            while (isCastingSkill)
-                yield return null;
-            yield return new WaitForSeconds(coolDown);
-            ThrowSkill(RandomizeSkill());
-            isCastingSkill = true;
-        }
-    }
-
-
-    protected override void ChangeNameSkill(string nameOfSkill)
-    {
-        skill.SkillName = nameOfSkill;
-    }
-
-    #endregion
-
-    #region Life
-
-    public override void ReceiveDamage(int damageReceived)
-    {
-        scare += damageReceived;
-        scareLife.Current = scare;
-    }
-
-    #endregion
 }

@@ -24,21 +24,31 @@ public abstract class Enemy : MonoBehaviour
 
     [Header("Other Stats")] 
     [SerializeField] [Range(400f, 1000f)] protected float speedMovement;
+    float angularSpeed;
     [SerializeField] protected NavMeshAgent navMeshAgent;
-    [SerializeField] protected bool canRotate;
+    [SerializeField] protected bool canRotate = true;
 
     [Header("States")] 
     [SerializeField] protected States state = States.Idle;
 
-    [Header("Anims")] 
-    [SerializeField] protected Animator animatorCharacter;
-    [SerializeField] protected Animator animatorSkill;
+    [Header("Anims")]
+    protected Animator _animator;
+    public Animator Animator
+    {
+        get => _animator;
+        set => _animator = value;
+    }
+
+    [SerializeField] protected string skillName;
+    public string SkillName
+    {
+        get => skillName;
+        set => skillName = value;
+    }
 
     [Header("Events")] 
     [SerializeField] public UnityEvent<int> OnDamageReceived;
     [SerializeField] private UnityEvent OnCastSkill;
-
-
     public enum States
     {
         Idle,
@@ -46,7 +56,6 @@ public abstract class Enemy : MonoBehaviour
         Attacking,
         Scared
     }
-    
     public States State
     {
         get => state;
@@ -58,17 +67,52 @@ public abstract class Enemy : MonoBehaviour
         set => isCastingSkill = value;
     }
 
+    public bool CanRotate
+    {
+        set => canRotate = value;
+    }
+
     public NavMeshAgent NavMeshAgent => navMeshAgent;
 
+    protected Transform playerTransf;
+    public Vector3 PlayerPosition { get => playerTransf.position; }
 
-    public Enemy(bool isCastingSkill, string[] skillNames, int scare, bool isDeath, float speedMovement)
+    protected virtual void Awake()
     {
-        this.isCastingSkill = isCastingSkill;
-        this.skillNames = skillNames;
-        this.scare = scare;
-        this.isDeath = isDeath;
-        this.speedMovement = speedMovement;
+        playerTransf = FindObjectOfType<Movement>().transform;
+        //COMPLETAMENTE TEMPORAL, EN EL FINAL TENDRIA QUE ESTAR EN EL MISMO SITIO QUE EL SCRIPT
+        _animator = transform.GetChild(0).GetComponent<Animator>();
+        navMeshAgent = GetComponent<NavMeshAgent>();
+        speedMovement = navMeshAgent.speed;
+        angularSpeed = navMeshAgent.angularSpeed;
+
     }
+
+    protected virtual void Start()
+    {
+        StartCoroutine(WaitForSkillCast());
+    }
+
+    /// <summary>
+    /// Cast Skill 
+    /// </summary>
+    /// <param name="skillName">Name of Skill to cast</param>
+    protected void ThrowSkill(string skillName)
+    {
+        SkillName = skillName;
+        _animator.SetTrigger(skillName);
+        ChangeState(States.Attacking);
+    }
+
+    protected virtual void Update()
+    {
+        Movement(navMeshAgent, playerTransf, speedMovement);
+
+        if (canRotate)
+            transform.LookAt(new Vector3(playerTransf.position.x, 3.0f, playerTransf.position.z));
+    }
+
+    #region Movement
 
     /// <summary>
     /// Movement of enemy through the NavMesh
@@ -76,7 +120,30 @@ public abstract class Enemy : MonoBehaviour
     /// <param name="navigation">Component indicates will move through mesh</param>
     /// <param name="playerTransform">Position where Enemy will move</param>
     /// <param name="speed">Movement Speed (Will be multiplied by Time.deltaTime)</param>
-    protected abstract void Movement(NavMeshAgent navigation, Transform pistachitoTransform, float speed);
+    protected virtual void Movement(NavMeshAgent navigation, Transform pistachitoTransform, float speed)
+    {
+        AnimatorStateInfo info = _animator.GetCurrentAnimatorStateInfo(0);
+
+        if (isCastingSkill)
+        {
+            if (info.IsName("Idle"))
+            {
+                isCastingSkill = false;
+                ChangeState(States.Moving);
+            }
+            return;
+        }
+
+        if (!info.IsName("Idle")) 
+        {
+            isCastingSkill = true;
+            return; 
+        }
+
+        playerTransf.position = pistachitoTransform.position;
+        navigation.SetDestination(playerTransf.position);
+    }
+    #endregion
 
     /// <summary>
     /// Calculate Skill to throw
@@ -85,22 +152,32 @@ public abstract class Enemy : MonoBehaviour
     protected abstract string RandomizeSkill();
 
     /// <summary>
-    /// Cast Skill 
-    /// </summary>
-    /// <param name="skillName">Name of Skill to cast</param>
-    protected abstract void ThrowSkill(string skillName);
-
-    /// <summary>
     /// Will sum damage to boss
     /// </summary>
     /// <param name="damageReceived">Damage received from character (Unity Event)</param>
-    public abstract void ReceiveDamage(int damageReceived);
+    public void ReceiveDamage(int damageReceived)
+    {
+        scare += damageReceived;
+        scareLife.Current = scare;
+    }
 
     /// <summary>
     /// Coroutine To Throw skill
     /// </summary>
     /// <returns></returns>
-    protected abstract IEnumerator CastSkill();
+    protected IEnumerator WaitForSkillCast()
+    {
+        while (state != States.Scared)
+        {
+            while (state == States.Attacking)
+                yield return null;
+            yield return new WaitForSeconds(coolDown);
+            ThrowSkill(RandomizeSkill());
+            //Hace falta un tiempo minimo de espera,
+            //no se me ocurre como hacerlo más limpito
+            //yield return new WaitForSeconds(.5f);
+        }
+    }
 
     /// <summary>
     /// Change "armor"=> Phase of boss
@@ -110,8 +187,29 @@ public abstract class Enemy : MonoBehaviour
     /// <summary>
     /// Stops Movement and rotation
     /// </summary>
-    protected abstract void StopAgent();
+    protected void StopAgent()
+    {
+        navMeshAgent.speed = 0;
+        navMeshAgent.angularSpeed = 0;
+        navMeshAgent.isStopped = true;
+    }
 
-    public abstract void ChangeState(States stateToChange);
-    protected abstract void ChangeNameSkill(string nameOfSkill);
+    public void ChangeState(States stateToChange)
+    {
+        state = stateToChange;
+        switch (state)
+        {
+            case States.Moving:
+                navMeshAgent.speed = speedMovement;
+                navMeshAgent.angularSpeed = angularSpeed;
+                navMeshAgent.isStopped = false;
+                break;
+            case States.Attacking:
+                StopAgent();
+                break;
+            case States.Scared:
+                isDeath = true;
+                break;
+        }
+    }
 }
