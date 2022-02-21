@@ -327,5 +327,287 @@ MonoBehaviour:
     m_Localized: "Yes ma\u2019am!"
     m_Metadata:
       m_Items: []
+  - m_Id: 288019591602176
+    m_Localized: "That was close\u2026 Did we lose them?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288020229136384
+    m_Localized: "You\u2019 lost them, I\u2019d have fought them."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288021172854784
+    m_Localized: "I appreciate the support man, I\u2019d be worried for me too."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288021810388992
+    m_Localized: "Yeah well\u2026 wait, I think we\u2019re close."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288022544392192
+    m_Localized: Close?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288023181926400
+    m_Localized: "Yes, I think we\u2019re close to the core of the library, it should
+      be there."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288023924318208
+    m_Localized: It seems to be locked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288024461189120
+    m_Localized: "Well that\u2019s your problem, not mine."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288025128083456
+    m_Localized: "And who is gonna turn the book\u2019s pages for you?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288026340237312
+    m_Localized: ... Just find the key.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288027548196864
+    m_Localized: Hey! That looks like a key!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288028114427904
+    m_Localized: "Haven\u2019t you ever seen one?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288028756156416
+    m_Localized: "Only from afar, I\u2019ve never used a door."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288029796343808
+    m_Localized: "That\u2019s weird\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288031570534400
+    m_Localized: "I mean, I\u2019m a plant, it\u2019s not like I need a house to
+      live\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288032174514176
+    m_Localized: "No, shut up, what\u2019s a key doing just laying there?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288032778493952
+    m_Localized: "Huh? Don\u2019t you leave keys laying around like monsters do?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288033449582592
+    m_Localized: "... I don\u2019t know what I expected."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288034724651008
+    m_Localized: Gotcha!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288037144764416
+    m_Localized: "\xA1Ah!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288037950070784
+    m_Localized: "Well, it\u2019s been a pleasure knowing you, I\u2019ll look for
+      someone else to help me"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288038956703744
+    m_Localized: "Truth is I don\u2019t understand what the boss saw in ya\u2019,
+      I\u2019ll defeat you and collect that sweet reward\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288039862673408
+    m_Localized: You know what, I refuse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288040600870912
+    m_Localized: "What\u2019s the matter? You are scared of a skeleton? C\u2019mon,
+      it has to be around your same level."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288041271959552
+    m_Localized: Actually skeletons are-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288042043711488
+    m_Localized: "I don\u2019t care! Go out there and face him! (En letra m\xE1s
+      peque\xF1a) It\u2019s not like you have much of a choice."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288042882572288
+    m_Localized: "... You\u2019re right. T-There I go!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288043654324224
+    m_Localized: ... Huh?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288044421881856
+    m_Localized: "I- I\u2019m not scared of you."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288045231382528
+    m_Localized: ... Seriously?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288046036688896
+    m_Localized: "P-Please, don\u2019t hurt me! It was a joke, for April\u2019s fools!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288046804246528
+    m_Localized: We are in February.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288047475335168
+    m_Localized: Shut it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288048280641536
+    m_Localized: Get out of my sight, before I change my mind.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288048951730176
+    m_Localized: Y-Yes, oh supreme-wonderful-extremely-beautiful-genius!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288049824145408
+    m_Localized: "... He left\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288050600091648
+    m_Localized: "... If I\u2019m being honest, I didn\u2019t expect that to work"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288051367649280
+    m_Localized: What was that title?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288052139401216
+    m_Localized: "Who knows, what matters is that we can continue. Come on, let\u2019s
+      go."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288052944707584
+    m_Localized: "Right, right\u2026 I hope I don\u2019t come across any more of
+      those guys\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288053653544960
+    m_Localized: You just jinxed yourself.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288054421102592
+    m_Localized: Shut up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288055259963392
+    m_Localized: "C-Come on don\u2019t be like that, it\u2019s April\u2019s fools!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288056098824192
+    m_Localized: "You are not very original, are you? And it\u2019s the middle of
+      February."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288056841216000
+    m_Localized: "H-Happy April\u2019s fools!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288057713631232
+    m_Localized: "Really? Don\u2019t you have anything else?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288058518937600
+    m_Localized: I-It was a joke!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288059320049664
+    m_Localized: "I KNOW, APRIL\u2019S FOOLS!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288060192464896
+    m_Localized: ... Sorry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288061064880128
+    m_Localized: Hey, do you hear that?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288062646132736
+    m_Localized: Ah!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288063451439104
+    m_Localized: What are you- hide behind the couch!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288064286105600
+    m_Localized: "True\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288065196269568
+    m_Localized: "Hey, wasn\u2019t Johnny that guy we saw running?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288066068684800
+    m_Localized: He looked scared, John.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288067037569024
+    m_Localized: "No, that\u2019s Jonathan, I\u2019m John."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288067947732992
+    m_Localized: Are you sure? I could have sworn that you were John, and the one
+      that left was Jonathan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288068849508352
+    m_Localized: "But, weren\u2019t you John?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288069625454592
+    m_Localized: ... Let Juan fix this.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288070426566656
+    m_Localized: "Juan, who\u2019s who?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288071236067328
+    m_Localized: ... I thought Jonathan was the one that ran away.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288072041373696
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288072842485760
+    m_Localized: Well, let's go inside to catch that plant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288073685540864
+    m_Localized: And when do we have dinner?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288074553761792
+    m_Localized: After work.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288075392622592
+    m_Localized: "Great, now they\u2019re inside\u2026 what do I do?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288076269232128
+    m_Localized: Go inside? Surely you can handle yourself.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288077141647360
+    m_Localized: ... thanks for your oh-so-helpful advice.
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
