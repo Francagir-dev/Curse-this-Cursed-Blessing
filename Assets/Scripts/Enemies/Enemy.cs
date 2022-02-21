@@ -24,9 +24,7 @@ public abstract class Enemy : MonoBehaviour
 
     [Header("Other Stats")] 
     [SerializeField] [Range(400f, 1000f)] protected float speedMovement;
-    float angularSpeed;
     [SerializeField] protected NavMeshAgent navMeshAgent;
-    [SerializeField] protected bool canRotate = true;
 
     [Header("States")] 
     [SerializeField] protected States state = States.Idle;
@@ -62,15 +60,10 @@ public abstract class Enemy : MonoBehaviour
         set => state = value;
     }
 
-    public bool IsCastingSkill
-    {
-        set => isCastingSkill = value;
-    }
+    public bool IsCastingSkill { set => isCastingSkill = value; }
 
-    public bool CanRotate
-    {
-        set => canRotate = value;
-    }
+    bool canRotate = false;
+    public bool CanRotate { set => canRotate = value; }
 
     public NavMeshAgent NavMeshAgent => navMeshAgent;
 
@@ -84,8 +77,6 @@ public abstract class Enemy : MonoBehaviour
         _animator = transform.GetChild(0).GetComponent<Animator>();
         navMeshAgent = GetComponent<NavMeshAgent>();
         speedMovement = navMeshAgent.speed;
-        angularSpeed = navMeshAgent.angularSpeed;
-
     }
 
     protected virtual void Start()
@@ -108,8 +99,11 @@ public abstract class Enemy : MonoBehaviour
     {
         Movement(navMeshAgent, playerTransf, speedMovement);
 
-        if (canRotate)
-            transform.LookAt(new Vector3(playerTransf.position.x, 3.0f, playerTransf.position.z));
+        if (state == States.Attacking && canRotate)
+        {
+            Vector3 position = new Vector3(playerTransf.position.x, transform.position.y, playerTransf.position.z);
+            transform.LookAt(position);
+        }
     }
 
     #region Movement
@@ -190,7 +184,6 @@ public abstract class Enemy : MonoBehaviour
     protected void StopAgent()
     {
         navMeshAgent.speed = 0;
-        navMeshAgent.angularSpeed = 0;
         navMeshAgent.isStopped = true;
     }
 
@@ -201,7 +194,6 @@ public abstract class Enemy : MonoBehaviour
         {
             case States.Moving:
                 navMeshAgent.speed = speedMovement;
-                navMeshAgent.angularSpeed = angularSpeed;
                 navMeshAgent.isStopped = false;
                 break;
             case States.Attacking:
