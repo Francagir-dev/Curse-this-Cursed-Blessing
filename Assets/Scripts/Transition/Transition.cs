@@ -6,9 +6,6 @@ using UnityEngine.Events;
 
 public class Transition : MonoBehaviour
 {
-    private delegate void Effect();
-    private Effect effect;
-
     [SerializeField] private Image image;
 
     private float alpha = 255f;
@@ -20,21 +17,20 @@ public class Transition : MonoBehaviour
     private void Start()
     {
         image = GetComponent<Image>();
-        effect = Off;
-        effect();
+        Off();
     }
 
-    private void Off()
+    public void Off()
     {
         StartCoroutine(TransitionToOff());
     }
 
-    private void On()
+    public void On()
     {
         StartCoroutine(TransitionToOn(false));
     }
 
-    private void ToOnToOff()
+    public void ToOnToOff()
     {
         StartCoroutine(TransitionToOn(true));
     }
@@ -50,12 +46,11 @@ public class Transition : MonoBehaviour
     {
         alpha = 255;
         image.color = new Color(image.color.r, image.color.g, image.color.b, alpha);
+        onOn.Invoke();
         yield return new WaitForSeconds(cooldDown);
         if (doble)
         {
-            effect = Off;
-            effect();
+            Off();
         }
-        onOn.Invoke();
     }
 }
