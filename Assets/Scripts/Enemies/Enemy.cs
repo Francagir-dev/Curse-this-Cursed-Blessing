@@ -24,6 +24,7 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected Sprite[] scareImages;
     [SerializeField] protected Image imageScare;
     [SerializeField] protected ProgressBar scareLife;
+    [SerializeField] protected UnityEvent onDefeat;
 
     [Header("Other Stats")] 
     [SerializeField] [Range(400f, 1000f)] protected float speedMovement;
@@ -218,6 +219,7 @@ public abstract class Enemy : MonoBehaviour
                 break;
             case States.Scared:
                 isDeath = true;
+                onDefeat?.Invoke();
                 break;
         }
     }
