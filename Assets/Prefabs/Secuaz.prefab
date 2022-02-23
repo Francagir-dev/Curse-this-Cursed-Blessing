@@ -396,7 +396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a6716f102d4f83428eb1a9f03d6bf12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answ: {fileID: 0}
+  answ: {fileID: 11400000, guid: d9972ca65619aaa4fa64fcc6f88d3de8, type: 2}
   isCastingSkill: 0
   skillNames:
   - ToRoad

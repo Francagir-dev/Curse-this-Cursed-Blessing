@@ -6,17 +6,20 @@ using UnityEngine.Events;
 
 public class Transition : MonoBehaviour
 {
-    [SerializeField] private Image image;
+    Image image;
 
     private float alpha = 255f;
-    [SerializeField] private float cooldDown = 1f;
+    [SerializeField] private float fadeDown = 1f;
 
-    public UnityEvent onOff;
-    public UnityEvent onOn;
+    public UnityEvent onTransition;
+
+    private void Awake()
+    {
+        image = GetComponent<Image>();
+    }
 
     private void Start()
     {
-        image = GetComponent<Image>();
         Off();
     }
 
@@ -37,17 +40,33 @@ public class Transition : MonoBehaviour
 
     IEnumerator TransitionToOff()
     {
-        yield return new WaitForSeconds(cooldDown);
-        alpha = 0;
-        image.color = new Color(image.color.r, image.color.g, image.color.b, alpha);
-        onOff.Invoke();
+        float time = fadeDown;
+
+        while (time > 0)
+        {
+            time -= Time.deltaTime;
+            alpha = Mathf.Lerp(0, 1, time / fadeDown);
+            image.color = new Color(image.color.r, image.color.g, image.color.b, alpha);
+            yield return null;
+        }
+
+        onTransition.RemoveAllListeners();
     }
+
     IEnumerator TransitionToOn(bool doble)
     {
         alpha = 255;
-        image.color = new Color(image.color.r, image.color.g, image.color.b, alpha);
-        onOn.Invoke();
-        yield return new WaitForSeconds(cooldDown);
+        float time = fadeDown;
+        while (time > 0)
+        {
+            time -= Time.deltaTime;
+            alpha = Mathf.Lerp(1, 0, time / fadeDown);
+            image.color = new Color(image.color.r, image.color.g, image.color.b, alpha);
+            yield return null;
+        }
+
+        onTransition?.Invoke();
+
         if (doble)
         {
             Off();
