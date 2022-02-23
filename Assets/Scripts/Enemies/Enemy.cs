@@ -6,6 +6,7 @@ using UnityEngine.AI;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(NavMeshAgent))]
 public abstract class Enemy : MonoBehaviour
 {
     [Header("Skills")] 
@@ -24,13 +25,14 @@ public abstract class Enemy : MonoBehaviour
 
     [Header("Other Stats")] 
     [SerializeField] [Range(400f, 1000f)] protected float speedMovement;
-    [SerializeField] protected NavMeshAgent navMeshAgent;
+    protected NavMeshAgent navMeshAgent;
 
     [Header("States")] 
     [SerializeField] protected States state = States.Idle;
 
+    //TEMP: EL BOSS APRENDIZ TIENE EL ANIMATOR EN EL HIJO (SE CAMBIARA EN EL FUTURO)
     [Header("Anims")]
-    protected Animator _animator;
+    [SerializeField] protected Animator _animator;
     public Animator Animator
     {
         get => _animator;
@@ -62,7 +64,7 @@ public abstract class Enemy : MonoBehaviour
 
     public bool IsCastingSkill { set => isCastingSkill = value; }
 
-    bool canRotate = false;
+    [SerializeField] bool canRotate = false;
     public bool CanRotate { set => canRotate = value; }
 
     public NavMeshAgent NavMeshAgent => navMeshAgent;
@@ -74,7 +76,7 @@ public abstract class Enemy : MonoBehaviour
     {
         playerTransf = FindObjectOfType<Movement>().transform;
         //COMPLETAMENTE TEMPORAL, EN EL FINAL TENDRIA QUE ESTAR EN EL MISMO SITIO QUE EL SCRIPT
-        _animator = transform.GetChild(0).GetComponent<Animator>();
+        //_animator = transform.GetChild(0).GetComponent<Animator>();
         navMeshAgent = GetComponent<NavMeshAgent>();
         speedMovement = navMeshAgent.speed;
     }
