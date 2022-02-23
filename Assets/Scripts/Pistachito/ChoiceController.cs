@@ -145,7 +145,6 @@ public class ChoiceController : MonoBehaviour
         canChoose = true;
         timeLeft = choiceDuration;
         canTimeSlow = true;
-        Debug.Log("Opening Choices");
     }
 
     public void ChooseOption(int option)

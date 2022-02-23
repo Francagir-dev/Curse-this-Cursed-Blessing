@@ -82,6 +82,8 @@ public abstract class Enemy : MonoBehaviour
         //_animator = transform.GetChild(0).GetComponent<Animator>();
         navMeshAgent = GetComponent<NavMeshAgent>();
         speedMovement = navMeshAgent.speed;
+
+        OnDamageReceived.AddListener(ReceiveDamage);
     }
 
     protected virtual void Start()
@@ -171,6 +173,8 @@ public abstract class Enemy : MonoBehaviour
     {
         scare += damageReceived;
         scareLife.Current = scare;
+        if (scare >= 100)
+            ChangeState(States.Scared);
     }
 
     /// <summary>
@@ -194,7 +198,7 @@ public abstract class Enemy : MonoBehaviour
     /// <summary>
     /// Change "armor"=> Phase of boss
     /// </summary>
-    protected abstract void ChangeStates();
+    public abstract void ChangeStates();
 
     /// <summary>
     /// Stops Movement and rotation
@@ -219,6 +223,7 @@ public abstract class Enemy : MonoBehaviour
                 break;
             case States.Scared:
                 isDeath = true;
+                _animator.SetTrigger("Scared");
                 onDefeat?.Invoke();
                 break;
         }

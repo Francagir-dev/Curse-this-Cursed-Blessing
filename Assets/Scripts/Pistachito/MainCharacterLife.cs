@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MainCharacterLife : MonoBehaviour
 {
+    GameObject dead;
+
     LifeSystem life;
     public LifeSystem Life => life;
     DamageEffect damageEffect;
@@ -25,7 +27,10 @@ public class MainCharacterLife : MonoBehaviour
 
     private void Awake()
     {
+        dead = GameObject.Find("--Death--");
+        dead.SetActive(false);
         life = GetComponent<LifeSystem>();
+        life.onDamage.AddListener(CheckDeath);
         damageEffect = GetComponent<DamageEffect>();
         material = GetComponent<MeshRenderer>().material;
     }
@@ -63,10 +68,20 @@ public class MainCharacterLife : MonoBehaviour
         }
     }
 
+    void CheckDeath()
+    {
+        if (life.life == -1)
+        {
+            dead.SetActive(true);
+            Time.timeScale = 0;
+        }
+    }
+
     //Sistema para llamar a cada caso de cantidad de vida y asi modificarla
 
     public void ChangeColorDegrade()
     {
+
         life.inv = true;
         switch (life.life)
         {

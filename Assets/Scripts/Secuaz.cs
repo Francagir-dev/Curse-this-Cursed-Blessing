@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class Secuaz : Enemy
 {
-    protected override void ChangeStates()
+    public override void ChangeStates()
     {
-        if (scare <= 0)
-            ChangeState(States.Scared);
     }
 
     protected override string RandomizeSkill()

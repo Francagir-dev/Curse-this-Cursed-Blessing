@@ -14,7 +14,7 @@ public class Aprendiz : Enemy
 
     [SerializeField] private Stages stage = Stages.Heavy;
 
-    protected override void ChangeStates()
+    public override void ChangeStates()
     {
         if (scare > 33 && scare < 67)
         {
