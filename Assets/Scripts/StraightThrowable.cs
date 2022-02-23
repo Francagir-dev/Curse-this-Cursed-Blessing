@@ -7,9 +7,13 @@ public class StraightThrowable : MonoBehaviour
     public float speed;
     bool stop = false;
 
+    private void Awake()
+    {
+        transform.parent = null;
+    }
+
     private void OnEnable()
     {
-        transform.SetParent(null);
         stop = false;
     }
 
@@ -25,7 +29,7 @@ public class StraightThrowable : MonoBehaviour
 
         if (other.CompareTag("Player"))
             other.GetComponent<LifeSystem>().Damage(1);
-        transform.SetParent(other.transform);
-        stop = true;
+
+        gameObject.SetActive(false);
     }
 }

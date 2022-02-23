@@ -5,9 +5,9 @@ using UnityEngine;
 public class MainCharacterLife : MonoBehaviour
 {
     LifeSystem life;
+    public LifeSystem Life => life;
     DamageEffect damageEffect;
     [HideInInspector] public Material material;
-    [HideInInspector] public Collider collider;
 
     private Vector3 newFirst = Vector3.zero;
     private Vector3 newSecond = Vector3.zero;
@@ -28,7 +28,6 @@ public class MainCharacterLife : MonoBehaviour
         life = GetComponent<LifeSystem>();
         damageEffect = GetComponent<DamageEffect>();
         material = GetComponent<MeshRenderer>().material;
-        collider = GetComponent<Collider>();
     }
 
     //Setea desde el inicio por si acaso pasan cosas nazis
@@ -45,7 +44,6 @@ public class MainCharacterLife : MonoBehaviour
         if (other.gameObject.CompareTag("Bullet"))
         {
             life.Damage(1);
-            collider.enabled = false;
             ChangeColorDegrade();
             damageEffect.DEffect();
             if (life.life < -1)
@@ -69,6 +67,7 @@ public class MainCharacterLife : MonoBehaviour
 
     public void ChangeColorDegrade()
     {
+        life.inv = true;
         switch (life.life)
         {
             case -1:
@@ -130,7 +129,7 @@ public class MainCharacterLife : MonoBehaviour
     IEnumerator CoolDown()
     {
         yield return new WaitForSeconds(invencibleCooldown);
-        collider.enabled = true;
+        life.inv = false;
     }
 
     IEnumerator ColorDegrade(Vector3 firstVector, Vector3 secondVector, Vector3 goToFirst, Vector3 goToSecond)

@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class LifeSystem: MonoBehaviour
 {
     public int life;
+    public bool inv = false;
     public UnityEvent onHeal;
     public UnityEvent onDamage;
 
@@ -15,6 +16,8 @@ public class LifeSystem: MonoBehaviour
     /// <param name="damage">Daño que recibe</param>
     public void Damage(int damage)
     {
+        if (inv) return;
+
         life -= damage;
         onDamage.Invoke();
     }

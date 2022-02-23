@@ -8,7 +8,8 @@ using UnityEngine.UI;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public abstract class Enemy : MonoBehaviour
-{
+{ 
+    [SerializeField] Answers answ;
     [Header("Skills")] 
     [SerializeField] protected bool isCastingSkill;
     [SerializeField] protected string[] skillNames;
@@ -17,6 +18,7 @@ public abstract class Enemy : MonoBehaviour
 
     [Header("Health")] 
     [SerializeField] [Range(0, 100)] protected int scare;
+    public int Scare => scare;
 
     [SerializeField] protected bool isDeath;
     [SerializeField] protected Sprite[] scareImages;
@@ -86,6 +88,14 @@ public abstract class Enemy : MonoBehaviour
         StartCoroutine(WaitForSkillCast());
     }
 
+    private void OnEnable()
+    {
+        ChoiceController contrl = FindObjectOfType<ChoiceController>();
+        contrl.answerPool = answ;
+        contrl.enableTime = true;
+        contrl.enemy = this;
+    }
+
     /// <summary>
     /// Cast Skill 
     /// </summary>
@@ -95,6 +105,11 @@ public abstract class Enemy : MonoBehaviour
         SkillName = skillName;
         _animator.SetTrigger(skillName);
         ChangeState(States.Attacking);
+    }
+
+    public void SetRot(int enable)
+    {
+        CanRotate = enable != 0;
     }
 
     protected virtual void Update()

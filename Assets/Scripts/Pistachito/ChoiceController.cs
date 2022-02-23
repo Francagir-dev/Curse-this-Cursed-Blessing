@@ -53,7 +53,7 @@ public class ChoiceController : MonoBehaviour
     [SerializeField] float timeSlow = .5f;
     [SerializeField] float timeSlowDuration = 3;
 
-    Enemy enemy;
+    public Enemy enemy;
     private Movement player;
     ProgressBar bar;
 
@@ -209,6 +209,9 @@ public class ChoiceController : MonoBehaviour
         canChoose = false;
 
         enemy.OnDamageReceived.Invoke(textBox[choosen].power * 10);
+
+        if (enemy.Scare >= 100) enableTime = false;
+
         timeSlowTimeLeft = .1f;
 
         for (int i = 0; i < textBox.Length; i++)

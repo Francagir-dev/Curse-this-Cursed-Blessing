@@ -8,13 +8,12 @@ public class Tackle : MonoBehaviour
     [SerializeField] float timeStop;
     [SerializeField] float timeForward;
     [SerializeField] float speed;
+    bool go = false;
     Enemy enemy;
-    Rigidbody rb;
 
     private void Awake()
     {
         enemy = FindObjectOfType<Enemy>();
-        rb = enemy.GetComponent<Rigidbody>();
     }
 
     private void OnEnable()
@@ -31,14 +30,35 @@ public class Tackle : MonoBehaviour
         float time = timeForward;
         while (time >= 0)
         {
+            go = true;
             time -= Time.deltaTime;
-            rb.velocity = enemy.transform.forward * speed;
+            enemy.transform.position += enemy.transform.forward * speed;
             yield return null;
         }
+        Stop();
+    }
 
-        enemy.Animator.SetTrigger("EndRoad");
+    void Stop()
+    {
+        go = false;
+        StopAllCoroutines();
+        StartCoroutine(Wait());
+        IEnumerator Wait()
+        {
+            enemy.Animator.SetTrigger("EndSpin");
 
-        yield return new WaitForSeconds(1);
-        gameObject.SetActive(false);
+            yield return new WaitForSeconds(.5f);
+            gameObject.SetActive(false);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (!go) return;
+        if (other.CompareTag("Player"))
+        {
+            other.GetComponent<LifeSystem>().Damage(1);
+        }
+        Stop();
     }
 }
