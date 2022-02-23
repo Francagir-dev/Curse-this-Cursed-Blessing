@@ -203,6 +203,50 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 112.27986, y: 157.93358, z: 41.32842}
   m_Center: {x: 0.008159637, y: 0, z: 20.66421}
+--- !u!1 &56125078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 56125079}
+  - component: {fileID: 56125080}
+  m_Layer: 0
+  m_Name: ChanceScene
+  m_TagString: ChanceScene
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &56125079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56125078}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.8000007, y: 5.2000003, z: -74.9}
+  m_LocalScale: {x: 11.7, y: 13.297001, z: 3}
+  m_Children: []
+  m_Father: {fileID: 1883626059}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &56125080
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56125078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 0.5083245}
+  m_Center: {x: 0, y: 0, z: -0.24583688}
 --- !u!1 &59438293
 GameObject:
   m_ObjectHideFlags: 0
@@ -18733,6 +18777,7 @@ Transform:
   - {fileID: 1309547306}
   - {fileID: 1086119886}
   - {fileID: 661459274}
+  - {fileID: 56125079}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

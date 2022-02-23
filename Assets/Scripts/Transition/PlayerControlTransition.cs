@@ -40,7 +40,7 @@ public class PlayerControlTransition : MonoBehaviour
         {
             transition.On();
             //TEMPORAL
-            SceneManager.LoadScene("Boss1");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
