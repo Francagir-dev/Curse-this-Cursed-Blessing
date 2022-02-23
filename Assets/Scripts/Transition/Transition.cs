@@ -66,10 +66,6 @@ public class Transition : MonoBehaviour
         }
 
         onTransition?.Invoke();
-
-        if (doble)
-        {
-            Off();
-        }
+        Off();
     }
 }

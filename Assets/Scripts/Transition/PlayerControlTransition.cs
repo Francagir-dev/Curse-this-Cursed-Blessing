@@ -19,8 +19,17 @@ public class PlayerControlTransition : MonoBehaviour
     {
         //TEMPORAL
         transition = FindObjectOfType<Transition>();
-        playertransform = Movement.instance.transform;
         bossArena = GameObject.Find("--PlayerSpawn--").transform;
+    }
+    private void Start()
+    {
+        playertransform = Movement.instance.transform;
+    }
+
+    public void TeleportToBoss()
+    {
+        playertransform.position = bossArena.position;
+        playertransform.rotation = bossArena.rotation;
     }
 
     public void SavePosition()
