@@ -16,7 +16,7 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] [Range(0, 30)] protected float coolDown;
     [SerializeField] [Range(0f, 50f)] protected float offsetDistanceSkill;
 
-    [Header("Health")] 
+    [Header("Health")]
     [SerializeField] [Range(0, 100)] protected int scare;
     public int Scare => scare;
 
@@ -33,19 +33,17 @@ public abstract class Enemy : MonoBehaviour
     [Header("States")] 
     [SerializeField] protected States state = States.Idle;
 
-    //TEMP: EL BOSS APRENDIZ TIENE EL ANIMATOR EN EL HIJO (SE CAMBIARA EN EL FUTURO)
+    //TEMP: EL BOSS APRENDIZ TIENE EL ANIMATOR EN EL HIJO (SE CAMBIARA EN EL FUTURO) TEMP: NO HABIA MODELO
     [Header("Anims")]
     [SerializeField] protected Animator _animator;
     public Animator Animator
     {
         get => _animator;
-        set => _animator = value;
     }
 
     [SerializeField] protected string skillName;
     public string SkillName
     {
-        get => skillName;
         set => skillName = value;
     }
 
@@ -73,7 +71,7 @@ public abstract class Enemy : MonoBehaviour
     public NavMeshAgent NavMeshAgent => navMeshAgent;
 
     protected Transform playerTransf;
-    public Vector3 PlayerPosition { get => playerTransf.position; }
+
 
     protected virtual void Awake()
     {
@@ -82,7 +80,6 @@ public abstract class Enemy : MonoBehaviour
         //_animator = transform.GetChild(0).GetComponent<Animator>();
         navMeshAgent = GetComponent<NavMeshAgent>();
         speedMovement = navMeshAgent.speed;
-
         OnDamageReceived.AddListener(ReceiveDamage);
     }
 
@@ -190,7 +187,7 @@ public abstract class Enemy : MonoBehaviour
             yield return new WaitForSeconds(coolDown);
             ThrowSkill(RandomizeSkill());
             //Hace falta un tiempo minimo de espera,
-            //no se me ocurre como hacerlo más limpito
+            //no se me ocurre como hacerlo mï¿½s limpito
             //yield return new WaitForSeconds(.5f);
         }
     }
