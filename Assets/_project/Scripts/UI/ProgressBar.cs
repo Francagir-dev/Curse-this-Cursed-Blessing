@@ -8,8 +8,10 @@ using UnityEditor;
 [ExecuteInEditMode]
 public class ProgressBar : MonoBehaviour
 {
-    [Header("Values")] [SerializeField] private int minimum = 0;
-    [SerializeField] private int maximum = 100;
+
+    [Header("Values")] 
+    [SerializeField] private int minimum = 0;
+    [SerializeField] private int maximum;
     [SerializeField] private int current = 0;
 
     [Header("Components")] [SerializeField]
@@ -32,7 +34,7 @@ public class ProgressBar : MonoBehaviour
     {
         float currentOffset = current - minimum;
         float maximumOffset = maximum - minimum;
-        var fillAmount = currentOffset / maximumOffset;
+        float fillAmount = currentOffset / maximumOffset;
         mask.fillAmount = fillAmount;
         fill.color = fillColor;
     }
@@ -79,19 +81,16 @@ public class ProgressBar : MonoBehaviour
 
     public int Minimum
     {
-        get => minimum;
         set => minimum = value;
     }
 
     public int Maximum
     {
-        get => maximum;
         set => maximum = value;
     }
 
     public int Current
     {
-        get => current;
         set => current = value;
     }
 

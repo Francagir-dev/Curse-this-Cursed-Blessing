@@ -209,7 +209,7 @@ public class ChoiceController : MonoBehaviour
 
         enemy.OnDamageReceived.Invoke(textBox[choosen].power * 10);
 
-        if (enemy.Scare >= 100) enableTime = false;
+        if (enemy.ActualScare >= 100) enableTime = false;
 
         timeSlowTimeLeft = .1f;
 

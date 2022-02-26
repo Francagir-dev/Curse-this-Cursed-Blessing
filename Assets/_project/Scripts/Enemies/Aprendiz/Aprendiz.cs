@@ -16,11 +16,11 @@ public class Aprendiz : Enemy
 
     public override void ChangeStates()
     {
-        if (scare > 33 && scare < 67)
+        if (actualScare > 33 && actualScare < 67)
         {
             stage = Stages.Medium;
         }
-        else if (scare > 67 && scare < 100)
+        else if (actualScare > 67 && actualScare < 100)
         {
             stage = Stages.Light;
         }
@@ -87,7 +87,6 @@ public class Aprendiz : Enemy
                     numSkill = 10;
                 break;
         }
-
         return skillNames[numSkill];
     }
 }

@@ -17,13 +17,15 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] [Range(0f, 50f)] protected float offsetDistanceSkill;
 
     [Header("Health")]
-    [SerializeField] [Range(0, 100)] protected int scare;
-    public int Scare => scare;
-
-    [SerializeField] protected bool isDeath;
+    [SerializeField] protected int actualScare;
+    [SerializeField] protected float maxScare;
+    public int ActualScare => actualScare;
+   
+    protected bool isDeath;
+   
     [SerializeField] protected Sprite[] scareImages;
     [SerializeField] protected Image imageScare;
-    [SerializeField] protected ProgressBar scareLife;
+    [SerializeField] protected ProgressBar scareLifeHUD;
     [SerializeField] protected UnityEvent onDefeat;
 
     [Header("Other Stats")] 
@@ -71,7 +73,7 @@ public abstract class Enemy : MonoBehaviour
     public NavMeshAgent NavMeshAgent => navMeshAgent;
 
     protected Transform playerTransf;
-
+    
 
     protected virtual void Awake()
     {
@@ -94,6 +96,7 @@ public abstract class Enemy : MonoBehaviour
         contrl.answerPool = answ;
         contrl.enableTime = true;
         contrl.enemy = this;
+        scareLifeHUD.Maximum = Mathf.RoundToInt(maxScare);
     }
 
     /// <summary>
@@ -168,9 +171,9 @@ public abstract class Enemy : MonoBehaviour
     /// <param name="damageReceived">Damage received from character (Unity Event)</param>
     public void ReceiveDamage(int damageReceived)
     {
-        scare += damageReceived;
-        scareLife.Current = scare;
-        if (scare >= 100)
+        actualScare += damageReceived;
+        scareLifeHUD.Current = actualScare;
+        if (actualScare >= 100)
             ChangeState(States.Scared);
     }
 
