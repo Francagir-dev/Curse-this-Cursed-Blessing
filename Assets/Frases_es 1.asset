@@ -213,5 +213,387 @@ MonoBehaviour:
     m_Localized: "R\xE1pidamente agarr\xF3 al esp\xEDritu y huy\xF3 del lugar."
     m_Metadata:
       m_Items: []
+  - m_Id: 4133912645632
+    m_Localized: "Y as\xED fue como se meti\xF3 en este l\xEDo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4134659231744
+    m_Localized: "\xBFPuedes dejar de reprocharme y ayudarme a buscar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4135338708992
+    m_Localized: "Historia de los monstruos parte 5, Monstruos; de d\xF3nde vienen,
+      a d\xF3nde ir\xE1n, Monstruos y humanos; una historia complicada, El lazarillo
+      de Tormes por Mr. Nosoyunmonstruo... Esta parece ser la secci\xF3n de historia,
+      no la de brujer\xEDa avanzada."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4136018186240
+    m_Localized: "Sigue buscando, no queremos que nuestro peque\xF1o secreto salga
+      a la luz, \xBFverdad?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4136739606528
+    m_Localized: "En vez de recordarme el trato que tenemos, podr\xEDas intentar
+      ayudarme."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4137549107200
+    m_Localized: "O podr\xEDas haber dicho la verdad desde el principio y ahorrarte
+      todo este l\xEDo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4138320859136
+    m_Localized: "F\xE1cil para un muerto de decir eso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4139012919296
+    m_Localized: "\xA1Mira quien viene a echar sal en la herida!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4139625287680
+    m_Localized: "\xA1Todo esto no habr\xEDa pasado si no te hubieras muerto en frente
+      m\xEDa!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4140321542144
+    m_Localized: "\xA1Oh! \xA1Mis m\xE1s sinceras disculpas por \u201Chaberme dejado
+      matar\u201D por un ser tan insignificante como t\xFA!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4140988436480
+    m_Localized: "Madre m\xEDa, c\xF3mo he podido fallar eso\u2026 vale Okla, respira
+      hondo, has hecho esto muchas veces. Solo porque tengas en frente tuya al ser
+      supremo-maravilloso-guap\xEDsimo-genio no significa que te tengas que poner
+      nerviosa\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4141680496640
+    m_Localized: '*Ejem* He venido a retarte, mata-heroes.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4142318030848
+    m_Localized: "Si fuera t\xFA, empezar\xEDa a correr."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4142972342272
+    m_Localized: "\xA1H-Hey! \xA1Espera! A\xFAn no\u2026 he ense\xF1ado lo que puedo
+      hacer\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4144402599936
+    m_Localized: "\xBFPor qu\xE9 est\xE1 corriendo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288014059315200
+    m_Localized: "Quiz\xE1s ten\xEDa prisa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288014961090560
+    m_Localized: No os parece que esta huyen-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288015799951360
+    m_Localized: "\xA1NO ME RECONOCE COMO UN RIVAL! Tal y como esperaba del ser supremo-maravilloso-guap\xEDsimo-genio."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288016471040000
+    m_Localized: "\xBFEl qu\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288017276346368
+    m_Localized: "Tendr\xE9 que demostr\xE1rselo. \xA1A por \xE9l!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288018106818560
+    m_Localized: "... adelantaos vosotros, \xA1ya os alcanzar\xE9!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288018853404672
+    m_Localized: "\xA1S\xED, se\xF1ora!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288019591602176
+    m_Localized: "Eso ha estado cerca\u2026 \xBFlos hemos perdido?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288020229136384
+    m_Localized: "Los \u2018has\u2019 perdido, yo me habr\xEDa enfrentado a ellos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288021172854784
+    m_Localized: "Gracias por los \xE1nimos hombre, yo tambi\xE9n estar\xEDa preocupado
+      por m\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288021810388992
+    m_Localized: "Ya bueno\u2026 espera, creo que estamos cerca."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288022544392192
+    m_Localized: "\xBFCerca?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288023181926400
+    m_Localized: "S\xED, creo que estamos cerca del n\xFAcleo de la biblioteca, deber\xEDa
+      estar ah\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288023924318208
+    m_Localized: Parece estar cerrado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288024461189120
+    m_Localized: "Bueno ese es tu problema, no el m\xEDo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288025128083456
+    m_Localized: "\xBFY quien te va a girar las p\xE1ginas del libro?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288026340237312
+    m_Localized: ... tu encuentra la llave.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288027548196864
+    m_Localized: "\xA1Hey! \xA1Esto parece una llave!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288028114427904
+    m_Localized: "\xBFNunca has visto una?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288028756156416
+    m_Localized: Solo de lejos, nunca he usado una puerta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288029796343808
+    m_Localized: "Que raro\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288031570534400
+    m_Localized: "A ver, soy una planta, no es que necesite una casa para vivir\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288032174514176
+    m_Localized: "No, calla, \xBFqu\xE9 hace una llave aqu\xED tirada?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288032778493952
+    m_Localized: "\xBFEh? \xBFNo las dej\xE1is por ah\xED tiradas como hacen todos
+      los monstruos?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288033449582592
+    m_Localized: "... No s\xE9 qu\xE9 esperaba."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288034724651008
+    m_Localized: "\xA1Te pille!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288037144764416
+    m_Localized: "\xA1Ah!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288037950070784
+    m_Localized: "Bueno, un placer haberte conocido, buscar\xE9 a otro que me ayude."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288038956703744
+    m_Localized: "La verdad es que no entiendo que ha visto la jefa en ti, te derrotar\xE9
+      y cobrar\xE9 esa deliciosa recompensa\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288039862673408
+    m_Localized: Mira no, me niego.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288040600870912
+    m_Localized: "\xBFQu\xE9 pasa? \xBFTe asusta un esqueleto? Venga ya, si tiene
+      que ser como de tu mismo nivel."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288041271959552
+    m_Localized: En realidad los esqueletos son-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288042043711488
+    m_Localized: "\xA1Me da igual, sal ah\xED y hazle frente! (En letra m\xE1s peque\xF1a)
+      Tampoco es que tengas muchas opciones."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288042882572288
+    m_Localized: "... tienes raz\xF3n. \xA1A-All\xE1 voy!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288043654324224
+    m_Localized: "... \xBFeh?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288044421881856
+    m_Localized: N-No me das miedo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288045231382528
+    m_Localized: "... \xBFEn serio?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288046036688896
+    m_Localized: "\xA1P-Por favor, no me hagas da\xF1o! \xA1Era una broma, del d\xEDa
+      de los inocentes!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288046804246528
+    m_Localized: Estamos en febrero.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288047475335168
+    m_Localized: "C\xE1llate."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288048280641536
+    m_Localized: "Fuera de mi vista, antes de que cambie de opini\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288048951730176
+    m_Localized: "\xA1S-S\xED, oh ser supremo-maravilloso-guap\xEDsimo-genio!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288049824145408
+    m_Localized: "... Se ha ido\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288050600091648
+    m_Localized: ... Si te soy sincero, no esperaba que eso funcionase.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288051367649280
+    m_Localized: "\xBFA que ha venido ese t\xEDtulo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288052139401216
+    m_Localized: A saber, lo importante es que ya podemos continuar. Venga va.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288052944707584
+    m_Localized: "Ya, ya\u2026 espero que no me encuentre con m\xE1s de esos\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288053653544960
+    m_Localized: Te acabas de gafar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288054421102592
+    m_Localized: "C\xE1llate."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288055259963392
+    m_Localized: "\xA1V-Vamos no te pongas as\xED, si es el d\xEDa de los inocentes!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288056098824192
+    m_Localized: "No sois muy originales, \xBFverdad? Y estamos a mitad de Febrero."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288056841216000
+    m_Localized: "\xA1F-Feliz d\xEDa de los inocentes!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288057713631232
+    m_Localized: "\xBFEn serio? \xBFNo ten\xE9is otra cosa?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288058518937600
+    m_Localized: "\xA1E-Era una broma!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288059320049664
+    m_Localized: "\xA1YA LO S\xC9, EL D\xCDA DE LOS INOCENTES!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288060192464896
+    m_Localized: "... perd\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288061064880128
+    m_Localized: "Hey, \xBFoyes eso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288062646132736
+    m_Localized: "\xA1Ah!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288063451439104
+    m_Localized: "Que est\xE1s- \xA1pero esc\xF3ndete detr\xE1s del sof\xE1!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288064286105600
+    m_Localized: "Es verdad\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288065196269568
+    m_Localized: "Oye, \xBFese que hemos visto correr no era Johnny?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288066068684800
+    m_Localized: "Parec\xEDa asustado, John."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288067037569024
+    m_Localized: No, ese es Jonathan, yo soy John.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288067947732992
+    m_Localized: "\xBFSeguro? Yo jurar\xEDa que t\xFA eras John y el que se ha ido
+      era Jonathan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288068849508352
+    m_Localized: "Pero, \xBFno eras t\xFA John?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288069625454592
+    m_Localized: ... dejemos que Juan lo arregle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288070426566656
+    m_Localized: "Juan, \xBFqui\xE9n es qui\xE9n?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288071236067328
+    m_Localized: "... yo pensaba que Jonathan era el que hab\xEDa huido."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288072041373696
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288072842485760
+    m_Localized: 'Bueno, vamos a dentro a pillar a esa planta.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288073685540864
+    m_Localized: "\xBFY cuando cenamos?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288074553761792
+    m_Localized: "Despu\xE9s del trabajo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288075392622592
+    m_Localized: "Genial, ahora est\xE1n dentro\u2026 \xBFqu\xE9 hago?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288076269232128
+    m_Localized: "\xBFEntrar? Seguro que te las arreglas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288077141647360
+    m_Localized: "... gracias por tu oh-tan-\xFAtil consejo."
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
