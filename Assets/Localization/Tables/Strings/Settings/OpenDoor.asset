@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
-  m_Name: Frases
+  m_Name: OpenDoor
   m_EditorClassIdentifier: 
-  m_SharedTableData: {fileID: 11400000, guid: 7c4e5b5853f173f46a4df4a72e00bcc2, type: 2}
+  m_SharedTableData: {fileID: 11400000, guid: 9bcc55e5fbb94064fbf229ccc4079491, type: 2}
   m_Tables:
-  - {fileID: 11400000, guid: 01a03855bc8087d4181121a2350f84b3, type: 2}
-  - {fileID: 11400000, guid: f5e85caa5b2a8d141bea907a6d60bfdc, type: 2}
+  - {fileID: 11400000, guid: a677c4ae4801e364a91c34e8a1b41611, type: 2}
+  - {fileID: 11400000, guid: bb279b436c095b64d9300a80ed600992, type: 2}
   m_Extensions: []
   m_Group: String Table
   references:

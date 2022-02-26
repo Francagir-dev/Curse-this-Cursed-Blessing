@@ -17,8 +17,38 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: d6390b74e2631404296490661a747a96
   m_SerializeEntries:
-  - m_GUID: f5e85caa5b2a8d141bea907a6d60bfdc
-    m_Address: Frases_es
+  - m_GUID: d4b31ff64c2998840b744c8eaf27f732
+    m_Address: Prologue_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: e11929be33fccac4bb071291d521bb58
+    m_Address: IntroCap1_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: ca769237b9ba1ee48b4f0237fc6aaad8
+    m_Address: Exploration1_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: 2a18df72880582b47adccf1cc0b23601
+    m_Address: FirstEnemyTuto_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: 1fdfe008ebd261042b9f8e16d9ccf0e3
+    m_Address: InnocentEnemies_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: bb279b436c095b64d9300a80ed600992
+    m_Address: OpenDoor_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
