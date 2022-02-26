@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 2082, g: 2082, b: 2082, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1305,9 +1305,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a0f88a1efe5287499a9025ffea4fb89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimum: 1
+  minimum: 0
   maximum: 100
-  current: 1
+  current: 0
   mask: {fileID: 663726775}
   fill: {fileID: 2128230671}
   fillColor: {r: 0.8396226, g: 0.8032361, b: 0.5505073, a: 1}
@@ -6882,6 +6882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: --Death--
       objectReference: {fileID: 0}
+    - target: {fileID: 6862119987931093193, guid: 7649e496b7a946f44a68f9274915df76, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6862119988914512973, guid: 7649e496b7a946f44a68f9274915df76, type: 3}
       propertyPath: m_text
       value: "\xA1Lo consegu\xED! \xA1Por fin!... \xBFme firmas un aut\xF3grafo?"
@@ -9700,11 +9704,11 @@ MonoBehaviour:
   - ChargePinball
   coolDown: 2.4
   offsetDistanceSkill: 10.4
-  scare: 0
-  isDeath: 0
+  actualScare: 0
+  maxScare: 0
   scareImages: []
   imageScare: {fileID: 0}
-  scareLife: {fileID: 245658116}
+  scareLifeHUD: {fileID: 0}
   onDefeat:
     m_PersistentCalls:
       m_Calls: []
