@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface ISkill
+public interface ISkillDamage
 {
-   void MakeDamage(int damage);
+    public void MakeDamage(LifeSystem life);
 }

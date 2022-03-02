@@ -5,8 +5,11 @@ using UnityEngine.Events;
 
 public class LifeSystem: MonoBehaviour
 {
-    public int life;
-    public bool inv = false;
+    [SerializeField] int life;
+    public int Life { get => life; protected set => life = value; }
+    bool inv = false;
+    public bool Inv { private get => inv; set => inv = value; }
+
     public UnityEvent onHeal;
     public UnityEvent onDamage;
 
@@ -16,7 +19,7 @@ public class LifeSystem: MonoBehaviour
     /// <param name="damage">Daño que recibe</param>
     public void Damage(int damage)
     {
-        if (inv) return;
+        if (Inv) return;
 
         life -= damage;
         onDamage.Invoke();

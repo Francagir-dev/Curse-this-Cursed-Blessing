@@ -6,13 +6,17 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody))]
 public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 {
-    public static Movement instance;
+    static Movement instance;
+    public static Movement Instance { get => instance; private set => instance = value; }
+
+    MainCharacterLife lifeSystem;
+    public MainCharacterLife LifeSystem { get => lifeSystem; private set => lifeSystem = value; }
+
     //Player Input Related
     PlayerInput playerInput;
     Vector3 inputMove;
     Vector3 dashDir;
     Quaternion moveDirection;
-    MainCharacterLife mainLife;
     
     [Header("Movement")]
     public float speed = 1;
@@ -38,6 +42,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     private void Awake()
     {
         instance = this;
+        LifeSystem = GetComponent<MainCharacterLife>();
         originalSpeed = speed;
         origDashCooldown = dashCooldown;
         dashCooldown = 0;
@@ -47,7 +52,6 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         playerInput.Player.SetCallbacks(this);
         playerInput.Enable();
         rig = GetComponent<Rigidbody>();
-        mainLife = GetComponent<MainCharacterLife>();
 
         //TEMPORAL
         choice = FindObjectOfType<ChoiceController>();
@@ -75,7 +79,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     {
         if (dashing || dashCooldown > 0 || context.phase != InputActionPhase.Started) return;
 
-        mainLife.Life.inv = true;
+        LifeSystem.Inv = true;
         transform.rotation = moveDirection;
         dashDir = transform.forward;
 
@@ -105,14 +109,10 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     private void Update()
     {
         if (dashActualDuration > 0)
-        {
             dashActualDuration -= Time.deltaTime;
-        }
         else if (dashCooldown > 0)
-        {
             dashCooldown -= Time.deltaTime;
-        }
-
+        
         rig.velocity = Vector3.Lerp(rig.velocity, (dashing ? dashDir : inputMove) * speed, acceleration);
         if (!dashing && inputMove.sqrMagnitude > .03f)
             transform.rotation = Quaternion.Slerp(transform.rotation, moveDirection, rotTime);
@@ -121,7 +121,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         {
             speed = originalSpeed;
             dashing = false;
-            mainLife.Life.inv = false;
+            LifeSystem.Inv = false;
             dashCooldown = origDashCooldown;
             //Para evitar un deslize si esta quieto
             rig.velocity = Vector3.zero;

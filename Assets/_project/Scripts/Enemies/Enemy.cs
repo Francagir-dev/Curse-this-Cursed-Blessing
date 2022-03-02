@@ -30,14 +30,13 @@ public abstract class Enemy : MonoBehaviour
 
     [Header("Other Stats")] 
     [SerializeField] [Range(400f, 1000f)] protected float speedMovement;
+    [SerializeField] [Range(0f, 1f)] protected float rotationSpeed;
     protected NavMeshAgent navMeshAgent;
 
     [Header("States")] 
     [SerializeField] protected States state = States.Idle;
 
-    //TEMP: EL BOSS APRENDIZ TIENE EL ANIMATOR EN EL HIJO (SE CAMBIARA EN EL FUTURO) TEMP: NO HABIA MODELO
-    [Header("Anims")]
-    [SerializeField] protected Animator _animator;
+    protected Animator _animator;
     public Animator Animator
     {
         get => _animator;
@@ -67,6 +66,7 @@ public abstract class Enemy : MonoBehaviour
 
     public bool IsCastingSkill { set => isCastingSkill = value; }
 
+    //Only For Debug, remove serialize later
     [SerializeField] bool canRotate = false;
     public bool CanRotate { set => canRotate = value; }
 
@@ -78,8 +78,7 @@ public abstract class Enemy : MonoBehaviour
     protected virtual void Awake()
     {
         playerTransf = FindObjectOfType<Movement>().transform;
-        //COMPLETAMENTE TEMPORAL, EN EL FINAL TENDRIA QUE ESTAR EN EL MISMO SITIO QUE EL SCRIPT
-        //_animator = transform.GetChild(0).GetComponent<Animator>();
+        _animator = transform.GetComponent<Animator>();
         navMeshAgent = GetComponent<NavMeshAgent>();
         speedMovement = navMeshAgent.speed;
         OnDamageReceived.AddListener(ReceiveDamage);
@@ -122,7 +121,8 @@ public abstract class Enemy : MonoBehaviour
         if (state == States.Attacking && canRotate)
         {
             Vector3 position = new Vector3(playerTransf.position.x, transform.position.y, playerTransf.position.z);
-            transform.LookAt(position);
+            Quaternion finalRot = Quaternion.LookRotation(position - transform.position, transform.up);
+            transform.rotation = Quaternion.Lerp(transform.rotation, finalRot, .5f);
         }
     }
 

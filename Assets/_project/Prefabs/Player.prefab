@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 573745343135511858}
   - component: {fileID: 573745343135511857}
   - component: {fileID: 573745343135511870}
-  - component: {fileID: 573745343135511871}
   - component: {fileID: 573745343135511856}
   - component: {fileID: 7300003705796876673}
   m_Layer: 0
@@ -135,29 +134,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8df666f135c069141bd3ea1ce59a6ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 0}
-  degradeCooldown: 0.25
-  invencibleCooldown: 0.8
---- !u!114 &573745343135511871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573745343135511863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 422caddf24d640448acace99bd8f5e29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   life: 4
-  inv: 0
   onHeal:
     m_PersistentCalls:
       m_Calls: []
   onDamage:
     m_PersistentCalls:
       m_Calls: []
+  material: {fileID: 0}
+  degradeCooldown: 0.25
+  invencibleCooldown: 0.8
 --- !u!114 &573745343135511856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc488a00bb099cc41860a6fae0977c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
+  rend: {fileID: 6790872950873546919}
   cooldownTrans: 0.1
   countTrans: 3
 --- !u!136 &7300003705796876673
@@ -277,5 +263,10 @@ PrefabInstance:
 --- !u!4 &5653471244356393928 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7c0e4535b0b2b0440b8c79c6c1dcd0a7, type: 3}
+  m_PrefabInstance: {fileID: 5332142497730853923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6790872950873546919 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 7c0e4535b0b2b0440b8c79c6c1dcd0a7, type: 3}
   m_PrefabInstance: {fileID: 5332142497730853923}
   m_PrefabAsset: {fileID: 0}

@@ -6,6 +6,7 @@ public class StraightThrowable : MonoBehaviour
 {
     public float speed;
     bool stop = false;
+    public bool Stop { set => stop = value; }
 
     private void Awake()
     {
@@ -21,15 +22,5 @@ public class StraightThrowable : MonoBehaviour
     {
         if (!stop)
             transform.position += transform.forward * speed;
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (stop) return;
-
-        if (other.CompareTag("Player"))
-            other.GetComponent<LifeSystem>().Damage(1);
-
-        gameObject.SetActive(false);
     }
 }

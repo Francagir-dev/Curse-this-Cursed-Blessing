@@ -316,7 +316,6 @@ public class ChoiceController : MonoBehaviour
     {
         if (!enable)
         {
-            Debug.Log("Closing Choices");
             canChoose = false;
             timeLeft = intervals;
         }

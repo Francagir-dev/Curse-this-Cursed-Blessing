@@ -2,12 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainCharacterLife : MonoBehaviour
+public class MainCharacterLife : LifeSystem
 {
     GameObject dead;
-
-    LifeSystem life;
-    public LifeSystem Life => life;
     DamageEffect damageEffect;
     [HideInInspector] public Material material;
 
@@ -29,8 +26,7 @@ public class MainCharacterLife : MonoBehaviour
     {
         dead = GameObject.Find("--Death--");
         dead.SetActive(false);
-        life = GetComponent<LifeSystem>();
-        life.onDamage.AddListener(CheckDeath);
+        onDamage.AddListener(CheckDeath);
         damageEffect = GetComponent<DamageEffect>();
         material = GetComponent<MeshRenderer>().material;
     }
@@ -48,10 +44,10 @@ public class MainCharacterLife : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Bullet"))
         {
-            life.Damage(1);
+            Damage(1);
             ChangeColorDegrade();
             damageEffect.DEffect();
-            if (life.life < -1)
+            if (Life < -1)
             {
                 Debug.Log("You Die");
             }
@@ -59,18 +55,18 @@ public class MainCharacterLife : MonoBehaviour
 
         if (other.gameObject.CompareTag("Heal"))
         {
-            life.Heal(1);
+            Heal(1);
             ChangeColorDegrade();
-            if (life.life > 5)
+            if (Life > 5)
             {
-                life.life = 5;
+                Life = 5;
             }
         }
     }
 
     void CheckDeath()
     {
-        if (life.life == -1)
+        if (Life == -1)
         {
             dead.SetActive(true);
             Time.timeScale = 0;
@@ -81,9 +77,8 @@ public class MainCharacterLife : MonoBehaviour
 
     public void ChangeColorDegrade()
     {
-
-        life.inv = true;
-        switch (life.life)
+        Inv = true;
+        switch (Life)
         {
             case -1:
                 StartCoroutine(ColorDegrade(minZero, minZero, Vector3.zero, Vector3.zero));
@@ -112,7 +107,7 @@ public class MainCharacterLife : MonoBehaviour
     }
     public void ChangeColorUpgrade()
     {
-        switch (life.life)
+        switch (Life)
         {
             case -1:
                 StartCoroutine(ColorUpgrade(minZero, minZero, Vector3.zero, Vector3.zero));
@@ -144,7 +139,7 @@ public class MainCharacterLife : MonoBehaviour
     IEnumerator CoolDown()
     {
         yield return new WaitForSeconds(invencibleCooldown);
-        life.inv = false;
+        Inv = false;
     }
 
     IEnumerator ColorDegrade(Vector3 firstVector, Vector3 secondVector, Vector3 goToFirst, Vector3 goToSecond)
@@ -152,28 +147,21 @@ public class MainCharacterLife : MonoBehaviour
         newFirst = firstVector - minZero;
 
         if (newFirst.x < goToFirst.x && newFirst.y < goToFirst.y && newFirst.z < goToFirst.z)
-        {
             newFirst = goToFirst;
-        }
+        
 
         if (secondVector.x > goToSecond.x)
         {
             newSecond = secondVector - minZero;
-
             if (newSecond.x < goToSecond.x && newSecond.y < goToSecond.y && newSecond.z < goToSecond.z)
-            {
                 newSecond = goToSecond;
-            }
         }
 
         if (secondVector.x < goToSecond.x)
         {
             newSecond = secondVector + minZero;
-
             if (newSecond.x > goToSecond.x && newSecond.y > goToSecond.y && newSecond.z > goToSecond.z)
-            {
                 newSecond = goToSecond;
-            }
         }
 
         material.SetVector(first, newFirst);
@@ -182,14 +170,8 @@ public class MainCharacterLife : MonoBehaviour
         yield return new WaitForSeconds(degradeCooldown);
 
         if(newFirst.x == goToFirst.x && newFirst.y == goToFirst.y && newFirst.z == goToFirst.z && secondVector.x == goToSecond.x && secondVector.y == goToSecond.y && secondVector.z == goToSecond.z)
-        {
             StopCoroutine(ColorDegrade(newFirst, newSecond, goToFirst, goToSecond));
-        }
-
-        else
-        {
-            StartCoroutine(ColorDegrade(newFirst, newSecond, goToFirst, goToSecond));
-        }
+        else StartCoroutine(ColorDegrade(newFirst, newSecond, goToFirst, goToSecond));
     }
 
     IEnumerator ColorUpgrade(Vector3 firstVector, Vector3 secondVector, Vector3 goToFirst, Vector3 goToSecond)
@@ -197,28 +179,21 @@ public class MainCharacterLife : MonoBehaviour
         newFirst = firstVector + minZero;
 
         if (newFirst.x > goToFirst.x && newFirst.y > goToFirst.y && newFirst.z > goToFirst.z)
-        {
             newFirst = goToFirst;
-        }
+        
 
         if (secondVector.x < goToSecond.x)
         {
             newSecond = secondVector - minZero;
-
-            if (newSecond.x > goToSecond.x && newSecond.y > goToSecond.y && newSecond.z > goToSecond.z)
-            {
+            if (newSecond.x > goToSecond.x && newSecond.y > goToSecond.y && newSecond.z > goToSecond.z) 
                 newSecond = goToSecond;
-            }
         }
 
         if (secondVector.x > goToSecond.x)
         {
             newSecond = secondVector + minZero;
-
             if (newSecond.x < goToSecond.x && newSecond.y < goToSecond.y && newSecond.z < goToSecond.z)
-            {
                 newSecond = goToSecond;
-            }
         }
 
         material.SetVector(first, newFirst);
@@ -227,13 +202,7 @@ public class MainCharacterLife : MonoBehaviour
         yield return new WaitForSeconds(degradeCooldown);
 
         if (newFirst.x == goToFirst.x && newFirst.y == goToFirst.y && newFirst.z == goToFirst.z && secondVector.x == goToSecond.x && secondVector.y == goToSecond.y && secondVector.z == goToSecond.z)
-        {
             StopCoroutine(ColorDegrade(newFirst, newSecond, goToFirst, goToSecond));
-        }
-
-        else
-        {
-            StartCoroutine(ColorDegrade(newFirst, newSecond, goToFirst, goToSecond));
-        }
+        else StartCoroutine(ColorDegrade(newFirst, newSecond, goToFirst, goToSecond));
     }
 }

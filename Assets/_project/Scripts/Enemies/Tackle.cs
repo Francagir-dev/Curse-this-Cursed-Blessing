@@ -4,21 +4,27 @@ using UnityEngine;
 
 public class Tackle : MonoBehaviour
 {
+    [SerializeField] GameObject damageColl;
     [SerializeField] float timeToCharge;
     [SerializeField] float timeStop;
     [SerializeField] float timeForward;
     [SerializeField] float speed;
     bool go = false;
+    bool returning = false;
     Enemy enemy;
 
     private void Awake()
     {
-        enemy = FindObjectOfType<Enemy>();
+        damageColl.SetActive(false);
+        enemy = GetComponent<Enemy>();
     }
 
-    private void OnEnable()
+    public void BeginCharge()
     {
+        if (returning) { returning = false; return; }
+        damageColl.SetActive(true);
         StartCoroutine(Charge());
+        returning = true;
     }
 
     IEnumerator Charge()
@@ -38,27 +44,11 @@ public class Tackle : MonoBehaviour
         Stop();
     }
 
-    void Stop()
+    public void Stop()
     {
+        damageColl.SetActive(false);
         go = false;
         StopAllCoroutines();
-        StartCoroutine(Wait());
-        IEnumerator Wait()
-        {
-            enemy.Animator.SetTrigger("EndSpin");
-
-            yield return new WaitForSeconds(.5f);
-            gameObject.SetActive(false);
-        }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (!go) return;
-        if (other.CompareTag("Player"))
-        {
-            other.GetComponent<LifeSystem>().Damage(1);
-        }
-        Stop();
+        enemy.Animator.SetTrigger("EndTackle");
     }
 }

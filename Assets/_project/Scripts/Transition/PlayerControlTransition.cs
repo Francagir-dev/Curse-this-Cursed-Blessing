@@ -23,7 +23,7 @@ public class PlayerControlTransition : MonoBehaviour
     }
     private void Start()
     {
-        playertransform = Movement.instance.transform;
+        playertransform = Movement.Instance.transform;
     }
 
     public void TeleportToBoss()

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bomba : MonoBehaviour
+public class Bomba : MonoBehaviour, ISkillDamage
 {
     Rigidbody inplaceBomb;
     public float time = 5;
@@ -26,7 +26,7 @@ public class Bomba : MonoBehaviour
     void OnEnable()
     {
         StopAllCoroutines();
-        posit = Movement.instance.transform.position;
+        posit = Movement.Instance.transform.position;
         warn.localScale = Vector3.zero;
         detonationTime = -1;
         detonate = false;
@@ -60,7 +60,7 @@ public class Bomba : MonoBehaviour
         {
             if (item.gameObject.CompareTag("Player"))
             {
-                item.GetComponent<LifeSystem>().Damage(1);
+                MakeDamage(item.GetComponent<LifeSystem>());
                 break;
             }
         }
@@ -115,6 +115,11 @@ public class Bomba : MonoBehaviour
         result.y = Vy;
 
         return result;
+    }
+
+    public void MakeDamage(LifeSystem life)
+    {
+        life.Damage(1);
     }
 }
 
