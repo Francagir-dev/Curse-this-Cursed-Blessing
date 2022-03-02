@@ -42,17 +42,6 @@ public class MainCharacterLife : LifeSystem
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Bullet"))
-        {
-            Damage(1);
-            ChangeColorDegrade();
-            damageEffect.DEffect();
-            if (Life < -1)
-            {
-                Debug.Log("You Die");
-            }
-        }
-
         if (other.gameObject.CompareTag("Heal"))
         {
             Heal(1);
