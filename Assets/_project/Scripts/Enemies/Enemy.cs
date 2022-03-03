@@ -25,7 +25,7 @@ public abstract class Enemy : MonoBehaviour
    
     [SerializeField] protected Sprite[] scareImages;
     [SerializeField] protected Image imageScare;
-    [SerializeField] protected ProgressBar scareLifeHUD;
+    protected ProgressBar scareLifeHUD;
     [SerializeField] protected UnityEvent onDefeat;
 
     [Header("Other Stats")] 
@@ -82,6 +82,7 @@ public abstract class Enemy : MonoBehaviour
         navMeshAgent = GetComponent<NavMeshAgent>();
         speedMovement = navMeshAgent.speed;
         OnDamageReceived.AddListener(ReceiveDamage);
+        scareLifeHUD = transform.Find("--ScareLife--").GetChild(0).GetComponent<ProgressBar>();
     }
 
     protected virtual void Start()
@@ -122,7 +123,7 @@ public abstract class Enemy : MonoBehaviour
         {
             Vector3 position = new Vector3(playerTransf.position.x, transform.position.y, playerTransf.position.z);
             Quaternion finalRot = Quaternion.LookRotation(position - transform.position, transform.up);
-            transform.rotation = Quaternion.Lerp(transform.rotation, finalRot, .5f);
+            transform.rotation = Quaternion.Lerp(transform.rotation, finalRot, rotationSpeed);
         }
     }
 

@@ -1,71 +1,51 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(Animator))]
 public class Transition : MonoBehaviour
 {
-    Image image;
+    static Transition instance;
+    public static Transition Instance { get => instance; private set => instance = value; }
 
-    private float alpha = 255f;
-    [SerializeField] private float fadeDown = 1f;
-
-    public UnityEvent onTransition;
+    Animator anim;
+    float closeDuration;
 
     private void Awake()
     {
-        image = GetComponent<Image>();
+        if (instance == null)
+            Instance = this;
+        else Destroy(gameObject);
+
+        anim = GetComponent<Animator>();
+        closeDuration = anim.GetCurrentAnimatorStateInfo(0).length;
     }
 
-    private void Start()
+    public void Do(UnityAction actions)
     {
-        Off();
-    }
-
-    public void Off()
-    {
-        StartCoroutine(TransitionToOff());
-    }
-
-    public void On()
-    {
-        StartCoroutine(TransitionToOn(false));
-    }
-
-    public void ToOnToOff()
-    {
-        StartCoroutine(TransitionToOn(true));
-    }
-
-    IEnumerator TransitionToOff()
-    {
-        float time = fadeDown;
-
-        while (time > 0)
+        StartCoroutine(Wait());
+        IEnumerator Wait()
         {
-            time -= Time.deltaTime;
-            alpha = Mathf.Lerp(0, 1, time / fadeDown);
-            image.color = new Color(image.color.r, image.color.g, image.color.b, alpha);
-            yield return null;
+            anim.SetBool("Close", true);
+            yield return new WaitForSeconds(closeDuration);
+            actions.Invoke();
+            anim.SetBool("Close", false);
         }
-
-        onTransition.RemoveAllListeners();
     }
 
-    IEnumerator TransitionToOn(bool doble)
+    public void Do(string sceneName)
     {
-        alpha = 255;
-        float time = fadeDown;
-        while (time > 0)
+        StartCoroutine(Wait());
+        IEnumerator Wait()
         {
-            time -= Time.deltaTime;
-            alpha = Mathf.Lerp(1, 0, time / fadeDown);
-            image.color = new Color(image.color.r, image.color.g, image.color.b, alpha);
-            yield return null;
+            anim.SetBool("Close", true);
+            yield return new WaitForSeconds(closeDuration);
+            AsyncOperation operation = 
+                SceneManager.LoadSceneAsync(SceneManager.GetSceneByName(sceneName).buildIndex, LoadSceneMode.Single);
+            yield return new WaitUntil(() => operation.isDone);
+            anim.SetBool("Close", false);
         }
-
-        onTransition?.Invoke();
-        Off();
     }
 }
