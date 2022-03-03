@@ -89,14 +89,6 @@ MonoBehaviour:
     m_Key: 18
     m_Metadata:
       m_Items: []
-  - m_Id: 1418227844730880
-    m_Key: New Entry
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1418230793326592
-    m_Key: New Entry 1
-    m_Metadata:
-      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

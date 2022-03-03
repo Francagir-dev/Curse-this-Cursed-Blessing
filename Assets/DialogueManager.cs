@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
 
    void UpdateString(string s)
    {
-      var translatedText = LocalizationSettings.StringDatabase.GetLocalizedString("ID_FILE", numFiles);
+      string translatedText = LocalizationSettings.StringDatabase.GetLocalizedString("Prologue", s);
    }
 
    void Change()
