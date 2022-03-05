@@ -77,12 +77,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     - Preload
-  - m_GUID: c17070b9e1fb76948b62228987f6bb16
-    m_Address: Intro BossFight_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    - Preload
   - m_GUID: 26052763d81cf9246860ec458afdd112
     m_Address: FinalBossFight_en
     m_ReadOnly: 1
