@@ -25,17 +25,18 @@ public abstract class Enemy : MonoBehaviour
    
     [SerializeField] protected Sprite[] scareImages;
     [SerializeField] protected Image imageScare;
-    protected ProgressBar scareLifeHUD;
     [SerializeField] protected UnityEvent onDefeat;
 
     [Header("Other Stats")] 
     [SerializeField] [Range(400f, 1000f)] protected float speedMovement;
     [SerializeField] [Range(0f, 1f)] protected float rotationSpeed;
-    protected NavMeshAgent navMeshAgent;
+
 
     [Header("States")] 
     [SerializeField] protected States state = States.Idle;
 
+    protected NavMeshAgent navMeshAgent;
+    protected ProgressBar scareLifeHUD;
     protected Animator _animator;
     public Animator Animator
     {
@@ -74,7 +75,6 @@ public abstract class Enemy : MonoBehaviour
 
     protected Transform playerTransf;
     
-
     protected virtual void Awake()
     {
         playerTransf = FindObjectOfType<Movement>().transform;
@@ -174,7 +174,7 @@ public abstract class Enemy : MonoBehaviour
     {
         actualScare += damageReceived;
         scareLifeHUD.Current = actualScare;
-        if (actualScare >= 100)
+        if (actualScare >= maxScare)
             ChangeState(States.Scared);
     }
 
@@ -225,7 +225,7 @@ public abstract class Enemy : MonoBehaviour
             case States.Scared:
                 isDeath = true;
                 _animator.SetTrigger("Scared");
-                onDefeat?.Invoke();
+                Transition.Instance.Do(() => onDefeat.Invoke());
                 break;
         }
     }

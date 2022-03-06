@@ -106,7 +106,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         choice.ChooseOption(trueAnsw);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (dashActualDuration > 0)
             dashActualDuration -= Time.deltaTime;

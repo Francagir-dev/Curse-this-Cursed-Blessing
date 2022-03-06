@@ -17,8 +17,8 @@ public class ContactTeleport : ContactEvent
 
     public void Teleport()
     {
-        playertransform.SetPositionAndRotation(teleportTo.position, teleportTo.rotation);
         lastPosition = playertransform.position;
+        playertransform.SetPositionAndRotation(teleportTo.position, teleportTo.rotation);
     }
 
     public void GoBack() 

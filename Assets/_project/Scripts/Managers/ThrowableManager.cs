@@ -17,15 +17,16 @@ public class ThrowableManager : MonoBehaviour
         public Transform throwPoint;
         [Tooltip("List of all avalible throwables.\nIt is recomended to make several sets")]
         public List<GameObject> throwables;
+        public int index;
     }
 
     [SerializeField] List<Group> groups = new List<Group>();
-    private int index;
 
     private void Awake()
     {
-        index = 0;
         groups.ForEach(x => x.throwables.ForEach(i => i.SetActive(false)));
+        //Hay un error raro que no entiendo asi que tengo que hacer esta basura por el momento
+        groups.ForEach(x => x.index = 0);
     }
 
     public void Throw(string groupName)
@@ -41,16 +42,14 @@ public class ThrowableManager : MonoBehaviour
             return;
         }
 
-        group.throwables[index].transform.SetPositionAndRotation(group.throwPoint.position, group.throwPoint.rotation);
-        group.throwables[index].SetActive(true);
+        group.throwables[group.index].transform.SetPositionAndRotation(group.throwPoint.position, group.throwPoint.rotation);
+        group.throwables[group.index].SetActive(true);
         if (group.maxTime > 0)
-            StartCoroutine(Timer(group.throwables[index], group.maxTime));
-        index++;
+            StartCoroutine(Timer(group.throwables[group.index], group.maxTime));
+        group.index++;
 
-        if (index >= group.throwables.Count)
-            index = 0;
-
-        Debug.Log(index);
+        if (group.index >= group.throwables.Count)
+            group.index = 0;
     }
 
     IEnumerator Timer(GameObject obj, float time)
