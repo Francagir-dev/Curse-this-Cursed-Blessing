@@ -17,9 +17,13 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textDialogue;
     [SerializeField] LocalizeStringEvent _stringEvent;
     public LocalizedString myString;
+    private List<string> keysIDs = new List<string>();
     private List<string> keys = new List<string>();
-    [SerializeField]private string tableName;
-    [SerializeField][Range(2f,20f)]private float timeChangingText = 5f;
+    [SerializeField] private string tableName;
+    [SerializeField] [Range(2f, 20f)] private float timeChangingText = 5f;
+    private StringTableCollection collection;
+    private StringTable stringTable;
+
     void OnEnable()
     {
         myString.StringChanged += UpdateString;
@@ -33,29 +37,38 @@ public class DialogueManager : MonoBehaviour
 
     void UpdateString(string s)
     {
-     
     }
 
     void GetAllKeys(string tableName)
     {
-        StringTableCollection collection = LocalizationEditorSettings.GetStringTableCollection(tableName);
-        StringTable table = collection.GetTable("en") as StringTable;
+        collection = LocalizationEditorSettings.GetStringTableCollection(tableName);
+        stringTable = collection.GetTable("en") as StringTable;
 
-        foreach (var v in table)
+        foreach (var v in stringTable)
         {
-            keys.Add(collection.SharedData.GetKey(v.Key));
-            Debug.Log(v.Key);
+            keysIDs.Add(collection.SharedData.GetKey(v.Key));
+            //Debug.Log(v.Key.ToString());
         }
     }
 
     IEnumerator ChangeText(string table, float timeBetweenSentences)
     {
         GetAllKeys(table);
-       for (int i = 0; i < keys.Count; i++)
-       {
-           string translatedText = LocalizationSettings.StringDatabase.GetLocalizedString(table, keys[i]);
-           textDialogue.text = translatedText;
-           yield return new WaitForSeconds(timeBetweenSentences);
-       }
+        
+        for (int i = 0; i < keysIDs.Count; i++)
+        {
+            keys.Add(stringTable.SharedData.Entries[i].Key);
+            Debug.Log(keys[i]);
+        }
+        
+        for (int i = 0; i < keysIDs.Count; i++)
+        {
+            string translatedText = LocalizationSettings.StringDatabase.GetLocalizedString(table, keysIDs[i]);
+            
+            textDialogue.text = translatedText;
+            yield return new WaitForSeconds(timeBetweenSentences);
+        }
+
+       
     }
 }
