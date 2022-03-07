@@ -18,11 +18,12 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] LocalizeStringEvent _stringEvent;
     public LocalizedString myString;
     private List<string> keys = new List<string>();
-
+    [SerializeField]private string tableName;
+    [SerializeField]private float timeChangingText = 5f;
     void OnEnable()
     {
         myString.StringChanged += UpdateString;
-        StartCoroutine(ChangeText("Prologue", 2f));
+        StartCoroutine(ChangeText(tableName, timeChangingText));
     }
 
     void OnDisable()
