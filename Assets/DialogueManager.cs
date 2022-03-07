@@ -17,8 +17,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textDialogue;
     [SerializeField] LocalizeStringEvent _stringEvent;
     public LocalizedString myString;
-    private List<string> keysIDs = new List<string>();
-    private List<string> keys = new List<string>();
+   private List<string> keys = new List<string>();
     [SerializeField] private string tableName;
     [SerializeField] [Range(2f, 20f)] private float timeChangingText = 5f;
     private StringTableCollection collection;
@@ -46,24 +45,18 @@ public class DialogueManager : MonoBehaviour
 
         foreach (var v in stringTable)
         {
-            keysIDs.Add(collection.SharedData.GetKey(v.Key));
-            //Debug.Log(v.Key.ToString());
+            keys.Add(stringTable.SharedData.GetEntry(v.Key).Key);
         }
+        Debug.Log(keys[0]);
     }
 
     IEnumerator ChangeText(string table, float timeBetweenSentences)
     {
         GetAllKeys(table);
-        
-        for (int i = 0; i < keysIDs.Count; i++)
+
+        for (int i = 0; i < keys.Count; i++)
         {
-            keys.Add(stringTable.SharedData.Entries[i].Key);
-            Debug.Log(keys[i]);
-        }
-        
-        for (int i = 0; i < keysIDs.Count; i++)
-        {
-            string translatedText = LocalizationSettings.StringDatabase.GetLocalizedString(table, keysIDs[i]);
+            string translatedText = LocalizationSettings.StringDatabase.GetLocalizedString(table, keys[i]);
             
             textDialogue.text = translatedText;
             yield return new WaitForSeconds(timeBetweenSentences);
