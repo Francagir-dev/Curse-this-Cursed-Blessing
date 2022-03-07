@@ -20,6 +20,7 @@ public class DialogueManager : MonoBehaviour
    private List<string> keys = new List<string>();
     [SerializeField] private string tableName;
     [SerializeField] [Range(2f, 20f)] private float timeChangingText = 5f;
+    [SerializeField] private float timeBetweenChar = .1f;
     private StringTableCollection collection;
     private StringTable stringTable;
 
@@ -57,8 +58,30 @@ public class DialogueManager : MonoBehaviour
         for (int i = 0; i < keys.Count; i++)
         {
             string translatedText = LocalizationSettings.StringDatabase.GetLocalizedString(table, keys[i]);
-            
-            textDialogue.text = translatedText;
+
+            //Letras graduales, con input para skipear
+            string displayText = "";
+            float timer = timeBetweenChar;
+            for (int j = 0; j < translatedText.Length; j++)
+            {
+                displayText += translatedText[j];
+                //While en vez de WaitForSeconds para poder detectar input
+                while (timer > 0)
+                {
+                    timer -= Time.deltaTime;
+                    //TODO: Poner input de verdad, esto es temporal y para testear
+                    if (Keyboard.current.anyKey.isPressed)
+                    {
+                        displayText = translatedText;
+                        j = translatedText.Length;
+                        break;
+                    }
+                    yield return null;
+                }
+                timer = timeBetweenChar;
+                textDialogue.text = displayText;
+            }
+
             yield return new WaitForSeconds(timeBetweenSentences);
         }
 
