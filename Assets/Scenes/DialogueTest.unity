@@ -247,7 +247,8 @@ MonoBehaviour:
     m_WaitForCompletion: 0
     m_LocalVariables: []
   tableName: Prologue
-  timeChangingText: 5
+  timeChangingText: 0.5
+  timeBetweenChar: 0.1
   references:
     version: 1
 --- !u!4 &142414704
