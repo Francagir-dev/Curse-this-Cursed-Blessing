@@ -19,7 +19,7 @@ public class DialogueManager : MonoBehaviour
     public LocalizedString myString;
     private List<string> keys = new List<string>();
     [SerializeField]private string tableName;
-    [SerializeField]private float timeChangingText = 5f;
+    [SerializeField][Range(2f,20f)]private float timeChangingText = 5f;
     void OnEnable()
     {
         myString.StringChanged += UpdateString;
