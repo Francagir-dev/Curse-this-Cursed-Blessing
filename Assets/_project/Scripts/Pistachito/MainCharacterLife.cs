@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MainCharacterLife : LifeSystem
 {
@@ -22,6 +23,11 @@ public class MainCharacterLife : LifeSystem
     private string first = "Vector3_406caae1e3a740299dba88c3ea433e62";
     private string second = "Vector3_c205aba480a54b729b57469bf6fa83ac";
 
+    public Image lifeImage;
+    public Sprite[] lifeUI;
+
+    Shaker camShake;
+
     private void Awake()
     {
         dead = GameObject.Find("--Death--");
@@ -29,13 +35,20 @@ public class MainCharacterLife : LifeSystem
         onDamage.AddListener(CheckDeath);
         damageEffect = GetComponent<DamageEffect>();
         material = GetComponent<MeshRenderer>().material;
-    }
 
-    //Setea desde el inicio por si acaso pasan cosas nazis
+        camShake = FindObjectOfType<Shaker>();
+    }
 
     private void Start()
     {
-        ChangeColorDegrade();
+        onDamage.AddListener(ChangeImage);
+        onDamage.AddListener(ChangeColorDegrade);
+        onDamage.AddListener(() => camShake.BeginShake(.5f, .5f));
+    }
+
+    private void ChangeImage()
+    {
+        lifeImage.sprite = lifeUI[Mathf.Clamp(Life - 1, 0, lifeUI.Length)];
     }
 
     //Colision de pureba mas cutre que mi existencia
@@ -66,7 +79,6 @@ public class MainCharacterLife : LifeSystem
 
     public void ChangeColorDegrade()
     {
-        Inv = true;
         switch (Life)
         {
             case -1:
@@ -127,8 +139,11 @@ public class MainCharacterLife : LifeSystem
 
     IEnumerator CoolDown()
     {
+        Inv = true;
+        damageEffect.Activate = true;
         yield return new WaitForSeconds(invencibleCooldown);
         Inv = false;
+        damageEffect.Activate = false;
     }
 
     IEnumerator ColorDegrade(Vector3 firstVector, Vector3 secondVector, Vector3 goToFirst, Vector3 goToSecond)

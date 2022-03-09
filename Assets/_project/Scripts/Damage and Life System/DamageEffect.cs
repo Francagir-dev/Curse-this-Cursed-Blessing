@@ -4,37 +4,19 @@ using UnityEngine;
 
 public class DamageEffect : MonoBehaviour
 {
-    public MeshRenderer rend;
-    public float cooldownTrans = 0.1f;
-    [SerializeField] private int countTrans = 3;
-    private int count = 0;
+    public List<MeshRenderer> rend;
+    [SerializeField] float cooldownTrans = 0.1f;
+    float timer;
+    bool activate;
+    public bool Activate { set { activate = value; timer = cooldownTrans; rend.ForEach(x => x.enabled = true); } }
 
-    private void Start()
+    private void Update()
     {
-       rend = GetComponent<MeshRenderer>();
-    }
-    public void DEffect()
-    {
-        StartCoroutine(DamEffect());
-    }
+        if (!activate) return;
+        timer -= Time.deltaTime;
 
-    //Efecto de parpadeo simplon para comprobar si molesta o beneficia al jugador
-
-    IEnumerator DamEffect()
-    {
-        if (countTrans > count)
-        {
-            rend.enabled = false;
-            yield return new WaitForSeconds(cooldownTrans);
-            rend.enabled = true;
-            yield return new WaitForSeconds(cooldownTrans);
-            count++;
-            StartCoroutine(DamEffect());
-        }
-
-        else
-        {
-            count = 0;
-        }
+        if (timer > 0) return;
+        rend.ForEach(x => x.enabled = !x.enabled);
+        timer = cooldownTrans;
     }
 }
