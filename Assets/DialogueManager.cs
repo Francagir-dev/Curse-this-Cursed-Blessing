@@ -23,11 +23,11 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private float timeBetweenChar = .1f;
     private StringTableCollection collection;
     private StringTable stringTable;
-
+    [SerializeField] private bool automaticText;
     void OnEnable()
     {
         myString.StringChanged += UpdateString;
-        StartCoroutine(ChangeText(tableName, timeChangingText));
+        StartCoroutine(PrologueText(tableName, timeChangingText));
     }
 
     void OnDisable()
@@ -51,7 +51,7 @@ public class DialogueManager : MonoBehaviour
         Debug.Log(keys[0]);
     }
 
-    IEnumerator ChangeText(string table, float timeBetweenSentences)
+    IEnumerator PrologueText(string table, float timeBetweenSentences)
     {
         GetAllKeys(table);
 
@@ -70,7 +70,7 @@ public class DialogueManager : MonoBehaviour
                 {
                     timer -= Time.deltaTime;
                     //TODO: Poner input de verdad, esto es temporal y para testear
-                    if (Keyboard.current.anyKey.isPressed)
+                    if (Keyboard.current.anyKey.wasReleasedThisFrame)
                     {
                         displayText = translatedText;
                         j = translatedText.Length;
@@ -82,9 +82,12 @@ public class DialogueManager : MonoBehaviour
                 textDialogue.text = displayText;
             }
 
-            yield return new WaitForSeconds(timeBetweenSentences);
-        }
+            yield return new WaitForSeconds(0.5f);
 
-       
+            if (automaticText)
+                yield return new WaitForSeconds(timeBetweenSentences);
+            else
+                yield return new WaitUntil(() => Keyboard.current.anyKey.wasReleasedThisFrame);
+        }
     }
 }
