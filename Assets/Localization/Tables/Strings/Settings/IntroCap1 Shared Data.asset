@@ -15,32 +15,28 @@ MonoBehaviour:
   m_TableCollectionName: IntroCap1
   m_TableCollectionNameGuidString: 05d0ff469185db74eaec37a29985ee97
   m_Entries:
-  - m_Id: 4133224779776
-    m_Key: 1
-    m_Metadata:
-      m_Items: []
   - m_Id: 4133912645632
-    m_Key: 2
+    m_Key: Heroe 1
     m_Metadata:
       m_Items: []
   - m_Id: 4134659231744
-    m_Key: 3
+    m_Key: Planta 1
     m_Metadata:
       m_Items: []
   - m_Id: 4135338708992
-    m_Key: 4
+    m_Key: Planta 2
     m_Metadata:
       m_Items: []
   - m_Id: 4136018186240
-    m_Key: 5
+    m_Key: "H\xE9roe 2"
     m_Metadata:
       m_Items: []
   - m_Id: 4136739606528
-    m_Key: 6
+    m_Key: Planta 3
     m_Metadata:
       m_Items: []
   - m_Id: 4137549107200
-    m_Key: 7
+    m_Key: "H\xE9roe 3"
     m_Metadata:
       m_Items: []
   - m_Id: 4138320859136

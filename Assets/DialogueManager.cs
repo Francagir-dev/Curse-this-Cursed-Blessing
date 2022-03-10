@@ -4,30 +4,14 @@ using UnityEngine;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Components;
 using UnityEngine.Localization.Settings;
+using UnityEngine.Localization.Tables;
 
 
 public class DialogueManager : MonoBehaviour
 {
-   [SerializeField] private TextMeshProUGUI textDialogue;
-   [SerializeField]  LocalizeStringEvent _stringEvent;
-   public LocalizedString myString;
-   public string textLocalized;
-   void OnEnable()
-   {
-      myString.StringChanged += UpdateString;
-   }
+    [SerializeField] private TextMeshProUGUI textDialogue;
+    [SerializeField] LocalizeStringEvent _stringEvent;
+    public LocalizedString myString;
 
-   void OnDisable()
-   {
-      myString.StringChanged -= UpdateString;
-   }
-
-   void UpdateString(string s)
-   {
-      string translatedText = LocalizationSettings.StringDatabase.GetLocalizedString("Prologue", s);
-   }
-
-   void Change()
-   {
-   }
+   
 }

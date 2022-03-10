@@ -18,32 +18,33 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 267049586688
-    m_Localized: "\xA1V-Vamos no te pongas as\xED, si es el d\xEDa de los inocentes!"
+  - m_Id: 288055259963392
+    m_Localized: "C-Come on don\u2019t be like that, it\u2019s April\u2019s fools!"
     m_Metadata:
       m_Items: []
-  - m_Id: 267057975296
-    m_Localized: "No sois muy originales, \xBFverdad? Y estamos a mitad de Febrero."
+  - m_Id: 288056098824192
+    m_Localized: "You are not very original, are you? And it\u2019s the middle of
+      February."
     m_Metadata:
       m_Items: []
-  - m_Id: 267057975297
-    m_Localized: "\xA1F-Feliz d\xEDa de los inocentes!"
+  - m_Id: 288056841216000
+    m_Localized: "H-Happy April\u2019s fools!"
     m_Metadata:
       m_Items: []
-  - m_Id: 267057975298
-    m_Localized: "\xBFEn serio? \xBFNo ten\xE9is otra cosa?"
+  - m_Id: 288057713631232
+    m_Localized: "Really? Don\u2019t you have anything else?"
     m_Metadata:
       m_Items: []
-  - m_Id: 267057975299
-    m_Localized: "\xA1E-Era una broma!"
+  - m_Id: 288058518937600
+    m_Localized: I-It was a joke!
     m_Metadata:
       m_Items: []
-  - m_Id: 267057975300
-    m_Localized: "\xA1YA LO S\xC9, EL D\xCDA DE LOS INOCENTES!"
+  - m_Id: 288059320049664
+    m_Localized: "I KNOW, APRIL\u2019S FOOLS!"
     m_Metadata:
       m_Items: []
-  - m_Id: 267057975301
-    m_Localized: "... perd\xF3n."
+  - m_Id: 288060192464896
+    m_Localized: ... Sorry
     m_Metadata:
       m_Items: []
   references:
