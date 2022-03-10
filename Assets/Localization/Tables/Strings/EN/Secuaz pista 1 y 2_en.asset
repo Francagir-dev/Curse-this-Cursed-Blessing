@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Secuaz pista 1 y 2_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: bb752f729172d374a9f115ec66017c07, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 896069341184
+    m_Localized: "Ok it\u2019s cleared up now!\u201D \u201COh, here you are\u2026
+      I\u2019ll defeat you, just as sure as my name is John!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 899600945152
+    m_Localized: "But, wasn\u2019t your name Jonathan?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 903283544064
+    m_Localized: "... Damn it. It doesn\u2019t matter, die!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 907024863232
+    m_Localized: 'Ugh, nevermind. Just tell us why your boss is looking for us.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 909243650048
+    m_Localized: "Well, despite what it may look like, she\u2019s pretty socially
+      awkward. She wants to be acknowledged by the world, y\u2019know?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 913274376192
+    m_Localized: Useless efforts against me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 915769987072
+    m_Localized: "I\u2019ll never forget this mercy you\u2019ve shown me as sure
+      as my name is Johnny!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 920350167040
+    m_Localized: They should have a tag with their names on it or something.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 924372504576
+    m_Localized: I found you! Just wait until I show Juan and Jonathan/Johnny/John!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928239652864
+    m_Localized: But which are you?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 929032376320
+    m_Localized: "I don\u2019t know! Die!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 929795739648
+    m_Localized: Spare my life, oh supreme-wonderful-extremely-beautiful-genius.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 930634600448
+    m_Localized: "Again with that name\u2026 why do you call me that?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 931385380864
+    m_Localized: "Our boss always calls you that, apparently she\u2019s a great fan
+      of yours, supreme-wonder\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 932194881536
+    m_Localized: "Yeah, yeah\u2026 Then, why is she coming for me?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 932970827776
+    m_Localized: "My impression is that she wants your acknowledgement supre\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 933826465792
+    m_Localized: "Say that again and\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 934598217728
+    m_Localized: "Y-Yes! Goodbye, I won\u2019t forget this mercy you bestowed upon
+      me, just as sure as my name is Johnny!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 935382552576
+    m_Localized: "... Wasn\u2019t the other one\u2019s name Johnny as well?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 936800227328
+    m_Localized: "I\u2019m just as confused as you are, believe me."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

@@ -47,6 +47,30 @@ MonoBehaviour:
     m_Address: Assets/Localization/Tables/Strings/Settings/OpenDoor Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 1855306796bbc364e832b43a6c5a2817
+    m_Address: Assets/Tras desbloquear la segunda puerta Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 882a83132620a8845bc11083120da07d
+    m_Address: Assets/Puerta Final cerrada Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 8143811b699f24748b61e2340167d617
+    m_Address: Assets/Secuaz de la llave Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: bb752f729172d374a9f115ec66017c07
+    m_Address: Assets/Secuaz pista 1 y 2 Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 1022fcf51abe94741a286bc2f0b5d55b
+    m_Address: Assets/Intro BossFight Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 07872213d9b8316428c0d90fee47895f
+    m_Address: Assets/FinalBossFight Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
   m_SchemaSet:

@@ -53,6 +53,36 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     - Preload
+  - m_GUID: e57deacb118d7114989959d57d78b947
+    m_Address: Tras desbloquear la segunda puerta_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 1693afdf41a3c6541af3e106f463b61b
+    m_Address: Puerta Final cerrada_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 7a9abb567400b304eb8d729f20b602e6
+    m_Address: Secuaz de la llave_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 1761b516e9c654f4687232db03cb1177
+    m_Address: Secuaz pista 1 y 2_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 26052763d81cf9246860ec458afdd112
+    m_Address: FinalBossFight_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
   m_SchemaSet:

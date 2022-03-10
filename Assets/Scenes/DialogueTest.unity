@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -222,7 +222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &142414703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDialogue: {fileID: 1489703770}
   _stringEvent: {fileID: 1489703772}
-  stringRef:
+  myString:
     m_TableReference:
       m_TableCollectionName: 
     m_TableEntryReference:
@@ -246,7 +246,9 @@ MonoBehaviour:
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
-  tableString: {fileID: 0}
+  tableName: Prologue
+  timeChangingText: 0.5
+  timeBetweenChar: 0.1
   references:
     version: 1
 --- !u!4 &142414704
@@ -753,8 +755,6 @@ GameObject:
   - component: {fileID: 1489703771}
   - component: {fileID: 1489703770}
   - component: {fileID: 1489703772}
-  - component: {fileID: 1489703774}
-  - component: {fileID: 1489703773}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -892,9 +892,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:ad2fdecba7a4d4d49a7c5dcea2083dca
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 16301494272
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -917,48 +917,3 @@ MonoBehaviour:
         m_CallState: 2
   references:
     version: 1
---- !u!114 &1489703773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489703768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73c5b3e7b4e6c2b4b86fa78d6107b60e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textDialogue: {fileID: 1489703770}
-  _stringEvent: {fileID: 1489703772}
-  stringRef:
-    m_TableReference:
-      m_TableCollectionName: 
-    m_TableEntryReference:
-      m_KeyId: 0
-      m_Key: 
-    m_FallbackState: 0
-    m_WaitForCompletion: 0
-    m_LocalVariables: []
-  tableString: {fileID: 11400000, guid: a5ac2c00c28e3b44294964ee86fe481c, type: 2}
-  references:
-    version: 1
---- !u!95 &1489703774
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489703768}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7995c47a159ed214f89df631b3b3a190, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
