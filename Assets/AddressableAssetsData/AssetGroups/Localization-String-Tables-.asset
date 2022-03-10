@@ -10,16 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Localization-String-Tables-Klingon (klng)
+  m_Name: Localization-String-Tables-
   m_EditorClassIdentifier: 
-  m_GroupName: Localization-String-Tables-Klingon (klng)
+  m_GroupName: Localization-String-Tables-
   m_Data:
     m_SerializedData: []
-  m_GUID: dda77a87118cebe4aaa080fcec43396f
-  m_SerializeEntries: []
+  m_GUID: fddf68efa6ba80146a5ed2248e61cf17
+  m_SerializeEntries:
+  - m_GUID: 979a3f1060a2fed4293defd2e56be39c
+    m_Address: InnocentEnemies_klng
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-klng
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: d19873a9b53ac314aae97807aa957c7f, type: 2}
-    - {fileID: 11400000, guid: 6218cab3412e37f46902b57c10a426b3, type: 2}
+    - {fileID: 11400000, guid: bcfc79fb47a4c09458975f6955ebb7a8, type: 2}
+    - {fileID: 11400000, guid: fc3cbefc0e11f7440bfac67e4c6823d7, type: 2}
