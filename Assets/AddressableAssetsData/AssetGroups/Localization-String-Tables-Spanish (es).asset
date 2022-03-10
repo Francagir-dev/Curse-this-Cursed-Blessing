@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Spanish (es)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Spanish (es)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d6390b74e2631404296490661a747a96
+  m_SerializeEntries:
+  - m_GUID: d4b31ff64c2998840b744c8eaf27f732
+    m_Address: Prologue_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: e11929be33fccac4bb071291d521bb58
+    m_Address: IntroCap1_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: ca769237b9ba1ee48b4f0237fc6aaad8
+    m_Address: Exploration1_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: 2a18df72880582b47adccf1cc0b23601
+    m_Address: FirstEnemyTuto_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: fc8ef10dcb8f8134fb064bd5ffd77a7d
+    m_Address: InnocentEnemies_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: bb279b436c095b64d9300a80ed600992
+    m_Address: OpenDoor_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: 0ba25d9abacf3e64cbda6e05807cecf8
+    m_Address: Tras desbloquear la segunda puerta_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: 7db39746778e2a24980c7cd012646840
+    m_Address: Puerta Final cerrada_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: fd64a6047d58f204690a7e3d44b6fd07
+    m_Address: Secuaz de la llave_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: 08b3c44f9f04d31419798566b1bc5e5b
+    m_Address: Secuaz pista 1 y 2_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: b7272e272f505d84db9195805ecf771d
+    m_Address: Intro BossFight_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: 47fe1d21f3d6fc747a09a73b0e1a9117
+    m_Address: FinalBossFight_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 587b94a48c9357b439214662f8ddc5f0, type: 2}
+    - {fileID: 11400000, guid: 7919cebf315184a408c5c61b2606ea25, type: 2}

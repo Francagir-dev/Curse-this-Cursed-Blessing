@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Exploration1_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: be187b99e8fef4f468c6432cc6afaceb, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 288019591602176
+    m_Localized: "Eso ha estado cerca\u2026 \xBFlos hemos perdido?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288020229136384
+    m_Localized: "Los \u2018has\u2019 perdido, yo me habr\xEDa enfrentado a ellos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288021172854784
+    m_Localized: "Gracias por los \xE1nimos hombre, yo tambi\xE9n estar\xEDa preocupado
+      por m\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288021810388992
+    m_Localized: "Ya bueno\u2026 espera, creo que estamos cerca."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288022544392192
+    m_Localized: "\xBFCerca?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288023181926400
+    m_Localized: "S\xED, creo que estamos cerca del n\xFAcleo de la biblioteca, deber\xEDa
+      estar ah\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288023924318208
+    m_Localized: Parece estar cerrado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288024461189120
+    m_Localized: "Bueno ese es tu problema, no el m\xEDo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288025128083456
+    m_Localized: "\xBFY quien te va a girar las p\xE1ginas del libro?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288026340237312
+    m_Localized: ... tu encuentra la llave.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288027548196864
+    m_Localized: "\xA1Hey! \xA1Esto parece una llave!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288028114427904
+    m_Localized: "\xBFNunca has visto una?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288028756156416
+    m_Localized: Solo de lejos, nunca he usado una puerta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288029796343808
+    m_Localized: "Que raro\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288031570534400
+    m_Localized: "A ver, soy una planta, no es que necesite una casa para vivir\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288032174514176
+    m_Localized: "No, calla, \xBFqu\xE9 hace una llave aqu\xED tirada?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288032778493952
+    m_Localized: "\xBFEh? \xBFNo las dej\xE1is por ah\xED tiradas como hacen todos
+      los monstruos?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288033449582592
+    m_Localized: "... No s\xE9 qu\xE9 esperaba."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

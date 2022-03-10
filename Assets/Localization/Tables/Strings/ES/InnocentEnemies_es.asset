@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: InnocentEnemies_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: f5339fb718f9e6d46b45fe23f59ce39f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 288055259963392
+    m_Localized: "\xA1V-Vamos no te pongas as\xED, si es el d\xEDa de los inocentes!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288056098824192
+    m_Localized: "No sois muy originales, \xBFverdad? Y estamos a mitad de Febrero."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288056841216000
+    m_Localized: "\xA1F-Feliz d\xEDa de los inocentes!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288057713631232
+    m_Localized: "\xBFEn serio? \xBFNo ten\xE9is otra cosa?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288058518937600
+    m_Localized: "\xA1E-Era una broma!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288059320049664
+    m_Localized: "\xA1YA LO S\xC9, EL D\xCDA DE LOS INOCENTES!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288060192464896
+    m_Localized: "... perd\xF3n."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

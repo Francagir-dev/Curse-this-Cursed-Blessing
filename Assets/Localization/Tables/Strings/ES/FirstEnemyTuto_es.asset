@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: FirstEnemyTuto_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: c60df7c7a765f0143834c7b05268d0af, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 288034724651008
+    m_Localized: "\xA1Te pille!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288037144764416
+    m_Localized: "\xA1Ah!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288037950070784
+    m_Localized: "Bueno, un placer haberte conocido, buscar\xE9 a otro que me ayude."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288038956703744
+    m_Localized: "La verdad es que no entiendo que ha visto la jefa en ti, te derrotar\xE9
+      y cobrar\xE9 esa deliciosa recompensa\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288039862673408
+    m_Localized: Mira no, me niego.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288040600870912
+    m_Localized: "\xBFQu\xE9 pasa? \xBFTe asusta un esqueleto? Venga ya, si tiene
+      que ser como de tu mismo nivel."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288041271959552
+    m_Localized: En realidad los esqueletos son-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288042043711488
+    m_Localized: "\xA1Me da igual, sal ah\xED y hazle frente! (En letra m\xE1s peque\xF1a)
+      Tampoco es que tengas muchas opciones."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288042882572288
+    m_Localized: "... tienes raz\xF3n. \xA1A-All\xE1 voy!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288043654324224
+    m_Localized: "... \xBFeh?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288044421881856
+    m_Localized: N-No me das miedo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288045231382528
+    m_Localized: "... \xBFEn serio?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288046036688896
+    m_Localized: "\xA1P-Por favor, no me hagas da\xF1o! \xA1Era una broma, del d\xEDa
+      de los inocentes!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288046804246528
+    m_Localized: Estamos en febrero.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288047475335168
+    m_Localized: "C\xE1llate."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288048280641536
+    m_Localized: "Fuera de mi vista, antes de que cambie de opini\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288048951730176
+    m_Localized: "\xA1S-S\xED, oh ser supremo-maravilloso-guap\xEDsimo-genio!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288049824145408
+    m_Localized: "... Se ha ido\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288050600091648
+    m_Localized: ... Si te soy sincero, no esperaba que eso funcionase.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288051367649280
+    m_Localized: "\xBFA que ha venido ese t\xEDtulo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288052139401216
+    m_Localized: A saber, lo importante es que ya podemos continuar. Venga va.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288052944707584
+    m_Localized: "Ya, ya\u2026 espero que no me encuentre con m\xE1s de esos\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288053653544960
+    m_Localized: Te acabas de gafar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288054421102592
+    m_Localized: "C\xE1llate."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

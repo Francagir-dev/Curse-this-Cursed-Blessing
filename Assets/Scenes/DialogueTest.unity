@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -240,32 +240,15 @@ MonoBehaviour:
   myString:
     m_TableReference:
       m_TableCollectionName: 
-      m_Valid: 0
-      <ReferenceType>k__BackingField: 0
     m_TableEntryReference:
+      m_KeyId: 0
       m_Key: 
-      m_Valid: 0
-      <ReferenceType>k__BackingField: 0
     m_FallbackState: 0
     m_WaitForCompletion: 0
-    m_LocaleOverride: {fileID: 0}
-    m_CurrentTable:
-      m_TableCollectionName: 
-      m_Valid: 0
-      <ReferenceType>k__BackingField: 0
-    m_CurrentTableEntry:
-      m_Key: 
-      m_Valid: 0
-      <ReferenceType>k__BackingField: 0
     m_LocalVariables: []
-    m_CurrentStringChangedValue: 
-    m_WaitingForVariablesEndUpdate: 0
-  keys: []
   tableName: Prologue
   timeChangingText: 0.76
   timeBetweenChar: 0.01
-  collection: {fileID: 0}
-  stringTable: {fileID: 0}
   automaticText: 1
   references:
     version: 1
@@ -796,8 +779,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -52, y: -46.338}
-  m_SizeDelta: {x: -137.808, y: -92.676}
+  m_AnchoredPosition: {x: -52, y: -41.910995}
+  m_SizeDelta: {x: -137.808, y: -83.821}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489703770
 MonoBehaviour:
@@ -849,8 +832,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -914,31 +897,27 @@ MonoBehaviour:
   m_StringReference:
     m_TableReference:
       m_TableCollectionName: GUID:ad2fdecba7a4d4d49a7c5dcea2083dca
-      m_Valid: 0
-      <ReferenceType>k__BackingField: 1
     m_TableEntryReference:
+      m_KeyId: 16301494272
       m_Key: 
-      m_Valid: 0
-      <ReferenceType>k__BackingField: 2
     m_FallbackState: 0
     m_WaitForCompletion: 0
-    m_LocaleOverride: {fileID: 0}
-    m_CurrentTable:
-      m_TableCollectionName: GUID:ad2fdecba7a4d4d49a7c5dcea2083dca
-      m_Valid: 0
-      <ReferenceType>k__BackingField: 1
-    m_CurrentTableEntry:
-      m_Key: 
-      m_Valid: 0
-      <ReferenceType>k__BackingField: 2
     m_LocalVariables: []
-    m_CurrentStringChangedValue: 
-    m_WaitingForVariablesEndUpdate: 0
   m_FormatArguments: []
   m_UpdateString:
     m_PersistentCalls:
       m_Calls:
-      - {m_Target: {fileID: 1489703770}, m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro, m_MethodName: set_text, m_Mode: 0, m_Arguments: {m_ObjectArgument: {fileID: 0}, m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, m_IntArgument: 0, m_FloatArgument: 0, m_StringArgument: , m_BoolArgument: 0}, m_CallState: 2}
-    m_CallsDirty: 1
+      - m_Target: {fileID: 1489703770}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 1
