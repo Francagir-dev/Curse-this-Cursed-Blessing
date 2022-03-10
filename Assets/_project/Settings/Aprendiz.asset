@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d89d755f770a4b4c896d8fc8acfb5a8, type: 3}
+  m_Name: Aprendiz
+  m_EditorClassIdentifier: 
+  answersHigh:
+  - No mereces mi tiempo.
+  - "Nunca estar\xE1s a mi nivel."
+  - "No eres m\xE1s que otra piedra en mi camino."
+  - "Me he enfrentado a cosas mucho peores que t\xFA."
+  - "Soy superior a ti, ac\xE9ptalo."
+  - Ni siquiera lo estoy intentando.
+  - "\xBFCrees poder vencer al \u201Cmata h\xE9roes\u201D?"
+  - Me aburres.
+  - "\xBFCrees que soy tan d\xE9bil?"
+  - Subestimas mi poder.
+  - "No puedes contra m\xED."
+  answersLow:
+  - No vales la pena.
+  - "\xBFY t\xFA te consideras una guerrera?"
+  - "\xBFEso es lo mejor que puedes hacer?"
+  - "Tampoco eres para tanto\u2026"
+  - "\xBFY si te esfuerzas m\xE1s?"
+  - "\xBFNada m\xE1s?"
+  - "Aquel h\xE9roe fue m\xE1s dif\xEDcil que esto. "
+  - "\xBFD\xF3nde est\xE1 tu motivaci\xF3n?"
+  - "\xBFDe verdad pretendes derrotarme con esa fuerza?"
+  - "Eres d\xE9bil."
+  - Esto es vergonzoso, para ti.
+  - Desprestigio tu poder.
+  - "Podr\xEDa esquivarte con los ojos vendados."
+  - "Mi abuela es m\xE1s r\xE1pida que t\xFA."
+  - No debes ser tan fuerte si necesitas la ayuda de secuaces
+  - "\xBFNo puedes apuntar\u2026 mejor?"
+  - "Incluso tus secuaces eran m\xE1s dif\xEDciles de vencer."
+  answersNone:
+  - "Tiembla ante m\xED."
+  - "\xBFQuieres conocer el verdadero poder?"
+  - "\xA1R\xEDndete o te destruir\xE9!"
+  - "Podr\xEDa derrotarte cuando quiera."
+  - "No quieres verme pelear en serio\u2026"
+  - "\xA1Soy invencible!"
+  - "\xA1Mi fuerza es infinita!"
+  - "\xA1No puedes derrotarme!"
+  - "Si esto continua, no tendr\xE9 otra opci\xF3n\u2026"
+  - "Bueno, tendr\xE9 que usar mi poder\u2026"
+  - Observa mi velocidad inigualable.
+  - "\xBFTe atreves a desafiarme?"
+  - "Cr\xE9eme, no quieres esta pelea\u2026"
+  - "\xA1Nada puede contra m\xED!"
+  - "\xBFQuieres tener el mismo final que el h\xE9roe?"

@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: FinalBossFight_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 07872213d9b8316428c0d90fee47895f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1743310360576
+    m_Localized: "He\u2019s right, I\u2019m not good enough\u2026 and I will never
+      be."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1749304020992
+    m_Localized: I did it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1751950626816
+    m_Localized: He did it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1754181996544
+    m_Localized: "Well well, little plant. Turns out you\u2019re not as useless as
+      I thought."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1756732133376
+    m_Localized: Yeah sure.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1759135469568
+    m_Localized: "I\u2019m serious! I didn\u2019t think you\u2019d be capable of
+      doing something like this."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1761618497536
+    m_Localized: ... Thank you, I guess.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1764617424896
+    m_Localized: But we should leave, before-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1770812411904
+    m_Localized: "I\u2019m not enough!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1778341187584
+    m_Localized: "At this rate she\u2019s gonna destroy the library, stop her!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1779335237632
+    m_Localized: What?! How am I supposed to do that?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1780106989568
+    m_Localized: The best way you know, use your slyness!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1780991987712
+    m_Localized: "Um\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1781650493440
+    m_Localized: "\xA1Hey, hey, calm down! Y-You fought well! I\u2019m impressed!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1782447411200
+    m_Localized: R-Really? You really think so?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1783705702400
+    m_Localized: Of course! You have so much talent, you should find a way to enhance
+      it!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784380985344
+    m_Localized: "Actually?! Then\u2026 I accept!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784989159424
+    m_Localized: Wait, what?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785605722112
+    m_Localized: "I\u2019ll be your apprentice, oh master-supreme-wonderful-extremely-beautiful-genius!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1786201313280
+    m_Localized: "W-What?! I didn\u2019t mean\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1786830458880
+    m_Localized: "... The pleasure is mine\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1787396689920
+    m_Localized: "I swear I won\u2019t let you down, master-supreme-wonderful-extremely-beautiful-ge-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1787988086784
+    m_Localized: Could you stop calling me that? It makes me uncomfortable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1788617232384
+    m_Localized: But how will I show your magnificence! Oh master-supreme-wonderful-extre-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1789170880512
+    m_Localized: Master! Call me Master.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1789846163456
+    m_Localized: Yes, oh sup- I mean, Master!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1790466920448
+    m_Localized: "You\u2019re actually going to let that thing come with us?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1791100260352
+    m_Localized: Who is this thing, Master?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1791683268608
+    m_Localized: "Hey, be respectful, this \u201Cthing\u201D you say is the biggest
+      hero in these lands."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1792270471168
+    m_Localized: Oh! The one Master killed?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1792857673728
+    m_Localized: "What are you talking about? This joke of a bush will never\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1793503596544
+    m_Localized: Yes, yes! That one!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1794103382016
+    m_Localized: "Ugh\u2026 yeah, that one."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1794749304832
+    m_Localized: And what is he doing with you, Master?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1795365867520
+    m_Localized: "We\u2019ve got a deal, we\u2019re trying to revive me."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1796007596032
+    m_Localized: Huh?! Why?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1797194584064
+    m_Localized: "D-Don\u2019t question my motives!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1797777592320
+    m_Localized: Yes, Master!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1798377377792
+    m_Localized: "Huh? That\u2019s it?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1799010717696
+    m_Localized: "Your intentions are obvious, Master. You couldn\u2019t get enough,
+      so you want to fight him again!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1799635668992
+    m_Localized: HAHAHAHA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1800252231680
+    m_Localized: Y-Yes! Well said, my dear apprentice!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1800965263360
+    m_Localized: "I\u2019ll help you achieve your goal, Master!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1801514717184
+    m_Localized: Perfect! Look for the answer among these tons of books!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802152251392
+    m_Localized: Understood!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802752036864
+    m_Localized: Hero?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1803385376768
+    m_Localized: "Oh my, that\u2019s so funny\u2026 I\u2019ve never laughed that
+      much I swear\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1804027105280
+    m_Localized: Is it so hard to believe I could defeat you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1804652056576
+    m_Localized: Not in a million years, buddy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805256036352
+    m_Localized: Well, this task will keep her occupied for a while.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805969068032
+    m_Localized: "We could escape, now that she\u2019s entertained."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1806694682624
+    m_Localized: Hm, yeah, we should-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1807336411136
+    m_Localized: Master! I found it!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1807969751040
+    m_Localized: Huh?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1808598896640
+    m_Localized: "Here it says something about an ancient necromancer, living alone
+      in a\u2026 sweet place?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1809269985280
+    m_Localized: Sweet place?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1809999794176
+    m_Localized: It must be a riddle, this kind of books always speak with metaphors
+      and-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1810645716992
+    m_Localized: "It\u2019s shown on this map, circled in red."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1811362942976
+    m_Localized: ... They used to put more effort into these things.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1812021448704
+    m_Localized: Well done, my dear apprentice!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1812692537344
+    m_Localized: "Hehe\u2026 I\u2019m a better apprentice than you are\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1813376208896
+    m_Localized: ... God, deliver me from this pair.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

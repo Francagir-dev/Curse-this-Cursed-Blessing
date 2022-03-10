@@ -4,7 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Bullet
+  - Heal
   - Interactable
+  - ChanceScene
   layers:
   - Default
   - TransparentFX
@@ -12,7 +15,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Interactable
   - 
   - PostProcessing
   - Not in Reflection

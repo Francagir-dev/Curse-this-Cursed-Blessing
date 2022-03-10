@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Exploration1_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: be187b99e8fef4f468c6432cc6afaceb, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 288019591602176
+    m_Localized: "That was close\u2026 Did we lose them?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288020229136384
+    m_Localized: "You\u2019 lost them, I\u2019d have fought them."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288021172854784
+    m_Localized: "I appreciate the support man, I\u2019d be worried for me too."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288021810388992
+    m_Localized: "Yeah well\u2026 wait, I think we\u2019re close."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288022544392192
+    m_Localized: Close?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288023181926400
+    m_Localized: "Yes, I think we\u2019re close to the core of the library, it should
+      be there."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288023924318208
+    m_Localized: It seems to be locked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288024461189120
+    m_Localized: "Well that\u2019s your problem, not mine."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288025128083456
+    m_Localized: "And who is gonna turn the book\u2019s pages for you?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288026340237312
+    m_Localized: ... Just find the key.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288027548196864
+    m_Localized: Hey! That looks like a key!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288028114427904
+    m_Localized: "Haven\u2019t you ever seen one?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288028756156416
+    m_Localized: "Only from afar, I\u2019ve never used a door."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288029796343808
+    m_Localized: "That\u2019s weird\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288031570534400
+    m_Localized: "I mean, I\u2019m a plant, it\u2019s not like I need a house to
+      live\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288032174514176
+    m_Localized: "No, shut up, what\u2019s a key doing just laying there?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288032778493952
+    m_Localized: "Huh? Don\u2019t you leave keys laying around like monsters do?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288033449582592
+    m_Localized: "... I don\u2019t know what I expected."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d3b6abb1bcfb73042851cbe2c20836d7
+  m_SerializeEntries:
+  - m_GUID: 7c4e5b5853f173f46a4df4a72e00bcc2
+    m_Address: Assets/Frases Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: ad2fdecba7a4d4d49a7c5dcea2083dca
+    m_Address: Assets/Localization/Tables/Strings/Settings/Prologue Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 05d0ff469185db74eaec37a29985ee97
+    m_Address: Assets/Localization/Tables/Strings/Settings/IntroCap1 Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: be187b99e8fef4f468c6432cc6afaceb
+    m_Address: Assets/Localization/Tables/Strings/Settings/Exploration1 Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: c60df7c7a765f0143834c7b05268d0af
+    m_Address: Assets/Localization/Tables/Strings/Settings/FirstEnemyTuto Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: f5339fb718f9e6d46b45fe23f59ce39f
+    m_Address: Assets/Localization/Tables/Strings/Settings/InnocentEnemies Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 9bcc55e5fbb94064fbf229ccc4079491
+    m_Address: Assets/Localization/Tables/Strings/Settings/OpenDoor Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 1855306796bbc364e832b43a6c5a2817
+    m_Address: Assets/Tras desbloquear la segunda puerta Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 882a83132620a8845bc11083120da07d
+    m_Address: Assets/Puerta Final cerrada Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 8143811b699f24748b61e2340167d617
+    m_Address: Assets/Secuaz de la llave Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: bb752f729172d374a9f115ec66017c07
+    m_Address: Assets/Secuaz pista 1 y 2 Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 1022fcf51abe94741a286bc2f0b5d55b
+    m_Address: Assets/Intro BossFight Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 07872213d9b8316428c0d90fee47895f
+    m_Address: Assets/FinalBossFight Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f3707119b0163fd439e1b45e62ca6a8c, type: 2}
+    - {fileID: 11400000, guid: affeb4e394682d845acfdb4d02f96448, type: 2}
