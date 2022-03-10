@@ -529,6 +529,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Skip",
+                    "type": "Button",
+                    "id": "7f7a51c0-5b1f-4f95-b838-cd11e95c0d8c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -557,7 +565,7 @@
                 {
                     "name": "",
                     "id": "31a65e45-2cd8-450b-a8ed-eaa287576a0c",
-                    "path": "<Keyboard>/enter",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
@@ -848,6 +856,28 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "PressAnyKey",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "22004088-c206-40ae-ad0e-2ca2a35273fb",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Skip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "db1f8a5d-cd00-44bd-ab58-0b3a1acb037a",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Skip",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

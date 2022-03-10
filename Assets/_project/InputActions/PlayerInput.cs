@@ -542,6 +542,14 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Skip"",
+                    ""type"": ""Button"",
+                    ""id"": ""7f7a51c0-5b1f-4f95-b838-cd11e95c0d8c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -570,7 +578,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""31a65e45-2cd8-450b-a8ed-eaa287576a0c"",
-                    ""path"": ""<Keyboard>/enter"",
+                    ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard"",
@@ -863,6 +871,28 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""action"": ""PressAnyKey"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""22004088-c206-40ae-ad0e-2ca2a35273fb"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Skip"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""db1f8a5d-cd00-44bd-ab58-0b3a1acb037a"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Skip"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -917,6 +947,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         m_UIControls_Submit = m_UIControls.FindAction("Submit", throwIfNotFound: true);
         m_UIControls_Cancel = m_UIControls.FindAction("Cancel", throwIfNotFound: true);
         m_UIControls_PressAnyKey = m_UIControls.FindAction("PressAnyKey", throwIfNotFound: true);
+        m_UIControls_Skip = m_UIControls.FindAction("Skip", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -1051,6 +1082,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
     private readonly InputAction m_UIControls_Submit;
     private readonly InputAction m_UIControls_Cancel;
     private readonly InputAction m_UIControls_PressAnyKey;
+    private readonly InputAction m_UIControls_Skip;
     public struct UIControlsActions
     {
         private @PlayerInput m_Wrapper;
@@ -1059,6 +1091,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         public InputAction @Submit => m_Wrapper.m_UIControls_Submit;
         public InputAction @Cancel => m_Wrapper.m_UIControls_Cancel;
         public InputAction @PressAnyKey => m_Wrapper.m_UIControls_PressAnyKey;
+        public InputAction @Skip => m_Wrapper.m_UIControls_Skip;
         public InputActionMap Get() { return m_Wrapper.m_UIControls; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1080,6 +1113,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @PressAnyKey.started -= m_Wrapper.m_UIControlsActionsCallbackInterface.OnPressAnyKey;
                 @PressAnyKey.performed -= m_Wrapper.m_UIControlsActionsCallbackInterface.OnPressAnyKey;
                 @PressAnyKey.canceled -= m_Wrapper.m_UIControlsActionsCallbackInterface.OnPressAnyKey;
+                @Skip.started -= m_Wrapper.m_UIControlsActionsCallbackInterface.OnSkip;
+                @Skip.performed -= m_Wrapper.m_UIControlsActionsCallbackInterface.OnSkip;
+                @Skip.canceled -= m_Wrapper.m_UIControlsActionsCallbackInterface.OnSkip;
             }
             m_Wrapper.m_UIControlsActionsCallbackInterface = instance;
             if (instance != null)
@@ -1096,6 +1132,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @PressAnyKey.started += instance.OnPressAnyKey;
                 @PressAnyKey.performed += instance.OnPressAnyKey;
                 @PressAnyKey.canceled += instance.OnPressAnyKey;
+                @Skip.started += instance.OnSkip;
+                @Skip.performed += instance.OnSkip;
+                @Skip.canceled += instance.OnSkip;
             }
         }
     }
@@ -1134,5 +1173,6 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         void OnSubmit(InputAction.CallbackContext context);
         void OnCancel(InputAction.CallbackContext context);
         void OnPressAnyKey(InputAction.CallbackContext context);
+        void OnSkip(InputAction.CallbackContext context);
     }
 }
