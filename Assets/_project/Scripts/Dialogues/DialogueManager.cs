@@ -90,4 +90,43 @@ public class DialogueManager : MonoBehaviour
                 yield return new WaitUntil(() => Keyboard.current.anyKey.wasReleasedThisFrame);
         }
     }
+
+    public void SetText(string key)
+    {
+        string translatedText = LocalizationSettings.StringDatabase.GetLocalizedString("Prologue", key);
+        StartCoroutine(WriteText(translatedText, timeChangingText));
+    }
+
+    IEnumerator WriteText(string translatedText, float timeBetweenSentences)
+    {
+        float timer = timeBetweenChar;
+        string displayText = "";
+        for (int j = 0; j < translatedText.Length; j++)
+        {
+            displayText += translatedText[j];
+            //While en vez de WaitForSeconds para poder detectar input
+            while (timer > 0)
+            {
+                timer -= Time.deltaTime;
+                //TODO: Poner input de verdad, esto es temporal y para testear
+                if (Keyboard.current.anyKey.wasReleasedThisFrame)
+                {
+                    displayText = translatedText;
+                    j = translatedText.Length;
+                    break;
+                }
+                yield return null;
+            }
+            timer = timeBetweenChar;
+            textDialogue.text = displayText;
+        }
+
+        yield return new WaitForSeconds(0.5f);
+
+        if (automaticText)
+            yield return new WaitForSeconds(timeBetweenSentences);
+        else
+            yield return new WaitUntil(() => Keyboard.current.anyKey.wasReleasedThisFrame);
+    }
+    
 }
