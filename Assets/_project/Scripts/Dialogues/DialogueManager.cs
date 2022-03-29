@@ -17,17 +17,56 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textDialogue;
     [SerializeField] LocalizeStringEvent _stringEvent;
     public LocalizedString myString;
-   private List<string> keys = new List<string>();
+
+    private List<string> keys = new List<string>();
+    public int showToKey = 0;
+    int currKey = 0;
+
     [SerializeField] private string tableName;
     [SerializeField] [Range(0f, 20f)] private float timeChangingText = 5f;
     [SerializeField] private float timeBetweenChar = .1f;
     private StringTableCollection collection;
     private StringTable stringTable;
     [SerializeField] private bool automaticText;
+
+    public Action onDialogueEnd;
+
+    Animator anim;
+    bool isOpen = false;
+    public bool IsOpen => isOpen;
+
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
+
+    private void Start()
+    {
+        GetAllKeys(tableName);
+        Open();
+    }
+
     void OnEnable()
     {
         myString.StringChanged += UpdateString;
-        StartCoroutine(PrologueText(tableName, timeChangingText));
+        //StartCoroutine(PrologueText(tableName, timeChangingText));
+    }
+
+    public void Open()
+    {
+        if (isOpen || currKey >= showToKey) return;
+        isOpen = true;
+        anim.Play("Open");
+        NextDialogue();
+    }
+
+    public void Close()
+    {
+        if (!isOpen) return;
+        isOpen = false;
+        anim.Play("Close");
+        onDialogueEnd.Invoke();
+        onDialogueEnd = null;
     }
 
     void OnDisable()
@@ -37,6 +76,7 @@ public class DialogueManager : MonoBehaviour
 
     void UpdateString(string s)
     {
+
     }
 
     void GetAllKeys(string tableName)
@@ -91,10 +131,17 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void SetText(string key)
+    void NextDialogue()
     {
-        string translatedText = LocalizationSettings.StringDatabase.GetLocalizedString("Prologue", key);
+        if (currKey >= showToKey)
+        {
+            Close();
+            return;
+        }
+
+        string translatedText = LocalizationSettings.StringDatabase.GetLocalizedString(tableName, keys[currKey]);
         StartCoroutine(WriteText(translatedText, timeChangingText));
+        currKey++;
     }
 
     IEnumerator WriteText(string translatedText, float timeBetweenSentences)
@@ -127,6 +174,7 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForSeconds(timeBetweenSentences);
         else
             yield return new WaitUntil(() => Keyboard.current.anyKey.wasReleasedThisFrame);
+
+        NextDialogue();
     }
-    
 }
