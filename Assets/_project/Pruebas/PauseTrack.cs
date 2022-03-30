@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Timeline;
 
-[TrackBindingType(typeof(TimelineManager))]
+[TrackBindingType(typeof(CutsceneManager))]
 [TrackClipType(typeof(PauseClip))]
 public class PauseTrack : TrackAsset
 {

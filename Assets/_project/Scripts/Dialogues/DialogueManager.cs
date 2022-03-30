@@ -15,6 +15,7 @@ using UnityEngine.Localization.Tables;
 public class DialogueManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI textDialogue;
+    [SerializeField] private TextMeshProUGUI textName;
     [SerializeField] LocalizeStringEvent _stringEvent;
     public LocalizedString myString;
 
@@ -23,6 +24,8 @@ public class DialogueManager : MonoBehaviour
     int currKey = 0;
 
     [SerializeField] private string tableName;
+    public string TableName { set => tableName = value; }
+
     [SerializeField] [Range(0f, 20f)] private float timeChangingText = 5f;
     [SerializeField] private float timeBetweenChar = .1f;
     private StringTableCollection collection;
@@ -65,7 +68,7 @@ public class DialogueManager : MonoBehaviour
         if (!isOpen) return;
         isOpen = false;
         anim.Play("Close");
-        onDialogueEnd.Invoke();
+        onDialogueEnd?.Invoke();
         onDialogueEnd = null;
     }
 
@@ -79,6 +82,12 @@ public class DialogueManager : MonoBehaviour
 
     }
 
+    public void Skip(int keyToSkip)
+    {
+        showToKey = keyToSkip;
+        currKey = keyToSkip;
+    }
+
     void GetAllKeys(string tableName)
     {
         collection = LocalizationEditorSettings.GetStringTableCollection(tableName);
@@ -88,7 +97,7 @@ public class DialogueManager : MonoBehaviour
         {
             keys.Add(stringTable.SharedData.GetEntry(v.Key).Key);
         }
-        Debug.Log(keys[0]);
+        Debug.Log(keys.Count);
     }
 
     IEnumerator PrologueText(string table, float timeBetweenSentences)
@@ -133,11 +142,33 @@ public class DialogueManager : MonoBehaviour
 
     void NextDialogue()
     {
-        if (currKey >= showToKey)
+        if (currKey >= showToKey || keys.Count <= currKey)
         {
             Close();
             return;
         }
+        string name = keys[currKey].Split('_')[0];
+        
+        switch (name)
+        {
+            case "Hero":
+                name = "Heroé";
+                break;
+            case "Pistachin":
+                name = "Pistachin";
+                break;
+            case "Secuaz":
+                name = "Secuaz";
+                break;
+            case "Juan":
+                name = "Juan";
+                break;
+            default:
+                name = "InvalidName";
+                break;
+        }
+
+        textName.text = name;
 
         string translatedText = LocalizationSettings.StringDatabase.GetLocalizedString(tableName, keys[currKey]);
         StartCoroutine(WriteText(translatedText, timeChangingText));
@@ -174,6 +205,8 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForSeconds(timeBetweenSentences);
         else
             yield return new WaitUntil(() => Keyboard.current.anyKey.wasReleasedThisFrame);
+
+        yield return new WaitForEndOfFrame();
 
         NextDialogue();
     }

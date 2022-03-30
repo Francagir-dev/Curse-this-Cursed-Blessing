@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 
-public class PauseBehaviour : PlayableBehaviour
+public class SkipDialogueBehaviour : PlayableBehaviour
 {
-    public DialogueManager dialogueManag;
+    public int skipToKey;
     bool doOnce = false;
+
     public override void ProcessFrame(Playable playable, FrameData info, object playerData)
     {
+        if (!Application.isPlaying) return;
+
         if (doOnce) return;
-
-        TimelineManager manag = playerData as TimelineManager;
-
-        manag.Stop();
-        dialogueManag.onDialogueEnd += manag.Continue;
+        DialogueManager manag = playerData as DialogueManager;
+        manag.Skip(skipToKey);
         doOnce = true;
     }
 }

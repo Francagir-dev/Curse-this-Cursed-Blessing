@@ -16,7 +16,7 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: f5339fb718f9e6d46b45fe23f59ce39f
   m_Entries:
   - m_Id: 288055259963392
-    m_Key: Secuaz2_1
+    m_Key: Secuaz_1
     m_Metadata:
       m_Items: []
   - m_Id: 288056098824192
@@ -24,7 +24,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288056841216000
-    m_Key: Secuaz3_3
+    m_Key: Secuaz_3
     m_Metadata:
       m_Items: []
   - m_Id: 288057713631232
@@ -32,7 +32,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288058518937600
-    m_Key: Secuaz4_5
+    m_Key: Secuaz_5
     m_Metadata:
       m_Items: []
   - m_Id: 288059320049664
@@ -40,7 +40,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288060192464896
-    m_Key: Secuaz4_7
+    m_Key: Secuaz_7
     m_Metadata:
       m_Items: []
   m_Metadata:

@@ -5,6 +5,7 @@ using UnityEngine.Timeline;
 
 [TrackBindingType(typeof(DialogueManager))]
 [TrackClipType(typeof(DialogueClip))]
+[TrackClipType(typeof(SkipDialogueClip))]
 public class DialogueTrack : TrackAsset
 {
 

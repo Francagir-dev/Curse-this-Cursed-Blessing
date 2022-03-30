@@ -10,7 +10,7 @@ public class ContactEvent : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
-            Transition.Instance.Do(() => onTouch.Invoke());
+            Transition.Instance.Do(onTouch.Invoke);
     }
 
     public void SceneChange(UnityEngine.SceneManagement.Scene scene)
