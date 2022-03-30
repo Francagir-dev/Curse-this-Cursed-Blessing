@@ -18,11 +18,6 @@ public class Shaker : MonoBehaviour
         origPos = transform.localPosition;
     }
 
-    private void Start()
-    {
-        BeginShake(.5f, .5f);
-    }
-
     public void BeginShake(float duration, float value)
     {
         if (shake != null) StopCoroutine(shake);

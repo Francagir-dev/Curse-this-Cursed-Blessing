@@ -26,6 +26,7 @@ public class CutsceneManager : MonoBehaviour
             manag.onDialogueEnd += () => Transition.Instance.Do(onCutsceneEnd.Invoke);
             manag.Skip(beginAtKey);
             manag.showToKey = endAtKey;
+            manag.Open();
             return;
         }
 

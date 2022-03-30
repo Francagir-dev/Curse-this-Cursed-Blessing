@@ -24,11 +24,11 @@ public class DialogueManager : MonoBehaviour
     int currKey = 0;
 
     [SerializeField] private string tableName;
-    public string TableName { set => tableName = value; }
+    public string TableName { set { tableName = value; GetAllKeys(tableName); } }
 
     [SerializeField] [Range(0f, 20f)] private float timeChangingText = 5f;
     [SerializeField] private float timeBetweenChar = .1f;
-    private StringTableCollection collection;
+    //private StringTableCollection collection;
     private StringTable stringTable;
     [SerializeField] private bool automaticText;
 
@@ -41,11 +41,11 @@ public class DialogueManager : MonoBehaviour
     private void Awake()
     {
         anim = GetComponent<Animator>();
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.GetLocale("es");
     }
 
     private void Start()
     {
-        GetAllKeys(tableName);
         Open();
     }
 
@@ -90,8 +90,10 @@ public class DialogueManager : MonoBehaviour
 
     void GetAllKeys(string tableName)
     {
-        collection = LocalizationEditorSettings.GetStringTableCollection(tableName);
-        stringTable = collection.GetTable("en") as StringTable;
+        //collection = LocalizationEditorSettings.GetStringTableCollection(tableName);
+        //stringTable = collection.GetTable("en") as StringTable;
+        stringTable = LocalizationSettings.StringDatabase.GetTable(tableName);
+        keys = new List<string>();
 
         foreach (var v in stringTable)
         {
@@ -206,7 +208,7 @@ public class DialogueManager : MonoBehaviour
         else
             yield return new WaitUntil(() => Keyboard.current.anyKey.wasReleasedThisFrame);
 
-        yield return new WaitForEndOfFrame();
+        yield return null;
 
         NextDialogue();
     }
