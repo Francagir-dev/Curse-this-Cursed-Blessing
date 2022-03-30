@@ -16,99 +16,99 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: c60df7c7a765f0143834c7b05268d0af
   m_Entries:
   - m_Id: 288034724651008
-    m_Key: 1
+    m_Key: Secuaz_1
     m_Metadata:
       m_Items: []
   - m_Id: 288037144764416
-    m_Key: 2
+    m_Key: Pistachin_2
     m_Metadata:
       m_Items: []
   - m_Id: 288037950070784
-    m_Key: 3
+    m_Key: Hero_3
     m_Metadata:
       m_Items: []
   - m_Id: 288038956703744
-    m_Key: 4
+    m_Key: Secuaz_4
     m_Metadata:
       m_Items: []
   - m_Id: 288039862673408
-    m_Key: 5
+    m_Key: Hero_5
     m_Metadata:
       m_Items: []
   - m_Id: 288040600870912
-    m_Key: 6
+    m_Key: Hero_6
     m_Metadata:
       m_Items: []
   - m_Id: 288041271959552
-    m_Key: 7
+    m_Key: Pistachin_7
     m_Metadata:
       m_Items: []
   - m_Id: 288042043711488
-    m_Key: 8
+    m_Key: Hero_8
     m_Metadata:
       m_Items: []
   - m_Id: 288042882572288
-    m_Key: 9
+    m_Key: Hero_9
     m_Metadata:
       m_Items: []
   - m_Id: 288043654324224
-    m_Key: 10
+    m_Key: Pistachin_10
     m_Metadata:
       m_Items: []
   - m_Id: 288044421881856
-    m_Key: 11
+    m_Key: Secuaz_11
     m_Metadata:
       m_Items: []
   - m_Id: 288045231382528
-    m_Key: 12
+    m_Key: Hero_12
     m_Metadata:
       m_Items: []
   - m_Id: 288046036688896
-    m_Key: 13
+    m_Key: Secuaz_13
     m_Metadata:
       m_Items: []
   - m_Id: 288046804246528
-    m_Key: 14
+    m_Key: Hero_14
     m_Metadata:
       m_Items: []
   - m_Id: 288047475335168
-    m_Key: 15
+    m_Key: Secuaz_15
     m_Metadata:
       m_Items: []
   - m_Id: 288048280641536
-    m_Key: 16
+    m_Key: Pistachin_16
     m_Metadata:
       m_Items: []
   - m_Id: 288048951730176
-    m_Key: 17
+    m_Key: Secuaz_17
     m_Metadata:
       m_Items: []
   - m_Id: 288049824145408
-    m_Key: 18
+    m_Key: Pistachin_18
     m_Metadata:
       m_Items: []
   - m_Id: 288050600091648
-    m_Key: 19
+    m_Key: Hero_19
     m_Metadata:
       m_Items: []
   - m_Id: 288051367649280
-    m_Key: 20
+    m_Key: Pistachin_20
     m_Metadata:
       m_Items: []
   - m_Id: 288052139401216
-    m_Key: 21
+    m_Key: Hero_21
     m_Metadata:
       m_Items: []
   - m_Id: 288052944707584
-    m_Key: 22
+    m_Key: Pistachin_22
     m_Metadata:
       m_Items: []
   - m_Id: 288053653544960
-    m_Key: 23
+    m_Key: Hero_23
     m_Metadata:
       m_Items: []
   - m_Id: 288054421102592
-    m_Key: 24
+    m_Key: Pistachin_24
     m_Metadata:
       m_Items: []
   m_Metadata:
