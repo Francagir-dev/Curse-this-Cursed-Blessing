@@ -19,7 +19,7 @@ public class CutsceneManager : MonoBehaviour
     private void Awake()
     {
         DialogueManager manag = FindObjectOfType<DialogueManager>();
-        manag.TableName = dialogueTableName;
+      //  manag.TableName = dialogueTableName;
 
         if (dialogueOnly) 
         {
