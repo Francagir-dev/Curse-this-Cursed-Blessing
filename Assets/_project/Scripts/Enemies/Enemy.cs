@@ -97,6 +97,7 @@ public abstract class Enemy : MonoBehaviour
         contrl.enableTime = true;
         contrl.enemy = this;
         scareLifeHUD.Maximum = Mathf.RoundToInt(maxScare);
+        contrl.EnableChoices();
     }
 
     /// <summary>
