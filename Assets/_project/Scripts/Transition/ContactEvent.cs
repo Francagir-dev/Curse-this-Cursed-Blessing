@@ -13,8 +13,8 @@ public class ContactEvent : MonoBehaviour
             Transition.Instance.Do(onTouch.Invoke);
     }
 
-    public void SceneChange(UnityEngine.SceneManagement.Scene scene)
+    public void SceneChange(string sceneName)
     {
-        Transition.Instance.Do(scene.name);
+        Transition.Instance.Do(sceneName);
     }
 }

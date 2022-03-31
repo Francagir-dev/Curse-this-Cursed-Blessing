@@ -43,7 +43,7 @@ public class Transition : MonoBehaviour
             anim.SetBool("Close", true);
             yield return new WaitForSeconds(closeDuration);
             AsyncOperation operation = 
-                SceneManager.LoadSceneAsync(SceneManager.GetSceneByName(sceneName).buildIndex, LoadSceneMode.Single);
+                SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Single);
             yield return new WaitUntil(() => operation.isDone);
             anim.SetBool("Close", false);
         }

@@ -88,6 +88,8 @@ public abstract class Enemy : MonoBehaviour
     protected virtual void Start()
     {
         StartCoroutine(WaitForSkillCast());
+        ChoiceController contrl = FindObjectOfType<ChoiceController>();
+        contrl.EnableChoices();
     }
 
     private void OnEnable()
@@ -97,8 +99,8 @@ public abstract class Enemy : MonoBehaviour
         contrl.enableTime = true;
         contrl.enemy = this;
         scareLifeHUD.Maximum = Mathf.RoundToInt(maxScare);
-        contrl.EnableChoices();
     }
+
 
     /// <summary>
     /// Cast Skill 
