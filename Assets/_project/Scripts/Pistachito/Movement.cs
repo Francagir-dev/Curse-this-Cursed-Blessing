@@ -177,7 +177,13 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
             Instantiate(pauseMenu, pauseMenu.transform.position, pauseMenu.transform.rotation);
             isPaused = true;
         }
-        //pauseMenu.SetActive(true);
+/*
+        if (isPaused)
+        {
+            pauseMenu.SetActive(false);
+            Time.timeScale = 1f;
+        }else
+            pauseMenu.SetActive(true);*/
     }
 
     #endregion
