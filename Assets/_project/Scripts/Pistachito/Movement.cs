@@ -6,12 +6,13 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody))]
 public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 {
+    public GameObject pauseMenu;
     static Movement instance;
     public static Movement Instance { get => instance; private set => instance = value; }
 
     MainCharacterLife lifeSystem;
     public MainCharacterLife LifeSystem { get => lifeSystem; private set => lifeSystem = value; }
-
+    
     //Player Input Related
     PlayerInput playerInput;
     Vector3 inputMove;
@@ -148,19 +149,23 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     }
 
     #region NotImplemented
-    public void OnCameraMov(UnityEngine.InputSystem.InputAction.CallbackContext context)
+    public void OnCameraMov(InputAction.CallbackContext context)
     {
         //throw new System.NotImplementedException();
     }
     
-    public void OnOpenDialog(UnityEngine.InputSystem.InputAction.CallbackContext context)
+    public void OnOpenDialog(InputAction.CallbackContext context)
     {
         //throw new System.NotImplementedException();
     }
 
     public void OnPause(InputAction.CallbackContext context)
     {
-        Application.Quit();
+        if (context.started)
+          // Instantiate(pauseMenu, pauseMenu.transform.position, pauseMenu.transform.rotation);
+        pauseMenu.SetActive(true);
+
+
     }
     #endregion
 }

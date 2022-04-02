@@ -71,6 +71,10 @@ MonoBehaviour:
     m_Address: Assets/FinalBossFight Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 86d7b47efafda744785c9e5d45fe8270
+    m_Address: Assets/_project/Localization/Tables/Strings/UI_Texts Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
   m_SchemaSet:
