@@ -23,7 +23,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         private set => lifeSystem = value;
     }
 
-    private bool isPaused;
+    public bool isPaused;
 
     //Player Input Related
     PlayerInput playerInput;
@@ -182,8 +182,12 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         {
             pauseMenu.SetActive(false);
             Time.timeScale = 1f;
-        }else
-            pauseMenu.SetActive(true);*/
+            isPaused = false;
+        }else{
+        pauseMenu.SetActive(true);
+        isPaused = true;
+        }
+            */
     }
 
     #endregion

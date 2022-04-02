@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs" afterDir="false" />
     </list>
@@ -103,7 +101,7 @@
       <workItem from="1648712543920" duration="444000" />
       <workItem from="1648832658736" duration="3973000" />
       <workItem from="1648838362375" duration="1314000" />
-      <workItem from="1648910436068" duration="910000" />
+      <workItem from="1648910436068" duration="1171000" />
     </task>
     <servers />
   </component>
@@ -158,26 +156,26 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs</url>
-          <line>49</line>
+          <line>62</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\UI\PauseManager.cs" initialLine="37" containingFunctionPresentation="method 'StopPause'">
             <startOffsets>
-              <option value="1277" />
+              <option value="1590" />
             </startOffsets>
             <endOffsets>
-              <option value="1297" />
+              <option value="1610" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs</url>
-          <line>31</line>
+          <line>44</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\UI\PauseManager.cs" initialLine="26" containingFunctionPresentation="method 'InitializeFirstSelectedPause'">
             <startOffsets>
-              <option value="793" />
+              <option value="1106" />
             </startOffsets>
             <endOffsets>
-              <option value="813" />
+              <option value="1126" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />

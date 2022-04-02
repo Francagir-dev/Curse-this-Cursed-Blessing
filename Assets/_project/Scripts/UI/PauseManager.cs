@@ -13,11 +13,23 @@ public class PauseManager : MonoBehaviour
     private void Awake()
     {
         InitializeFirstSelectedPause();
+        FindObjectOfType<Movement>().isPaused = true;
     }
 
     private void OnEnable()
     {
         InitializeFirstSelectedPause();
+        FindObjectOfType<Movement>().isPaused = true;
+    }
+
+    private void OnDestroy()
+    {
+        FindObjectOfType<Movement>().isPaused = false;
+    }
+
+    private void OnDisable()
+    {
+        FindObjectOfType<Movement>().isPaused = false;
     }
 
     /// <summary>
@@ -29,6 +41,7 @@ public class PauseManager : MonoBehaviour
       {
           eventSystem = FindObjectOfType<EventSystem>();
           StartCoroutine(ChangeEventSystem( GameObject.Find("ContinuePause")));
+          
           Time.timeScale = 0f;
       }
 
