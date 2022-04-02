@@ -8,24 +8,34 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 {
     public GameObject pauseMenu;
     static Movement instance;
-    public static Movement Instance { get => instance; private set => instance = value; }
+
+    public static Movement Instance
+    {
+        get => instance;
+        private set => instance = value;
+    }
 
     MainCharacterLife lifeSystem;
-    public MainCharacterLife LifeSystem { get => lifeSystem; private set => lifeSystem = value; }
-    
+
+    public MainCharacterLife LifeSystem
+    {
+        get => lifeSystem;
+        private set => lifeSystem = value;
+    }
+
+    private bool isPaused;
+
     //Player Input Related
     PlayerInput playerInput;
     Vector3 inputMove;
     Vector3 dashDir;
     Quaternion moveDirection;
-    
-    [Header("Movement")]
-    public float speed = 1;
+
+    [Header("Movement")] public float speed = 1;
     public float acceleration = .5f;
     public float rotTime = .2f;
 
-    [Header("Dash")]
-    public float dashSpeedMult = 1.5f;
+    [Header("Dash")] public float dashSpeedMult = 1.5f;
     public float dashDurat = 1;
     public float dashCooldown = .3f;
 
@@ -72,7 +82,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         inputMove = new Vector3(input.x, rig.velocity.y, input.y);
 
         //No puede sacar una rotación si el movimiento es zero
-        if (inputMove != Vector3.zero) 
+        if (inputMove != Vector3.zero)
             moveDirection = Quaternion.LookRotation(inputMove);
     }
 
@@ -113,7 +123,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
             dashActualDuration -= Time.deltaTime;
         else if (dashCooldown > 0)
             dashCooldown -= Time.deltaTime;
-        
+
         rig.velocity = Vector3.Lerp(rig.velocity, (dashing ? dashDir : inputMove) * speed, acceleration);
         if (!dashing && inputMove.sqrMagnitude > .03f)
             transform.rotation = Quaternion.Slerp(transform.rotation, moveDirection, rotTime);
@@ -149,11 +159,12 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     }
 
     #region NotImplemented
+
     public void OnCameraMov(InputAction.CallbackContext context)
     {
         //throw new System.NotImplementedException();
     }
-    
+
     public void OnOpenDialog(InputAction.CallbackContext context)
     {
         //throw new System.NotImplementedException();
@@ -161,11 +172,13 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 
     public void OnPause(InputAction.CallbackContext context)
     {
-        if (context.started)
-          // Instantiate(pauseMenu, pauseMenu.transform.position, pauseMenu.transform.rotation);
-        pauseMenu.SetActive(true);
-
-
+        if (context.started && !isPaused)
+        {
+            Instantiate(pauseMenu, pauseMenu.transform.position, pauseMenu.transform.rotation);
+            isPaused = true;
+        }
+        //pauseMenu.SetActive(true);
     }
+
     #endregion
 }

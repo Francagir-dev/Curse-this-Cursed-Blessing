@@ -3,17 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Spanish (es).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Spanish (es).asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Concept escenario.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Concept escenario.PNG.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/Testing/DialogueTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/Testing/DialogueTest.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Transition/ContactEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Transition/ContactEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/Shaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/Shaker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +103,7 @@
       <workItem from="1648712543920" duration="444000" />
       <workItem from="1648832658736" duration="3973000" />
       <workItem from="1648838362375" duration="1314000" />
+      <workItem from="1648910436068" duration="910000" />
     </task>
     <servers />
   </component>
@@ -165,26 +158,26 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs</url>
-          <line>40</line>
+          <line>49</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\UI\PauseManager.cs" initialLine="37" containingFunctionPresentation="method 'StopPause'">
             <startOffsets>
-              <option value="1128" />
+              <option value="1277" />
             </startOffsets>
             <endOffsets>
-              <option value="1148" />
+              <option value="1297" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs</url>
-          <line>29</line>
+          <line>31</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\UI\PauseManager.cs" initialLine="26" containingFunctionPresentation="method 'InitializeFirstSelectedPause'">
             <startOffsets>
-              <option value="870" />
+              <option value="793" />
             </startOffsets>
             <endOffsets>
-              <option value="890" />
+              <option value="813" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -7,10 +8,19 @@ public class PauseManager : MonoBehaviour
 {
     private EventSystem eventSystem;
 
-
     #region PauseEventSystemTime
 
-    /*  /// <summary>
+    private void Awake()
+    {
+        InitializeFirstSelectedPause();
+    }
+
+    private void OnEnable()
+    {
+        InitializeFirstSelectedPause();
+    }
+
+    /// <summary>
       /// Search Event System and assign to local variable
       /// Sets first selected game object variable to first button (Continue game)
       /// Scale time to 0
@@ -18,19 +28,16 @@ public class PauseManager : MonoBehaviour
       void InitializeFirstSelectedPause()
       {
           eventSystem = FindObjectOfType<EventSystem>();
-          GameObject buttonContinue = GameObject.Find("ContinuePause");
-          eventSystem.firstSelectedGameObject = buttonContinue;
-          eventSystem.SetSelectedGameObject(buttonContinue);
-          //nulleamos because Unity
-          eventSystem.firstSelectedGameObject = null;
-          eventSystem.SetSelectedGameObject(null);
-          
-          buttonContinue.GetComponent<Button>().Select();
-          eventSystem.firstSelectedGameObject = buttonContinue;
-          eventSystem.SetSelectedGameObject(buttonContinue);
+          StartCoroutine(ChangeEventSystem( GameObject.Find("ContinuePause")));
           Time.timeScale = 0f;
       }
-  */
+
+    IEnumerator ChangeEventSystem(GameObject itemSelected)
+    {
+        eventSystem.SetSelectedGameObject(null);
+        yield return new WaitForEndOfFrame();
+        eventSystem.SetSelectedGameObject(itemSelected);
+    }
 
     /// <summary>
     /// Sets first selected from event system to null
