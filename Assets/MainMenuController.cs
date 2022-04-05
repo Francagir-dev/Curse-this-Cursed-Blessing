@@ -7,7 +7,7 @@ public class MainMenuController : MonoBehaviour
 {
     public void StartButton()
     {
-        SceneManager.LoadScene("Exploracion1");
+        Transition.Instance.Do("Exploracion1");
     }
 
     public void Options()
