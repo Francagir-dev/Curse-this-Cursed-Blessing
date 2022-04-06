@@ -15,7 +15,7 @@ public class CutsceneManager : MonoBehaviour
 
     PlayableDirector direct;
     public UnityEvent onCutsceneEnd;
-
+   
     private void Awake()
     {
         DialogueManager manag = FindObjectOfType<DialogueManager>();

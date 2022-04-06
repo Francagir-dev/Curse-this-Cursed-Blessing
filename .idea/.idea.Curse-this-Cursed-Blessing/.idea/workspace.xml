@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/InputActions/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/InputActions/PlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/InputActions/PlayerInput.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/InputActions/PlayerInput.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Pruebas/CutsceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Pruebas/CutsceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Dialogues/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Dialogues/DialogueManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +19,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ActivateDialogue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.19.15/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/TimeLine/SubtitleTrack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@1.1.1/Runtime/Settings/LocalizationSettings.cs" root0="SKIP_HIGHLIGHTING" />
@@ -49,10 +55,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="10056">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="10056" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -102,6 +108,9 @@
       <workItem from="1648832658736" duration="3973000" />
       <workItem from="1648838362375" duration="1314000" />
       <workItem from="1648910436068" duration="1171000" />
+      <workItem from="1649163674258" duration="2681000" />
+      <workItem from="1649166959492" duration="3000" />
+      <workItem from="1649167004240" duration="3294000" />
     </task>
     <servers />
   </component>
@@ -179,6 +188,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Dialogues/DialogueManager.cs</url>
+          <line>231</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Dialogues\DialogueManager.cs" initialLine="228" containingFunctionPresentation="method 'WriteText'">
+            <startOffsets>
+              <option value="6598" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6598" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
