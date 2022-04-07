@@ -10,45 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: UI_Texts Shared Data
+  m_Name: deathUI_Secuaz Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: UI_Texts
-  m_TableCollectionNameGuidString: 86d7b47efafda744785c9e5d45fe8270
+  m_TableCollectionName: deathUI_Secuaz
+  m_TableCollectionNameGuidString: d8a25d422bc6610469c7afc11dc29f12
   m_Entries:
-  - m_Id: 12409196544
-    m_Key: pauseTitle
+  - m_Id: 2721986424832
+    m_Key: 1
     m_Metadata:
       m_Items: []
-  - m_Id: 321202245632
-    m_Key: resume
+  - m_Id: 2814189809664
+    m_Key: 2
     m_Metadata:
       m_Items: []
-  - m_Id: 576756994048
-    m_Key: options
+  - m_Id: 2855738585088
+    m_Key: 3
     m_Metadata:
       m_Items: []
-  - m_Id: 711171854336
-    m_Key: exitGame
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2029450846318592
-    m_Key: startGame
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2072352137981952
-    m_Key: restart
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2072475890921472
-    m_Key: mainmenu
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2072966423162880
-    m_Key: back
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2074380394344448
-    m_Key: die
+  - m_Id: 2859760922624
+    m_Key: 4
     m_Metadata:
       m_Items: []
   m_Metadata:
@@ -60,4 +40,4 @@ MonoBehaviour:
     00000000:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1648831914838
+        m_CustomEpoch: 1649326650016

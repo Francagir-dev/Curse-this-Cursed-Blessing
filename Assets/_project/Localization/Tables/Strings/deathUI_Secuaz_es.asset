@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: deathUI_Secuaz_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: d8a25d422bc6610469c7afc11dc29f12, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2721986424832
+    m_Localized: "\xA1Jefa, jefa! \xA1Lo consegu\xED, ya le dije que no era para
+      tanto!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2814189809664
+    m_Localized: "\xA1JA!, sab\xEDa que no eras tan poderoso.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2855738585088
+    m_Localized: "\xA1Te tengo! Ya ver\xE1s cuando se lo cuente a Juan y a\u2026
+      \xBFJohn?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2859760922624
+    m_Localized: "\xA1Hey mira, Johnny, lo tengo! E-Espera, \xBFno era yo Johnny?"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
