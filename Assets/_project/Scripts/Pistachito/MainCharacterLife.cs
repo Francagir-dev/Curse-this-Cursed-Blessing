@@ -68,10 +68,11 @@ public class MainCharacterLife : LifeSystem
 
     void CheckDeath()
     {
-        if (Life == -1)
+        if (Life <= 0)
         {
             dead.SetActive(true);
-            Time.timeScale = 0;
+            dead.GetComponent<DeathMenu>().SetEventSystem();
+            lifeImage.enabled = false;
         }
     }
 
@@ -135,7 +136,7 @@ public class MainCharacterLife : LifeSystem
         }
     }
 
-    //Por temas de velocidad del degradado prefiero pasarlo por su cuente su invencibilidad
+    //Por temas de velocidad del degradado prefiero pasarlo por su cuenta su invencibilidad
 
     IEnumerator CoolDown()
     {
