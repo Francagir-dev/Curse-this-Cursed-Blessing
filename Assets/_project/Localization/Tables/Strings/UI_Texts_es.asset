@@ -34,5 +34,9 @@ MonoBehaviour:
     m_Localized: Salir del juego
     m_Metadata:
       m_Items: []
+  - m_Id: 2029450846318592
+    m_Localized: Empezar juego
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

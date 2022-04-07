@@ -7,12 +7,12 @@ public class MainMenuController : MonoBehaviour
 {
     public void StartButton()
     {
-        SceneManager.LoadScene("Exploracion1");
+        Transition.Instance.Do("Exploracion1");
     }
 
     public void Options()
     {
-        Debug.Log("Opcionse no se nada de ninguna opción");
+        Debug.Log("Opcionse no se nada de ninguna opciï¿½n");
     }
     public void Quit()
     {
