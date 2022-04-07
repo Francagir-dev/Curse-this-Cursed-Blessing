@@ -15,6 +15,8 @@ public class CutsceneManager : MonoBehaviour
 
     PlayableDirector direct;
     public UnityEvent onCutsceneEnd;
+
+    private PlayerInput _player;
    
     private void Awake()
     {
@@ -31,7 +33,18 @@ public class CutsceneManager : MonoBehaviour
         }
 
         direct = GetComponent<PlayableDirector>();
-        direct.stopped += (PlayableDirector a) => Transition.Instance.Do(onCutsceneEnd.Invoke);
+        
+        Movement.Instance.playerInput.Player.Disable();
+        Movement.Instance.playerInput.UIControls.Enable();
+        Movement.Instance.playerInput.UIControls.Skip.performed += ctx => manag.SkipText();
+        _player = new PlayerInput();
+
+        direct.stopped += delegate
+        {
+            Movement.Instance.playerInput.Player.Enable();
+            Movement.Instance.playerInput.UIControls.Disable();
+            Transition.Instance.Do(onCutsceneEnd.Invoke);
+        };
     }
 
     public void Stop()

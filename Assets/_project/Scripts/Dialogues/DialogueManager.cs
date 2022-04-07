@@ -26,7 +26,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private string tableName;
     //public string TableName { set { tableName = value; GetAllKeys(tableName); } }
 
-    private PlayerInput _player;
+    //private PlayerInput _player;
 
     [SerializeField] [Range(0f, 20f)] private float timeChangingText = 5f;
 
@@ -57,11 +57,6 @@ public class DialogueManager : MonoBehaviour
     void OnEnable()
     {
         myString.StringChanged += UpdateString;
-        //StartCoroutine(PrologueText(tableName, timeChangingText));
-        Movement.Instance.playerInput.Player.Disable();
-        Movement.Instance.playerInput.UIControls.Enable();
-        Movement.Instance.playerInput.UIControls.Skip.performed += ctx => SkipText();
-        _player = new PlayerInput();
     }
 
     public void Open()
@@ -84,8 +79,7 @@ public class DialogueManager : MonoBehaviour
     void OnDisable()
     {
         myString.StringChanged -= UpdateString;
-        Movement.Instance.playerInput.Player.Enable();
-        Movement.Instance.playerInput.UIControls.Disable();
+       
     }
 
     void UpdateString(string s)
@@ -100,9 +94,7 @@ public class DialogueManager : MonoBehaviour
 
     public List<string> GetAllKeys(string tableName)
     {
-        //collection = LocalizationEditorSettings.GetStringTableCollection(tableName);
-        //stringTable = collection.GetTable("en") as StringTable;
-        stringTable = LocalizationSettings.StringDatabase.GetTable(tableName);
+       stringTable = LocalizationSettings.StringDatabase.GetTable(tableName);
         List<string> keys = new List<string>();
 
         foreach (var v in stringTable)
@@ -233,7 +225,7 @@ public class DialogueManager : MonoBehaviour
         NextDialogue();
     }
 
-    void SkipText()
+    public void SkipText()
     {
         skipText = true;
     }
