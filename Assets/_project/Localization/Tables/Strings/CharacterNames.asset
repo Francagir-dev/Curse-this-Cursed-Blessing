@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
-  m_Name: Intro BossFight
+  m_Name: CharacterNames
   m_EditorClassIdentifier: 
-  m_SharedTableData: {fileID: 11400000, guid: 1022fcf51abe94741a286bc2f0b5d55b, type: 2}
+  m_SharedTableData: {fileID: 11400000, guid: a72ca933ecdfd9f4297e07625e5fc344, type: 2}
   m_Tables:
-  - {fileID: 11400000, guid: b7272e272f505d84db9195805ecf771d, type: 2}
-  - {fileID: 11400000, guid: 705f0cb06b0b06b45b4070a89731cb82, type: 2}
+  - {fileID: 11400000, guid: 9d763d9612bb1464f87a7c04acc72ba4, type: 2}
+  - {fileID: 11400000, guid: 1c670bc1a0fad1248bb0539276c4854b, type: 2}
   m_Extensions: []
   m_Group: String Table
   references:
