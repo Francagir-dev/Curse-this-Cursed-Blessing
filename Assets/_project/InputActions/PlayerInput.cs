@@ -874,22 +874,33 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""22004088-c206-40ae-ad0e-2ca2a35273fb"",
-                    ""path"": ""<Gamepad>/start"",
+                    ""id"": ""db1f8a5d-cd00-44bd-ab58-0b3a1acb037a"",
+                    ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Gamepad"",
+                    ""groups"": ""Keyboard"",
                     ""action"": ""Skip"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""db1f8a5d-cd00-44bd-ab58-0b3a1acb037a"",
-                    ""path"": ""<Keyboard>/escape"",
+                    ""id"": ""1fceaec3-7b74-4804-9509-6e8b453e90f5"",
+                    ""path"": ""<Keyboard>/enter"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard"",
+                    ""action"": ""Skip"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8945b8fc-8424-4496-8738-11f844e96e88"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
                     ""action"": ""Skip"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false

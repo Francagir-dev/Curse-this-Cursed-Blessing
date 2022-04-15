@@ -10,45 +10,53 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: UI_Texts Shared Data
+  m_Name: CharacterNames Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: UI_Texts
-  m_TableCollectionNameGuidString: 86d7b47efafda744785c9e5d45fe8270
+  m_TableCollectionName: CharacterNames
+  m_TableCollectionNameGuidString: a72ca933ecdfd9f4297e07625e5fc344
   m_Entries:
-  - m_Id: 12409196544
-    m_Key: pauseTitle
+  - m_Id: 7232495616
+    m_Key: Hero
     m_Metadata:
       m_Items: []
-  - m_Id: 321202245632
-    m_Key: resume
+  - m_Id: 105354043392
+    m_Key: Pistachin
     m_Metadata:
       m_Items: []
-  - m_Id: 576756994048
-    m_Key: options
+  - m_Id: 594216951808
+    m_Key: Secuaz
     m_Metadata:
       m_Items: []
-  - m_Id: 711171854336
-    m_Key: exitGame
+  - m_Id: 747262910464
+    m_Key: Jhonny
     m_Metadata:
       m_Items: []
-  - m_Id: 2029450846318592
-    m_Key: startGame
+  - m_Id: 1210209214464
+    m_Key: Jonathan
     m_Metadata:
       m_Items: []
-  - m_Id: 2072352137981952
-    m_Key: restart
+  - m_Id: 1242748624896
+    m_Key: John
     m_Metadata:
       m_Items: []
-  - m_Id: 2072475890921472
-    m_Key: mainmenu
+  - m_Id: 1329398751232
+    m_Key: Juan
     m_Metadata:
       m_Items: []
-  - m_Id: 2072966423162880
-    m_Key: back
+  - m_Id: 1538925207552
+    m_Key: Aprendiz
     m_Metadata:
       m_Items: []
-  - m_Id: 2074380394344448
-    m_Key: die
+  - m_Id: 1639433314304
+    m_Key: Narrador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1756144017408
+    m_Key: Estatua1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1792751902720
+    m_Key: Estatua2
     m_Metadata:
       m_Items: []
   m_Metadata:
@@ -60,4 +68,4 @@ MonoBehaviour:
     00000000:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1648831914838
+        m_CustomEpoch: 1649324860771

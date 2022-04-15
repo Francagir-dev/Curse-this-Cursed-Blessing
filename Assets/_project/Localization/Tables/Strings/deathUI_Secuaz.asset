@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
-  m_Name: Intro BossFight
+  m_Name: deathUI_Secuaz
   m_EditorClassIdentifier: 
-  m_SharedTableData: {fileID: 11400000, guid: 1022fcf51abe94741a286bc2f0b5d55b, type: 2}
+  m_SharedTableData: {fileID: 11400000, guid: d8a25d422bc6610469c7afc11dc29f12, type: 2}
   m_Tables:
-  - {fileID: 11400000, guid: b7272e272f505d84db9195805ecf771d, type: 2}
-  - {fileID: 11400000, guid: 705f0cb06b0b06b45b4070a89731cb82, type: 2}
+  - {fileID: 11400000, guid: 4070419fa90d8da4da022198984c47b9, type: 2}
+  - {fileID: 11400000, guid: ecde2772f44b427439776d32ee723964, type: 2}
   m_Extensions: []
   m_Group: String Table
   references:

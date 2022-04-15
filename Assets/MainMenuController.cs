@@ -12,7 +12,7 @@ public class MainMenuController : MonoBehaviour
 
     public void Options()
     {
-        Debug.Log("Opcionse no se nada de ninguna opción");
+        Debug.Log("Opcionse no se nada de ninguna opciï¿½n");
     }
     public void Quit()
     {

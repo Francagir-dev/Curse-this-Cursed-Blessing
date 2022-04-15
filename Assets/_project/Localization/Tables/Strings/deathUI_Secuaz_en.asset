@@ -10,40 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: InnocentEnemies_klng
+  m_Name: deathUI_Secuaz_en
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: klng
-  m_SharedData: {fileID: 11400000, guid: f5339fb718f9e6d46b45fe23f59ce39f, type: 2}
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: d8a25d422bc6610469c7afc11dc29f12, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 288055259963392
-    m_Localized: 
+  - m_Id: 2721986424832
+    m_Localized: "Boss, boss! I did it! I told you it wasn\u2019t that big of a deal!\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 288056098824192
-    m_Localized: 
+  - m_Id: 2814189809664
+    m_Localized: "HA! I knew you weren\u2019t that powerful."
     m_Metadata:
       m_Items: []
-  - m_Id: 288056841216000
-    m_Localized: 
+  - m_Id: 2855738585088
+    m_Localized: "I got you! You\u2019ll see when I tell Juan and\u2026 John?"
     m_Metadata:
       m_Items: []
-  - m_Id: 288057713631232
-    m_Localized: 
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288058518937600
-    m_Localized: 
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288059320049664
-    m_Localized: 
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288060192464896
-    m_Localized: 
+  - m_Id: 2859760922624
+    m_Localized: "Hey look, Johnny, I got him! W-Wait, wasn\u2019t I Johnny?"
     m_Metadata:
       m_Items: []
   references:

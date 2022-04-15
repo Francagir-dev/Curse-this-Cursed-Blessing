@@ -10,48 +10,56 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: UI_Texts_en
+  m_Name: CharacterNames_en
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: en
-  m_SharedData: {fileID: 11400000, guid: 86d7b47efafda744785c9e5d45fe8270, type: 2}
+  m_SharedData: {fileID: 11400000, guid: a72ca933ecdfd9f4297e07625e5fc344, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 12409196544
-    m_Localized: Pause
+  - m_Id: 7232495616
+    m_Localized: Hero
     m_Metadata:
       m_Items: []
-  - m_Id: 321202245632
-    m_Localized: Resume Game
+  - m_Id: 105354043392
+    m_Localized: Pistacheen
     m_Metadata:
       m_Items: []
-  - m_Id: 576756994048
-    m_Localized: Options
+  - m_Id: 594216951808
+    m_Localized: Minion
     m_Metadata:
       m_Items: []
-  - m_Id: 711171854336
-    m_Localized: Exit
+  - m_Id: 747262910464
+    m_Localized: Jhonny
     m_Metadata:
       m_Items: []
-  - m_Id: 2029450846318592
-    m_Localized: Start Game
+  - m_Id: 1210209214464
+    m_Localized: Jonathan
     m_Metadata:
       m_Items: []
-  - m_Id: 2072352137981952
-    m_Localized: ReStart
+  - m_Id: 1242748624896
+    m_Localized: John
     m_Metadata:
       m_Items: []
-  - m_Id: 2072475890921472
-    m_Localized: Main Menu
+  - m_Id: 1329398751232
+    m_Localized: Juan
     m_Metadata:
       m_Items: []
-  - m_Id: 2072966423162880
-    m_Localized: Back
+  - m_Id: 1538925207552
+    m_Localized: Aprentince
     m_Metadata:
       m_Items: []
-  - m_Id: 2074380394344448
-    m_Localized: You died!
+  - m_Id: 1639433314304
+    m_Localized: Narrator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1756144017408
+    m_Localized: Statue1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1792751902720
+    m_Localized: Statue2
     m_Metadata:
       m_Items: []
   references:

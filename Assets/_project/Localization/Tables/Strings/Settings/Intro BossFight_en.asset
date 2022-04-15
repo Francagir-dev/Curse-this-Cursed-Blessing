@@ -17,6 +17,94 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 1022fcf51abe94741a286bc2f0b5d55b, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 424667320320
+    m_Localized: "Yeah, it should be around here\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 427632693248
+    m_Localized: "But, there\u2019s a ton of books."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 429880840192
+    m_Localized: "That\u2019s what you\u2019re here for! Start reading."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 431994769408
+    m_Localized: And what about the others?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434490380288
+    m_Localized: "Don\u2019t worry, as long as the door is closed they can\u2019t
+      get in."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 437711605760
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439796174848
+    m_Localized: You closed the door, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 442157568000
+    m_Localized: ... No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 445198438400
+    m_Localized: "... Well, it\u2019s not too late."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 453473800192
+    m_Localized: Goddammit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454367186944
+    m_Localized: "I caught you\u2026\u201D \u201CThere\u2019s no escape, this is
+      a dead end."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455164104704
+    m_Localized: What do I do now?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455923273728
+    m_Localized: "Do you believe in any gods? I\u2019d pick one and start praying."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456715997184
+    m_Localized: Finally, now I can show the world my worth!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457420640256
+    m_Localized: Your worth?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 458192392192
+    m_Localized: "Oh my god, he spoke to me, he\u2019s spoken to me!\u201D \u201CNo
+      no no Okla, now\u2019s not the time, you can ask for his autograph later\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 459001892864
+    m_Localized: "Maybe\u2026 I can do the same thing I did with the minion."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 459584901120
+    m_Localized: "You\u2019re kidding, right? There\u2019s no way it\u2019ll work
+      with her."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 460448927744
+    m_Localized: Do you have a better idea?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 461191319552
+    m_Localized: ... Go on then, tough guy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462793543680
+    m_Localized: "Ahem, my name is (real name), and now you\u2019ll fight me!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

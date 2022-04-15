@@ -34,5 +34,25 @@ MonoBehaviour:
     m_Localized: Salir del juego
     m_Metadata:
       m_Items: []
+  - m_Id: 2029450846318592
+    m_Localized: Empezar juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2072352137981952
+    m_Localized: Reintentar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2072475890921472
+    m_Localized: Menu Principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2072966423162880
+    m_Localized: "Atr\xE1s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2074380394344448
+    m_Localized: "\xA1Has muerto!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

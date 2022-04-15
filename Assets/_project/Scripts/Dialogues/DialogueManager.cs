@@ -1,9 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using TMPro;
-using UnityEditor.Localization;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Localization;
@@ -19,6 +17,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] LocalizeStringEvent _stringEvent;
     public LocalizedString myString;
 
+    private bool skipText;
+
     //private List<string> keys = new List<string>();
     public int showToKey = 0;
     int currKey = 0;
@@ -26,11 +26,12 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private string tableName;
     //public string TableName { set { tableName = value; GetAllKeys(tableName); } }
 
+    //private PlayerInput _player;
+
     [SerializeField] [Range(0f, 20f)] private float timeChangingText = 5f;
 
     [SerializeField] private float timeBetweenChar = .1f;
 
-    //private StringTableCollection collection;
     private StringTable stringTable;
     [SerializeField] private bool automaticText;
 
@@ -43,8 +44,10 @@ public class DialogueManager : MonoBehaviour
     private void Awake()
     {
         anim = GetComponent<Animator>();
+
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.GetLocale("es");
     }
+
 
     private void Start()
     {
@@ -54,7 +57,6 @@ public class DialogueManager : MonoBehaviour
     void OnEnable()
     {
         myString.StringChanged += UpdateString;
-        //StartCoroutine(PrologueText(tableName, timeChangingText));
     }
 
     public void Open()
@@ -77,6 +79,7 @@ public class DialogueManager : MonoBehaviour
     void OnDisable()
     {
         myString.StringChanged -= UpdateString;
+       
     }
 
     void UpdateString(string s)
@@ -91,12 +94,9 @@ public class DialogueManager : MonoBehaviour
 
     public List<string> GetAllKeys(string tableName)
     {
-        //collection = LocalizationEditorSettings.GetStringTableCollection(tableName);
-        //stringTable = collection.GetTable("en") as StringTable;
-        stringTable = LocalizationSettings.StringDatabase.GetTable(tableName);
-        List <string> keys = new List <string>();
+       stringTable = LocalizationSettings.StringDatabase.GetTable(tableName);
+        List<string> keys = new List<string>();
 
-    
         foreach (var v in stringTable)
         {
             keys.Add(stringTable.SharedData.GetEntry(v.Key).Key);
@@ -124,10 +124,11 @@ public class DialogueManager : MonoBehaviour
                 {
                     timer -= Time.deltaTime;
                     //TODO: Poner input de verdad, esto es temporal y para testear
-                    if (Keyboard.current.anyKey.wasReleasedThisFrame)
+                    if (skipText)
                     {
                         displayText = translatedText;
                         j = translatedText.Length;
+                        skipText = false;
                         break;
                     }
 
@@ -143,8 +144,10 @@ public class DialogueManager : MonoBehaviour
             if (automaticText)
                 yield return new WaitForSeconds(timeBetweenSentences);
             else
-                yield return new WaitUntil(() => Keyboard.current.anyKey.wasReleasedThisFrame);
+                yield return new WaitUntil(() => skipText);
         }
+
+        skipText = false;
     }
 
     void NextDialogue()
@@ -155,12 +158,12 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        string name =  GetAllKeys(tableName)[currKey].Split('_')[0];
+        string name = GetAllKeys(tableName)[currKey].Split('_')[0];
 
         switch (name)
         {
             case "Hero":
-                name = "Hero�";
+                name = "Héroe";
                 break;
             case "Pistachin":
                 name = "Pistachin";
@@ -178,7 +181,8 @@ public class DialogueManager : MonoBehaviour
 
         textName.text = name;
 
-        string translatedText = LocalizationSettings.StringDatabase.GetLocalizedString(tableName,  GetAllKeys(tableName)[currKey]);
+        string translatedText =
+            LocalizationSettings.StringDatabase.GetLocalizedString(tableName, GetAllKeys(tableName)[currKey]);
         StartCoroutine(WriteText(translatedText, timeChangingText));
         currKey++;
     }
@@ -195,10 +199,11 @@ public class DialogueManager : MonoBehaviour
             {
                 timer -= Time.deltaTime;
                 //TODO: Poner input de verdad, esto es temporal y para testear
-                if (Keyboard.current.anyKey.wasReleasedThisFrame)
+                if (skipText)
                 {
                     displayText = translatedText;
                     j = translatedText.Length;
+                    skipText = false;
                     break;
                 }
 
@@ -214,10 +219,14 @@ public class DialogueManager : MonoBehaviour
         if (automaticText)
             yield return new WaitForSeconds(timeBetweenSentences);
         else
-            yield return new WaitUntil(() => Keyboard.current.anyKey.wasReleasedThisFrame);
-
+            yield return new WaitUntil(() => skipText);
+        skipText = false;
         yield return null;
-
         NextDialogue();
+    }
+
+    public void SkipText()
+    {
+        skipText = true;
     }
 }

@@ -26,7 +26,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     public bool isPaused;
 
     //Player Input Related
-    PlayerInput playerInput;
+  public PlayerInput playerInput;
     Vector3 inputMove;
     Vector3 dashDir;
     Quaternion moveDirection;

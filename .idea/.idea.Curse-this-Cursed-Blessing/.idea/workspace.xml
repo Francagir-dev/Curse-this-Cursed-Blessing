@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Spanish (es).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Spanish (es).asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/EN/IntroCap1_en.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/EN/IntroCap1_en.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/InnocentEnemies_klng.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/InnocentEnemies_klng.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Intro BossFight.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Intro BossFight.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +22,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.19.15/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/TimeLine/SubtitleTrack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@1.1.1/Runtime/Settings/LocalizationSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/TimeLine/SubtitleTrack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ActivateDialogue.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -102,6 +110,11 @@
       <workItem from="1648832658736" duration="3973000" />
       <workItem from="1648838362375" duration="1314000" />
       <workItem from="1648910436068" duration="1171000" />
+      <workItem from="1649163674258" duration="2681000" />
+      <workItem from="1649166959492" duration="3000" />
+      <workItem from="1649167004240" duration="3294000" />
+      <workItem from="1649316141405" duration="429000" />
+      <workItem from="1649327178780" duration="24000" />
     </task>
     <servers />
   </component>
@@ -121,7 +134,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -157,28 +169,20 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs</url>
           <line>62</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\UI\PauseManager.cs" initialLine="37" containingFunctionPresentation="method 'StopPause'">
-            <startOffsets>
-              <option value="1590" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1610" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\UI\PauseManager.cs" initialLine="37" containingFunctionPresentation="method 'StopPause'" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs</url>
           <line>44</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\UI\PauseManager.cs" initialLine="26" containingFunctionPresentation="method 'InitializeFirstSelectedPause'">
-            <startOffsets>
-              <option value="1106" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1126" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\UI\PauseManager.cs" initialLine="26" containingFunctionPresentation="method 'InitializeFirstSelectedPause'" />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Dialogues/DialogueManager.cs</url>
+          <line>231</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Dialogues\DialogueManager.cs" initialLine="228" containingFunctionPresentation="method 'WriteText'" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
