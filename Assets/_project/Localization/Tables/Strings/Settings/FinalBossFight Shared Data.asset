@@ -16,251 +16,295 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: 07872213d9b8316428c0d90fee47895f
   m_Entries:
   - m_Id: 1743310360576
-    m_Key: 1
+    m_Key: Aprendiz_1
     m_Metadata:
       m_Items: []
   - m_Id: 1749304020992
-    m_Key: 2
+    m_Key: Pistachin_1
     m_Metadata:
       m_Items: []
   - m_Id: 1751950626816
-    m_Key: 3
+    m_Key: Hero_1
     m_Metadata:
       m_Items: []
   - m_Id: 1754181996544
-    m_Key: 4
+    m_Key: Hero_2
     m_Metadata:
       m_Items: []
   - m_Id: 1756732133376
-    m_Key: 5
+    m_Key: Pistachin_2
     m_Metadata:
       m_Items: []
   - m_Id: 1759135469568
-    m_Key: 6
+    m_Key: Hero_3
     m_Metadata:
       m_Items: []
   - m_Id: 1761618497536
-    m_Key: 7
+    m_Key: Pistachin_3
     m_Metadata:
       m_Items: []
   - m_Id: 1764617424896
-    m_Key: 8
+    m_Key: Hero_4
     m_Metadata:
       m_Items: []
   - m_Id: 1770812411904
-    m_Key: 9
+    m_Key: Aprendiz_2
     m_Metadata:
       m_Items: []
   - m_Id: 1778341187584
-    m_Key: 10
+    m_Key: Hero_5
     m_Metadata:
       m_Items: []
   - m_Id: 1779335237632
-    m_Key: 11
+    m_Key: Pistachin_4
     m_Metadata:
       m_Items: []
   - m_Id: 1780106989568
-    m_Key: 12
+    m_Key: Hero_6
     m_Metadata:
       m_Items: []
   - m_Id: 1780991987712
-    m_Key: 13
+    m_Key: Pistachin_5
     m_Metadata:
       m_Items: []
   - m_Id: 1781650493440
-    m_Key: 14
+    m_Key: Pistachin_6
     m_Metadata:
       m_Items: []
   - m_Id: 1782447411200
-    m_Key: 15
+    m_Key: Aprendiz_3
     m_Metadata:
       m_Items: []
   - m_Id: 1783705702400
-    m_Key: 16
+    m_Key: Pistachin_7
     m_Metadata:
       m_Items: []
   - m_Id: 1784380985344
-    m_Key: 17
+    m_Key: Aprendiz_4
     m_Metadata:
       m_Items: []
   - m_Id: 1784989159424
-    m_Key: 18
+    m_Key: Pistachin_8
     m_Metadata:
       m_Items: []
   - m_Id: 1785605722112
-    m_Key: 19
+    m_Key: Aprendiz_5
     m_Metadata:
       m_Items: []
   - m_Id: 1786201313280
-    m_Key: 20
+    m_Key: Pistachin_9
     m_Metadata:
       m_Items: []
   - m_Id: 1786830458880
-    m_Key: 21
+    m_Key: Pistachin_10
     m_Metadata:
       m_Items: []
   - m_Id: 1787396689920
-    m_Key: 22
+    m_Key: Aprendiz_6
     m_Metadata:
       m_Items: []
   - m_Id: 1787988086784
-    m_Key: 23
+    m_Key: Pistachin_11
     m_Metadata:
       m_Items: []
   - m_Id: 1788617232384
-    m_Key: 24
+    m_Key: Aprendiz_7
     m_Metadata:
       m_Items: []
   - m_Id: 1789170880512
-    m_Key: 25
+    m_Key: Hero_7
     m_Metadata:
       m_Items: []
   - m_Id: 1789846163456
-    m_Key: 26
+    m_Key: Aprendiz_8
     m_Metadata:
       m_Items: []
   - m_Id: 1790466920448
-    m_Key: 27
+    m_Key: Hero_8
     m_Metadata:
       m_Items: []
   - m_Id: 1791100260352
-    m_Key: 28
+    m_Key: Aprendiz_9
     m_Metadata:
       m_Items: []
   - m_Id: 1791683268608
-    m_Key: 29
+    m_Key: Hero_9
     m_Metadata:
       m_Items: []
   - m_Id: 1792270471168
-    m_Key: 30
+    m_Key: Aprendiz_10
     m_Metadata:
       m_Items: []
   - m_Id: 1792857673728
-    m_Key: 31
+    m_Key: Hero_10
     m_Metadata:
       m_Items: []
   - m_Id: 1793503596544
-    m_Key: 32
+    m_Key: Pistachin_12
     m_Metadata:
       m_Items: []
   - m_Id: 1794103382016
-    m_Key: 33
+    m_Key: Hero_11
     m_Metadata:
       m_Items: []
   - m_Id: 1794749304832
-    m_Key: 34
+    m_Key: Aprendiz_11
     m_Metadata:
       m_Items: []
   - m_Id: 1795365867520
-    m_Key: 35
+    m_Key: Pistachin_13
     m_Metadata:
       m_Items: []
   - m_Id: 1796007596032
-    m_Key: 36
+    m_Key: Aprendiz_12
     m_Metadata:
       m_Items: []
   - m_Id: 1797194584064
-    m_Key: 37
+    m_Key: Pistachin_14
     m_Metadata:
       m_Items: []
   - m_Id: 1797777592320
-    m_Key: 38
+    m_Key: Aprendiz_13
     m_Metadata:
       m_Items: []
   - m_Id: 1798377377792
-    m_Key: 39
+    m_Key: Pistachin_15
     m_Metadata:
       m_Items: []
   - m_Id: 1799010717696
-    m_Key: 40
+    m_Key: Aprendiz_14
     m_Metadata:
       m_Items: []
   - m_Id: 1799635668992
-    m_Key: 41
+    m_Key: Hero_12
     m_Metadata:
       m_Items: []
   - m_Id: 1800252231680
-    m_Key: 42
+    m_Key: Pistachin_16
     m_Metadata:
       m_Items: []
   - m_Id: 1800965263360
-    m_Key: 43
+    m_Key: Aprendiz_15
     m_Metadata:
       m_Items: []
   - m_Id: 1801514717184
-    m_Key: 44
+    m_Key: Pistachin_17
     m_Metadata:
       m_Items: []
   - m_Id: 1802152251392
-    m_Key: 45
+    m_Key: Aprendiz_16
     m_Metadata:
       m_Items: []
   - m_Id: 1802752036864
-    m_Key: 46
+    m_Key: Pistachin_18
     m_Metadata:
       m_Items: []
   - m_Id: 1803385376768
-    m_Key: 47
+    m_Key: Hero_13
     m_Metadata:
       m_Items: []
   - m_Id: 1804027105280
-    m_Key: 48
+    m_Key: Pistachin_19
     m_Metadata:
       m_Items: []
   - m_Id: 1804652056576
-    m_Key: 49
+    m_Key: Hero_14
     m_Metadata:
       m_Items: []
   - m_Id: 1805256036352
-    m_Key: 50
+    m_Key: Pistachin_20
     m_Metadata:
       m_Items: []
   - m_Id: 1805969068032
-    m_Key: 515
+    m_Key: Hero_15
     m_Metadata:
       m_Items: []
   - m_Id: 1806694682624
-    m_Key: 52
+    m_Key: Pistachin_21
     m_Metadata:
       m_Items: []
   - m_Id: 1807336411136
-    m_Key: 53
+    m_Key: Aprendiz_17
     m_Metadata:
       m_Items: []
   - m_Id: 1807969751040
-    m_Key: 54
+    m_Key: Ambos_1
     m_Metadata:
       m_Items: []
   - m_Id: 1808598896640
-    m_Key: 55
+    m_Key: Aprendiz_18
     m_Metadata:
       m_Items: []
   - m_Id: 1809269985280
-    m_Key: 56
+    m_Key: Pistachin_22
     m_Metadata:
       m_Items: []
   - m_Id: 1809999794176
-    m_Key: 57
+    m_Key: Hero_16
     m_Metadata:
       m_Items: []
   - m_Id: 1810645716992
-    m_Key: 58
+    m_Key: Aprendiz_19
     m_Metadata:
       m_Items: []
   - m_Id: 1811362942976
-    m_Key: 59
+    m_Key: Hero_17
     m_Metadata:
       m_Items: []
   - m_Id: 1812021448704
-    m_Key: 60
+    m_Key: Pistachin_23
     m_Metadata:
       m_Items: []
   - m_Id: 1812692537344
-    m_Key: 61
+    m_Key: Aprendiz_20
     m_Metadata:
       m_Items: []
   - m_Id: 1813376208896
-    m_Key: 62
+    m_Key: Hero_18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15570626041966592
+    m_Key: Hero_19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571105203449856
+    m_Key: Secuaz_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571146756419584
+    m_Key: Secuaz_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571418543124480
+    m_Key: Secuaz_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571596876541952
+    m_Key: Aprendiz_21
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571720847585280
+    m_Key: Secuaces_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572191071006720
+    m_Key: Aprendiz_22
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572353575120896
+    m_Key: Aprendiz_23
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572608190345216
+    m_Key: Aprendiz_24
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573080515112960
+    m_Key: Aprendiz_25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573190707867648
+    m_Key: Aprendiz_26
     m_Metadata:
       m_Items: []
   m_Metadata:

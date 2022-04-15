@@ -260,7 +260,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1811362942976
-    m_Localized: ... They used to put more effort into these things.
+    m_Localized: ... They used to put more effort into these things...
     m_Metadata:
       m_Items: []
   - m_Id: 1812021448704
@@ -273,6 +273,46 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1813376208896
     m_Localized: ... God, deliver me from this pair.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15570626041966592
+    m_Localized: Why do I even bother asking.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571105203449856
+    m_Localized: Boss, be careful!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571146756419584
+    m_Localized: That supreme being is very powerful!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571418543124480
+    m_Localized: "In fact, it\u2019s there!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571596876541952
+    m_Localized: "I know, I\u2019ve seen it first hand, I\u2019m his apprentice now!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571720847585280
+    m_Localized: "I\u2019m sorry, what? Then, what\u2019s gonna happen to us now?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572191071006720
+    m_Localized: "I\u2019m sure you will find your way."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572353575120896
+    m_Localized: Juan, remember to be kind to your brothers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572608190345216
+    m_Localized: Jonathan, stop flirting with other barrels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573080515112960
+    m_Localized: John, remember to blink every once in a while.
     m_Metadata:
       m_Items: []
   references:
