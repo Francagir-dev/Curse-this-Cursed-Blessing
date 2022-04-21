@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,7 +16,15 @@ public class SkipDialogueBehaviour : PlayableBehaviour
         if (!Application.isPlaying || doOnce) return;
 
         DialogueManager manag = playerData as DialogueManager;
-        int skip = skipToKey[0].Value;
+        int skip;
+        try
+        {
+            skip = skipToKey[0].Value;
+        }
+        catch (Exception e)
+        {
+            skip = 0;
+        }
 
         if (condition != "")
         {

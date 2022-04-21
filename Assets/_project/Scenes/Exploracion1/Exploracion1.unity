@@ -2938,6 +2938,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &140397789
 GameObject:
   m_ObjectHideFlags: 0
@@ -13715,7 +13727,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606119209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.191797, y: -30.542458, z: 39.815727}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 308992520}
@@ -15756,6 +15768,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5735614351504103271, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: current
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735614351504103271, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: maximum
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735614351504103271, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: minimum
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898276805363507838, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: maxScare
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 8898276805363507838, guid: 28257eb53b430144d94d310dd8532597, type: 3}
       propertyPath: onDefeat.m_PersistentCalls.m_Calls.Array.size
       value: 4
@@ -16462,9 +16490,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5735614351504103271, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: current
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735614351504103271, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: maximum
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735614351504103271, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: minimum
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8898276805363507838, guid: 28257eb53b430144d94d310dd8532597, type: 3}
       propertyPath: scare
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898276805363507838, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: maxScare
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8898276805363507838, guid: 28257eb53b430144d94d310dd8532597, type: 3}
       propertyPath: scareLife
@@ -20422,7 +20466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8630369497652631548, guid: 0c2123f680977f346beb43e5d7025cea, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.38999748
+      value: -0.38999557
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2123f680977f346beb43e5d7025cea, type: 3}
@@ -25954,6 +25998,7 @@ GameObject:
   - component: {fileID: 1246805411}
   - component: {fileID: 1246805410}
   - component: {fileID: 1246805413}
+  - component: {fileID: 1246805414}
   m_Layer: 0
   m_Name: Juan(Trigger)
   m_TagString: Untagged
@@ -26088,7 +26133,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1246805414}
+        m_TargetAssemblyTypeName: ActivateDialogue, Assembly-CSharp
+        m_MethodName: DialogueStatus
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   teleportTo: {fileID: 248617186}
+--- !u!114 &1246805414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246805408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04bfa04c4603924fabddf261febf48d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 142414703}
 --- !u!1001 &1247985830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26550,6 +26620,7 @@ GameObject:
   - component: {fileID: 1264675450}
   - component: {fileID: 1264675449}
   - component: {fileID: 1264675452}
+  - component: {fileID: 1264675453}
   m_Layer: 0
   m_Name: John(Trigger)
   m_TagString: Untagged
@@ -26684,7 +26755,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1264675453}
+        m_TargetAssemblyTypeName: ActivateDialogue, Assembly-CSharp
+        m_MethodName: DialogueStatus
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   teleportTo: {fileID: 248617186}
+--- !u!114 &1264675453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264675447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04bfa04c4603924fabddf261febf48d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 142414703}
 --- !u!1001 &1264848552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28165,9 +28261,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5735614351504103271, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: current
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735614351504103271, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: maximum
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735614351504103271, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: minimum
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8898276805363507838, guid: 28257eb53b430144d94d310dd8532597, type: 3}
       propertyPath: scare
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898276805363507838, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: maxScare
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8898276805363507838, guid: 28257eb53b430144d94d310dd8532597, type: 3}
       propertyPath: scareLife
@@ -32181,15 +32293,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 573745343135511859, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.1
+      value: 25.1
       objectReference: {fileID: 0}
     - target: {fileID: 573745343135511859, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.432457
+      value: 1.91
       objectReference: {fileID: 0}
     - target: {fileID: 573745343135511859, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -75.7
+      value: 70.5
       objectReference: {fileID: 0}
     - target: {fileID: 573745343135511859, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -45037,9 +45149,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5735614351504103271, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: current
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735614351504103271, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: maximum
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735614351504103271, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: minimum
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8898276805363507838, guid: 28257eb53b430144d94d310dd8532597, type: 3}
       propertyPath: scare
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898276805363507838, guid: 28257eb53b430144d94d310dd8532597, type: 3}
+      propertyPath: maxScare
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8898276805363507838, guid: 28257eb53b430144d94d310dd8532597, type: 3}
       propertyPath: scareLife
@@ -48186,6 +48314,7 @@ GameObject:
   - component: {fileID: 2130819510}
   - component: {fileID: 2130819509}
   - component: {fileID: 2130819512}
+  - component: {fileID: 2130819513}
   m_Layer: 0
   m_Name: Johnathan(Trigger)
   m_TagString: Untagged
@@ -48320,7 +48449,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2130819513}
+        m_TargetAssemblyTypeName: ActivateDialogue, Assembly-CSharp
+        m_MethodName: DialogueStatus
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   teleportTo: {fileID: 248617186}
+--- !u!114 &2130819513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130819507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04bfa04c4603924fabddf261febf48d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 142414703}
 --- !u!4 &2135570216 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: eaa21415609985b4cb7d15457e68cbc4, type: 3}

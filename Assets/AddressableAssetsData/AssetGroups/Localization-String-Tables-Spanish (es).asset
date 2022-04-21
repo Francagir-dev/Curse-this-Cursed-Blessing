@@ -101,6 +101,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     - Preload
+  - m_GUID: ecde2772f44b427439776d32ee723964
+    m_Address: deathUI_Secuaz_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
   m_SchemaSet:

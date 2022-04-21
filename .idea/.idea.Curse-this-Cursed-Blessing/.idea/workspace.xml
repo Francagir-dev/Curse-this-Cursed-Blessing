@@ -6,11 +6,8 @@
       <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Spanish (es).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Spanish (es).asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/EN/IntroCap1_en.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/EN/IntroCap1_en.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/InnocentEnemies_klng.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/InnocentEnemies_klng.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Intro BossFight.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Intro BossFight.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/TimeLine/SkipDialogueBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/TimeLine/SkipDialogueBehaviour.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +18,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.19.15/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@1.1.1/Runtime/Settings/LocalizationSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/TimeLine/SubtitleTrack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ActivateDialogue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.19.15/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/TimeLine/SubtitleTrack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@1.1.1/Runtime/Settings/LocalizationSettings.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -115,6 +112,7 @@
       <workItem from="1649167004240" duration="3294000" />
       <workItem from="1649316141405" duration="429000" />
       <workItem from="1649327178780" duration="24000" />
+      <workItem from="1650549332064" duration="1423000" />
     </task>
     <servers />
   </component>
@@ -134,6 +132,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -180,7 +179,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Dialogues/DialogueManager.cs</url>
-          <line>231</line>
+          <line>223</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Dialogues\DialogueManager.cs" initialLine="228" containingFunctionPresentation="method 'WriteText'" />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
