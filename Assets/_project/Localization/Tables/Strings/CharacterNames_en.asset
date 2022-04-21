@@ -62,5 +62,13 @@ MonoBehaviour:
     m_Localized: Statue2
     m_Metadata:
       m_Items: []
+  - m_Id: 2897018643640320
+    m_Localized: Hero & Pistacheen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2900050341097472
+    m_Localized: Minions
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

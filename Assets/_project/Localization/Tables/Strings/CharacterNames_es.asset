@@ -62,5 +62,13 @@ MonoBehaviour:
     m_Localized: Estatua 2
     m_Metadata:
       m_Items: []
+  - m_Id: 2897018643640320
+    m_Localized: "H\xE9roe & Pistachin"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2900050341097472
+    m_Localized: Secuaces
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

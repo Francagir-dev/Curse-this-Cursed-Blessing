@@ -272,5 +272,46 @@ MonoBehaviour:
     m_Localized: "... Dios, lib\xE9rame de este par."
     m_Metadata:
       m_Items: []
+  - m_Id: 15570626041966592
+    m_Localized: "Los que faltaban\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571105203449856
+    m_Localized: "\xA1Jefa, tenga cuidado!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571146756419584
+    m_Localized: "\xA1Ese ser supremo es muy poderoso!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571418543124480
+    m_Localized: "De hecho, \xA1est\xE1 ah\xED!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571596876541952
+    m_Localized: "Lo s\xE9, lo he comprobado de primera mano, \xA1ahora soy su aprendiz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571720847585280
+    m_Localized: "\xBFC\xF3mo dice? Entonces, \xA1\xBFqu\xE9 ser\xE1 de nosotros
+      ahora?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572191071006720
+    m_Localized: "Estoy segura de que encontrar\xE9is vuestro camino."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572353575120896
+    m_Localized: Juan, recuerda ser bueno con tus hermanos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572608190345216
+    m_Localized: Jonathan, deja de tontear con los otros barriles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573080515112960
+    m_Localized: "John, recuerda pesta\xF1ear de vez en cuando."
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

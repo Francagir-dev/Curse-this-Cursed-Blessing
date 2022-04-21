@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
     int currKey = 0;
 
     [SerializeField] private string tableName;
-    //public string TableName { set { tableName = value; GetAllKeys(tableName); } }
+    public string TableName { set { tableName = value; /*GetAllKeys(tableName);*/ } }
 
     //private PlayerInput _player;
 
