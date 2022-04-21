@@ -21,7 +21,19 @@ public class CutsceneManager : MonoBehaviour
     private void Awake()
     {
         DialogueManager manag = FindObjectOfType<DialogueManager>();
-      //  manag.TableName = dialogueTableName;
+        manag.TableName = dialogueTableName;
+
+        Movement.Instance.playerInput.Player.Disable();
+        Movement.Instance.playerInput.UIControls.Enable();
+        Movement.Instance.playerInput.UIControls.Skip.performed += ctx => manag.SkipText();
+        _player = new PlayerInput();
+
+        manag.onDialogueEnd += delegate
+        {
+            Movement.Instance.playerInput.Player.Enable();
+            Movement.Instance.playerInput.UIControls.Disable();
+            Transition.Instance.Do(onCutsceneEnd.Invoke);
+        };
 
         if (dialogueOnly) 
         {
@@ -29,15 +41,12 @@ public class CutsceneManager : MonoBehaviour
             manag.Skip(beginAtKey);
             manag.showToKey = endAtKey;
             manag.Open();
+
+
             return;
         }
 
         direct = GetComponent<PlayableDirector>();
-        
-        Movement.Instance.playerInput.Player.Disable();
-        Movement.Instance.playerInput.UIControls.Enable();
-        Movement.Instance.playerInput.UIControls.Skip.performed += ctx => manag.SkipText();
-        _player = new PlayerInput();
 
         direct.stopped += delegate
         {
