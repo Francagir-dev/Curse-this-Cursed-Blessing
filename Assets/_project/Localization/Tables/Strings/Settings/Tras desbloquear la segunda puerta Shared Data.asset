@@ -16,27 +16,27 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: 1855306796bbc364e832b43a6c5a2817
   m_Entries:
   - m_Id: 57443422208
-    m_Key: 1
+    m_Key: Aprendiz_1
     m_Metadata:
       m_Items: []
   - m_Id: 61490925568
-    m_Key: 2
+    m_Key: Aprendiz_2
     m_Metadata:
       m_Items: []
   - m_Id: 64942837760
-    m_Key: 3
+    m_Key: Aprendiz_3
     m_Metadata:
       m_Items: []
   - m_Id: 70689034240
-    m_Key: 4
+    m_Key: Aprendiz_4
     m_Metadata:
       m_Items: []
   - m_Id: 73453080576
-    m_Key: 5
+    m_Key: Hero_1
     m_Metadata:
       m_Items: []
   - m_Id: 76598808576
-    m_Key: 6
+    m_Key: Pistachin_1
     m_Metadata:
       m_Items: []
   m_Metadata:

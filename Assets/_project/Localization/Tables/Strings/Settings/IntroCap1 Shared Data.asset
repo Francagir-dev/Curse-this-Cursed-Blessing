@@ -16,91 +16,91 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: 05d0ff469185db74eaec37a29985ee97
   m_Entries:
   - m_Id: 4133912645632
-    m_Key: Heroe 1
+    m_Key: Hero_1
     m_Metadata:
       m_Items: []
   - m_Id: 4134659231744
-    m_Key: Planta 1
+    m_Key: Pistachin_1
     m_Metadata:
       m_Items: []
   - m_Id: 4135338708992
-    m_Key: Planta 2
+    m_Key: Pistachin_2
     m_Metadata:
       m_Items: []
   - m_Id: 4136018186240
-    m_Key: "H\xE9roe 2"
+    m_Key: Hero_2
     m_Metadata:
       m_Items: []
   - m_Id: 4136739606528
-    m_Key: Planta 3
+    m_Key: Pistachin_3
     m_Metadata:
       m_Items: []
   - m_Id: 4137549107200
-    m_Key: "H\xE9roe 3"
+    m_Key: Hero_3
     m_Metadata:
       m_Items: []
   - m_Id: 4138320859136
-    m_Key: 8
+    m_Key: Pistachin_4
     m_Metadata:
       m_Items: []
   - m_Id: 4139012919296
-    m_Key: 9
+    m_Key: Hero_4
     m_Metadata:
       m_Items: []
   - m_Id: 4139625287680
-    m_Key: 10
+    m_Key: Pistachin_5
     m_Metadata:
       m_Items: []
   - m_Id: 4140321542144
-    m_Key: 11
+    m_Key: Hero_5
     m_Metadata:
       m_Items: []
   - m_Id: 4140988436480
-    m_Key: 12
+    m_Key: Aprendiz_1
     m_Metadata:
       m_Items: []
   - m_Id: 4141680496640
-    m_Key: 13
+    m_Key: Aprendiz_2
     m_Metadata:
       m_Items: []
   - m_Id: 4142318030848
-    m_Key: 14
+    m_Key: Hero_6
     m_Metadata:
       m_Items: []
   - m_Id: 4142972342272
-    m_Key: 15
+    m_Key: Aprendiz_3
     m_Metadata:
       m_Items: []
   - m_Id: 4144402599936
-    m_Key: 16
+    m_Key: Secuaz_1
     m_Metadata:
       m_Items: []
   - m_Id: 288014059315200
-    m_Key: 17
+    m_Key: Secuaz_2
     m_Metadata:
       m_Items: []
   - m_Id: 288014961090560
-    m_Key: 18
+    m_Key: Secuaz_3
     m_Metadata:
       m_Items: []
   - m_Id: 288015799951360
-    m_Key: 19
+    m_Key: Aprendiz_4
     m_Metadata:
       m_Items: []
   - m_Id: 288016471040000
-    m_Key: 20
+    m_Key: Secuaz_4
     m_Metadata:
       m_Items: []
   - m_Id: 288017276346368
-    m_Key: 21
+    m_Key: Aprendiz_5
     m_Metadata:
       m_Items: []
   - m_Id: 288018106818560
-    m_Key: 22
+    m_Key: Aprendiz_6
     m_Metadata:
       m_Items: []
   - m_Id: 288018853404672
-    m_Key: 23
+    m_Key: Secuaz_5
     m_Metadata:
       m_Items: []
   m_Metadata:

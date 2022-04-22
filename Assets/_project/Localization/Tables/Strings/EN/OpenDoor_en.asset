@@ -18,35 +18,6 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 288055259963392
-    m_Localized: "C-Come on don\u2019t be like that, it\u2019s April\u2019s fools!"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288056098824192
-    m_Localized: "You are not very original, are you? And it\u2019s the middle of
-      February."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288056841216000
-    m_Localized: "H-Happy April\u2019s fools!"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288057713631232
-    m_Localized: "Really? Don\u2019t you have anything else?"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288058518937600
-    m_Localized: I-It was a joke!
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288059320049664
-    m_Localized: "I KNOW, APRIL\u2019S FOOLS!"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288060192464896
-    m_Localized: ... Sorry.
-    m_Metadata:
-      m_Items: []
   - m_Id: 288061064880128
     m_Localized: Hey, do you hear that?
     m_Metadata:

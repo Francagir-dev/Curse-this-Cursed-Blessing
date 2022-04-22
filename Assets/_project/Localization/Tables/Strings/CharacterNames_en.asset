@@ -70,5 +70,9 @@ MonoBehaviour:
     m_Localized: Minions
     m_Metadata:
       m_Items: []
+  - m_Id: 2903204826804224
+    m_Localized: Jhonny, Jonathan & John
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
