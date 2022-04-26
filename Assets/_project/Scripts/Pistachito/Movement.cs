@@ -45,6 +45,8 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     float origDashCooldown;
     Rigidbody rig;
     float dashActualDuration;
+    Transform interactionDisplayer;
+    Coroutine interactionCoroutine;
 
     //TEMPORAL
     ChoiceController choice;
@@ -53,6 +55,10 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     private void Awake()
     {
         instance = this;
+
+        interactionDisplayer = transform.Find("--Interactable--");
+        DisplayInteraction(false);
+
         LifeSystem = GetComponent<MainCharacterLife>();
         originalSpeed = speed;
         origDashCooldown = dashCooldown;
@@ -117,6 +123,27 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         choice.ChooseOption(trueAnsw);
     }
 
+    public void DisplayInteraction(bool display)
+    {
+        float maxTime = .3f;
+        int multiplier = display ? 1 : -1;
+        float time = display ? 0 : maxTime;
+        if (interactionCoroutine != null)
+            StopCoroutine(interactionCoroutine);
+        interactionCoroutine = StartCoroutine(Displayer());
+
+        IEnumerator Displayer()
+        {
+            while(display ? time < maxTime : time > 0)
+            {
+                time += Time.deltaTime * multiplier;
+                interactionDisplayer.localScale = Vector3.one *
+                    Mathf.Lerp(0 , 1, time/maxTime);
+                yield return null;
+            }
+        }
+    }
+
     private void FixedUpdate()
     {
         if (dashActualDuration > 0)
@@ -150,9 +177,14 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     {
         foreach (var item in interactables)
         {
-            if (item.PlayerDetected)
+            if (item.PlayerDetected && item.isActiveAndEnabled)
             {
                 item.onTrigger.Invoke();
+                if (!item.isActiveAndEnabled)
+                {
+                    DisplayInteraction(false);
+                    item.PlayerDetected = false;
+                }
                 break;
             }
         }
