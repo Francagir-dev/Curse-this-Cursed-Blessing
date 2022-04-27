@@ -28,12 +28,6 @@ public class CutsceneManager : MonoBehaviour
         Movement.Instance.playerInput.UIControls.Skip.performed += ctx => manag.SkipText();
         _player = new PlayerInput();
 
-        manag.onDialogueEnd += delegate
-        {
-            Movement.Instance.playerInput.Player.Enable();
-            Movement.Instance.playerInput.UIControls.Disable();
-            Transition.Instance.Do(onCutsceneEnd.Invoke);
-        };
 
         if (dialogueOnly) 
         {
@@ -42,6 +36,12 @@ public class CutsceneManager : MonoBehaviour
             manag.showToKey = endAtKey;
             manag.Open();
 
+            manag.onDialogueEnd += delegate
+            {
+                Movement.Instance.playerInput.Player.Enable();
+                Movement.Instance.playerInput.UIControls.Disable();
+                Transition.Instance.Do(onCutsceneEnd.Invoke);
+            };
 
             return;
         }
