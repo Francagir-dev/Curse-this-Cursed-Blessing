@@ -54,5 +54,49 @@ MonoBehaviour:
     m_Localized: "\xA1Has muerto!"
     m_Metadata:
       m_Items: []
+  - m_Id: 9305374597664768
+    m_Localized: "Resoluci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9305597994684416
+    m_Localized: Calidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9305673630568448
+    m_Localized: Pantalla Completa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9306227178033152
+    m_Localized: "Configuraci\xF3n de gr\xE1ficos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9306345054752768
+    m_Localized: "Configuraci\xF3n de Audio"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309089807290368
+    m_Localized: General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309119628791808
+    m_Localized: Ambiental
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309168656011264
+    m_Localized: Efectos especiales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309236096225280
+    m_Localized: Interfaz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9318155740860416
+    m_Localized: VFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9319253172113408
+    m_Localized: Volumen
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

@@ -51,6 +51,50 @@ MonoBehaviour:
     m_Key: die
     m_Metadata:
       m_Items: []
+  - m_Id: 9305374597664768
+    m_Key: resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9305597994684416
+    m_Key: quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9305673630568448
+    m_Key: fullScreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9306227178033152
+    m_Key: graphicSettings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9306345054752768
+    m_Key: audioSettings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309089807290368
+    m_Key: generalVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309119628791808
+    m_Key: backgroundVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309168656011264
+    m_Key: vfxVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309236096225280
+    m_Key: uiVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9318155740860416
+    m_Key: vfx
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9319253172113408
+    m_Key: volume
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

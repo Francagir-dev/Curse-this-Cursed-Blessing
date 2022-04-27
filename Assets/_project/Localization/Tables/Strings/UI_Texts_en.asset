@@ -54,5 +54,49 @@ MonoBehaviour:
     m_Localized: You died!
     m_Metadata:
       m_Items: []
+  - m_Id: 9305374597664768
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9305597994684416
+    m_Localized: Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9305673630568448
+    m_Localized: Full Screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9306227178033152
+    m_Localized: Graphic Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9306345054752768
+    m_Localized: Audio Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309089807290368
+    m_Localized: General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309119628791808
+    m_Localized: Background
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309168656011264
+    m_Localized: VfX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309236096225280
+    m_Localized: UI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9318155740860416
+    m_Localized: VFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9319253172113408
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
