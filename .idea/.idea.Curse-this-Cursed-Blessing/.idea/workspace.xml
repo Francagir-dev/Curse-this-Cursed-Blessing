@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts Shared Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts Shared Data.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_en.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_en.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_es.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_es.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +111,7 @@
       <workItem from="1649327178780" duration="24000" />
       <workItem from="1650549332064" duration="1423000" />
       <workItem from="1650973332325" duration="1467000" />
-      <workItem from="1651053525305" duration="511000" />
+      <workItem from="1651053525305" duration="1255000" />
     </task>
     <servers />
   </component>
