@@ -26,6 +26,7 @@ public class GraphicOptions : MonoBehaviour
     private void OnEnable()
     {
         PopulateDropDownResolutionOptions();
+        fullScreen = fullScreenToggle.isOn;
     }
 
     public void PopulateDropDownResolutionOptions()
@@ -63,6 +64,12 @@ public class GraphicOptions : MonoBehaviour
         width = resolution.width;
         height = resolution.height;
         _selectedResolutionResolutionOptionIndex = index;
-        Screen.SetResolution(width,height, FullScreenMode.FullScreenWindow);
+        Screen.SetResolution(width,height, fullScreen);
+    }
+
+    public void GameFullScreen(bool fullScreenValue)
+    {
+        fullScreen = fullScreenValue;
+        Screen.fullScreen = fullScreen;
     }
 }
