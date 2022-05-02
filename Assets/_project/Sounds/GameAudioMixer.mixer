@@ -51,7 +51,7 @@ AudioMixerGroupController:
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
-  m_BypassEffects: 0
+  m_BypassEffects: 1
 --- !u!241 &24100000
 AudioMixerController:
   m_ObjectHideFlags: 0
@@ -67,7 +67,15 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: 6b8b09a528aac6d4595a3c822487e2df
+    name: BGVolume
+  - guid: 83ed9e7f987990641a3ac75309406836
+    name: EVolume
+  - guid: b5dfe0e640095964cb5fa5a91abca5d3
+    name: GVolume
+  - guid: 152e7f12699befb42b45f3036a8b6918
+    name: UIVolume
   m_AudioMixerGroupViews:
   - guids:
     - 14de4bc80e0341049ad67164e6b8eb53
