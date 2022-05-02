@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Options/GraphicOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Options/GraphicOptions.cs" afterDir="false" />
-    </list>
+    <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +117,7 @@
       <workItem from="1650973332325" duration="1467000" />
       <workItem from="1651053525305" duration="1255000" />
       <workItem from="1651483589711" duration="344000" />
-      <workItem from="1651484611155" duration="481000" />
+      <workItem from="1651484611155" duration="729000" />
     </task>
     <servers />
   </component>
