@@ -63,5 +63,6 @@ public class GraphicOptions : MonoBehaviour
         width = resolution.width;
         height = resolution.height;
         _selectedResolutionResolutionOptionIndex = index;
+        Screen.SetResolution(width,height, FullScreenMode.FullScreenWindow);
     }
 }
