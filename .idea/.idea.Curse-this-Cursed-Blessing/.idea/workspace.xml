@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="" />
+    <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ActivateDialogue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ActivateDialogue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DeathMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DeathMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenuController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenuController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts Shared Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts Shared Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_en.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_en.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_es.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_es.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Options/SoundSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Options/SoundSettings.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,10 +25,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ActivateDialogue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.19.15/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/TimeLine/SubtitleTrack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@1.1.1/Runtime/Settings/LocalizationSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/UI/QuitOptionMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -26,7 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.21072589" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.20855905" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -55,10 +70,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="21652">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="21652" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -118,6 +133,7 @@
       <workItem from="1651053525305" duration="1255000" />
       <workItem from="1651483589711" duration="344000" />
       <workItem from="1651484611155" duration="729000" />
+      <workItem from="1651591035998" duration="4120000" />
     </task>
     <servers />
   </component>
@@ -187,6 +203,97 @@
           <line>223</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Dialogues\DialogueManager.cs" initialLine="228" containingFunctionPresentation="method 'WriteText'" />
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
+          <line>17</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="16" containingFunctionPresentation="method 'Awake'">
+            <startOffsets>
+              <option value="530" />
+            </startOffsets>
+            <endOffsets>
+              <option value="604" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
+          <line>22</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="21" containingFunctionPresentation="method 'OnEnable'">
+            <startOffsets>
+              <option value="654" />
+            </startOffsets>
+            <endOffsets>
+              <option value="693" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
+          <line>44</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="42" containingFunctionPresentation="method 'ActivateItem'">
+            <startOffsets>
+              <option value="1287" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1304" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
+          <line>43</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="41" containingFunctionPresentation="method 'ActivateItem'">
+            <startOffsets>
+              <option value="1224" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1278" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
+          <line>36</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="34" containingFunctionPresentation="method 'ActivateVolumePanel'">
+            <startOffsets>
+              <option value="1007" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1047" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
+          <line>29</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="28" containingFunctionPresentation="method 'ActivateGraphicPanel'">
+            <startOffsets>
+              <option value="830" />
+            </startOffsets>
+            <endOffsets>
+              <option value="871" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/UI/QuitOptionMenu.cs</url>
+          <line>30</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\UI\QuitOptionMenu.cs" initialLine="33" containingFunctionPresentation="method 'MainMenuSelection'">
+            <startOffsets>
+              <option value="782" />
+            </startOffsets>
+            <endOffsets>
+              <option value="821" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
