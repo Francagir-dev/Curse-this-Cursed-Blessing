@@ -102,5 +102,9 @@ MonoBehaviour:
     m_Localized: Back
     m_Metadata:
       m_Items: []
+  - m_Id: 12191370568998912
+    m_Localized: Control mapping
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

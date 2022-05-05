@@ -71,6 +71,10 @@ MonoBehaviour:
     m_Key: audioSettings
     m_Metadata:
       m_Items: []
+  - m_Id: 12191370568998912
+    m_Key: Controls
+    m_Metadata:
+      m_Items: []
   - m_Id: 9309089807290368
     m_Key: generalVolume
     m_Metadata:
