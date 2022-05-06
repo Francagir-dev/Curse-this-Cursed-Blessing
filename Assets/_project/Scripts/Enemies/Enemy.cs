@@ -37,6 +37,7 @@ public abstract class Enemy : MonoBehaviour
 
     protected NavMeshAgent navMeshAgent;
     protected ProgressBar scareLifeHUD;
+    [SerializeField]
     protected Animator _animator;
     public Animator Animator
     {
@@ -78,7 +79,6 @@ public abstract class Enemy : MonoBehaviour
     protected virtual void Awake()
     {
         playerTransf = FindObjectOfType<Movement>().transform;
-        _animator = transform.GetComponent<Animator>();
         navMeshAgent = GetComponent<NavMeshAgent>();
         speedMovement = navMeshAgent.speed;
         OnDamageReceived.AddListener(ReceiveDamage);
@@ -121,6 +121,7 @@ public abstract class Enemy : MonoBehaviour
     protected virtual void Update()
     {
         Movement(navMeshAgent, playerTransf, speedMovement);
+        _animator.SetFloat("Speed", Mathf.Lerp(0, 1, navMeshAgent.velocity.magnitude/3.5f));
 
         if (state == States.Attacking && canRotate)
         {
