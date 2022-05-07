@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenuController : MonoBehaviour
 {
     public GameObject optionsPanel;
+    public GameObject mainMenuPanel;
     public void StartButton()
     {
         Transition.Instance.Do("Exploracion1");
@@ -13,6 +14,7 @@ public class MainMenuController : MonoBehaviour
 
     public void Options()
     {
+        mainMenuPanel.SetActive(false);
         optionsPanel.SetActive(true);
     }
     public void Quit()

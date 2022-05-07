@@ -135,6 +135,9 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -621,11 +624,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: TemplateHD
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: SerialDevs
+  metroCertificateIssuer: SerialDevs
+  metroCertificateNotAfter: 00b0fade6a80d901
   metroApplicationDescription: Template_HD
   wsaImages: {}
   metroTileShortName: New Unity Project

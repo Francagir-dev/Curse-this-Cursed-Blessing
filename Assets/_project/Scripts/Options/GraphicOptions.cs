@@ -14,7 +14,8 @@ public class GraphicOptions : MonoBehaviour
         defaultResolutionResolutionOptionIndex,
         _selectedResolutionResolutionOptionIndex;
 
-    private bool fullScreen, vfx;
+    private bool fullScreen = true;
+    private bool vfx;
     private Resolution[] resolutions;
 
     [SerializeField] private Toggle vfxToggle, fullScreenToggle;
@@ -37,7 +38,7 @@ public class GraphicOptions : MonoBehaviour
         defaultResolutionResolutionOptionIndex = 0;
         for (int i = 0; i < resolutions.Length; i++)
         {
-            options.Add(resolutions[i].width + " x " + resolutions[i].height);
+            options.Add(resolutions[i].ToString());
             if (resolutions[i].width == Screen.currentResolution.width &&
                 resolutions[i].height == Screen.currentResolution.height)
             {
@@ -64,7 +65,7 @@ public class GraphicOptions : MonoBehaviour
         width = resolution.width;
         height = resolution.height;
         _selectedResolutionResolutionOptionIndex = index;
-        Screen.SetResolution(width,height, fullScreen);
+        Screen.SetResolution(width, height, fullScreen);
     }
 
     public void GameFullScreen(bool fullScreenValue)

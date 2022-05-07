@@ -105,6 +105,46 @@ MonoBehaviour:
 '
     m_Metadata:
       m_Items: []
+  - m_Id: 12571490489028608
+    m_Key: unbinded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571555915976704
+    m_Key: answerTop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571639269380096
+    m_Key: answerDown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571640745775104
+    m_Key: answerLeft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571641316200448
+    m_Key: answerRight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571641886625792
+    m_Key: dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12572012864425984
+    m_Key: finishTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12572430281560064
+    m_Key: movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12572489840676864
+    m_Key: pauseMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12601121762004992
+    m_Key: interact
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

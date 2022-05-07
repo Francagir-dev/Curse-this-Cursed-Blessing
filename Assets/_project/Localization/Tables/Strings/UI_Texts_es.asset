@@ -106,5 +106,45 @@ MonoBehaviour:
     m_Localized: Controles
     m_Metadata:
       m_Items: []
+  - m_Id: 12571490489028608
+    m_Localized: Sin uso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571555915976704
+    m_Localized: Respuesta arriba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571639269380096
+    m_Localized: Respuesta abajo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571640745775104
+    m_Localized: Respuesta izquierda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571641316200448
+    m_Localized: Respuesta derecha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571641886625792
+    m_Localized: Esquivar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12572012864425984
+    m_Localized: Saltar texto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12572430281560064
+    m_Localized: Movimiento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12572489840676864
+    m_Localized: Pausa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12601121762004992
+    m_Localized: Interaccionar
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
