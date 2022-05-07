@@ -146,5 +146,13 @@ MonoBehaviour:
     m_Localized: Interact
     m_Metadata:
       m_Items: []
+  - m_Id: 12950532266479616
+    m_Localized: General settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12950597055893504
+    m_Localized: Change Language
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

@@ -146,5 +146,13 @@ MonoBehaviour:
     m_Localized: Interaccionar
     m_Metadata:
       m_Items: []
+  - m_Id: 12950532266479616
+    m_Localized: "Configuraci\xF3n general"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12950597055893504
+    m_Localized: Cambiar idioma
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

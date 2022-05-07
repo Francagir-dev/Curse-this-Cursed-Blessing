@@ -3,29 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts Shared Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts Shared Data.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_en.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_en.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_es.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_es.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/MainMenuController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Options/GraphicOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Options/GraphicOptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Sprites/FullVida.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Sprites/FullVida.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Sprites/MarcoVidaBoss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Sprites/MarcoVidaBoss.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Sprites/Vida1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Sprites/Vida1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Sprites/Vida2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Sprites/Vida2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Sprites/Vida3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Sprites/Vida3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/VFX/VFX_Boss_Aprendiz_Damage.vfx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/VFX/VFX_Boss_Aprendiz_Damage.vfx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +15,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Options/LocaleDropDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.19.15/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/TimeLine/SubtitleTrack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs" root0="FORCE_HIGHLIGHTING" />
@@ -146,6 +126,7 @@
       <workItem from="1651484611155" duration="729000" />
       <workItem from="1651591035998" duration="4120000" />
       <workItem from="1651838089042" duration="6134000" />
+      <workItem from="1651918076620" duration="1433000" />
     </task>
     <servers />
   </component>
@@ -218,52 +199,52 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
-          <line>20</line>
+          <line>22</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="16" containingFunctionPresentation="method 'Awake'">
             <startOffsets>
-              <option value="694" />
+              <option value="800" />
             </startOffsets>
             <endOffsets>
-              <option value="768" />
+              <option value="874" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
-          <line>56</line>
+          <line>64</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="41" containingFunctionPresentation="method 'ActivateItem'">
             <startOffsets>
-              <option value="1782" />
+              <option value="2140" />
             </startOffsets>
             <endOffsets>
-              <option value="1836" />
+              <option value="2194" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
-          <line>41</line>
+          <line>49</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="34" containingFunctionPresentation="method 'ActivateVolumePanel'">
             <startOffsets>
-              <option value="1311" />
+              <option value="1669" />
             </startOffsets>
             <endOffsets>
-              <option value="1351" />
+              <option value="1709" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
-          <line>33</line>
+          <line>41</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="28" containingFunctionPresentation="method 'ActivateGraphicPanel'">
             <startOffsets>
-              <option value="1060" />
+              <option value="1418" />
             </startOffsets>
             <endOffsets>
-              <option value="1101" />
+              <option value="1459" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="18" />

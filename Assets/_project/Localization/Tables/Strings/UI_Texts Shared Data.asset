@@ -145,6 +145,14 @@ MonoBehaviour:
     m_Key: interact
     m_Metadata:
       m_Items: []
+  - m_Id: 12950532266479616
+    m_Key: generalSettings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12950597055893504
+    m_Key: changeLocale
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

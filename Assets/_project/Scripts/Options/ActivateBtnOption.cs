@@ -8,6 +8,8 @@ public class ActivateBtnOption : MonoBehaviour
 {
     [SerializeField] private EventSystem _eventSystem;
     [SerializeField] private GameObject firstBtn;
+    [SerializeField] private GameObject generalBTN;
+    [SerializeField] private GameObject generalPanel;
     [SerializeField] private GameObject graphicPanel;
     [SerializeField] private GameObject graphicBTN;
     [SerializeField] private GameObject volumePanel;
@@ -23,9 +25,15 @@ public class ActivateBtnOption : MonoBehaviour
 
     private void OnEnable()
     {
-        graphicPanel.SetActive(true);
+        generalPanel.SetActive(true);
     }
-
+    public void ActivateGeneralPanel()
+    {
+        if (previousSelected != null) previousSelected.SetActive(false);
+        generalPanel.SetActive(true);
+        previousSelected = generalPanel;
+        StartCoroutine(ActivateItem(generalBTN));
+    }
     public void ActivateGraphicPanel()
     {
         if (previousSelected != null) previousSelected.SetActive(false);
@@ -60,6 +68,6 @@ public class ActivateBtnOption : MonoBehaviour
     private void OnDisable()
     {
         previousSelected.SetActive(false);
-        previousSelected = graphicPanel;
+        previousSelected = generalPanel;
     }
 }
