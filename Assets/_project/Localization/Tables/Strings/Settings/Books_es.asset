@@ -49,5 +49,84 @@ MonoBehaviour:
       sirva a alguien."
     m_Metadata:
       m_Items: []
+  - m_Id: 14760563798016
+    m_Localized: "Autor: \u201CCazador Van Hellsaint\u201D\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14832831655936
+    m_Localized: "Todav\xEDa recuerdo la primera vez que me enfrente a un renacido.
+      Nunca olvidar\xE9 tal experiencia. Creo que esa cosa sigue enterrada, bajo
+      un \xE1rbol que jam\xE1s nombrar\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14840209436672
+    m_Localized: "Los renacidos, son criaturas que rechazan la muerte. Sin embargo,
+      al contrario que zombies o esqueletos andantes, los renacidos tienen capacidad
+      de razonamiento, y desde luego, son mucho m\xE1s fuertes. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14847281033216
+    m_Localized: "Seres que murieron con un rencor absoluto por el mundo, vagan por
+      las tierras en busca de una satisfacci\xF3n que jam\xE1s encontrar\xE1n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14852955926528
+    m_Localized: "Es eso lo que los mantiene con vida, y por lo tanto, nunca morir\xE1n.
+      Pero no todo est\xE1 perdido, es imposible destruirlos por completo, pero si
+      se les puede neutralizar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15282087751680
+    m_Localized: "Encerrarlos en una tumba de plata, o empalarlos en el suelo. Se
+      que suena barb\xE1rico, pero cuando te enfrentas a uno de estos seres, lo brusco...
+      parece elegante."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15521699950592
+    m_Localized: "Autor: An\xF3nimo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15527563587584
+    m_Localized: "\"Las primeras p\xE1ginas no tienen nada interesante, as\xED que
+      saltas a las \xFAltimas, donde los bichos chulos est\xE1n\"."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15529224531968
+    m_Localized: "Dragones: De todas las criaturas m\xE1s fuertes grabadas en este
+      libro, esta\u2026 es la m\xE1s com\xFAn de todas. Hay de distintos tipos, pero
+      todos se pueden adaptar a cualquier entorno en menos de una semana."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15530294079488
+    m_Localized: "Sin embargo, no le llega ni a la suela de los zapatos de los m\xE1s
+      fuertes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15531262963712
+    m_Localized: "Caballeros Lic\xE1ntropos: No mucho se sabe de ellos, pero sol\xEDan
+      ser una banda de bandidos con un gran talento para la matanza"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15535121723392
+    m_Localized: "Pero se dice que su \xFAltima v\xEDctima, un joven rey de los reinos
+      lejanos, maldijo a toda su banda, transform\xE1ndolos en lo que eran, una banda
+      de animales, funcionando solo por instinto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15962533883904
+    m_Localized: "No te conf\xEDes, incluso si han perdido toda clase de razonamiento
+      humano, siguen siendo incluso m\xE1s peligrosos que antes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16122953428992
+    m_Localized: "Renacidos: Existe ya un libro que explica con mucho m\xE1s detalle
+      a estas criaturas. Solo comentar\xE9 que si encuentras uno de estos\u2026 tienes
+      pocas posibilidades."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16128942895104
+    m_Localized: "Definitivamente, los monstruo m\xE1s peligroso de todos....\r"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
