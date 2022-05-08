@@ -13,8 +13,28 @@ MonoBehaviour:
   m_Name: Riddle_1 Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: Riddle_1
-  m_TableCollectionNameGuidString: 00000000000000000000000000000000
-  m_Entries: []
+  m_TableCollectionNameGuidString: cf9c7021bf7e7a742aed13d93734639f
+  m_Entries:
+  - m_Id: 305197051904
+    m_Key: question
+    m_Metadata:
+      m_Items: []
+  - m_Id: 415272366080
+    m_Key: answer_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502132207616
+    m_Key: answer_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 521656692736
+    m_Key: answer_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 559720001536
+    m_Key: answer_4
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

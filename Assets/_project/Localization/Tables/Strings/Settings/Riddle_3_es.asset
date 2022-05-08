@@ -17,6 +17,26 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: f4044aa9655e1f44a9a921581783ce05, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 76636844032
+    m_Localized: "La magia que estudia la luz\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85746872320
+    m_Localized: Magia Estelar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89370750976
+    m_Localized: Magia Sagrada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92642308096
+    m_Localized: "Magia de la Niebla\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96253603840
+    m_Localized: "Magia Her\xE9tica"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

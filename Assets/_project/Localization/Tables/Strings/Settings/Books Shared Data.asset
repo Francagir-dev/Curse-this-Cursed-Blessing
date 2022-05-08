@@ -13,8 +13,32 @@ MonoBehaviour:
   m_Name: Books Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: Books
-  m_TableCollectionNameGuidString: 00000000000000000000000000000000
-  m_Entries: []
+  m_TableCollectionNameGuidString: 4d7a8184edb7e764fad751402921821c
+  m_Entries:
+  - m_Id: 10713647640576
+    m_Key: book_1_01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11305552015360
+    m_Key: book_1_02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11409570754560
+    m_Key: book_1_03
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11560452452352
+    m_Key: book_1_04
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11664873844736
+    m_Key: book_1_05
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11872332509184
+    m_Key: book_1_06
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

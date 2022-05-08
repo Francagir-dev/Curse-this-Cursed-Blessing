@@ -17,6 +17,26 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: cf9c7021bf7e7a742aed13d93734639f, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 305197051904
+    m_Localized: "Antiguo due\xF1o de la biblioteca:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 415272366080
+    m_Localized: La bruja de la niebla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502132207616
+    m_Localized: Reina del valle estelar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 521656692736
+    m_Localized: Umbra, el renacido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 559720001536
+    m_Localized: "Un drag\xF3n"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
