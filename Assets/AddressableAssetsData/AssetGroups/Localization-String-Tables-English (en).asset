@@ -113,19 +113,7 @@ MonoBehaviour:
     - Locale-en
     - Preload
   - m_GUID: 977134113eaa66c4b933f152c37e75d7
-    m_Address: Riddle_1_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    - Preload
-  - m_GUID: 2391da17c216cea4ebc45bcdf9c6b4f8
-    m_Address: Riddle_2_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    - Preload
-  - m_GUID: ed8ed90ea9590ff4997fa366912515de
-    m_Address: Riddle_3_en
+    m_Address: Riddles_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

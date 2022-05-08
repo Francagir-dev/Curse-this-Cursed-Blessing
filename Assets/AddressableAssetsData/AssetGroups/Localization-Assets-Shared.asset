@@ -95,16 +95,6 @@ MonoBehaviour:
       Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
-  - m_GUID: 1435f9289517a8b4ca11eceee5d54a13
-    m_Address: Assets/_project/Localization/Tables/Strings/Settings/Riddle_2 Shared
-      Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-  - m_GUID: f4044aa9655e1f44a9a921581783ce05
-    m_Address: Assets/_project/Localization/Tables/Strings/Settings/Riddle_3 Shared
-      Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
   - m_GUID: 4d7a8184edb7e764fad751402921821c
     m_Address: Assets/_project/Localization/Tables/Strings/Settings/Books Shared
       Data.asset
