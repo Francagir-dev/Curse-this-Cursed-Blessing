@@ -25,7 +25,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de340890f04d1804ea55b676eacfdac3, type: 3}
   m_Name: SkipDialogueClip
   m_EditorClassIdentifier: 
-  skipToKey: 12
+  conditional: 
+  keys:
+  - conditionValue: 0
+    skipTo: 12
 --- !u!114 &-7602359872018730340
 MonoBehaviour:
   m_ObjectHideFlags: 1

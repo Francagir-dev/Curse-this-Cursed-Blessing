@@ -8,7 +8,8 @@ using UnityEngine.UI;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public abstract class Enemy : MonoBehaviour
-{ 
+{
+    [SerializeField] bool instaKill;
     [SerializeField] Answers answ;
     [Header("Skills")] 
     [SerializeField] protected bool isCastingSkill;
@@ -120,6 +121,12 @@ public abstract class Enemy : MonoBehaviour
 
     protected virtual void Update()
     {
+        if (instaKill)
+        {
+            ChangeState(States.Scared);
+            return;
+        }
+
         Movement(navMeshAgent, playerTransf, speedMovement);
 
         if (state == States.Attacking && canRotate)
