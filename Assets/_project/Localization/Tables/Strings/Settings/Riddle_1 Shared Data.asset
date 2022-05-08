@@ -16,11 +16,11 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: cf9c7021bf7e7a742aed13d93734639f
   m_Entries:
   - m_Id: 305197051904
-    m_Key: question_01
+    m_Key: ?question_01
     m_Metadata:
       m_Items: []
   - m_Id: 415272366080
-    m_Key: answer_01_1
+    m_Key: $answer_01_1
     m_Metadata:
       m_Items: []
   - m_Id: 502132207616
@@ -36,7 +36,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 16477204344832
-    m_Key: question_02
+    m_Key: ?question_02
     m_Metadata:
       m_Items: []
   - m_Id: 16484477267968
@@ -44,7 +44,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 16487438446592
-    m_Key: answer_02_2
+    m_Key: $answer_02_2
     m_Metadata:
       m_Items: []
   - m_Id: 16490827444224
@@ -56,11 +56,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 17177451786240
-    m_Key: question_03
+    m_Key: ?question_03
     m_Metadata:
       m_Items: []
   - m_Id: 17182933741568
-    m_Key: answer_03_1
+    m_Key: $answer_03_1
     m_Metadata:
       m_Items: []
   - m_Id: 17184280113152
