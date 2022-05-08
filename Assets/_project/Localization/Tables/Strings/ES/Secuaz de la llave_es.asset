@@ -101,8 +101,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1196125655040
-    m_Localized: "en letra peque\xF1a* Yo creo que la bolita con capa es bastante
-      mona\u2026\r\n"
+    m_Localized: "<size=12>Yo creo que la bolita con capa es bastante mona\u2026\r</size>"
     m_Metadata:
       m_Items: []
   - m_Id: 1197488803840

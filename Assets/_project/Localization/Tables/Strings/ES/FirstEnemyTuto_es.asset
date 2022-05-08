@@ -49,8 +49,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288042043711488
-    m_Localized: "\xA1Me da igual, sal ah\xED y hazle frente! (En letra m\xE1s peque\xF1a)
-      Tampoco es que tengas muchas opciones."
+    m_Localized: "\xA1Me da igual, sal ah\xED y hazle frente! <size=12>Tampoco es
+      que tengas muchas opciones. </size>"
     m_Metadata:
       m_Items: []
   - m_Id: 288042882572288
