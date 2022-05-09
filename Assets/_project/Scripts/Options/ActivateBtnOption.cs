@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Localization.Settings;
 
 public class ActivateBtnOption : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class ActivateBtnOption : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log(LocalizationSettings.SelectedLocale);
         _eventSystem = GameObject.Find("EventSystem").GetComponent<EventSystem>();
     }
 

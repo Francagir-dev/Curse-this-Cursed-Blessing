@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: answersSomeDamage Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: answersSomeDamage
+  m_TableCollectionNameGuidString: b63109f6bc29f994abfa847365940435
+  m_Entries:
+  - m_Id: 182681161728
+    m_Key: giveUp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241871179776
+    m_Key: betterNotMake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299719020544
+    m_Key: eyesClosed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365519261696
+    m_Key: wannaFight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 416891097088
+    m_Key: pathetic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 447962501120
+    m_Key: allYouCanDo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505776787456
+    m_Key: junkSave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 605768994816
+    m_Key: callThat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 680159170560
+    m_Key: thatsAll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 764582121472
+    m_Key: finishWarning
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1652085935092

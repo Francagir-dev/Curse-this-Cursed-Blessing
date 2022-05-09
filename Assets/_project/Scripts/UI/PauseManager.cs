@@ -7,43 +7,46 @@ using UnityEngine.UI;
 public class PauseManager : MonoBehaviour
 {
     private EventSystem eventSystem;
-
-    #region PauseEventSystemTime
+    private Movement _movement;
+   [SerializeField] private GameObject optionsMenu;
+   [SerializeField] private GameObject pauseMenu;
+    #region PauseventSystemTime
 
     private void Awake()
     {
         InitializeFirstSelectedPause();
-        FindObjectOfType<Movement>().isPaused = true;
+        _movement = FindObjectOfType<Movement>();
+        if (_movement != null) _movement.isPaused = true;
     }
 
     private void OnEnable()
     {
         InitializeFirstSelectedPause();
-        FindObjectOfType<Movement>().isPaused = true;
+        if (_movement != null) _movement.isPaused = true;
     }
 
     private void OnDestroy()
     {
-        FindObjectOfType<Movement>().isPaused = false;
+        if (_movement != null) _movement.isPaused = false;
     }
 
-    private void OnDisable()
+   private void OnDisable()
     {
-        FindObjectOfType<Movement>().isPaused = false;
+        if (_movement != null) _movement.isPaused = false;
     }
 
     /// <summary>
-      /// Search Event System and assign to local variable
-      /// Sets first selected game object variable to first button (Continue game)
-      /// Scale time to 0
-      /// </summary>
-      void InitializeFirstSelectedPause()
-      {
-          eventSystem = FindObjectOfType<EventSystem>();
-          StartCoroutine(ChangeEventSystem( GameObject.Find("ContinuePause")));
-          
-          Time.timeScale = 0f;
-      }
+    /// Search Event System and assign to local variable
+    /// Sets first selected game object variable to first button (Continue game)
+    /// Scale time to 0
+    /// </summary>
+    void InitializeFirstSelectedPause()
+    {
+        eventSystem = FindObjectOfType<EventSystem>();
+        StartCoroutine(ChangeEventSystem(GameObject.Find("ContinuePause")));
+
+        Time.timeScale = 0f;
+    }
 
     IEnumerator ChangeEventSystem(GameObject itemSelected)
     {
@@ -79,7 +82,8 @@ public class PauseManager : MonoBehaviour
     /// </summary>
     public void OptionsMenu()
     {
-        Debug.Log("Called to options");
+        optionsMenu.SetActive(true);
+        pauseMenu.SetActive(false);
     }
 
     /// <summary>

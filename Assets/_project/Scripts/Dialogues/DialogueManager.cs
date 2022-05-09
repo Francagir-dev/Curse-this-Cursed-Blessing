@@ -44,8 +44,6 @@ public class DialogueManager : MonoBehaviour
     private void Awake()
     {
         anim = GetComponent<Animator>();
-
-        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.GetLocale("es");
     }
 
 

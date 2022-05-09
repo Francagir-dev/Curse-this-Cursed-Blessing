@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
-  m_Name: InnocentEnemies
+  m_Name: answersLotDamage
   m_EditorClassIdentifier: 
-  m_SharedTableData: {fileID: 11400000, guid: f5339fb718f9e6d46b45fe23f59ce39f, type: 2}
+  m_SharedTableData: {fileID: 11400000, guid: d2953d8d42b34a047953f06c871d54c4, type: 2}
   m_Tables:
-  - {fileID: 11400000, guid: 7366477679178624681e63c046ab2d60, type: 2}
-  - {fileID: 11400000, guid: fc8ef10dcb8f8134fb064bd5ffd77a7d, type: 2}
+  - {fileID: 11400000, guid: 554093fb64e55db4988f8ff27d59848f, type: 2}
+  - {fileID: 11400000, guid: 410eceb4ad736054b8f4f0ebfc9872bf, type: 2}
   m_Extensions: []
   m_Group: String Table
   references:

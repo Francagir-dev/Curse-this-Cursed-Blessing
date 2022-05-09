@@ -16,13 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: fddf68efa6ba80146a5ed2248e61cf17
-  m_SerializeEntries:
-  - m_GUID: 979a3f1060a2fed4293defd2e56be39c
-    m_Address: InnocentEnemies_klng
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-klng
-    - Preload
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
   m_SchemaSet:

@@ -32,5 +32,6 @@ public class LocaleDropDown : MonoBehaviour
     static void LocaleSelected(int index)
     {
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[index];
+       // PersistentInfo.info.localeSelected = LocalizationSettings.SelectedLocale;
     }
 }

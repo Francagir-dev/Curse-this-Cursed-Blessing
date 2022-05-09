@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class MainCharacterLife : LifeSystem
 {
-    GameObject dead;
+   public GameObject dead;
     DamageEffect damageEffect;
     [HideInInspector] public Material material;
 

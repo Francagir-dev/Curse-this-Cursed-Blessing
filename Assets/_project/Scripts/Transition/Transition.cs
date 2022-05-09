@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Events;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 [RequireComponent(typeof(Animator))]
 public class Transition : MonoBehaviour
@@ -12,15 +14,17 @@ public class Transition : MonoBehaviour
 
     Animator anim;
     float closeDuration;
-
+   
     private void Awake()
     {
+        Debug.Log(LocalizationSettings.SelectedLocale);
         if (instance == null)
             Instance = this;
         else Destroy(gameObject);
 
         anim = GetComponent<Animator>();
         closeDuration = anim.GetCurrentAnimatorStateInfo(0).length;
+   
     }
 
     public void Do(UnityAction actions)
