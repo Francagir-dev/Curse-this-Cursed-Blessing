@@ -50,6 +50,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 
     //TEMPORAL
     ChoiceController choice;
+    [HideInInspector] public ChoiceController_Riddle riddle;
     Interactable[] interactables;
 
     private void Awake()
@@ -121,6 +122,8 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         if (trueAnsw == -1) return;
 
         choice.ChooseOption(trueAnsw);
+        if (riddle != null)
+            riddle.ChooseOption(trueAnsw);
     }
 
     public void DisplayInteraction(bool display)

@@ -112,20 +112,14 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     - Preload
-  - m_GUID: 554093fb64e55db4988f8ff27d59848f
-    m_Address: answersLotDamage_en
+  - m_GUID: 977134113eaa66c4b933f152c37e75d7
+    m_Address: Riddles_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     - Preload
-  - m_GUID: ffc5197a3852aec47920c7cee86f6490
-    m_Address: answersSomeDamage_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    - Preload
-  - m_GUID: 344fc5c7aacd0da488363555cbfebe9e
-    m_Address: noDamage_en
+  - m_GUID: 3d8f490d6f4f3b645924dd940de0da59
+    m_Address: Books_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

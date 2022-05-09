@@ -50,8 +50,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288042043711488
-    m_Localized: "I don\u2019t care! Go out there and face him! (En letra m\xE1s
-      peque\xF1a) It\u2019s not like you have much of a choice."
+    m_Localized: "I don\u2019t care! Go out there and face him! <size=12>It\u2019s
+      not like you have much of a choice. </size>"
     m_Metadata:
       m_Items: []
   - m_Id: 288042882572288
