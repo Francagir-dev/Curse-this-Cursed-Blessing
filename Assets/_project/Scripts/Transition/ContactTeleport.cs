@@ -21,6 +21,11 @@ public class ContactTeleport : ContactEvent
         playertransform.SetPositionAndRotation(teleportTo.position, teleportTo.rotation);
     }
 
+    public void PermaTeleport(Transform to)
+    {
+        playertransform.SetPositionAndRotation(to.position, to.rotation);
+    }
+
     public void GoBack() 
         => playertransform.position = lastPosition;
 
