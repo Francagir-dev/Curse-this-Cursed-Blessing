@@ -20,6 +20,6 @@ public class LevelManagment : MonoBehaviour
     {
         sections[previousSection].SetActive(false);
         sections[section].SetActive(true);
-        previousSection = startingSection;
+        previousSection = section;
     }
 }
