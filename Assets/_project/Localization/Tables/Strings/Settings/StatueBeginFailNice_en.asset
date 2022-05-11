@@ -39,7 +39,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1698305765376
-    m_Localized: Evil! Very bad!
+    m_Localized: Bad! Very bad!
     m_Metadata:
       m_Items: []
   - m_Id: 1969773703168
@@ -60,7 +60,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3305349148672
-    m_Localized: Please, I just want you to shut up.
+    m_Localized: Please, I just want him to shut up.
     m_Metadata:
       m_Items: []
   - m_Id: 3464413933568
@@ -68,7 +68,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3467026984960
-    m_Localized: "\rDing ding ding! It is right!"
+    m_Localized: "\rDing ding ding! Well done!"
     m_Metadata:
       m_Items: []
   - m_Id: 3472823513088
