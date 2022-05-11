@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8df666f135c069141bd3ea1ce59a6ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 4
+  maxLife: 4
   onHeal:
     m_PersistentCalls:
       m_Calls: []
