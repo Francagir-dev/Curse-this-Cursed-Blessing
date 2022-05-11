@@ -17,6 +17,79 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 307479484b9cf0a41b1d9dbabafefaeb, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 754067271680
+    m_Localized: "\xA1Veo que te sientes preparado!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1140928901120
+    m_Localized: Hagamos esto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1276316839936
+    m_Localized: Son solo 3 preguntas, pero tienes que acertar todas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1422685466624
+    m_Localized: "\xBFListo?, \xA1pues vamos all\xE1!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1612142178304
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1698305765376
+    m_Localized: "\xA1Mal! \xA1Muy mal!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1969773703168
+    m_Localized: "Ya te has divertido, \xBFles abrimos la puerta?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2152993484800
+    m_Localized: "\xA1Pero la gracia est\xE1 en que tienen que acertar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2160727781376
+    m_Localized: "Ah\u2026 si quieres mi consejo, mantened los ojos abiertos. Hay
+      libros por ah\xED que contienen la soluci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2526051659776
+    m_Localized: "\xA1Hey, eso no vale!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3305349148672
+    m_Localized: Por favor, solo quiero que se calle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3464413933568
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3467026984960
+    m_Localized: "\xA1Ding ding ding! \xA1Bien hecho!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3472823513088
+    m_Localized: "\xA1Wow, no sabia que se os dar\xEDa tan bien esto!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3474186661888
+    m_Localized: "Ale, ya te has divertido, \xBFpodemos abrirles la entrada ya?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4238988636160
+    m_Localized: "\xA1Ah, s\xED! Ya est\xE1 abierta."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4336887885824
+    m_Localized: Genial, me vuelvo a dormir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4405129211904
+    m_Localized: "\xA1Buena suerte con vuestra b\xFAsqueda!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

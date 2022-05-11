@@ -47,7 +47,8 @@ public class ChoiceController_Riddle : MonoBehaviour
         }
     }
 
-    public StringTable riddles;
+    public string tableName;
+    StringTable riddles;
 
     List<string> keys;
     int currentKey;
@@ -78,6 +79,7 @@ public class ChoiceController_Riddle : MonoBehaviour
         FindObjectOfType<Movement>().riddle = this;
         anim = GetComponent<Animator>();
         keys = new List<string>();
+        riddles = LocalizationSettings.StringDatabase.GetTable(tableName);
 
         foreach (var v in riddles)
             keys.Add(riddles.SharedData.GetEntry(v.Key).Key);
