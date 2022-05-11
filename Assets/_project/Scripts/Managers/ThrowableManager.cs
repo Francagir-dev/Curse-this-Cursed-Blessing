@@ -6,6 +6,8 @@ using UnityEngine;
 //Los throwables nunca se tienen que destruir, set active false siempre
 public class ThrowableManager : MonoBehaviour
 {
+    [SerializeField]
+    Enemy enemy;
     [Serializable]
     struct Group
     {
@@ -27,6 +29,11 @@ public class ThrowableManager : MonoBehaviour
         groups.ForEach(x => x.throwables.ForEach(i => i.SetActive(false)));
         //Hay un error raro que no entiendo asi que tengo que hacer esta basura por el momento
         groups.ForEach(x => x.index = 0);
+    }
+
+    public void SetRot(int enable)
+    {
+        enemy.SetRot(enable);
     }
 
     public void Throw(string groupName)
