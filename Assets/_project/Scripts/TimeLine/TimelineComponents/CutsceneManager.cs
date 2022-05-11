@@ -17,19 +17,23 @@ public class CutsceneManager : MonoBehaviour
     public UnityEvent onCutsceneEnd;
 
     private PlayerInput _player;
+    private DialogueManager manag;
    
     private void Awake()
     {
-        DialogueManager manag = FindObjectOfType<DialogueManager>();
-        manag.TableName = dialogueTableName;
+        manag = FindObjectOfType<DialogueManager>();
+    }
 
+    private void OnEnable()
+    {
+        manag.TableName = dialogueTableName;
         Movement.Instance.playerInput.Player.Disable();
         Movement.Instance.playerInput.UIControls.Enable();
         Movement.Instance.playerInput.UIControls.Skip.performed += ctx => manag.SkipText();
         _player = new PlayerInput();
 
 
-        if (dialogueOnly) 
+        if (dialogueOnly)
         {
             manag.Skip(beginAtKey);
             manag.showToKey = endAtKey;

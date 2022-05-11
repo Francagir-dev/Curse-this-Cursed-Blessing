@@ -22,9 +22,13 @@ public class ApplyOccult : MonoBehaviour
             return;
         }
 
-        if (newOccult == currentOccult) return;
-
         newOccult.SetOccult(true);
-        currentOccult = newOccult;
+
+        if (currentOccult != newOccult)
+        {
+            if (currentOccult != null)
+                currentOccult.SetOccult(false);
+            currentOccult = newOccult;
+        }
     }
 }

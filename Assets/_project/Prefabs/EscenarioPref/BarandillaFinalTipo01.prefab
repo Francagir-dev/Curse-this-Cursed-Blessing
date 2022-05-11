@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4287479148967114034}
   - component: {fileID: 2045998552991449592}
   - component: {fileID: 839162091161410938}
+  - component: {fileID: 6670931026300796135}
   m_Layer: 0
   m_Name: BarandillaFinalTipo01
   m_TagString: Untagged
@@ -60,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 7193585559434699213, guid: 9d138a860c19528479e293469512c6a8, type: 3}
+  - {fileID: 2100000, guid: 02d8720e5886cab4883672fbcc709439, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -95,3 +96,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.16992533, y: 1.1220309, z: 0.17000155}
   m_Center: {x: 1.224119, y: 0.77366227, z: -3.1834366}
+--- !u!114 &6670931026300796135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532590960793313325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82272ce3721616e4787744fc2369fc25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  test: 0
