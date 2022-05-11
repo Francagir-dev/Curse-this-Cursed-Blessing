@@ -7981,6 +7981,18 @@ PrefabInstance:
       propertyPath: OnDamageReceived.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7036873988675689236, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
+      propertyPath: current
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036873988675689236, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
+      propertyPath: maximum
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036873988675689236, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
+      propertyPath: minimum
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7368890664972925704, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -22051,6 +22063,22 @@ PrefabInstance:
       propertyPath: OnDamageReceived.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6395092833291143085, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
+      propertyPath: m_FillAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036873988675689236, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
+      propertyPath: current
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036873988675689236, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
+      propertyPath: maximum
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036873988675689236, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
+      propertyPath: minimum
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7368890664972925704, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -28759,6 +28787,18 @@ PrefabInstance:
     - target: {fileID: 6143480388731907597, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
       propertyPath: OnDamageReceived.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036873988675689236, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
+      propertyPath: current
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036873988675689236, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
+      propertyPath: maximum
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036873988675689236, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
+      propertyPath: minimum
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7368890664972925704, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
       propertyPath: m_RootOrder
@@ -36045,6 +36085,18 @@ PrefabInstance:
     - target: {fileID: 6143480388731907597, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
       propertyPath: OnDamageReceived.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036873988675689236, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
+      propertyPath: current
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036873988675689236, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
+      propertyPath: maximum
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036873988675689236, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
+      propertyPath: minimum
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7368890664972925704, guid: ca11e4c9dcd9f9d46b3a4adcbaae2a1a, type: 3}
       propertyPath: m_RootOrder
