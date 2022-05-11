@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
   m_Name: Riddle_1 Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: Riddles
+  m_TableCollectionName: Riddle_1
   m_TableCollectionNameGuidString: cf9c7021bf7e7a742aed13d93734639f
   m_Entries:
   - m_Id: 305197051904
