@@ -7017,7 +7017,7 @@ MonoBehaviour:
   onDamage:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4737691727584189347}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Tackle, Assembly-CSharp
         m_MethodName: Stop
         m_Mode: 1
@@ -18438,8 +18438,6 @@ GameObject:
   - component: {fileID: 6143480388731907597}
   - component: {fileID: 6601191367167482706}
   - component: {fileID: 8627276648769511760}
-  - component: {fileID: 7615096662110874743}
-  - component: {fileID: 4737691727584189347}
   m_Layer: 0
   m_Name: RealBarrilete
   m_TagString: Untagged
@@ -18565,61 +18563,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
---- !u!114 &7615096662110874743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7856634725389525426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71680efb8d25fb6498e323e536a84501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemy: {fileID: 0}
-  groups:
-  - name: Knife
-    maxTime: 5
-    throwPoint: {fileID: 6914366180026002521}
-    throwables:
-    - {fileID: 7046222987646235837}
-    - {fileID: 9093525395310161223}
-    - {fileID: 4310986115871424538}
-    - {fileID: 3997055709439162057}
-    - {fileID: 7697288309862834933}
-    - {fileID: 4761106592536704639}
-    - {fileID: 3133884874414726053}
-    - {fileID: 7617082710773203501}
-    - {fileID: 2999414581867308005}
-    - {fileID: 442831270703627630}
-    index: 0
-  - name: Bomb
-    maxTime: 0
-    throwPoint: {fileID: 6914366180026002521}
-    throwables:
-    - {fileID: 4043893148721729755}
-    - {fileID: 4043893148812611476}
-    - {fileID: 4043893148596918425}
-    index: 0
---- !u!114 &4737691727584189347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7856634725389525426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e60e3aa971b6874793a3b4fdb18a697, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemy: {fileID: 0}
-  damageColl: {fileID: 3332383628179169921}
-  timeToCharge: 2
-  timeStop: 0.3
-  timeForward: 1
-  speed: 1.7
 --- !u!1 &7872527607263112208
 GameObject:
   m_ObjectHideFlags: 0
@@ -22210,14 +22153,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb4c40bd3af17e342940572b1602a9c3, type: 3}
---- !u!1 &4043893148812611476 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1594778006948333660, guid: eb4c40bd3af17e342940572b1602a9c3, type: 3}
-  m_PrefabInstance: {fileID: 3332383629629081544}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6216547573949919124 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8681423123041986652, guid: eb4c40bd3af17e342940572b1602a9c3, type: 3}
+  m_PrefabInstance: {fileID: 3332383629629081544}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4043893148812611476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1594778006948333660, guid: eb4c40bd3af17e342940572b1602a9c3, type: 3}
   m_PrefabInstance: {fileID: 3332383629629081544}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3332383629841240261

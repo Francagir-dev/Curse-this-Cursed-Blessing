@@ -10,16 +10,13 @@ public class Occult : MonoBehaviour
     readonly float lowAlpha = .4f;
     readonly float totalTime = .4f;
 
-    [SerializeField] bool test;
-
-    // Start is called before the first frame update
-
     private void Awake() 
         => mat = GetComponent<Renderer>().material;
     
     public void SetOccult(bool occult)
     {
         StopAllCoroutines();
+        if (!gameObject.activeInHierarchy) return;
         StartCoroutine(SetToAlpha());
         IEnumerator SetToAlpha()
         {
@@ -35,8 +32,8 @@ public class Occult : MonoBehaviour
         }
     }
 
-    private void OnValidate()
+    private void OnDisable()
     {
-        //SetOccult(test);
+        mat.SetFloat("_Occult", 1);
     }
 }
