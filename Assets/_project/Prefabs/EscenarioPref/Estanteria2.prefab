@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4661223706866611329}
   - component: {fileID: 1204736468876325034}
   - component: {fileID: 4915191247818620318}
+  - component: {fileID: 3824343252347706601}
   m_Layer: 0
   m_Name: Estanteria01Destrozada
   m_TagString: Untagged
@@ -65,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6212153276850660088, guid: a0464381f681a504291fa5b99adec7a4, type: 3}
+  - {fileID: 2100000, guid: 02d8720e5886cab4883672fbcc709439, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -100,6 +101,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 103.01468, y: 143.52362, z: 32.316757}
   m_Center: {x: 4.175623, y: -6.3809814, z: 26.994202}
+--- !u!114 &3824343252347706601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140659221922442929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82272ce3721616e4787744fc2369fc25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  test: 0
 --- !u!1 &570391820666651733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1036,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LibroFinal01_HIGH (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 901ecab79ea62a94ebe0a22f3cda8971, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 901ecab79ea62a94ebe0a22f3cda8971, type: 3}
 --- !u!4 &140264407135549544 stripped
@@ -1100,6 +1118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LibroFinal01_HIGH (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 901ecab79ea62a94ebe0a22f3cda8971, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 901ecab79ea62a94ebe0a22f3cda8971, type: 3}
 --- !u!4 &1398221663548437123 stripped
@@ -1117,6 +1139,10 @@ PrefabInstance:
     - target: {fileID: 1441364062525392054, guid: dacab5808a00c8f46955cb348c6f3652, type: 3}
       propertyPath: m_Name
       value: Libros02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441364062525392054, guid: dacab5808a00c8f46955cb348c6f3652, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2254914004015603212, guid: dacab5808a00c8f46955cb348c6f3652, type: 3}
       propertyPath: m_RootOrder
@@ -1412,6 +1438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LibroFinal01_HIGH (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 901ecab79ea62a94ebe0a22f3cda8971, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 901ecab79ea62a94ebe0a22f3cda8971, type: 3}
 --- !u!4 &4633972401135186893 stripped
@@ -1525,6 +1555,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 209628506dc854d4697d19a3f0f173a6, type: 3}
       propertyPath: m_Name
       value: Libros01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 209628506dc854d4697d19a3f0f173a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4083501151425157549, guid: 209628506dc854d4697d19a3f0f173a6, type: 3}
       propertyPath: m_LocalPosition.x

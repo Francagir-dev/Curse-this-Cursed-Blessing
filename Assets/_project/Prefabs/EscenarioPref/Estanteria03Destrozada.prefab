@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3849511140650949017}
   - component: {fileID: 1335531373426404691}
   - component: {fileID: 380931389481742805}
+  - component: {fileID: -4197253079193215689}
   m_Layer: 0
   m_Name: Estanteria03Destrozada
   m_TagString: Untagged
@@ -68,7 +69,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 62b4ae4613a3a3546857382ed7df8081, type: 2}
+  - {fileID: 2100000, guid: 02d8720e5886cab4883672fbcc709439, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -103,6 +104,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 112.27986, y: 157.93358, z: 41.32842}
   m_Center: {x: 0.008159637, y: 0, z: 20.66421}
+--- !u!114 &-4197253079193215689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686867961114774662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82272ce3721616e4787744fc2369fc25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  test: 0
 --- !u!1001 &3916125921883222551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -173,6 +187,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
       propertyPath: m_Name
       value: LibroFinal03_HIGH (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
@@ -252,6 +270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LibroFinal03_HIGH (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
 --- !u!4 &4404864005741606432 stripped
@@ -269,6 +291,10 @@ PrefabInstance:
     - target: {fileID: 1441364062525392054, guid: dacab5808a00c8f46955cb348c6f3652, type: 3}
       propertyPath: m_Name
       value: Libros02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441364062525392054, guid: dacab5808a00c8f46955cb348c6f3652, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2254914004015603212, guid: dacab5808a00c8f46955cb348c6f3652, type: 3}
       propertyPath: m_RootOrder
@@ -404,6 +430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LibroFinal03_HIGH (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
 --- !u!4 &5747381909117428780 stripped
@@ -481,6 +511,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
       propertyPath: m_Name
       value: LibroFinal03_HIGH (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
@@ -560,6 +594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LibroFinal03_HIGH (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
 --- !u!4 &9125931253737205878 stripped
@@ -634,6 +672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LibroFinal03_HIGH
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
 --- !u!4 &8883300789763912666 stripped
@@ -651,6 +693,10 @@ PrefabInstance:
     - target: {fileID: 849026697742123671, guid: ec6c71d657dbe044292e2935e7107f9d, type: 3}
       propertyPath: m_Name
       value: Libros3
+      objectReference: {fileID: 0}
+    - target: {fileID: 849026697742123671, guid: ec6c71d657dbe044292e2935e7107f9d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7719216378032866936, guid: ec6c71d657dbe044292e2935e7107f9d, type: 3}
       propertyPath: m_RootOrder
