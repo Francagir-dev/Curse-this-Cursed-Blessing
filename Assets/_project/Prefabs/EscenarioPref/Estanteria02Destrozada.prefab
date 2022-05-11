@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1426926643118588337}
   - component: {fileID: 3758677687045928315}
   - component: {fileID: 2587340873724176889}
+  - component: {fileID: -4936013721166678859}
   m_Layer: 0
   m_Name: Estanteria02Destrozada
   m_TagString: Untagged
@@ -66,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6212153276850660088, guid: f3eccfdb076986e4b8fbc969c29c400c, type: 3}
+  - {fileID: 2100000, guid: 02d8720e5886cab4883672fbcc709439, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -101,6 +102,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 112.27988, y: 159.62682, z: 41.328415}
   m_Center: {x: 0.008159638, y: 0.84661865, z: 20.664207}
+--- !u!114 &-4936013721166678859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3398384837598418094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82272ce3721616e4787744fc2369fc25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  test: 0
 --- !u!1001 &2170427967386130911
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -167,6 +181,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
       propertyPath: m_Name
       value: LibroFinal03_HIGH
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
@@ -242,6 +260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LibroFinal02_HIGH
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7359ae42e84c24c49a6ebd2ba674d874, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7359ae42e84c24c49a6ebd2ba674d874, type: 3}
 --- !u!4 &3240600609415060501 stripped
@@ -315,6 +337,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 209628506dc854d4697d19a3f0f173a6, type: 3}
       propertyPath: m_Name
       value: Libros01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 209628506dc854d4697d19a3f0f173a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 209628506dc854d4697d19a3f0f173a6, type: 3}
@@ -394,6 +420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LibroFinal03_HIGH (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
 --- !u!4 &5451092026699885931 stripped
@@ -467,6 +497,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 07b3cf18c223d6a4fac923547486cdce, type: 3}
       propertyPath: m_Name
       value: Libros02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b3cf18c223d6a4fac923547486cdce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b3cf18c223d6a4fac923547486cdce, type: 3}
@@ -545,6 +579,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
       propertyPath: m_Name
       value: LibroFinal03_HIGH (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cfb29c4ac226a54099fa1ec6de5f073, type: 3}
