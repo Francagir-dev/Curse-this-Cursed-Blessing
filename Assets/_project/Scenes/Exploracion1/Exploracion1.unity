@@ -74814,7 +74814,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6597109059018089420, guid: 0f6504a82a383f948b378bc70c4e5102, type: 3}
       propertyPath: tableName
-      value: Riddles
+      value: Riddle_1
       objectReference: {fileID: 0}
     - target: {fileID: 6597109059018089420, guid: 0f6504a82a383f948b378bc70c4e5102, type: 3}
       propertyPath: onWin.m_PersistentCalls.m_Calls.Array.size
