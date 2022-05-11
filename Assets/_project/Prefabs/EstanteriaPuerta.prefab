@@ -4904,7 +4904,7 @@ GameObject:
   - component: {fileID: 2679982674912581670}
   - component: {fileID: 4442488186481395050}
   m_Layer: 0
-  m_Name: Estanteria02Destrozada (1)
+  m_Name: Movable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4990,8 +4990,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 112.27988, y: 159.62682, z: 41.328415}
-  m_Center: {x: 0.008159638, y: 0.84661865, z: 20.664207}
+  m_Size: {x: 112.279884, y: 110.93635, z: 41.328415}
+  m_Center: {x: 0.008160953, y: -23.498611, z: 20.664204}
 --- !u!114 &4442488186481395050
 MonoBehaviour:
   m_ObjectHideFlags: 0
