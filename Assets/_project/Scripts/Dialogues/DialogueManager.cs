@@ -163,26 +163,11 @@ public class DialogueManager : MonoBehaviour
 
         List<string> keysNames = GetAllKeys("CharacterNames");
 
-        switch (name)
-          {
-              case "Hero":
-                  name = "Héroe";
-                  break;
-              case "Pistachin":
-                  name = "Pistachin";
-                  break;
-              case "Secuaz":
-                  name = "Secuaz";
-                  break;
-              case "Juan":
-                  name = "Juan";
-                  break;
-              default:
-                  name = "InvalidName";
-                  break;
-          }
+        string characterName = LocalizationSettings.StringDatabase.GetLocalizedString("CharacterNames", name);
 
-        textName.text = myString.Values.ToString();
+        Debug.Log(characterName);
+        
+        textName.text = characterName;
 
         string translatedText =
             LocalizationSettings.StringDatabase.GetLocalizedString(tableName, GetAllKeys(tableName)[currKey]);
