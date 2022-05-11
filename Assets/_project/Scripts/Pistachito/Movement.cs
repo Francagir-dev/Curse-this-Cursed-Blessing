@@ -26,7 +26,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     public bool isPaused;
 
     //Player Input Related
-  public PlayerInput playerInput;
+    public PlayerInput playerInput;
     Vector3 inputMove;
     Vector3 dashDir;
     Quaternion moveDirection;
@@ -51,12 +51,15 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     //TEMPORAL
     ChoiceController choice;
     [HideInInspector] public ChoiceController_Riddle riddle;
-    Interactable[] interactables;
+    List<Interactable> interactables;
+    public List<Interactable> Interactables => interactables;
+
 
     private void Awake()
     {
         instance = this;
 
+        interactables = new List<Interactable>();
         interactionDisplayer = transform.Find("--Interactable--");
         DisplayInteraction(false);
 
@@ -73,7 +76,6 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 
         //TEMPORAL
         choice = FindObjectOfType<ChoiceController>();
-        interactables = FindObjectsOfType<Interactable>();
     }
 
     private void Start()
