@@ -81,6 +81,7 @@ public class ChoiceController_Riddle : MonoBehaviour
         keys = new List<string>();
         riddles = LocalizationSettings.StringDatabase.GetTable(tableName);
 
+        Debug.Log("he");
         foreach (var v in riddles)
             keys.Add(riddles.SharedData.GetEntry(v.Key).Key);
 
@@ -111,12 +112,12 @@ public class ChoiceController_Riddle : MonoBehaviour
         riddleText.text = GetText(currentKey);
         anim.SetBool("Down", true);
 
-        if (keys[currentKey][0] == '?')
+        if (keys[currentKey].StartsWith("?"))
         {
-            SetAnswer(0, GetText(currentKey + 1), keys[currentKey][1] == '$');
-            SetAnswer(1, GetText(currentKey + 2), keys[currentKey][1] == '$');
-            SetAnswer(2, GetText(currentKey + 3), keys[currentKey][1] == '$');
-            SetAnswer(3, GetText(currentKey + 4), keys[currentKey][1] == '$');
+            SetAnswer(0, GetText(currentKey + 1), keys[currentKey].StartsWith("$"));
+            SetAnswer(1, GetText(currentKey + 2), keys[currentKey].StartsWith("$"));
+            SetAnswer(2, GetText(currentKey + 3), keys[currentKey].StartsWith("$"));
+            SetAnswer(3, GetText(currentKey + 4), keys[currentKey].StartsWith("$"));
 
             currentKey += 5;
 
@@ -135,13 +136,15 @@ public class ChoiceController_Riddle : MonoBehaviour
 
         string GetText(int key)
         {
-            return LocalizationSettings.StringDatabase.GetLocalizedString(riddles.name, keys[key]);
+            string answer = LocalizationSettings.StringDatabase.GetLocalizedString(tableName, keys[key]);
+            Debug.Log(answer);
+            return answer;
         }
     }
 
     public void EnableChoices()
     {
-        if (canChoose == true) return;
+        if (canChoose) return;
         
         choosen = -1;
         ResetBoxes();

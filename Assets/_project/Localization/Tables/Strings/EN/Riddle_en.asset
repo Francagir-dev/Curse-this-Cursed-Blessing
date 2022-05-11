@@ -10,72 +10,72 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Riddle_1_es
+  m_Name: Riddle_en
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: es
-  m_SharedData: {fileID: 11400000, guid: cf9c7021bf7e7a742aed13d93734639f, type: 2}
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 7b74adb7fb17cde4aa511737f6f2f4eb, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
   - m_Id: 305197051904
-    m_Localized: "Antiguo due\xF1o de la biblioteca:"
+    m_Localized: Owner of Libabry
     m_Metadata:
       m_Items: []
   - m_Id: 415272366080
-    m_Localized: La bruja de la niebla
+    m_Localized: Witch
     m_Metadata:
       m_Items: []
   - m_Id: 502132207616
-    m_Localized: Reina del valle estelar
+    m_Localized: Queen
     m_Metadata:
       m_Items: []
   - m_Id: 521656692736
-    m_Localized: Umbra, el renacido
+    m_Localized: Umbra
     m_Metadata:
       m_Items: []
   - m_Id: 559720001536
-    m_Localized: "Un drag\xF3n"
+    m_Localized: Dragon
     m_Metadata:
       m_Items: []
   - m_Id: 16477204344832
-    m_Localized: "\xBFQue es m\xE1s fuerte?"
+    m_Localized: Strongest
     m_Metadata:
       m_Items: []
   - m_Id: 16484477267968
-    m_Localized: "Un drag\xF3n"
+    m_Localized: Dragon
     m_Metadata:
       m_Items: []
   - m_Id: 16487438446592
-    m_Localized: Los renacidos
+    m_Localized: Reborn
     m_Metadata:
       m_Items: []
   - m_Id: 16490827444224
-    m_Localized: Un mago estelar
+    m_Localized: Stelar
     m_Metadata:
       m_Items: []
   - m_Id: 17001374904320
-    m_Localized: "\rUn Caballero Licantropo\r"
+    m_Localized: Werewolf Knights
     m_Metadata:
       m_Items: []
   - m_Id: 17177451786240
-    m_Localized: "La magia que estudia la luz\u2026"
+    m_Localized: Light Study
     m_Metadata:
       m_Items: []
   - m_Id: 17182933741568
-    m_Localized: Magia Estelar
+    m_Localized: Stelar
     m_Metadata:
       m_Items: []
   - m_Id: 17184280113152
-    m_Localized: Magia Sagrada
+    m_Localized: Sacred
     m_Metadata:
       m_Items: []
   - m_Id: 17185244803072
-    m_Localized: Magia de la Niebla
+    m_Localized: Mist
     m_Metadata:
       m_Items: []
   - m_Id: 17186146578432
-    m_Localized: "Magia Her\xE9tica"
+    m_Localized: Heresy
     m_Metadata:
       m_Items: []
   references:

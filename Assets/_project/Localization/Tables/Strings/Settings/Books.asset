@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: Books
   m_EditorClassIdentifier: 
   m_SharedTableData: {fileID: 11400000, guid: 4d7a8184edb7e764fad751402921821c, type: 2}
-  m_Tables:
-  - {fileID: 11400000, guid: 3d8f490d6f4f3b645924dd940de0da59, type: 2}
-  - {fileID: 11400000, guid: d8a259987b6565849a323efc9b21cf12, type: 2}
+  m_Tables: []
   m_Extensions: []
   m_Group: String Table
   references:

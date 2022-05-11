@@ -112,18 +112,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     - Preload
-  - m_GUID: 977134113eaa66c4b933f152c37e75d7
-    m_Address: Riddles_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    - Preload
-  - m_GUID: 3d8f490d6f4f3b645924dd940de0da59
-    m_Address: Books_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    - Preload
   - m_GUID: 554093fb64e55db4988f8ff27d59848f
     m_Address: answersLotDamage_en
     m_ReadOnly: 1
@@ -139,14 +127,8 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
-  - m_GUID: 1d653081211fcbf46bbfe06ca506274f
-    m_Address: "1\xBATimeStatue_en"
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    - Preload
-  - m_GUID: 2d53ab188dbc1c744b931cacd012b96a
-    m_Address: StatueBeginFailNice_en
+  - m_GUID: 63aa63b86c4f0d143b666186fb2b11a4
+    m_Address: Riddle_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

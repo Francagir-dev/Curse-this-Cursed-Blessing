@@ -9,79 +9,74 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: Riddle_1 Shared Data
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Riddle_es
   m_EditorClassIdentifier: 
-  m_TableCollectionName: Riddle_1
-  m_TableCollectionNameGuidString: cf9c7021bf7e7a742aed13d93734639f
-  m_Entries:
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 7b74adb7fb17cde4aa511737f6f2f4eb, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
   - m_Id: 305197051904
-    m_Key: ?question_01
+    m_Localized: "Antiguo due\xF1o de la biblioteca:"
     m_Metadata:
       m_Items: []
   - m_Id: 415272366080
-    m_Key: $answer_01_1
+    m_Localized: La bruja de la niebla
     m_Metadata:
       m_Items: []
   - m_Id: 502132207616
-    m_Key: answer_01_2
+    m_Localized: Reina del valle estelar
     m_Metadata:
       m_Items: []
   - m_Id: 521656692736
-    m_Key: answer_01_3
+    m_Localized: Umbra, el renacido
     m_Metadata:
       m_Items: []
   - m_Id: 559720001536
-    m_Key: answer_01_4
+    m_Localized: "Un drag\xF3n"
     m_Metadata:
       m_Items: []
   - m_Id: 16477204344832
-    m_Key: ?question_02
+    m_Localized: "\xBFQue es m\xE1s fuerte?"
     m_Metadata:
       m_Items: []
   - m_Id: 16484477267968
-    m_Key: answer_02_1
+    m_Localized: "Un drag\xF3n"
     m_Metadata:
       m_Items: []
   - m_Id: 16487438446592
-    m_Key: $answer_02_2
+    m_Localized: Los renacidos
     m_Metadata:
       m_Items: []
   - m_Id: 16490827444224
-    m_Key: answer_02_3
+    m_Localized: Un mago estelar
     m_Metadata:
       m_Items: []
   - m_Id: 17001374904320
-    m_Key: answer_02_4
+    m_Localized: "\rUn Caballero Licantropo\r"
     m_Metadata:
       m_Items: []
   - m_Id: 17177451786240
-    m_Key: ?question_03
+    m_Localized: "La magia que estudia la luz\u2026"
     m_Metadata:
       m_Items: []
   - m_Id: 17182933741568
-    m_Key: $answer_03_1
+    m_Localized: Magia Estelar
     m_Metadata:
       m_Items: []
   - m_Id: 17184280113152
-    m_Key: answer_03_2
+    m_Localized: Magia Sagrada
     m_Metadata:
       m_Items: []
   - m_Id: 17185244803072
-    m_Key: answer_03_3
+    m_Localized: Magia de la Niebla
     m_Metadata:
       m_Items: []
   - m_Id: 17186146578432
-    m_Key: answer_03_4
+    m_Localized: "Magia Her\xE9tica"
     m_Metadata:
       m_Items: []
-  m_Metadata:
-    m_Items: []
-  m_KeyGenerator:
-    id: 0
   references:
     version: 1
-    00000000:
-      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
-      data:
-        m_CustomEpoch: 1652020999855

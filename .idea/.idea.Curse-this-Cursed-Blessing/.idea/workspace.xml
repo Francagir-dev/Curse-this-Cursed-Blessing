@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="" />
+    <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Spanish (es).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Spanish (es).asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/EN/Riddle_1_en.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/EN/Riddle_1_en.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/ES/Riddle_1_es.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/ES/Riddle_1_es.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/1ºTimeStatue.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/1ºTimeStatue.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/1ºTimeStatue_en.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/1ºTimeStatue_en.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/1ºTimeStatue_es.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/1ºTimeStatue_es.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Books.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Books.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Books_en.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Books_en.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Books_es.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Books_es.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Riddle_1 Shared Data.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Riddle_1 Shared Data.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Riddle_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Riddle_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/StatueBeginFailNice.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/StatueBeginFailNice.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/StatueBeginFailNice_en.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/StatueBeginFailNice_en.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/StatueBeginFailNice_es.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/StatueBeginFailNice_es.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/ChoiceController_Riddle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/ChoiceController_Riddle.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,10 +89,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="23012">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="23012" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -132,6 +162,7 @@
       <workItem from="1652263424266" duration="1307000" />
       <workItem from="1652283590105" duration="893000" />
       <workItem from="1652292167540" duration="980000" />
+      <workItem from="1652299319414" duration="1423000" />
     </task>
     <servers />
   </component>
@@ -235,6 +266,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/ChoiceController_Riddle.cs</url>
+          <line>139</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Pistachito\ChoiceController_Riddle.cs" initialLine="139" containingFunctionPresentation="local function 'GetText'">
+            <startOffsets>
+              <option value="3591" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3609" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
