@@ -28,8 +28,9 @@ public class MainCharacterLife : LifeSystem
 
     Shaker camShake;
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         dead = GameObject.Find("--Death--");
         dead.SetActive(false);
         onDamage.AddListener(CheckDeath);

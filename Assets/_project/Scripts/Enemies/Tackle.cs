@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Tackle : MonoBehaviour
 {
+    [SerializeField] Enemy enemy;
     [SerializeField] GameObject damageColl;
     [SerializeField] float timeToCharge;
     [SerializeField] float timeStop;
@@ -11,12 +12,10 @@ public class Tackle : MonoBehaviour
     [SerializeField] float speed;
     bool go = false;
     bool returning = false;
-    Enemy enemy;
 
     private void Awake()
     {
         damageColl.SetActive(false);
-        enemy = GetComponent<Enemy>();
     }
 
     public void BeginCharge()

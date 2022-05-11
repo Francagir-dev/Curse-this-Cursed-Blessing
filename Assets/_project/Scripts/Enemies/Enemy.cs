@@ -38,6 +38,7 @@ public abstract class Enemy : MonoBehaviour
 
     protected NavMeshAgent navMeshAgent;
     protected ProgressBar scareLifeHUD;
+    [SerializeField]
     protected Animator _animator;
     public Animator Animator
     {
@@ -79,7 +80,6 @@ public abstract class Enemy : MonoBehaviour
     protected virtual void Awake()
     {
         playerTransf = FindObjectOfType<Movement>().transform;
-        _animator = transform.GetComponent<Animator>();
         navMeshAgent = GetComponent<NavMeshAgent>();
         speedMovement = navMeshAgent.speed;
         OnDamageReceived.AddListener(ReceiveDamage);
@@ -127,7 +127,8 @@ public abstract class Enemy : MonoBehaviour
             return;
         }
 
-        Movement(navMeshAgent, playerTransf, speedMovement);
+        EnemyMovement(navMeshAgent, playerTransf, speedMovement);
+        _animator.SetFloat("Speed", Mathf.Lerp(0, 1, navMeshAgent.velocity.magnitude/3.5f));
 
         if (state == States.Attacking && canRotate)
         {
@@ -145,7 +146,7 @@ public abstract class Enemy : MonoBehaviour
     /// <param name="navigation">Component indicates will move through mesh</param>
     /// <param name="playerTransform">Position where Enemy will move</param>
     /// <param name="speed">Movement Speed (Will be multiplied by Time.deltaTime)</param>
-    protected virtual void Movement(NavMeshAgent navigation, Transform pistachitoTransform, float speed)
+    protected virtual void EnemyMovement(NavMeshAgent navigation, Transform pistachitoTransform, float speed)
     {
         AnimatorStateInfo info = _animator.GetCurrentAnimatorStateInfo(0);
 
@@ -236,6 +237,7 @@ public abstract class Enemy : MonoBehaviour
                 isDeath = true;
                 _animator.SetTrigger("Scared");
                 Transition.Instance.Do(() => onDefeat.Invoke());
+                Movement.Instance.LifeSystem.Heal(10);
                 break;
         }
     }

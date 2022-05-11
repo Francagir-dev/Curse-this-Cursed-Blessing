@@ -8,6 +8,7 @@ public class Interactable : MonoBehaviour
 {
     public UnityEvent onTrigger;
     bool playerDetected = false;
+    public bool needTransition = false;
     public bool PlayerDetected { get => playerDetected; set => playerDetected = value; }
 
     private void OnTriggerEnter(Collider other)
