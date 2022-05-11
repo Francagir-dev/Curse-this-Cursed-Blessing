@@ -114,6 +114,16 @@ MonoBehaviour:
     m_Address: Assets/_project/Localization/Tables/Strings/noDamage Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 9cba4cdf04a9fcf40a25af0f56c11d16
+    m_Address: "Assets/_project/Localization/Tables/Strings/Settings/1\xBATimeStatue
+      Shared Data.asset"
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 307479484b9cf0a41b1d9dbabafefaeb
+    m_Address: Assets/_project/Localization/Tables/Strings/Settings/StatueBeginFailNice
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
   m_SchemaSet:

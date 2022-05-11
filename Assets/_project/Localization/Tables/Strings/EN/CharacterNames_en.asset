@@ -55,11 +55,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1756144017408
-    m_Localized: Statue1
+    m_Localized: "\rHooded Statue"
     m_Metadata:
       m_Items: []
   - m_Id: 1792751902720
-    m_Localized: Statue2
+    m_Localized: "\rBald Statue"
     m_Metadata:
       m_Items: []
   - m_Id: 2897018643640320
