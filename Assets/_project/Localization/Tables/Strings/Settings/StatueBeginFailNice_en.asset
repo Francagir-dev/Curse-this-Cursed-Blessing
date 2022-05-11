@@ -17,6 +17,79 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 307479484b9cf0a41b1d9dbabafefaeb, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 754067271680
+    m_Localized: "\rI see you feel ready!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1140928901120
+    m_Localized: "\rLet's do this."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1276316839936
+    m_Localized: It's only 3 questions, but you have to get them all right.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1422685466624
+    m_Localized: "\rReady? Well here we go!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1612142178304
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1698305765376
+    m_Localized: Evil! Very bad!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1969773703168
+    m_Localized: You've already had fun, shall we open the door for them?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2152993484800
+    m_Localized: "\rBut the grace is that they have to hit!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2160727781376
+    m_Localized: "Ah\u2026 if you want my advice, keep your eyes open. There are
+      books out there that contain the solution."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2526051659776
+    m_Localized: "\rHey, that's not okay!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3305349148672
+    m_Localized: Please, I just want you to shut up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3464413933568
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3467026984960
+    m_Localized: "\rDing ding ding! It is right!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3472823513088
+    m_Localized: Wow, I didn't know you guys would be so good at this!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3474186661888
+    m_Localized: Ale, you've already had fun, can we open the entrance for them now?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4238988636160
+    m_Localized: Oh yeah! It's already open.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4336887885824
+    m_Localized: "\rGreat, I'm back to sleep."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4405129211904
+    m_Localized: Good luck with your search!
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
