@@ -113,7 +113,7 @@ MonoBehaviour:
     - Locale-en
     - Preload
   - m_GUID: 977134113eaa66c4b933f152c37e75d7
-    m_Address: Riddles_en
+    m_Address: Riddle_1_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
