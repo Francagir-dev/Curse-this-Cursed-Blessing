@@ -24,7 +24,11 @@ public class DialogueManager : MonoBehaviour
     int currKey = 0;
 
     [SerializeField] private string tableName;
-    public string TableName { set { tableName = value; /*GetAllKeys(tableName);*/ } }
+
+    public string TableName
+    {
+        set { tableName = value; /*GetAllKeys(tableName);*/ }
+    }
 
     //private PlayerInput _player;
 
@@ -77,7 +81,6 @@ public class DialogueManager : MonoBehaviour
     void OnDisable()
     {
         myString.StringChanged -= UpdateString;
-       
     }
 
     void UpdateString(string s)
@@ -92,7 +95,7 @@ public class DialogueManager : MonoBehaviour
 
     public List<string> GetAllKeys(string tableName)
     {
-       stringTable = LocalizationSettings.StringDatabase.GetTable(tableName);
+        stringTable = LocalizationSettings.StringDatabase.GetTable(tableName);
         List<string> keys = new List<string>();
 
         foreach (var v in stringTable)
@@ -158,26 +161,13 @@ public class DialogueManager : MonoBehaviour
 
         string name = GetAllKeys(tableName)[currKey].Split('_')[0];
 
-        switch (name)
-        {
-            case "Hero":
-                name = "Héroe";
-                break;
-            case "Pistachin":
-                name = "Pistachin";
-                break;
-            case "Secuaz":
-                name = "Secuaz";
-                break;
-            case "Juan":
-                name = "Juan";
-                break;
-            default:
-                name = "InvalidName";
-                break;
-        }
+        List<string> keysNames = GetAllKeys("CharacterNames");
 
-        textName.text = name;
+        string characterName = LocalizationSettings.StringDatabase.GetLocalizedString("CharacterNames", name);
+
+        Debug.Log(characterName);
+        
+        textName.text = characterName;
 
         string translatedText =
             LocalizationSettings.StringDatabase.GetLocalizedString(tableName, GetAllKeys(tableName)[currKey]);

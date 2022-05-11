@@ -74,5 +74,9 @@ MonoBehaviour:
     m_Localized: Jhonny, Jonathan & John
     m_Metadata:
       m_Items: []
+  - m_Id: 12410729716338688
+    m_Localized: Libro
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: noDamage_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 32c7e091236cd5443a530ee0f41d552d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 183033483264
+    m_Localized: "I don\u2019t know what your boss saw in you."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 253057388544
+    m_Localized: That attack was pathetic.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1854081945600
+    m_Localized: Ooo, so scary!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1858272055296
+    m_Localized: "If you keep that up I\u2019m going to fall asleep"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1861828825088
+    m_Localized: Your brothers seem to be more competent.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1867801513984
+    m_Localized: "I\u2019ll destroy you!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1985174917120
+    m_Localized: You should retire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2004502269952
+    m_Localized: Leave me alone!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2049834307584
+    m_Localized: "What do you have against me?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2060471062528
+    m_Localized: What have I done to you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2097078947840
+    m_Localized: "You\u2019re weak."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2346992357376
+    m_Localized: Leave this place!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2390076248064
+    m_Localized: Die!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2413149114368
+    m_Localized: "I\u2019ve seen snails move faster than you"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2479498809344
+    m_Localized: "I\u2019m bored."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2504127762432
+    m_Localized: "You\u2019ll regret this!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

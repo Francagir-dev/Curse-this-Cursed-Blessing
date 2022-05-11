@@ -2,64 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Spanish (es).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Spanish (es).asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WSATestCertificate.pfx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WSATestCertificate.pfx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/CharacterNames Shared Data.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/CharacterNames Shared Data.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/CharacterNames.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/CharacterNames.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/CharacterNames_en.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/CharacterNames_en.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/CharacterNames_es.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/CharacterNames_es.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/ES/InnocentEnemies_es.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/ES/InnocentEnemies_es.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/QualityDropdown Shared Data.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/QualityDropdown Shared Data.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/QualityDropdown.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/QualityDropdown.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/QualityDropdown_en.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/QualityDropdown_en.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/QualityDropdown_es.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/QualityDropdown_es.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/InnocentEnemies_klng.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/InnocentEnemies_klng.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Intro BossFight_en.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/Intro BossFight_en.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts Shared Data.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts Shared Data.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_en.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_en.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_es.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/UI_Texts_es.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/deathUI_Secuaz Shared Data.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/deathUI_Secuaz Shared Data.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/deathUI_Secuaz.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/deathUI_Secuaz.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/deathUI_Secuaz_en.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/deathUI_Secuaz_en.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/deathUI_Secuaz_es.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/deathUI_Secuaz_es.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Prefabs/--Death--.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Prefabs/--Death--.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Prefabs/MenuPausa.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Prefabs/MenuPausa.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Prefabs/OptionsMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Prefabs/OptionsMenu.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Dialogues/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Dialogues/DialogueManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Options/LocaleDropDown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Options/LocaleDropDown.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/MainCharacterLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/MainCharacterLife.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Transition/Transition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Transition/Transition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/png-transparent-dialog-box-video-game-dialogue-game-box-game-angle-rectangle (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/png-transparent-dialog-box-video-game-dialogue-game-box-game-angle-rectangle (1).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/CharacterNames Shared Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/CharacterNames Shared Data.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +17,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/_project/PersistentInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Options/LocaleDropDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.19.15/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/TimeLine/SubtitleTrack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@1.1.1/Runtime/Settings/LocalizationSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/UI/QuitOptionMenu.cs" root0="FORCE_HIGHLIGHTING" />
@@ -119,10 +61,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13496">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="13496" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -188,6 +130,9 @@
       <workItem from="1651923414177" duration="195000" />
       <workItem from="1651923690154" duration="4204000" />
       <workItem from="1652085372008" duration="234000" />
+      <workItem from="1652189659792" duration="1642000" />
+      <workItem from="1652263424266" duration="1307000" />
+      <workItem from="1652283590105" duration="693000" />
     </task>
     <servers />
   </component>
@@ -241,37 +186,6 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs</url>
-          <line>65</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\UI\PauseManager.cs" initialLine="37" containingFunctionPresentation="method 'StopPause'" />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs</url>
-          <line>47</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\UI\PauseManager.cs" initialLine="26" containingFunctionPresentation="method 'InitializeFirstSelectedPause'" />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Dialogues/DialogueManager.cs</url>
-          <line>221</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Dialogues\DialogueManager.cs" initialLine="228" containingFunctionPresentation="method 'WriteText'" />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
-          <line>24</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="16" containingFunctionPresentation="method 'Awake'">
-            <startOffsets>
-              <option value="897" />
-            </startOffsets>
-            <endOffsets>
-              <option value="971" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
           <line>66</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="41" containingFunctionPresentation="method 'ActivateItem'">
@@ -322,19 +236,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/MainCharacterLife.cs</url>
-          <line>33</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Pistachito\MainCharacterLife.cs" initialLine="33" containingFunctionPresentation="method 'Awake'">
-            <startOffsets>
-              <option value="997" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1019" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

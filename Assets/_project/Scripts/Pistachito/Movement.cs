@@ -26,7 +26,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     public bool isPaused;
 
     //Player Input Related
-  public PlayerInput playerInput;
+    public PlayerInput playerInput;
     Vector3 inputMove;
     Vector3 dashDir;
     Quaternion moveDirection;
@@ -51,12 +51,15 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     //TEMPORAL
     ChoiceController choice;
     [HideInInspector] public ChoiceController_Riddle riddle;
-    Interactable[] interactables;
+    List<Interactable> interactables;
+    public List<Interactable> Interactables => interactables;
+
 
     private void Awake()
     {
         instance = this;
 
+        interactables = new List<Interactable>();
         interactionDisplayer = transform.Find("--Interactable--");
         DisplayInteraction(false);
 
@@ -77,7 +80,6 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 
     private void Start()
     {
-        interactables = FindObjectsOfType<Interactable>();
     }
 
     public void OnMovement(InputAction.CallbackContext context)
@@ -133,6 +135,13 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         float time = display ? 0 : maxTime;
         if (interactionCoroutine != null)
             StopCoroutine(interactionCoroutine);
+
+        if (!gameObject.activeInHierarchy)
+        {
+            interactionDisplayer.localScale =
+                display ? Vector3.one : Vector3.zero;
+            return;
+        }
         interactionCoroutine = StartCoroutine(Displayer());
 
         IEnumerator Displayer()
@@ -182,7 +191,9 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         {
             if (item.PlayerDetected && item.isActiveAndEnabled)
             {
-                item.onTrigger.Invoke();
+                if (item.needTransition) Transition.Instance.Do(item.onTrigger.Invoke);
+                else item.onTrigger.Invoke();
+
                 if (!item.isActiveAndEnabled)
                 {
                     DisplayInteraction(false);

@@ -71,6 +71,10 @@ MonoBehaviour:
     m_Key: LosTres
     m_Metadata:
       m_Items: []
+  - m_Id: 12410729716338688
+    m_Key: book
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
