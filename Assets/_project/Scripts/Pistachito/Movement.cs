@@ -49,7 +49,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     Coroutine interactionCoroutine;
 
     //TEMPORAL
-    ChoiceController choice;
+    [HideInInspector] public ChoiceController choice;
     [HideInInspector] public ChoiceController_Riddle riddle;
     List<Interactable> interactables;
     public List<Interactable> Interactables => interactables;

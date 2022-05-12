@@ -160,10 +160,10 @@ RectTransform:
   m_Father: {fileID: 6255740554862043091}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 302.87}
-  m_SizeDelta: {x: -197.4594, y: -456.251}
+  m_AnchoredPosition: {x: 0.7297363, y: 32.499985}
+  m_SizeDelta: {x: -197.45941, y: 74.74899}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4118679447007315445
 CanvasRenderer:
@@ -626,7 +626,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.4622112}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.3218994, y: 0.8259964}
+  m_AnchoredPosition: {x: 0.3218994, y: 0.826004}
   m_SizeDelta: {x: 0.6289978, y: -1.1677017}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4014489674995936497
@@ -1026,7 +1026,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.875, y: -0.3899994}
+  m_AnchoredPosition: {x: -0.875, y: -0.3900051}
   m_SizeDelta: {x: -9.929983, y: -3.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6255740554463975105
@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f591667cf52ad34683879a9918a75b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  riddles: {fileID: 11400000, guid: 76dd1ded450ffdc45a39192f6c8e76e4, type: 2}
+  tableName: 
   textBoxReducedSizeMult: 0.8
   riddleText: {fileID: 3166482923797050535}
   onWin:
@@ -1463,7 +1463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.875, y: -0.3899994}
+  m_AnchoredPosition: {x: -0.875, y: -0.3900051}
   m_SizeDelta: {x: -9.929983, y: -3.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8790709365126004279

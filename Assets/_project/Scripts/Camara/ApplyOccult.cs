@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GamApplyOccult : MonoBehaviour
+public class ApplyOccult : MonoBehaviour
 {
     Occult currentOccult;
 

@@ -236,9 +236,15 @@ public abstract class Enemy : MonoBehaviour
             case States.Scared:
                 isDeath = true;
                 _animator.SetTrigger("Scared");
-                Transition.Instance.Do(() => onDefeat.Invoke());
-                Movement.Instance.LifeSystem.Heal(10);
+                StartCoroutine(Wait());
                 break;
+        }
+
+        IEnumerator Wait()
+        {
+            yield return new WaitForSeconds(1);
+            Movement.Instance.LifeSystem.Heal(10);
+            Transition.Instance.Do(() => onDefeat.Invoke());
         }
     }
 }

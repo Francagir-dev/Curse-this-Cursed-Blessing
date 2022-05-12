@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_project/Scenes/Exploracion1/Exploracion1.unity
     guid: ebc46d6e7f409b14aabdf8ef60ebb8fc
-  - enabled: 1
+  - enabled: 0
     path: Assets/_project/Scenes/Boss1Scene/Boss1Scene.unity
     guid: 6f8dcaa51c35dd143976891b279d581c
+  - enabled: 1
+    path: Assets/_project/Scenes/Continue.unity
+    guid: c7e887c47e095e54795aa0a18c0caf0c
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: e9d2b94f0c50fe2458ff8d348ea470e9, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 00e58b59e223483428349b111110a208, type: 2}

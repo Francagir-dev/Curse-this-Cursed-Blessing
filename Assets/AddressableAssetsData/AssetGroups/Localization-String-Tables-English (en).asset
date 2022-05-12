@@ -133,6 +133,24 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     - Preload
+  - m_GUID: 474c3b4b6db3684468c6f77cd846c4b5
+    m_Address: "1\xBATimeStatue_en"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 547d6611d78a5d24192c883b7c276675
+    m_Address: Books_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: c009b3c2892493f4784d93ff6bececa4
+    m_Address: StatueBeginFailNice_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
   m_SchemaSet:

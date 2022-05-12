@@ -43,6 +43,7 @@ public class MainCharacterLife : LifeSystem
     private void Start()
     {
         onDamage.AddListener(ChangeImage);
+        onHeal.AddListener(ChangeImage);
         onDamage.AddListener(ChangeColorDegrade);
         onDamage.AddListener(() => camShake.BeginShake(.5f, .5f));
     }

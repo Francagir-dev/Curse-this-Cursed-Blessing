@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: StatueBeginFailNice
   m_EditorClassIdentifier: 
   m_SharedTableData: {fileID: 11400000, guid: 307479484b9cf0a41b1d9dbabafefaeb, type: 2}
-  m_Tables: []
+  m_Tables:
+  - {fileID: 11400000, guid: c009b3c2892493f4784d93ff6bececa4, type: 2}
+  - {fileID: 11400000, guid: 065645e5f4651de44afbcd4a43e8c230, type: 2}
   m_Extensions: []
   m_Group: String Table
   references:

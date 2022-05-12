@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: "1\xBATimeStatue"
   m_EditorClassIdentifier: 
   m_SharedTableData: {fileID: 11400000, guid: 9cba4cdf04a9fcf40a25af0f56c11d16, type: 2}
-  m_Tables: []
+  m_Tables:
+  - {fileID: 11400000, guid: 474c3b4b6db3684468c6f77cd846c4b5, type: 2}
+  - {fileID: 11400000, guid: c7591a8f20a70814199e4c042f6c31c1, type: 2}
   m_Extensions: []
   m_Group: String Table
   references:
