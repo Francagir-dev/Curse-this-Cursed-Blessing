@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Prefabs/MenuPausa.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Prefabs/MenuPausa.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Prefabs/OptionsMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Prefabs/OptionsMenu.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/QuitOptionMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/QuitOptionMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/MainMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +140,7 @@
       <workItem from="1652299319414" duration="1423000" />
       <workItem from="1652340925479" duration="3416000" />
       <workItem from="1652350589682" duration="1000" />
-      <workItem from="1652350827711" duration="690000" />
+      <workItem from="1652350827711" duration="1396000" />
     </task>
     <servers />
   </component>
