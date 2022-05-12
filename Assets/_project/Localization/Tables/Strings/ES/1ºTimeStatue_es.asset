@@ -23,7 +23,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 120937082880
-    m_Localized: "Espera, \xBFque ha sido eso?"
+    m_Localized: "Espera, \xBFqu\xE9 ha sido eso?"
     m_Metadata:
       m_Items: []
   - m_Id: 305012502528
@@ -35,7 +35,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 695841943552
-    m_Localized: "\xBFDe donde viene?"
+    m_Localized: "\xBFDe d\xF3nde viene?"
     m_Metadata:
       m_Items: []
   - m_Id: 844022509568
@@ -76,15 +76,15 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 2883179868160
     m_Localized: "He visto de esos antes, y normalmente son un poco m\xE1s\u2026
-      bueno, animados."
+      Bueno, animados."
     m_Metadata:
       m_Items: []
   - m_Id: 2884522045440
-    m_Localized: "\xA1Que cruel destino el no tener articulaciones!"
+    m_Localized: "\xA1Qu\xE9 cruel destino no tener articulaciones!"
     m_Metadata:
       m_Items: []
   - m_Id: 3700309979136
-    m_Localized: "Ignorarla, le gusta demasiado la compa\xF1\xEDa. \xBFQue hac\xE9is
+    m_Localized: "Ignoradla, le gusta demasiado la compa\xF1\xEDa. \xBFQue hac\xE9is
       aqu\xED?"
     m_Metadata:
       m_Items: []
@@ -97,7 +97,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4358958313472
-    m_Localized: "\xA1Ah! Eso est\xE1 en la gran sala principal."
+    m_Localized: "\xA1Ah! Eso est\xE1 en la Gran sala principal."
     m_Metadata:
       m_Items: []
   - m_Id: 4677347930112
@@ -175,11 +175,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10657896951808
-    m_Localized: "\xBFVeis con lo que tengo que aguantar?"
+    m_Localized: "\xBFVeis lo que tengo que aguantar?"
     m_Metadata:
       m_Items: []
   - m_Id: 10789539377152
-    m_Localized: "Mi p\xE9same"
+    m_Localized: "Mi p\xE9same."
     m_Metadata:
       m_Items: []
   - m_Id: 11861825777664

@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Spanish (es).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Spanish (es).asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/MainMenuController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/MainMenuController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/FirstButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/FirstButton.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +136,7 @@
       <workItem from="1652283590105" duration="893000" />
       <workItem from="1652292167540" duration="980000" />
       <workItem from="1652299319414" duration="1423000" />
-      <workItem from="1652340925479" duration="1853000" />
+      <workItem from="1652340925479" duration="3416000" />
     </task>
     <servers />
   </component>

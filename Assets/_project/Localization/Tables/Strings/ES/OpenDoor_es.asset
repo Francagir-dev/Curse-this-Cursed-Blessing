@@ -56,7 +56,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288069625454592
-    m_Localized: ... dejemos que Juan lo arregle.
+    m_Localized: ... Dejemos que Juan lo arregle.
     m_Metadata:
       m_Items: []
   - m_Id: 288070426566656
@@ -72,13 +72,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288072842485760
-    m_Localized: 'Bueno, vamos a dentro a pillar a esa planta.
-
-'
+    m_Localized: Bueno, vamos a dentro a pillar a esa planta.
     m_Metadata:
       m_Items: []
   - m_Id: 288073685540864
-    m_Localized: "\xBFY cuando cenamos?\n"
+    m_Localized: "\xBFY cu\xE1ndo cenamos?"
     m_Metadata:
       m_Items: []
   - m_Id: 288074553761792
@@ -94,7 +92,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288077141647360
-    m_Localized: "... gracias por tu oh-tan-\xFAtil consejo."
+    m_Localized: "... Gracias por tu oh-tan-\xFAtil consejo."
     m_Metadata:
       m_Items: []
   references:

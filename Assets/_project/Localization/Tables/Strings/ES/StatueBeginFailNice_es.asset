@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1276316839936
-    m_Localized: Son solo 3 preguntas, pero tienes que acertar todas.
+    m_Localized: Son solo 3 preguntas, pero tienes que acertarlas todas.
     m_Metadata:
       m_Items: []
   - m_Id: 1422685466624
@@ -51,7 +51,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2160727781376
-    m_Localized: "Ah\u2026 si quieres mi consejo, mantened los ojos abiertos. Hay
+    m_Localized: "Ah\u2026 Si quieres mi consejo, mantened los ojos abiertos. Hay
       libros por ah\xED que contienen la soluci\xF3n."
     m_Metadata:
       m_Items: []
@@ -72,7 +72,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3472823513088
-    m_Localized: "\xA1Wow, no sabia que se os dar\xEDa tan bien esto!"
+    m_Localized: "\xA1Wow, no sab\xEDa que se os dar\xEDa tan bien esto!"
     m_Metadata:
       m_Items: []
   - m_Id: 3474186661888

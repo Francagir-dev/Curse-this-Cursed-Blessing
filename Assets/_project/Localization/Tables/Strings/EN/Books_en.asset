@@ -19,37 +19,37 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 10713647640576
-    m_Localized: "\rAuthor: The witch of the mist"
+    m_Localized: "\rAuthor: The witch of the mist."
     m_Metadata:
       m_Items: []
   - m_Id: 11305552015360
-    m_Localized: Sacred Magic studies faith in different gods. They each have their
-      own unique type of magic, but all of them together are classified as holy magic.
+    m_Localized: 'Sacred Magic: Studies faith in different gods. They each have their
+      own unique type of magic, but together, they are classified as Sacred Magic.'
     m_Metadata:
       m_Items: []
   - m_Id: 11409570754560
-    m_Localized: Stellar Magic studies that which illuminates beings. Those who study
-      light also worship the sun, back in the star valley.
+    m_Localized: 'Stellar Magic: Studies that which illuminates beings. Those who
+      study light also worship the sun, back in the Star Valley.'
     m_Metadata:
       m_Items: []
   - m_Id: 11560452452352
-    m_Localized: Heretic Magic, used by the reborns. Extremely dangerous, especially
-      against holy magic. Use blood from other living beings to power the spell.
+    m_Localized: 'Heretic Magic: Used by the reborns. Extremely dangerous, especially
+      against Sacred Magic. Uses blood from other living beings to enhance the spell.'
     m_Metadata:
       m_Items: []
   - m_Id: 11664873844736
-    m_Localized: "\rMist Magic is probably the rarest, used by me, the author. I
-      won't reveal anything else, since this magic must only be known by me and my
-      teacher."
+    m_Localized: "\rMist Magic: It is probably the rarest, used by me, the author.
+      I will not reveal anything else, since this magic must only be known by my
+      teacher and I."
     m_Metadata:
       m_Items: []
   - m_Id: 11872332509184
-    m_Localized: "\rI leave this book in my library, so that one day this knowledge
-      will serve someone."
+    m_Localized: "\rI shall leave this book in my library, so that one day this knowledge
+      may be of use to someone else."
     m_Metadata:
       m_Items: []
   - m_Id: 14760563798016
-    m_Localized: "\rAuthor: \"Hunter Van Hellsaint\""
+    m_Localized: "\rAuthor: \"Hunter Van Hellsaint\"."
     m_Metadata:
       m_Items: []
   - m_Id: 14832831655936
@@ -60,12 +60,12 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 14840209436672
     m_Localized: The reborns are creatures that reject death. However, unlike zombies
-      or walking skeletons, the revenants have reasoning abilities, and of course,
-      they are much stronger.
+      or walking skeletons, the reborns have reasoning abilities, they also happen
+      to be much stronger.
     m_Metadata:
       m_Items: []
   - m_Id: 14847281033216
-    m_Localized: Beings that happened with an absolute resentment for the world,
+    m_Localized: Beings that died with an absolute resentment for the world, they
       wander the lands in search of a satisfaction that they will never find.
     m_Metadata:
       m_Items: []
@@ -77,53 +77,53 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 15282087751680
     m_Localized: Lock them in a silver tomb, or impale them on the ground. I know
-      it sounds barbaric, but when you're up against one of these beings, roughness...
+      it sounds barbaric, but when you are up against one of these beings, roughness...
       seems graceful.
     m_Metadata:
       m_Items: []
   - m_Id: 15521699950592
-    m_Localized: "Author: Anonymous\r"
+    m_Localized: "Author: Anonymous\r."
     m_Metadata:
       m_Items: []
   - m_Id: 15527563587584
     m_Localized: '"The first pages don''t have anything interesting, so you jump
-      to the last ones, where the coolest bugs are."'
+      to the last ones, where the coolest monsters are."'
     m_Metadata:
       m_Items: []
   - m_Id: 15529224531968
-    m_Localized: 'Dragons: Of all the strongest creatures recorded in this book,
-      this... is the most common of them all. There are different types, but all
-      can be adapted to any environment in less than a week.'
+    m_Localized: 'Dragons: Of all the strong creatures recorded in this book, this...
+      is the most common of them all. There are different types, but all of them
+      can adapt to any environment in less than a week.'
     m_Metadata:
       m_Items: []
   - m_Id: 15530294079488
-    m_Localized: However, it does not even reach the sole of the shoes of the strongest.
+    m_Localized: However, it does not even hold a candle compared to the strongest.
     m_Metadata:
       m_Items: []
   - m_Id: 15531262963712
     m_Localized: 'Werewolf Knights: Not much is known about them, but they used to
-      be a gang of bandits with a great talent for slaughter.'
+      be a gang of bandits with great talent for slaughter.'
     m_Metadata:
       m_Items: []
   - m_Id: 15535121723392
-    m_Localized: "\rBut it is said that his latest victim, a young king of the Outer
-      Kingdoms, cursed his entire band, transforming them into what they were, a
-      band of animals, functioning only on instinct."
+    m_Localized: It is said that their last victim, a young king of the Outer Kingdoms,
+      cursed his entire gang, transforming them into what they were, a bunch of animals,
+      functioning only on instinct.
     m_Metadata:
       m_Items: []
   - m_Id: 15962533883904
-    m_Localized: Do not be overconfident, even if they have lost all kinds of human
-      reasoning, they are still even more dangerous than before.
+    m_Localized: Do not be overconfident, even if they have lost every speck of human
+      reasoning, they can be even more dangerous than before.
     m_Metadata:
       m_Items: []
   - m_Id: 16122953428992
     m_Localized: "Reborns: There is already a book that explains these creatures
-      in much more detail. I will only comment that if you find one of these\u2026
-      you have little chance."
+      in much more detail. I will only say that if you find one of these\u2026 you
+      have little to no chance."
     m_Metadata:
       m_Items: []
   - m_Id: 16128942895104
-    m_Localized: "\rDefinitely the most dangerous monster of all..."
+    m_Localized: "\rDefinitely, the strongest monster of them all..."
     m_Metadata:
       m_Items: []
   references:

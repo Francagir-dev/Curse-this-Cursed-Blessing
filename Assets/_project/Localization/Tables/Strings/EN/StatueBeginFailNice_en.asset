@@ -39,24 +39,24 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1698305765376
-    m_Localized: Bad! Very bad!
+    m_Localized: Wrong! So wrong!
     m_Metadata:
       m_Items: []
   - m_Id: 1969773703168
-    m_Localized: You've already had fun, shall we open the door for them?
+    m_Localized: You've already had your fun, shall we open the door for them?
     m_Metadata:
       m_Items: []
   - m_Id: 2152993484800
-    m_Localized: "\rBut the grace is that they have to hit!"
+    m_Localized: But the fun part is that they have to get it right!
     m_Metadata:
       m_Items: []
   - m_Id: 2160727781376
-    m_Localized: "Ah\u2026 if you want my advice, keep your eyes open. There are
-      books out there that contain the solution."
+    m_Localized: "Ah\u2026 If you want my advice, keep your eyes peeled. There are
+      books out there where you can find the answers."
     m_Metadata:
       m_Items: []
   - m_Id: 2526051659776
-    m_Localized: "\rHey, that's not okay!"
+    m_Localized: "\rHey, that's unfair!"
     m_Metadata:
       m_Items: []
   - m_Id: 3305349148672
@@ -76,7 +76,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3474186661888
-    m_Localized: Ale, you've already had fun, can we open the entrance for them now?
+    m_Localized: '''Aight, you''ve had your fun now, can we open the entrance for
+      them already?'
     m_Metadata:
       m_Items: []
   - m_Id: 4238988636160
@@ -84,11 +85,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4336887885824
-    m_Localized: "\rGreat, I'm back to sleep."
+    m_Localized: "\rGreat, I'm going back to sleep."
     m_Metadata:
       m_Items: []
   - m_Id: 4405129211904
-    m_Localized: Good luck with your search!
+    m_Localized: Good luck with your quest!
     m_Metadata:
       m_Items: []
   references:

@@ -19,29 +19,30 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 10713647640576
-    m_Localized: 'Autor: La bruja de la niebla'
+    m_Localized: 'Autor: La bruja de la niebla.'
     m_Metadata:
       m_Items: []
   - m_Id: 11305552015360
-    m_Localized: "Magia Sagrada estudia la fe en diferentes dioses. Cada uno tiene
+    m_Localized: "Magia Sagrada: Estudia la fe en diferentes dioses. Cada uno tiene
       su propio tipo de magia \xFAnica, pero todas en su conjunto son clasificadas
-      como magia sagrada."
+      como Magia Sagrada."
     m_Metadata:
       m_Items: []
   - m_Id: 11409570754560
-    m_Localized: "Magia Estelar estudia aquello que ilumina a los seres. Aquellos
-      que estudian la luz tambi\xE9n adoran al sol, all\xE1 por el valle estelar."
+    m_Localized: "Magia Estelar: Estudia aquello que ilumina a los seres. Aquellos
+      que estudian la luz tambi\xE9n adoran al sol, all\xE1 por el Valle Estelar."
     m_Metadata:
       m_Items: []
   - m_Id: 11560452452352
-    m_Localized: "Magia Her\xE9tica, usada por los renacidos. Extremadamente peligrosa,
-      especialmente contra la magia sagrada. Utiliza sangre de otros seres vivos
-      para potenciar el hechizo."
+    m_Localized: "Magia Her\xE9tica: Usada por los renacidos. Extremadamente peligrosa,
+      especialmente contra Magia Sagrada. Utiliza sangre de otros seres vivos para
+      potenciar el hechizo."
     m_Metadata:
       m_Items: []
   - m_Id: 11664873844736
-    m_Localized: "Magia de la Niebla es probablemente la m\xE1s rara, usada por mi,
-      la autora. No dire mucho m\xE1s, ya que es un secreto mio y de mi maestra."
+    m_Localized: "Magia de la Niebla: Es probablemente la m\xE1s rara, usada por
+      m\xED, la autora. No dir\xE9 mucho m\xE1s, ya que es un secreto reservado para
+      mi maestra y yo."
     m_Metadata:
       m_Items: []
   - m_Id: 11872332509184
@@ -50,7 +51,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 14760563798016
-    m_Localized: "Autor: \u201CCazador Van Hellsaint\u201D\r"
+    m_Localized: "Autor: \u201CCazador Van Hellsaint\u201D."
     m_Metadata:
       m_Items: []
   - m_Id: 14832831655936
@@ -60,9 +61,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 14840209436672
-    m_Localized: "Los renacidos, son criaturas que rechazan la muerte. Sin embargo,
-      al contrario que zombies o esqueletos andantes, los renacidos tienen capacidad
-      de razonamiento, y desde luego, son mucho m\xE1s fuertes. "
+    m_Localized: "Los renacidos son criaturas que rechazan la muerte. Sin embargo,
+      al contrario que los zombies o esqueletos andantes, los renacidos tienen capacidad
+      de razonamiento, y, desde luego, son mucho m\xE1s fuertes."
     m_Metadata:
       m_Items: []
   - m_Id: 14847281033216
@@ -72,29 +73,29 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 14852955926528
     m_Localized: "Es eso lo que los mantiene con vida, y por lo tanto, nunca morir\xE1n.
-      Pero no todo est\xE1 perdido, es imposible destruirlos por completo, pero si
+      Pero no todo est\xE1 perdido, es imposible destruirlos por completo, pero s\xED
       se les puede neutralizar."
     m_Metadata:
       m_Items: []
   - m_Id: 15282087751680
-    m_Localized: "Encerrarlos en una tumba de plata, o empalarlos en el suelo. Se
+    m_Localized: "Encerrarlos en una tumba de plata, o empalarlos en el suelo. S\xE9
       que suena barb\xE1rico, pero cuando te enfrentas a uno de estos seres, lo brusco...
       parece elegante."
     m_Metadata:
       m_Items: []
   - m_Id: 15521699950592
-    m_Localized: "Autor: An\xF3nimo"
+    m_Localized: "Autor: An\xF3nimo."
     m_Metadata:
       m_Items: []
   - m_Id: 15527563587584
     m_Localized: "\"Las primeras p\xE1ginas no tienen nada interesante, as\xED que
-      saltas a las \xFAltimas, donde los bichos chulos est\xE1n\"."
+      saltas a las \xFAltimas, donde est\xE1n los bichos chulos\"."
     m_Metadata:
       m_Items: []
   - m_Id: 15529224531968
-    m_Localized: "Dragones: De todas las criaturas m\xE1s fuertes grabadas en este
-      libro, esta\u2026 es la m\xE1s com\xFAn de todas. Hay de distintos tipos, pero
-      todos se pueden adaptar a cualquier entorno en menos de una semana."
+    m_Localized: "Dragones: De todas las criaturas fuertes grabadas en este libro,
+      esta\u2026 es la m\xE1s com\xFAn de todas. Hay de distintos tipos, pero todos
+      se pueden adaptar a cualquier entorno en menos de una semana."
     m_Metadata:
       m_Items: []
   - m_Id: 15530294079488
@@ -104,18 +105,18 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 15531262963712
     m_Localized: "Caballeros Lic\xE1ntropos: No mucho se sabe de ellos, pero sol\xEDan
-      ser una banda de bandidos con un gran talento para la matanza"
+      ser una banda de bandidos con un gran talento para la matanza."
     m_Metadata:
       m_Items: []
   - m_Id: 15535121723392
-    m_Localized: "Pero se dice que su \xFAltima v\xEDctima, un joven rey de los reinos
-      lejanos, maldijo a toda su banda, transform\xE1ndolos en lo que eran, una banda
+    m_Localized: "Se dice que su \xFAltima v\xEDctima, un joven rey de los Reinos
+      Lejanos, maldijo a toda su banda, transform\xE1ndolos en lo que eran, una banda
       de animales, funcionando solo por instinto."
     m_Metadata:
       m_Items: []
   - m_Id: 15962533883904
     m_Localized: "No te conf\xEDes, incluso si han perdido toda clase de razonamiento
-      humano, siguen siendo incluso m\xE1s peligrosos que antes."
+      humano, pueden ser incluso m\xE1s peligrosos que antes."
     m_Metadata:
       m_Items: []
   - m_Id: 16122953428992
@@ -125,7 +126,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 16128942895104
-    m_Localized: "Definitivamente, los monstruo m\xE1s peligroso de todos....\r"
+    m_Localized: "Definitivamente, los monstruos m\xE1s fuertes de todos....\r"
     m_Metadata:
       m_Items: []
   references:

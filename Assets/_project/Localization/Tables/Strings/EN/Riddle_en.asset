@@ -19,63 +19,63 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 305197051904
-    m_Localized: Owner of Libabry
+    m_Localized: 'Owner of Libabry:'
     m_Metadata:
       m_Items: []
   - m_Id: 415272366080
-    m_Localized: Witch
+    m_Localized: Witch of the mist.
     m_Metadata:
       m_Items: []
   - m_Id: 502132207616
-    m_Localized: Queen
+    m_Localized: Queen of the Star Valley.
     m_Metadata:
       m_Items: []
   - m_Id: 521656692736
-    m_Localized: Umbra
+    m_Localized: Umbra, the reborn.
     m_Metadata:
       m_Items: []
   - m_Id: 559720001536
-    m_Localized: Dragon
+    m_Localized: A dragon.
     m_Metadata:
       m_Items: []
   - m_Id: 16477204344832
-    m_Localized: Strongest
+    m_Localized: What is stronger?
     m_Metadata:
       m_Items: []
   - m_Id: 16484477267968
-    m_Localized: Dragon
+    m_Localized: A dragon.
     m_Metadata:
       m_Items: []
   - m_Id: 16487438446592
-    m_Localized: Reborn
+    m_Localized: The reborn.
     m_Metadata:
       m_Items: []
   - m_Id: 16490827444224
-    m_Localized: Stelar
+    m_Localized: A Stellar wizard.
     m_Metadata:
       m_Items: []
   - m_Id: 17001374904320
-    m_Localized: Werewolf Knights
+    m_Localized: The Werewolf Knights.
     m_Metadata:
       m_Items: []
   - m_Id: 17177451786240
-    m_Localized: Light Study
+    m_Localized: 'The Magic that studies light:'
     m_Metadata:
       m_Items: []
   - m_Id: 17182933741568
-    m_Localized: Stelar
+    m_Localized: Stellar Magic.
     m_Metadata:
       m_Items: []
   - m_Id: 17184280113152
-    m_Localized: Sacred
+    m_Localized: Sacred Magic.
     m_Metadata:
       m_Items: []
   - m_Id: 17185244803072
-    m_Localized: Mist
+    m_Localized: Mist Magic.
     m_Metadata:
       m_Items: []
   - m_Id: 17186146578432
-    m_Localized: Heresy
+    m_Localized: Heretic Magic.
     m_Metadata:
       m_Items: []
   references:

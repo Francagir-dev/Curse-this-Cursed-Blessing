@@ -47,11 +47,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1167990263808
-    m_Localized: Bien, y ahora muere
+    m_Localized: Bien, y ahora muere.
     m_Metadata:
       m_Items: []
   - m_Id: 1170859167744
-    m_Localized: "Bueno, ya lo averiguar\xE9 m\xE1s tarde, muere"
+    m_Localized: "Bueno, ya lo averiguar\xE9 m\xE1s tarde, muere."
     m_Metadata:
       m_Items: []
   - m_Id: 1175992995840
@@ -67,7 +67,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1183563714560
-    m_Localized: "Lo sab\xEDa"
+    m_Localized: "Lo sab\xEDa."
     m_Metadata:
       m_Items: []
   - m_Id: 1185358876672

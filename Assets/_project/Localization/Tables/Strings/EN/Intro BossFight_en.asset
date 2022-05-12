@@ -60,8 +60,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 454367186944
-    m_Localized: "I caught you\u2026\u201D \u201CThere\u2019s no escape, this is
-      a dead end."
+    m_Localized: "I caught you\u2026 There\u2019s no escape, this is a dead end."
     m_Metadata:
       m_Items: []
   - m_Id: 455164104704
@@ -103,7 +102,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 462793543680
-    m_Localized: "Ahem, my name is (real name), and now you\u2019ll fight me!"
+    m_Localized: "Ahem, my name is Okla, and now you\u2019ll fight me!"
     m_Metadata:
       m_Items: []
   references:

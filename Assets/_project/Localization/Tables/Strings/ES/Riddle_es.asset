@@ -23,59 +23,59 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 415272366080
-    m_Localized: La bruja de la niebla
+    m_Localized: La bruja de la niebla.
     m_Metadata:
       m_Items: []
   - m_Id: 502132207616
-    m_Localized: Reina del valle estelar
+    m_Localized: Reina del valle estelar.
     m_Metadata:
       m_Items: []
   - m_Id: 521656692736
-    m_Localized: Umbra, el renacido
+    m_Localized: Umbra, el renacido.
     m_Metadata:
       m_Items: []
   - m_Id: 559720001536
-    m_Localized: "Un drag\xF3n"
+    m_Localized: "Un drag\xF3n."
     m_Metadata:
       m_Items: []
   - m_Id: 16477204344832
-    m_Localized: "\xBFQue es m\xE1s fuerte?"
+    m_Localized: "\xBFQu\xE9 es m\xE1s fuerte?"
     m_Metadata:
       m_Items: []
   - m_Id: 16484477267968
-    m_Localized: "Un drag\xF3n"
+    m_Localized: "Un drag\xF3n."
     m_Metadata:
       m_Items: []
   - m_Id: 16487438446592
-    m_Localized: Los renacidos
+    m_Localized: Los renacidos.
     m_Metadata:
       m_Items: []
   - m_Id: 16490827444224
-    m_Localized: Un mago estelar
+    m_Localized: Un mago Estelar.
     m_Metadata:
       m_Items: []
   - m_Id: 17001374904320
-    m_Localized: "\rUn Caballero Licantropo\r"
+    m_Localized: "Los Caballeros Lic\xE1ntropos."
     m_Metadata:
       m_Items: []
   - m_Id: 17177451786240
-    m_Localized: "La magia que estudia la luz\u2026"
+    m_Localized: 'La magia que estudia la luz:'
     m_Metadata:
       m_Items: []
   - m_Id: 17182933741568
-    m_Localized: Magia Estelar
+    m_Localized: Magia Estelar.
     m_Metadata:
       m_Items: []
   - m_Id: 17184280113152
-    m_Localized: Magia Sagrada
+    m_Localized: Magia Sagrada.
     m_Metadata:
       m_Items: []
   - m_Id: 17185244803072
-    m_Localized: Magia de la Niebla
+    m_Localized: Magia de la Niebla.
     m_Metadata:
       m_Items: []
   - m_Id: 17186146578432
-    m_Localized: "Magia Her\xE9tica"
+    m_Localized: "Magia Her\xE9tica."
     m_Metadata:
       m_Items: []
   references:

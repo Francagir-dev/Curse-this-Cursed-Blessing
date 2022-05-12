@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Serialization;
 
 public class FirstButton : MonoBehaviour
 {
     public GameObject itemToSelect;
-    public EventSystem _eventSystem;
-
+    public EventSystem eventSystem;
    
     void OnEnable()
     {
@@ -17,9 +17,8 @@ public class FirstButton : MonoBehaviour
 
     IEnumerator ActivateItem()
     {
-
-        _eventSystem.SetSelectedGameObject(null);
+        eventSystem.SetSelectedGameObject(null);
         yield return new WaitForEndOfFrame();
-        _eventSystem.SetSelectedGameObject(itemToSelect);
+        eventSystem.SetSelectedGameObject(itemToSelect);
     }
 }

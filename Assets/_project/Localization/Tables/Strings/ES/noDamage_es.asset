@@ -26,5 +26,61 @@ MonoBehaviour:
     m_Localized: Ese ataque ha sido penoso.
     m_Metadata:
       m_Items: []
+  - m_Id: 1854081945600
+    m_Localized: "Uhh, \xA1qu\xE9 miedo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1858272055296
+    m_Localized: "Si sigues as\xED voy a acabar durmiendome."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1861828825088
+    m_Localized: "Tus hermanos parecen m\xE1s competentes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1867801513984
+    m_Localized: "\xA1Te derrotar\xE9!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1985174917120
+    m_Localized: "Deber\xEDas retirarte."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2004502269952
+    m_Localized: "\xA1D\xE9jame en paz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2049834307584
+    m_Localized: "\xBFQu\xE9 tienes contra m\xED?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2060471062528
+    m_Localized: "\xBFQu\xE9 te he hecho yo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2097078947840
+    m_Localized: "Eres d\xE9bil."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2346992357376
+    m_Localized: "\xA1Vete de aqu\xED!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2390076248064
+    m_Localized: "\xA1Muere!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2413149114368
+    m_Localized: "He visto caracoles moverse m\xE1s r\xE1pido que t\xFA."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2479498809344
+    m_Localized: Me aburro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2504127762432
+    m_Localized: "\xA1Te arrepentir\xE1s de esto!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
