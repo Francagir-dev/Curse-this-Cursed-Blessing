@@ -142,15 +142,16 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
                 display ? Vector3.one : Vector3.zero;
             return;
         }
+
         interactionCoroutine = StartCoroutine(Displayer());
 
         IEnumerator Displayer()
         {
-            while(display ? time < maxTime : time > 0)
+            while (display ? time < maxTime : time > 0)
             {
                 time += Time.deltaTime * multiplier;
                 interactionDisplayer.localScale = Vector3.one *
-                    Mathf.Lerp(0 , 1, time/maxTime);
+                                                  Mathf.Lerp(0, 1, time / maxTime);
                 yield return null;
             }
         }
@@ -199,6 +200,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
                     DisplayInteraction(false);
                     item.PlayerDetected = false;
                 }
+
                 break;
             }
         }
@@ -220,9 +222,11 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     {
         if (context.started && !isPaused)
         {
-            Instantiate(pauseMenu, pauseMenu.transform.position, pauseMenu.transform.rotation);
+            pauseMenu.SetActive(true);
             isPaused = true;
+            Time.timeScale = 0f;
         }
+        
 /*
         if (isPaused)
         {

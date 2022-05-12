@@ -16,23 +16,26 @@ public class PauseManager : MonoBehaviour
     {
         InitializeFirstSelectedPause();
         _movement = FindObjectOfType<Movement>();
-        if (_movement != null) _movement.isPaused = true;
+        _movement.isPaused = true;
     }
 
     private void OnEnable()
     {
         InitializeFirstSelectedPause();
-        if (_movement != null) _movement.isPaused = true;
+        _movement.isPaused = true;
+        Time.timeScale = 0f;
     }
 
     private void OnDestroy()
     {
-        if (_movement != null) _movement.isPaused = false;
+         _movement.isPaused = false;
+         Time.timeScale = 1f;
     }
 
    private void OnDisable()
     {
-        if (_movement != null) _movement.isPaused = false;
+        _movement.isPaused = false;
+        Time.timeScale = 1f;
     }
 
     /// <summary>

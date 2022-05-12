@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/FirstButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/FirstButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Prefabs/MenuPausa.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Prefabs/MenuPausa.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/PauseManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/QuitOptionMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/QuitOptionMenu.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +142,8 @@
       <workItem from="1652292167540" duration="980000" />
       <workItem from="1652299319414" duration="1423000" />
       <workItem from="1652340925479" duration="3416000" />
+      <workItem from="1652350589682" duration="1000" />
+      <workItem from="1652350827711" duration="690000" />
     </task>
     <servers />
   </component>
@@ -205,12 +212,6 @@
           <line>43</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="28" containingFunctionPresentation="method 'ActivateGraphicPanel'" />
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/UI/QuitOptionMenu.cs</url>
-          <line>30</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\UI\QuitOptionMenu.cs" initialLine="33" containingFunctionPresentation="method 'MainMenuSelection'" />
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/ChoiceController_Riddle.cs</url>
