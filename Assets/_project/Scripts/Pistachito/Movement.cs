@@ -226,18 +226,6 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
             isPaused = true;
             Time.timeScale = 0f;
         }
-        
-/*
-        if (isPaused)
-        {
-            pauseMenu.SetActive(false);
-            Time.timeScale = 1f;
-            isPaused = false;
-        }else{
-        pauseMenu.SetActive(true);
-        isPaused = true;
-        }
-            */
     }
 
     #endregion
