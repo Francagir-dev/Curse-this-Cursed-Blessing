@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_project/Prefabs/OptionsMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Prefabs/OptionsMenu.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/MainMenuController.cs" afterDir="false" />
@@ -140,7 +141,7 @@
       <workItem from="1652299319414" duration="1423000" />
       <workItem from="1652340925479" duration="3416000" />
       <workItem from="1652350589682" duration="1000" />
-      <workItem from="1652350827711" duration="1396000" />
+      <workItem from="1652350827711" duration="2079000" />
     </task>
     <servers />
   </component>
