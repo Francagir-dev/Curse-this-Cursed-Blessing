@@ -19,35 +19,35 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 7232495616
-    m_Localized: Hero
+    m_Localized: <color=#A1D7E5>Hero</color>
     m_Metadata:
       m_Items: []
   - m_Id: 105354043392
-    m_Localized: Pistacheen
+    m_Localized: <color=#1A7719>Pistacheen</color>
     m_Metadata:
       m_Items: []
   - m_Id: 594216951808
-    m_Localized: Minion
+    m_Localized: <color=#E1C800>Minion</color>
     m_Metadata:
       m_Items: []
   - m_Id: 747262910464
-    m_Localized: Jhonny
+    m_Localized: <color=#CDCD64>Jhonny</color>
     m_Metadata:
       m_Items: []
   - m_Id: 1210209214464
-    m_Localized: Jonathan
+    m_Localized: <color=#CDCD32>Jonathan</color>
     m_Metadata:
       m_Items: []
   - m_Id: 1242748624896
-    m_Localized: John
+    m_Localized: <color=#CDCD00>John</color>
     m_Metadata:
       m_Items: []
   - m_Id: 1329398751232
-    m_Localized: Juan
+    m_Localized: <color=#FFFF00>Juan</color>
     m_Metadata:
       m_Items: []
   - m_Id: 1538925207552
-    m_Localized: Apprentice
+    m_Localized: <color=#D13232>Apprentice</color>
     m_Metadata:
       m_Items: []
   - m_Id: 1639433314304
@@ -55,23 +55,23 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1756144017408
-    m_Localized: "\rHooded Statue"
+    m_Localized: "<color=#\rBCBCBC\r>Hooded Statue</color>"
     m_Metadata:
       m_Items: []
   - m_Id: 1792751902720
-    m_Localized: "\rBald Statue"
+    m_Localized: "<color=#\rBCBCBC\r>\rBald Statue</color>"
     m_Metadata:
       m_Items: []
   - m_Id: 2897018643640320
-    m_Localized: Hero & Pistacheen
+    m_Localized: <color=#19C864>Hero & Pistacheen</color>
     m_Metadata:
       m_Items: []
   - m_Id: 2900050341097472
-    m_Localized: Minions
+    m_Localized: <color=#E1C800>Minions</color>
     m_Metadata:
       m_Items: []
   - m_Id: 2903204826804224
-    m_Localized: Jhonny, Jonathan & John
+    m_Localized: <color=#E1C800>Jhonny, Jonathan & John</color>
     m_Metadata:
       m_Items: []
   - m_Id: 12410729716338688
