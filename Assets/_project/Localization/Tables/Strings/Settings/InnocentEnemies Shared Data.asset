@@ -20,7 +20,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288056098824192
-    m_Key: "H\xE9roe_2"
+    m_Key: Hero_2
     m_Metadata:
       m_Items: []
   - m_Id: 288056841216000
@@ -28,7 +28,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288057713631232
-    m_Key: " H\xE9roe_4"
+    m_Key: Hero_4
     m_Metadata:
       m_Items: []
   - m_Id: 288058518937600
@@ -36,7 +36,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288059320049664
-    m_Key: "H\xE9roe_6"
+    m_Key: Hero_6
     m_Metadata:
       m_Items: []
   - m_Id: 288060192464896
