@@ -55,11 +55,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1756144017408
-    m_Localized: "<color=#\rBCBCBC\r>Hooded Statue</color>"
+    m_Localized: "<color=#878787\r>Hooded Statue</color>"
     m_Metadata:
       m_Items: []
   - m_Id: 1792751902720
-    m_Localized: "<color=#\rBCBCBC\r>\rBald Statue</color>"
+    m_Localized: "<color=#BCBCBC\r>\rBald Statue</color>"
     m_Metadata:
       m_Items: []
   - m_Id: 2897018643640320
