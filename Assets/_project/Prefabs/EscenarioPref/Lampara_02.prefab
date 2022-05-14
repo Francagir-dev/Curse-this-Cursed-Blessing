@@ -124,9 +124,9 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.06674972, g: 0.40556303, b: 0.9433962, a: 1}
-  m_Intensity: 238.7324
-  m_Range: 40
+  m_Color: {r: 0.48738283, g: 0.41736382, b: 0.7830189, a: 1}
+  m_Intensity: 2162.2976
+  m_Range: 38.03
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 3000
+  m_Intensity: 27172.234
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -340,7 +340,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.049439307, g: 0.23512006, b: 0.9528302, a: 1}
+  m_Color: {r: 0.48738283, g: 0.41736382, b: 0.7830189, a: 1}
   m_Intensity: 238.7324
   m_Range: 40
   m_SpotAngle: 30
@@ -594,9 +594,9 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.1568627, g: 0.27983484, b: 0.9529412, a: 1}
-  m_Intensity: 238.7324
-  m_Range: 20
+  m_Color: {r: 0.48738283, g: 0.41736382, b: 0.7830189, a: 1}
+  m_Intensity: 2162.2976
+  m_Range: 38.03
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -665,7 +665,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 3000
+  m_Intensity: 27172.234
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -810,7 +810,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.08962262, g: 0.17206201, b: 1, a: 1}
+  m_Color: {r: 0.48738283, g: 0.41736382, b: 0.7830189, a: 1}
   m_Intensity: 238.7324
   m_Range: 40
   m_SpotAngle: 30
@@ -1026,7 +1026,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.1568627, g: 0.3188981, b: 0.9529412, a: 1}
+  m_Color: {r: 0.48738283, g: 0.41736382, b: 0.7830189, a: 1}
   m_Intensity: 238.7324
   m_Range: 40
   m_SpotAngle: 30
@@ -1242,7 +1242,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.06016379, g: 0.34674686, b: 0.9811321, a: 1}
+  m_Color: {r: 0.48738283, g: 0.41736382, b: 0.7830189, a: 1}
   m_Intensity: 238.7324
   m_Range: 40
   m_SpotAngle: 30
