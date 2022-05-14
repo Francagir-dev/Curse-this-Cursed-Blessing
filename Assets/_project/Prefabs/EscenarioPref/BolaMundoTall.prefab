@@ -226,6 +226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6394830091315772062}
   - component: {fileID: 6860593477812985203}
+  - component: {fileID: 8526619566041371934}
   m_Layer: 0
   m_Name: BolaMundoTall
   m_TagString: Untagged
@@ -263,6 +264,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &8526619566041371934
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6049689699657359396}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 07a9dfff26567a4428d392c1779186a7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7557688345802521787
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,12 +390,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9109098795262898415}
   m_LocalRotation: {x: -0.7071068, y: 0.000000061817246, z: 0.000000061817246, w: 0.7071068}
-  m_LocalPosition: {x: 2.8663255e-38, y: 1.3581915, z: -0.0000001812668}
+  m_LocalPosition: {x: 2.866325e-38, y: 1.3581915, z: -0.0000001812668}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6394830091315772062}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 146.08008}
 --- !u!33 &3831623008361503573
 MeshFilter:
   m_ObjectHideFlags: 0
