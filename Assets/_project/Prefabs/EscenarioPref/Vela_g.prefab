@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7507906573459685304}
   - component: {fileID: 5501015321300479220}
   - component: {fileID: 7044646872160547134}
+  - component: {fileID: 5049366949249342745}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -45,7 +46,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.9528302, g: 0.5557895, b: 0.15730685, a: 1}
   m_Intensity: 443.47528
-  m_Range: 50
+  m_Range: 2.671524
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -216,6 +217,21 @@ MonoBehaviour:
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
   m_AreaLightEmissiveMeshLayer: -1
+--- !u!114 &5049366949249342745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902062906886192264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba05cc1eb92625648a61c601d6b8d72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intensity: 10
+  velocity: 1.3
+  Maxintensity: 20
 --- !u!1 &3960094347176339164
 GameObject:
   m_ObjectHideFlags: 0
