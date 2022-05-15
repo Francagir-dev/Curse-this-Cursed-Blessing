@@ -229,9 +229,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba05cc1eb92625648a61c601d6b8d72a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intensity: 8000
-  velocity: 10000
-  Maxintensity: 30000
+  intensity: 10000
+  velocity: 5000
+  Maxintensity: 20000
 --- !u!1 &8352201191306049373
 GameObject:
   m_ObjectHideFlags: 0

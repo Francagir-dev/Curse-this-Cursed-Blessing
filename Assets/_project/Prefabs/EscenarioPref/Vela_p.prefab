@@ -127,7 +127,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.9528302, g: 0.5557895, b: 0.15730685, a: 1}
-  m_Intensity: 119.3662
+  m_Intensity: 1322.2712
   m_Range: 50
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 1500
+  m_Intensity: 16616.15
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -311,6 +311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba05cc1eb92625648a61c601d6b8d72a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intensity: 8000
-  velocity: 10000
-  Maxintensity: 30000
+  intensity: 1000
+  velocity: 3500
+  Maxintensity: 10000
