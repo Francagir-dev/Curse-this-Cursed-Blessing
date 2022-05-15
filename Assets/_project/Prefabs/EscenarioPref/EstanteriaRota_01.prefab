@@ -28,7 +28,8 @@ Transform:
   m_LocalRotation: {x: -0.50720984, y: 0.49011305, z: 0.49289334, w: 0.5094935}
   m_LocalPosition: {x: -1.8, y: 19.05, z: 174.41}
   m_LocalScale: {x: 1.7982337, y: 1.7982337, z: 1.7982337}
-  m_Children: []
+  m_Children:
+  - {fileID: 403427407285992499}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -89.71, y: -6.566, z: 94.635}
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 239378781582670930, guid: 32c77656ceba5714181dd4ad5066c355, type: 3}
+  - {fileID: 2100000, guid: 8d54560930a50594f80e143fd92944f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -81,3 +82,77 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &4591444068022884703
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 541933158432229070}
+    m_Modifications:
+    - target: {fileID: 3560805480002781142, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_Name
+      value: Planta_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.67160296
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6716031
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4065247
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.404
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.71891785
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0016148088
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0019659398
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6950905
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+--- !u!4 &403427407285992499 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4188722704215713132, guid: 399893b39d038bd47a4bffda202e4f73, type: 3}
+  m_PrefabInstance: {fileID: 4591444068022884703}
+  m_PrefabAsset: {fileID: 0}
