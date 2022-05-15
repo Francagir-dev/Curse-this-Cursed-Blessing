@@ -312,5 +312,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   intensity: 8000
-  velocity: 5000
-  Maxintensity: 10000
+  velocity: 10000
+  Maxintensity: 30000

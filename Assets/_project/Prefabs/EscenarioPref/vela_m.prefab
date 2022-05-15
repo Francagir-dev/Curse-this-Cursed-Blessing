@@ -230,8 +230,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   intensity: 8000
-  velocity: 5000
-  Maxintensity: 10000
+  velocity: 10000
+  Maxintensity: 30000
 --- !u!1 &8352201191306049373
 GameObject:
   m_ObjectHideFlags: 0
