@@ -1736,6 +1736,7 @@ GameObject:
   - component: {fileID: 44119941}
   - component: {fileID: 44119940}
   - component: {fileID: 44119943}
+  - component: {fileID: 44119944}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1874,7 +1875,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   volumeAnchorOverride: {fileID: 0}
-  antialiasing: 0
+  antialiasing: 3
   SMAAQuality: 2
   dithering: 0
   stopNaNs: 0
@@ -1922,6 +1923,23 @@ MonoBehaviour:
       data1: 0
       data2: 0
   defaultFrameSettings: 0
+--- !u!114 &44119944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44119939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: dfcfd2ebfbf37b24485f770f86b88952, type: 2}
 --- !u!1001 &45660107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11001,7 +11019,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 99.99997
+  m_Intensity: 209.9728
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -11115,7 +11133,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 99.99997
+  m_Intensity: 209.9728
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
