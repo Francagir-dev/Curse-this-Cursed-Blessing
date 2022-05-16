@@ -17,6 +17,10 @@ public class QuitOptionMenu : MonoBehaviour
         _eventSystem.SetSelectedGameObject(null);
         yield return new WaitForEndOfFrame();
         _eventSystem.SetSelectedGameObject(objectToSelect);
+        yield return new WaitForSeconds(1);
+        optionMenu.SetActive(false);
+        
+        
         
     }
 
@@ -24,14 +28,13 @@ public class QuitOptionMenu : MonoBehaviour
     {
         menuActivate.SetActive(true);
         StartCoroutine(ActivateItem(startBtn));
-        optionMenu.SetActive(false);
+        
     }
 
     public void PauseMenuSelection()
     {
         menuActivate.SetActive(true);
         StartCoroutine(ActivateItem(startBtn));
-        optionMenu.SetActive(false);
     }
 
 }

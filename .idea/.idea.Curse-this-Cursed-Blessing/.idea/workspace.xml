@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/EN/CharacterNames_en.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/EN/CharacterNames_en.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/ES/CharacterNames_es.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/ES/CharacterNames_es.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/InnocentEnemies Shared Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Localization/Tables/Strings/Settings/InnocentEnemies Shared Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/PersistentInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/PersistentInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/QuitOptionMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/QuitOptionMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Sounds/GameAudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Sounds/GameAudioMixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +21,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Dropdown.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_project/PersistentInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Options/LocaleDropDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@1.1.1/Editor/Asset Pipeline/LocalizationAssetPostProcessor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.19.15/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@1.1.1/Runtime/Settings/LocalizationSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/UI/QuitOptionMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/be28439f7b014fc38435d198c0640ff713ae00/83/8fc15ad7/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -142,6 +147,7 @@
       <workItem from="1652350827711" duration="2079000" />
       <workItem from="1652368453763" duration="2277000" />
       <workItem from="1652432571815" duration="87000" />
+      <workItem from="1652711007241" duration="989000" />
     </task>
     <servers />
   </component>
@@ -196,19 +202,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
-          <line>66</line>
+          <line>56</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="41" containingFunctionPresentation="method 'ActivateItem'" />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
-          <line>51</line>
+          <line>49</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="34" containingFunctionPresentation="method 'ActivateVolumePanel'" />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
-          <line>43</line>
+          <line>41</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="28" containingFunctionPresentation="method 'ActivateGraphicPanel'" />
           <option name="timeStamp" value="18" />
         </line-breakpoint>

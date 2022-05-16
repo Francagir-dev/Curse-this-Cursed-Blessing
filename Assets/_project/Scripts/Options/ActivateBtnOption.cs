@@ -15,8 +15,6 @@ public class ActivateBtnOption : MonoBehaviour
     [SerializeField] private GameObject graphicBTN;
     [SerializeField] private GameObject volumePanel;
     [SerializeField] private GameObject volumeBTN;
-    [SerializeField] private GameObject controlPanel;
-    [SerializeField] private GameObject controlBTN;
     [SerializeField] private GameObject previousSelected;
 
     private void Awake()
@@ -52,15 +50,7 @@ public class ActivateBtnOption : MonoBehaviour
         StartCoroutine(ActivateItem(volumeBTN));
     }
 
-    public void ActivateControlPanel()
-    {
-        if (previousSelected != null) previousSelected.SetActive(false);
-        previousSelected = controlPanel;
-        controlPanel.SetActive(true);
-        StartCoroutine(ActivateItem(controlBTN));
-    }
-
-    IEnumerator ActivateItem(GameObject objectToSelect)
+  IEnumerator ActivateItem(GameObject objectToSelect)
     {
         _eventSystem.firstSelectedGameObject = null;
         yield return new WaitForEndOfFrame();
