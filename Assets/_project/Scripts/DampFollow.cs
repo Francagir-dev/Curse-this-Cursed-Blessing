@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DampFollow : MonoBehaviour
 {
-    float damp = .05f;
+    float damp = .35f;
     Quaternion TargetRot => transform.parent.rotation * lockedRot;
 
     Quaternion lockedRot;
@@ -16,7 +16,7 @@ public class DampFollow : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         transform.rotation = denyRot;
 

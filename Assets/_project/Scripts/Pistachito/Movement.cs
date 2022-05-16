@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 {
     public GameObject pauseMenu;
+    [SerializeField] Animator anim;
     static Movement instance;
 
     public static Movement Instance
@@ -78,10 +79,6 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         choice = FindObjectOfType<ChoiceController>();
     }
 
-    private void Start()
-    {
-    }
-
     public void OnMovement(InputAction.CallbackContext context)
     {
         var input = context.ReadValue<Vector2>();
@@ -108,6 +105,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 
         dashActualDuration = dashDurat;
         dashing = true;
+        anim.SetTrigger("Dash");
     }
 
     public void OnSelectOption(InputAction.CallbackContext context)
@@ -165,7 +163,9 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
             dashCooldown -= Time.deltaTime;
 
         rig.velocity = Vector3.Lerp(rig.velocity, (dashing ? dashDir : inputMove) * speed, acceleration);
-        if (!dashing && inputMove.sqrMagnitude > .03f)
+        anim.SetFloat("Speed", rig.velocity.magnitude / speed);
+
+        if (!dashing && inputMove.magnitude > .03f)
             transform.rotation = Quaternion.Slerp(transform.rotation, moveDirection, rotTime);
 
         if (dashing && dashActualDuration <= 0)
