@@ -41,21 +41,21 @@ public class SoundSettings : MonoBehaviour
 
     public void SetGeneralVolume(float Gvolume)
     {
-        audioMixer.SetFloat("GVolume", Gvolume);
+        audioMixer.SetFloat("GVolume", Gvolume/10);
     }
 
     public void BGVolume(float BGvolume)
     {
-        audioMixer.SetFloat("BGVolume", BGvolume);
+        audioMixer.SetFloat("BGVolume", BGvolume/10);
     }
 
     public void VFXVolume(float EVolume)
     {
-        audioMixer.SetFloat("EVolume", EVolume);
+        audioMixer.SetFloat("EVolume", EVolume/10);
     }
 
     public void UIVolume(float UIvolume)
     {
-        audioMixer.SetFloat("UIVolume", UIvolume);
+        audioMixer.SetFloat("UIVolume", UIvolume/10);
     }
 }

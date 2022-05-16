@@ -17,7 +17,6 @@ public class QuitOptionMenu : MonoBehaviour
         _eventSystem.SetSelectedGameObject(null);
         yield return new WaitForEndOfFrame();
         _eventSystem.SetSelectedGameObject(objectToSelect);
-        yield return new WaitForSeconds(1);
         optionMenu.SetActive(false);
         
         

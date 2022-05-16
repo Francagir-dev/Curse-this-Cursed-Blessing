@@ -29,7 +29,7 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 5090377522304943894}
-  - {fileID: -1517697031661137169}
+  - {fileID: -688055604889941005}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -49,27 +49,30 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: -6308556611447076752}
+  - {fileID: 119946836253596643}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
---- !u!244 &-1517697031661137169
+--- !u!244 &-688055604889941005
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_EffectID: f741be3bf554e504ba31fccfd042ba2c
-  m_EffectName: Normalize
-  m_MixLevel: 3a0b3810b237ed24f82193498f28bdbf
+  m_EffectID: 85111ceb1bf212847befde81ce2bdfc9
+  m_EffectName: Compressor
+  m_MixLevel: 36abf6baeaffb17418346ffc866f2e53
   m_Parameters:
-  - m_ParameterName: Fade in time
-    m_GUID: 346e8922be4008c47a5a104ca9a6af20
-  - m_ParameterName: Lowest volume
-    m_GUID: c03c253f87b4dbd4ab228ebf9a21e745
-  - m_ParameterName: Maximum amp
-    m_GUID: e461f18a28bd52248a1ef46853bb815e
+  - m_ParameterName: Threshold
+    m_GUID: 6bc4885ad376bad4eba10aa098540b71
+  - m_ParameterName: Attack
+    m_GUID: 49cdda68082137647aacde62bf9ff40b
+  - m_ParameterName: Release
+    m_GUID: ababf32283dc6eb48bba017dfca89355
+  - m_ParameterName: Make up gain
+    m_GUID: a28fa9b4d91b3b24fbe5856f3fcedc0f
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
@@ -153,11 +156,41 @@ AudioMixerSnapshotController:
   m_SnapshotID: 12a4dd6478dc63c4d9928d2324d5a8e8
   m_FloatValues:
     0aec0b10817eafd4f986438b26923102: 1
-    152e7f12699befb42b45f3036a8b6918: 20
-    6b8b09a528aac6d4595a3c822487e2df: 20
-    b5dfe0e640095964cb5fa5a91abca5d3: 20
-    83ed9e7f987990641a3ac75309406836: 20
+    152e7f12699befb42b45f3036a8b6918: 10
+    ababf32283dc6eb48bba017dfca89355: 141
+    cc272434a9f48df4297135fb35af1759: 15
+    a28fa9b4d91b3b24fbe5856f3fcedc0f: 30
+    6b8b09a528aac6d4595a3c822487e2df: 10
+    b5dfe0e640095964cb5fa5a91abca5d3: 10.000001
+    ab9a2ee6804622643a7f336b0a832b6d: 120
+    49cdda68082137647aacde62bf9ff40b: 60
+    6bc4885ad376bad4eba10aa098540b71: -50
+    c495571cab1f780418a0593244f2007d: -25
+    e0fa8aac60c9df640a261d96e1a14288: 60
+    83ed9e7f987990641a3ac75309406836: 10
   m_TransitionOverrides: {}
+--- !u!244 &119946836253596643
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 0a8e6cc4cab3d0c458edb1ad792fca6e
+  m_EffectName: Compressor
+  m_MixLevel: 5984e739048ca8445ae807eb54d6b8a0
+  m_Parameters:
+  - m_ParameterName: Threshold
+    m_GUID: 8bda722eee815564695af131e95e47f8
+  - m_ParameterName: Attack
+    m_GUID: 0db7cb8a4c2acc9479b0aef0fea2395e
+  - m_ParameterName: Release
+    m_GUID: 9580303e376389b49851f6ff78b56413
+  - m_ParameterName: Make up gain
+    m_GUID: 21d92d8786e5ac4448154475b6b8cea9
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &2152722776832609062
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -173,6 +206,7 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 5344724882568875444}
+  - {fileID: 5654643070234632937}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -202,6 +236,28 @@ AudioMixerEffectController:
   m_EffectName: Attenuation
   m_MixLevel: ac5ea501e637e4c419f657e738772b15
   m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &5654643070234632937
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 59be11c5411425747a1285124b42116b
+  m_EffectName: Compressor
+  m_MixLevel: ffe958c5048ed3b4a99072d8df959fff
+  m_Parameters:
+  - m_ParameterName: Threshold
+    m_GUID: 47246a1bdeab1b34d9a8b048e596c224
+  - m_ParameterName: Attack
+    m_GUID: 506955d375dd6384d9dd5b6b065bdc43
+  - m_ParameterName: Release
+    m_GUID: 50c4d4e8d189de54ea42aba09778294d
+  - m_ParameterName: Make up gain
+    m_GUID: 3833d2da94e4b0e4e9a26531984ea760
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0

@@ -16,7 +16,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textName;
     [SerializeField] LocalizeStringEvent _stringEvent;
     public LocalizedString myString;
-
+    public AudioSource audioSource;
     private bool skipText;
 
     //private List<string> keys = new List<string>();
@@ -59,6 +59,7 @@ public class DialogueManager : MonoBehaviour
     void OnEnable()
     {
         myString.StringChanged += UpdateString;
+        PlaySound();
     }
 
     public void Open()
@@ -81,6 +82,7 @@ public class DialogueManager : MonoBehaviour
     void OnDisable()
     {
         myString.StringChanged -= UpdateString;
+        StopSound();
     }
 
     void UpdateString(string s)
@@ -216,5 +218,14 @@ public class DialogueManager : MonoBehaviour
     public void SkipText()
     {
         skipText = true;
+    }
+
+    public void PlaySound()
+    {
+        audioSource.Play();
+    }
+    public void StopSound()
+    {
+        audioSource.Stop();
     }
 }
