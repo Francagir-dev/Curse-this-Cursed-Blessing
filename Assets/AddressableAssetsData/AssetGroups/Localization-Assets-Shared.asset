@@ -123,6 +123,11 @@ MonoBehaviour:
     m_Address: Assets/_project/Localization/Tables/Strings/Riddle Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 68393799a265ffd4e9a20230a2127cfb
+    m_Address: "Assets/_project/Localization/Tables/Strings/Settings/ExplorationIntro_2\xAA
+      Shared Data.asset"
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
   m_SchemaSet:

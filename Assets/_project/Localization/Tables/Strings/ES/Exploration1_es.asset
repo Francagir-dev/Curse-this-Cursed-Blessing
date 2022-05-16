@@ -60,37 +60,48 @@ MonoBehaviour:
     m_Localized: ... Tu encuentra la llave.
     m_Metadata:
       m_Items: []
-  - m_Id: 288027548196864
-    m_Localized: "\xA1Hey! \xA1Esto parece una llave!"
+  - m_Id: 28605528874250240
+    m_Localized: "Bueno, por si acaso\u2026"
     m_Metadata:
       m_Items: []
-  - m_Id: 288028114427904
-    m_Localized: "\xBFNunca has visto una?"
+  - m_Id: 28606184972447744
+    m_Localized: Utiliza la cosa esta para interactuar.
     m_Metadata:
       m_Items: []
-  - m_Id: 288028756156416
-    m_Localized: Solo de lejos, nunca he usado una puerta.
+  - m_Id: 28606132388458496
+    m_Localized: "Y si encuentras unas luci\xE9rnagas como estas\u2026"
     m_Metadata:
       m_Items: []
-  - m_Id: 288029796343808
-    m_Localized: "Que raro\u2026"
+  - m_Id: 28606037899177984
+    m_Localized: Anda, se fue.
     m_Metadata:
       m_Items: []
-  - m_Id: 288031570534400
-    m_Localized: "A ver, soy una planta, no es que necesite una casa para vivir\u2026"
+  - m_Id: 28605761003810816
+    m_Localized: "\xA1\xBFD-De donde sale eso?!"
     m_Metadata:
       m_Items: []
-  - m_Id: 288032174514176
-    m_Localized: "No, calla, \xBFqu\xE9 hace una llave aqu\xED tirada?"
+  - m_Id: 28605692296916992
+    m_Localized: "Utiliza esto de aqu\xED para moverte"
     m_Metadata:
       m_Items: []
-  - m_Id: 288032778493952
-    m_Localized: "\xBFEh? \xBFNo las dej\xE1is por ah\xED tiradas como hacen todos
-      los monstruos?"
+  - m_Id: 28605525955014656
+    m_Localized: "\xA1Pero si acabas de verme correr, claro que s\xE9!"
     m_Metadata:
       m_Items: []
-  - m_Id: 288033449582592
-    m_Localized: "... No s\xE9 qu\xE9 esperaba."
+  - m_Id: 28604751564861440
+    m_Localized: "Te acuerdas de como moverte, \xBFno?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28606364220223488
+    m_Localized: "\xA1\xBFP-Pero de donde saleeeee?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28606482562510848
+    m_Localized: "Eso es todo por ahora, \xA1gracias por escuchar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28606616591495168
+    m_Localized: "\xA1\xBFAcaso me sigues hablando a mi?!"
     m_Metadata:
       m_Items: []
   references:
