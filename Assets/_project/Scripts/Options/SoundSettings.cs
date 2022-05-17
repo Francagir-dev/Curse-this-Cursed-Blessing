@@ -21,41 +21,41 @@ public class SoundSettings : MonoBehaviour
 
     public void ChangeGeneralText()
     {
-        textGeneral.text = sliderGeneral.value.ToString();
+        textGeneral.text = Mathf.Round(sliderGeneral.value * 100).ToString();
     }
 
     public void ChangeBackgroundText()
     {
-        textBackground.text = sliderBackground.value.ToString();
+        textBackground.text = Mathf.Round(sliderBackground.value * 100).ToString();
     }
 
     public void ChangeVFXText()
     {
-        textVFX.text = sliderVFX.value.ToString();
+        textVFX.text = Mathf.Round(sliderVFX.value * 100).ToString();
     }
 
     public void ChangeUIText()
     {
-        textUI.text = sliderUI.value.ToString();
+        textUI.text = Mathf.Round(sliderUI.value * 100).ToString();
     }
 
     public void SetGeneralVolume(float Gvolume)
     {
-        audioMixer.SetFloat("GVolume", Gvolume/10);
+        audioMixer.SetFloat("GVolume", Mathf.Log10(Gvolume) * 20);
     }
 
     public void BGVolume(float BGvolume)
     {
-        audioMixer.SetFloat("BGVolume", BGvolume/10);
+        audioMixer.SetFloat("BGVolume", Mathf.Log10(BGvolume) * 20);
     }
 
     public void VFXVolume(float EVolume)
     {
-        audioMixer.SetFloat("EVolume", EVolume/10);
+        audioMixer.SetFloat("EVolume", Mathf.Log10(EVolume) * 20);
     }
 
     public void UIVolume(float UIvolume)
     {
-        audioMixer.SetFloat("UIVolume", UIvolume/10);
+        audioMixer.SetFloat("UIVolume", Mathf.Log10(UIvolume) * 20);
     }
 }
