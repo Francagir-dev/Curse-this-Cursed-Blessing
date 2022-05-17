@@ -230,8 +230,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   intensity: 20000
-  velocity: 8000
-  Maxintensity: 40000
+  velocity: 10000
+  Maxintensity: 45000
+  MaxRadius: 30
+  originarange: 20
+  duration: 2.5
 --- !u!1 &3960094347176339164
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,7 +262,7 @@ Transform:
   m_GameObject: {fileID: 3960094347176339164}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.8375, y: 2.8374994, z: 2.8374994}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children:
   - {fileID: 7507906573459685304}
   m_Father: {fileID: 0}
