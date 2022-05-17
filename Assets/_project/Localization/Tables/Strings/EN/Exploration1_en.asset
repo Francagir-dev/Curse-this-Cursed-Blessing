@@ -16,7 +16,8 @@ MonoBehaviour:
     m_Code: en
   m_SharedData: {fileID: 11400000, guid: be187b99e8fef4f468c6432cc6afaceb, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - id: 0
   m_TableData:
   - m_Id: 288019591602176
     m_Localized: "That was close\u2026 Did we lose them?"
@@ -59,38 +60,53 @@ MonoBehaviour:
     m_Localized: ... Just find the key.
     m_Metadata:
       m_Items: []
-  - m_Id: 288027548196864
-    m_Localized: Hey! That looks like a key!
+  - m_Id: 28605528874250240
+    m_Localized: "\rWell, just in case..."
     m_Metadata:
       m_Items: []
-  - m_Id: 288028114427904
-    m_Localized: "Haven\u2019t you ever seen one?"
+  - m_Id: 28606184972447744
+    m_Localized: Use this thing to interact.
     m_Metadata:
       m_Items: []
-  - m_Id: 288028756156416
-    m_Localized: "Only from afar, I\u2019ve never used a door."
+  - m_Id: 28606132388458496
+    m_Localized: "And if you find some fireflies like these\u2026\r\n"
     m_Metadata:
       m_Items: []
-  - m_Id: 288029796343808
-    m_Localized: "That\u2019s weird\u2026"
+  - m_Id: 28606037899177984
+    m_Localized: "Come on, he's gone.\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 288031570534400
-    m_Localized: "I mean, I\u2019m a plant, it\u2019s not like I need a house to
-      live\u2026"
+  - m_Id: 28605761003810816
+    m_Localized: W-Where does that come from?!
     m_Metadata:
       m_Items: []
-  - m_Id: 288032174514176
-    m_Localized: "No, shut up, what\u2019s a key doing just laying there?"
+  - m_Id: 28605692296916992
+    m_Localized: "\rUse this here to move"
     m_Metadata:
       m_Items: []
-  - m_Id: 288032778493952
-    m_Localized: "Huh? Don\u2019t you leave keys laying around like monsters do?"
+  - m_Id: 28605525955014656
+    m_Localized: But if you just saw me run, of course I know!
     m_Metadata:
       m_Items: []
-  - m_Id: 288033449582592
-    m_Localized: "... I don\u2019t know what I expected."
+  - m_Id: 28604751564861440
+    m_Localized: "\rYou remember how to move, right?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28606364220223488
+    m_Localized: B-But where does it come from?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28606482562510848
+    m_Localized: "\rThat's all for now, thanks for listening!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28606616591495168
+    m_Localized: Are you still talking to me?!
     m_Metadata:
       m_Items: []
   references:
     version: 1
+    00000000:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0070a959b59f6500
