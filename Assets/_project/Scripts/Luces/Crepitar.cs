@@ -24,7 +24,6 @@ public class Crepitar : MonoBehaviour
     void Update()
     {
         myLight.intensity = Mathf.PingPong(Time.time * velocity, Maxintensity) + intensity;
-        Debug.Log(intensity);
         var amplitude = Mathf.PingPong(Time.time, duration);
 
         //Transform from 0..duration to 0.5..1 range.
