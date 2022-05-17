@@ -105,7 +105,24 @@ public class DialogueManager : MonoBehaviour
             keys.Add(stringTable.SharedData.GetEntry(v.Key).Key);
         }
 
-        return keys;
+        //Re-Arrange Keys
+        List<string> arrangedList = new List<string>();
+        for (int i = 0; i < keys.Count; i++)
+        {
+            for (int j = 0; j < keys.Count; j++)
+            {
+                string key = keys[j];
+                key = key.Split('_')[1];
+
+                if (key == (i + 1).ToString())
+                {
+                    arrangedList.Add(keys[j]);
+                    break;
+                }
+            }
+        }
+
+        return arrangedList;
     }
 
     IEnumerator PrologueText(string table, float timeBetweenSentences)
@@ -163,7 +180,7 @@ public class DialogueManager : MonoBehaviour
 
         string name = GetAllKeys(tableName)[currKey].Split('_')[0];
 
-        List<string> keysNames = GetAllKeys("CharacterNames");
+        List<string> keysNames = GetAllKeys(tableName);
 
         string characterName = LocalizationSettings.StringDatabase.GetLocalizedString("CharacterNames", name);
 
@@ -181,24 +198,31 @@ public class DialogueManager : MonoBehaviour
     {
         float timer = timeBetweenChar;
         string displayText = "";
+        bool specialChar = false;
         for (int j = 0; j < translatedText.Length; j++)
         {
             displayText += translatedText[j];
+
+            if (translatedText[j] == '<')
+                specialChar = true;
+
             //While en vez de WaitForSeconds para poder detectar input
-            while (timer > 0)
+            while (timer > 0 || specialChar)
             {
                 timer -= Time.deltaTime;
                 //TODO: Poner input de verdad, esto es temporal y para testear
                 if (skipText)
                 {
                     displayText = translatedText;
-                    j = translatedText.Length;
+                    j = translatedText.Length - 1;
                     skipText = false;
                     break;
                 }
-
+                
                 yield return null;
             }
+            if (translatedText[j] == '>')
+                specialChar = false;
 
             timer = timeBetweenChar;
             textDialogue.text = displayText;
