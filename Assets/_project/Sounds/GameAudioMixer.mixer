@@ -1,5 +1,27 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!244 &-7230691152913769304
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 038f340baa10cb14391f4a38488e64fc
+  m_EffectName: Compressor
+  m_MixLevel: 108e0a15b521262498f6be423ba8f898
+  m_Parameters:
+  - m_ParameterName: Threshold
+    m_GUID: da4446b2a0d027d438ca81c65001d017
+  - m_ParameterName: Attack
+    m_GUID: d5b80de160d25154782702bfde3cb78e
+  - m_ParameterName: Release
+    m_GUID: ac252d1825ca40647bf2b3015067afc2
+  - m_ParameterName: Make up gain
+    m_GUID: 68acab2fd8e4232438892c8dbb19d349
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!244 &-6308556611447076752
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -29,7 +51,6 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 5090377522304943894}
-  - {fileID: -688055604889941005}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -49,7 +70,6 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: -6308556611447076752}
-  - {fileID: 119946836253596643}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -156,18 +176,22 @@ AudioMixerSnapshotController:
   m_SnapshotID: 12a4dd6478dc63c4d9928d2324d5a8e8
   m_FloatValues:
     0aec0b10817eafd4f986438b26923102: 1
-    152e7f12699befb42b45f3036a8b6918: 10
+    152e7f12699befb42b45f3036a8b6918: -60
     ababf32283dc6eb48bba017dfca89355: 141
     cc272434a9f48df4297135fb35af1759: 15
     a28fa9b4d91b3b24fbe5856f3fcedc0f: 30
-    6b8b09a528aac6d4595a3c822487e2df: 10
-    b5dfe0e640095964cb5fa5a91abca5d3: 10.000001
+    9dd05535a78aead4c9a6806121aa725b: 0
+    6b8b09a528aac6d4595a3c822487e2df: -60
+    b5dfe0e640095964cb5fa5a91abca5d3: -60
     ab9a2ee6804622643a7f336b0a832b6d: 120
     49cdda68082137647aacde62bf9ff40b: 60
+    3a4c970957df41f46802cf3f2c6dbf75: -60
     6bc4885ad376bad4eba10aa098540b71: -50
+    e2b4b41b37bf29c409cb2e7610d73218: 24
     c495571cab1f780418a0593244f2007d: -25
     e0fa8aac60c9df640a261d96e1a14288: 60
-    83ed9e7f987990641a3ac75309406836: 10
+    f632347e7a0c0894999c2a50852b245f: 20
+    83ed9e7f987990641a3ac75309406836: -60
   m_TransitionOverrides: {}
 --- !u!244 &119946836253596643
 AudioMixerEffectController:
@@ -206,7 +230,6 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 5344724882568875444}
-  - {fileID: 5654643070234632937}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
