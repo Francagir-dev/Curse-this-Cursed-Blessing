@@ -22,6 +22,8 @@ public class CutsceneManager : MonoBehaviour
     private void Awake()
     {
         manag = FindObjectOfType<DialogueManager>();
+        direct = GetComponent<PlayableDirector>();
+        Debug.Log(gameObject.name);
     }
 
     private void OnEnable()
@@ -49,7 +51,6 @@ public class CutsceneManager : MonoBehaviour
             return;
         }
 
-        direct = GetComponent<PlayableDirector>();
 
         direct.stopped += delegate
         {
