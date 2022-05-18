@@ -10,20 +10,28 @@ public class HeroFollow : MonoBehaviour
     Vector3 lockedPos;
     Vector3 denyPos;
 
+    Quaternion TargetRot => transform.parent.rotation * lockedRot;
+    Quaternion lockedRot;
+    Quaternion denyRot;
+
     private void Awake()
     {
         lockedPos = transform.localPosition;
         denyPos = transform.position;
+        lockedRot = transform.localRotation;
+        denyRot = transform.rotation;
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
         transform.position = denyPos;
-
         transform.position = Vector3.Lerp(transform.position, TargetPos, damp);
-
         denyPos = transform.position;
+
+        transform.rotation = denyRot;
+        transform.rotation = Quaternion.Lerp(transform.rotation, TargetRot, damp);
+        denyRot = transform.rotation;
     }
 
     public void NewLockedRot(Vector3 newPos)
