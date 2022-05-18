@@ -38138,6 +38138,78 @@ PrefabInstance:
       propertyPath: onDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_Range
+      value: 17.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_Intensity
+      value: 7161.972
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_AreaSize.x
+      value: 9.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_AreaSize.y
+      value: 3.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_ShadowRadius
+      value: 4.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 9.801614
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_UseBoundingSphereOverride
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_Shadows.m_UseCullingMatrixOverride
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_Shadows.m_CullingMatrixOverride.e00
+      value: 0.008726775
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_Shadows.m_CullingMatrixOverride.e11
+      value: 0.008726775
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_Shadows.m_CullingMatrixOverride.e22
+      value: 1.0204048
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_Shadows.m_CullingMatrixOverride.e23
+      value: -0.20204048
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_Shadows.m_CullingMatrixOverride.e32
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 926812594361122239, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_Shadows.m_CullingMatrixOverride.e33
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1664339025528885617, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -38174,6 +38246,54 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 8963690325227858235, guid: 78a1eadbd0a05b14da1ad7dccae28089, type: 3}
+    - target: {fileID: 8454009407527922917, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_Intensity
+      value: 90000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454009407527922917, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_LightUnit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454009407527922917, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_ShapeWidth
+      value: 9.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454009407527922917, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_ShapeHeight
+      value: 3.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454009407527922917, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_ShapeRadius
+      value: 4.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454009407527922917, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_AreaLightShape
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454009407527922917, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_SpotLightShape
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454009407527922917, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_InnerSpotPercent
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454009407527922917, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_PointlightHDType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454009407527922917, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_VolumetricDimmer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454009407527922917, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_VolumetricShadowDimmer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454009407527922917, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 5000
+      objectReference: {fileID: 0}
     - target: {fileID: 8559243499343048364, guid: 1d753a15462950d4bab57adf7f0952b6, type: 3}
       propertyPath: m_Sprite
       value: 
