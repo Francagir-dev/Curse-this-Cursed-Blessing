@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6787665442776339247
+--- !u!1 &1247942434851707608
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 172968609401071166}
-  - component: {fileID: 7157176669023680684}
-  - component: {fileID: 2386378515131177366}
-  - component: {fileID: 6241315504701854405}
+  - component: {fileID: 7769513024689317244}
+  - component: {fileID: 7825432532557915431}
+  - component: {fileID: 950862709349159501}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Medallon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &172968609401071166
+--- !u!4 &7769513024689317244
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6787665442776339247}
-  m_LocalRotation: {x: -0.48072225, y: -0.38009796, z: -0.24300775, w: 0.75191677}
-  m_LocalPosition: {x: 0, y: 2.39, z: 0}
-  m_LocalScale: {x: 5.1135, y: -0.09034534, z: 5.1135}
+  m_GameObject: {fileID: 1247942434851707608}
+  m_LocalRotation: {x: -0.50530756, y: -0.6153628, z: -0.3053508, w: 0.52225846}
+  m_LocalPosition: {x: 1.6, y: -3.38, z: 1.13}
+  m_LocalScale: {x: 6.2802, y: 6.2802, z: 6.2802}
   m_Children: []
   m_Father: {fileID: 3871030531882724582}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -65.184, y: -53.634, z: 0}
---- !u!33 &7157176669023680684
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -64.636, y: -128.731, z: 45.01}
+--- !u!33 &7825432532557915431
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6787665442776339247}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &2386378515131177366
+  m_GameObject: {fileID: 1247942434851707608}
+  m_Mesh: {fileID: 5314914882321750722, guid: 4c2b9300cf7cd044394f669ac1a538fb, type: 3}
+--- !u!23 &950862709349159501
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6787665442776339247}
+  m_GameObject: {fileID: 1247942434851707608}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -82,19 +81,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &6241315504701854405
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6787665442776339247}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7340665299095369014
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,7 +112,7 @@ Transform:
   m_Children:
   - {fileID: 5565272902545479281}
   m_Father: {fileID: 3871030531882724582}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6666516799547380502
 MonoBehaviour:
@@ -220,8 +206,8 @@ Transform:
   m_LocalPosition: {x: -47.35, y: 0.11, z: 57.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 172968609401071166}
   - {fileID: 6152327401075730239}
+  - {fileID: 7769513024689317244}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -232,6 +218,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6152327401075730239}
     m_Modifications:
+    - target: {fileID: 5008428526471412415, guid: 1c85502f0b2b85d4e8a894b47ed9e346, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 1.95635e-40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008428526471412415, guid: 1c85502f0b2b85d4e8a894b47ed9e346, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 1e-45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008428526471412415, guid: 1c85502f0b2b85d4e8a894b47ed9e346, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 127.30298
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008428526471412415, guid: 1c85502f0b2b85d4e8a894b47ed9e346, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 4.8e-43
+      objectReference: {fileID: 0}
     - target: {fileID: 6140561975459261771, guid: 1c85502f0b2b85d4e8a894b47ed9e346, type: 3}
       propertyPath: m_RootOrder
       value: 0
