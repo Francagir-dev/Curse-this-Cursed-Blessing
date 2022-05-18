@@ -6380,7 +6380,7 @@ MonoBehaviour:
   m_InnerSpotPercent: 100
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 9.83
+  m_VolumetricDimmer: 0
   m_LightUnit: 0
   m_FadeDistance: 10000
   m_VolumetricFadeDistance: 10000
@@ -6489,7 +6489,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 372159.8
-  m_Range: 115.74
+  m_Range: 79.82
   m_SpotAngle: 104.07973
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -39903,7 +39903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1651975608324390549, guid: 0c2123f680977f346beb43e5d7025cea, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.93998814
+      value: 0.9399872
       objectReference: {fileID: 0}
     - target: {fileID: 1942495889614442101, guid: 0c2123f680977f346beb43e5d7025cea, type: 3}
       propertyPath: m_SizeDelta.x
@@ -41378,7 +41378,7 @@ MonoBehaviour:
   m_LightAngle: 1
   m_MaxDepthBias: 0.001
   m_ShadowResolution:
-    m_Override: 512
+    m_Override: 5000
     m_UseOverride: 1
     m_Level: 0
   m_ShadowDimmer: 1
@@ -41414,7 +41414,7 @@ MonoBehaviour:
   m_ShadowVariant: 0
   m_ShadowPrecision: 0
   useOldInspector: 0
-  useVolumetric: 1
+  useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 0
   m_AreaLightEmissiveMeshShadowCastingMode: 0
@@ -41433,7 +41433,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 24980.004
-  m_Range: 57.80406
+  m_Range: 79.82
   m_SpotAngle: 103.7
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -70861,7 +70861,7 @@ MonoBehaviour:
   m_LightAngle: 1
   m_MaxDepthBias: 0.001
   m_ShadowResolution:
-    m_Override: 512
+    m_Override: 5000
     m_UseOverride: 1
     m_Level: 0
   m_ShadowDimmer: 1
@@ -70897,7 +70897,7 @@ MonoBehaviour:
   m_ShadowVariant: 0
   m_ShadowPrecision: 0
   useOldInspector: 0
-  useVolumetric: 1
+  useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 0
   m_AreaLightEmissiveMeshShadowCastingMode: 0
@@ -70916,7 +70916,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 33877.934
-  m_Range: 57.80406
+  m_Range: 79.82
   m_SpotAngle: 88.2
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -79144,7 +79144,7 @@ MonoBehaviour:
   m_LightAngle: 1
   m_MaxDepthBias: 0.001
   m_ShadowResolution:
-    m_Override: 512
+    m_Override: 5000
     m_UseOverride: 1
     m_Level: 0
   m_ShadowDimmer: 1
@@ -79180,7 +79180,7 @@ MonoBehaviour:
   m_ShadowVariant: 0
   m_ShadowPrecision: 0
   useOldInspector: 0
-  useVolumetric: 1
+  useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 0
   m_AreaLightEmissiveMeshShadowCastingMode: 0
@@ -79199,7 +79199,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 21914.457
-  m_Range: 57.80406
+  m_Range: 79.82
   m_SpotAngle: 111.3
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -79240,7 +79240,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
-  m_BounceIntensity: 100
+  m_BounceIntensity: 1
   m_ColorTemperature: 20000
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}

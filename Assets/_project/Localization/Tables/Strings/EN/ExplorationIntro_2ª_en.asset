@@ -51,5 +51,66 @@ MonoBehaviour:
     m_Localized: "... I don\u2019t know what I expected."
     m_Metadata:
       m_Items: []
+  - m_Id: 689611586760704
+    m_Localized: So surely two of them won't do anything...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689783729385472
+    m_Localized: "\rConsidering his earlier reaction... he seems to be afraid <b>of
+      the power distance between us.</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689785985921024
+    m_Localized: "\rIf I make it look like I'm invincible, I should chase him away."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689786946416640
+    m_Localized: "\rThat is, if he doesn't defeat you first."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689787755917312
+    m_Localized: "Exactly, I have to be taking care of my life...\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689788582195200
+    m_Localized: Being a plant has its advantages, I consider myself quite robust.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689789345558528
+    m_Localized: "\rHow robust?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689791618871296
+    m_Localized: "\rIt could take\u2026 4 hits."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689793225289728
+    m_Localized: "\r... that's not much."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 690987712737280
+    m_Localized: Don't worry, I can use this to dodge.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 690989117829120
+    m_Localized: "\rOh, I see."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 690990313205760
+    m_Localized: "\rHey, are you done checking your controls?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 690992292917248
+    m_Localized: "\rDo you dare to interrupt me?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 691130079997952
+    m_Localized: "Oh! N-No\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 691164532011008
+    m_Localized: Hehe... this could work...
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
