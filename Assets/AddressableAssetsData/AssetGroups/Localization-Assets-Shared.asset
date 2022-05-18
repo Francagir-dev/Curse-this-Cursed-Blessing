@@ -128,6 +128,11 @@ MonoBehaviour:
       Shared Data.asset"
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 925a20b5b3e862740a9fceea0a8ba627
+    m_Address: "Assets/_project/Localization/Tables/Strings/Settings/FirstEnemyTuto_2\xBA
+      Shared Data.asset"
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
   m_SchemaSet:
