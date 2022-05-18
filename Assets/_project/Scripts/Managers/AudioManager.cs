@@ -11,36 +11,50 @@ public class AudioManager : MonoBehaviour
 
     public void ExploracionTresSalas()
     {
+        audioSource.Stop();
         audioSource.clip = audioClips[0];
-    }
-
-    public void ExploracionSotano()
-    {
-        audioSource.clip = audioClips[4];
-    }
-
-    public void BeforeCombat()
-    {
-        audioSource.clip = audioClips[5];
-    }
-
-    public void StatueSpeak()
-    {
-        audioSource.clip = audioClips[6];
+        audioSource.Play();
     }
 
     public void TravelPuerta()
     {
+        audioSource.Stop();
         audioSource.clip = audioClips[1];
+        audioSource.Play();
     }
 
     public void TravelBolaMundo()
     {
+        audioSource.Stop();
         audioSource.clip = audioClips[2];
+        audioSource.Play();
     }
 
     public void Combat()
     {
+        audioSource.Stop();
         audioSource.clip = audioClips[3];
+        audioSource.Play();
+    }
+
+    public void ExploracionSotano()
+    {
+        audioSource.Stop();
+        audioSource.clip = audioClips[4];
+        audioSource.Play();
+    }
+
+    public void BeforeCombat()
+    {
+        audioSource.Stop();
+        audioSource.clip = audioClips[5];
+        audioSource.Play();
+    }
+
+    public void StatueSpeak()
+    {
+        audioSource.Stop();
+        audioSource.clip = audioClips[6];
+        audioSource.Play();
     }
 }
