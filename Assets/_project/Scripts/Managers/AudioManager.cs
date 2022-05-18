@@ -11,7 +11,9 @@ public class AudioManager : MonoBehaviour
 
     public void ExploracionTresSalas()
     {
+        audioSource.Stop();
         audioSource.clip = audioClips[0];
+        audioSource.Play();
     }
 
     public void ExploracionSotano()
