@@ -313,6 +313,9 @@ MonoBehaviour:
   intensity: 20000
   velocity: 8000
   Maxintensity: 40000
+  MaxRadius: 0
+  originarange: 0
+  duration: 0
 --- !u!1 &4969228222043293293
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,6 +548,9 @@ MonoBehaviour:
   intensity: 20000
   velocity: 8000
   Maxintensity: 40000
+  MaxRadius: 0
+  originarange: 0
+  duration: 0
 --- !u!1 &5668824118653490214
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,6 +783,9 @@ MonoBehaviour:
   intensity: 20000
   velocity: 8000
   Maxintensity: 40000
+  MaxRadius: 0
+  originarange: 0
+  duration: 0
 --- !u!1 &6076249126890019991
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,7 +811,7 @@ Transform:
   m_GameObject: {fileID: 6076249126890019991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 141.3264, y: 28.21, z: 110.84}
-  m_LocalScale: {x: 0.66679, y: 0.66679, z: 0.66679}
+  m_LocalScale: {x: 1.7031817, y: 1.7031817, z: 1.7031817}
   m_Children:
   - {fileID: 6898234879538044022}
   - {fileID: 6170310113086516189}
@@ -1048,6 +1057,9 @@ MonoBehaviour:
   intensity: 20000
   velocity: 8000
   Maxintensity: 40000
+  MaxRadius: 0
+  originarange: 0
+  duration: 0
 --- !u!1 &6931116521865788713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,6 +1292,9 @@ MonoBehaviour:
   intensity: 20000
   velocity: 8000
   Maxintensity: 40000
+  MaxRadius: 0
+  originarange: 0
+  duration: 0
 --- !u!1 &7573104234727292831
 GameObject:
   m_ObjectHideFlags: 0
@@ -1512,6 +1527,9 @@ MonoBehaviour:
   intensity: 20000
   velocity: 8000
   Maxintensity: 40000
+  MaxRadius: 0
+  originarange: 0
+  duration: 0
 --- !u!1 &7998970418547806818
 GameObject:
   m_ObjectHideFlags: 0
@@ -1744,6 +1762,9 @@ MonoBehaviour:
   intensity: 20000
   velocity: 8000
   Maxintensity: 40000
+  MaxRadius: 0
+  originarange: 0
+  duration: 0
 --- !u!1 &8245251021147272115
 GameObject:
   m_ObjectHideFlags: 0
