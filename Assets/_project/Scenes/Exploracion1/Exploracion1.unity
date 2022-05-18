@@ -6489,7 +6489,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 372159.8
-  m_Range: 115.74
+  m_Range: 79.82
   m_SpotAngle: 104.07973
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -41378,7 +41378,7 @@ MonoBehaviour:
   m_LightAngle: 1
   m_MaxDepthBias: 0.001
   m_ShadowResolution:
-    m_Override: 512
+    m_Override: 5000
     m_UseOverride: 1
     m_Level: 0
   m_ShadowDimmer: 1
@@ -41433,7 +41433,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 24980.004
-  m_Range: 57.80406
+  m_Range: 79.82
   m_SpotAngle: 103.7
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -70861,7 +70861,7 @@ MonoBehaviour:
   m_LightAngle: 1
   m_MaxDepthBias: 0.001
   m_ShadowResolution:
-    m_Override: 512
+    m_Override: 5000
     m_UseOverride: 1
     m_Level: 0
   m_ShadowDimmer: 1
@@ -70916,7 +70916,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 33877.934
-  m_Range: 57.80406
+  m_Range: 79.82
   m_SpotAngle: 88.2
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -79144,7 +79144,7 @@ MonoBehaviour:
   m_LightAngle: 1
   m_MaxDepthBias: 0.001
   m_ShadowResolution:
-    m_Override: 512
+    m_Override: 5000
     m_UseOverride: 1
     m_Level: 0
   m_ShadowDimmer: 1
@@ -79199,7 +79199,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 21914.457
-  m_Range: 57.80406
+  m_Range: 79.82
   m_SpotAngle: 111.3
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
