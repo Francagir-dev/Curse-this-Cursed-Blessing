@@ -10,11 +10,13 @@ public class PauseBehaviour : PlayableBehaviour
     public override void ProcessFrame(Playable playable, FrameData info, object playerData)
     {
         if (doOnce) return;
+        doOnce = true;
+
+        if (!dialogueManag.IsOpen)
+            return;
 
         CutsceneManager manag = playerData as CutsceneManager;
-
         manag.Stop();
         dialogueManag.onDialogueEnd += manag.Continue;
-        doOnce = true;
     }
 }
