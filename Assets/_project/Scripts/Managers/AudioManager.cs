@@ -57,4 +57,11 @@ public class AudioManager : MonoBehaviour
         audioSource.clip = audioClips[6];
         audioSource.Play();
     }
+
+    public void OnDamage()
+    {
+        audioSource.Stop();
+        audioSource.clip = audioClips[0];
+        audioSource.Play();
+    }
 }
