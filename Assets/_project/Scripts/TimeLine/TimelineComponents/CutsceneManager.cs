@@ -15,6 +15,7 @@ public class CutsceneManager : MonoBehaviour
 
     PlayableDirector direct;
     public UnityEvent onCutsceneEnd;
+    public UnityEvent onCutsceneStart;
 
     private PlayerInput _player;
     private DialogueManager manag;
@@ -28,12 +29,12 @@ public class CutsceneManager : MonoBehaviour
 
     private void OnEnable()
     {
+        onCutsceneStart.Invoke();
         manag.TableName = dialogueTableName;
         Movement.Instance.playerInput.Player.Disable();
         Movement.Instance.playerInput.UIControls.Enable();
         Movement.Instance.playerInput.UIControls.Skip.performed += ctx => manag.SkipText();
         _player = new PlayerInput();
-
 
         if (dialogueOnly)
         {
