@@ -175,6 +175,7 @@ GameObject:
   - component: {fileID: 541933158432229070}
   - component: {fileID: 3470743432594770283}
   - component: {fileID: 1715442144711556513}
+  - component: {fileID: 2438525166385199930}
   m_Layer: 0
   m_Name: EstanteriaRota_01
   m_TagString: Untagged
@@ -250,6 +251,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2438525166385199930
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922822284642327668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.105617, y: 1.234377, z: 3.7000022}
+  m_Center: {x: -0.022841806, y: -0.00000015385731, z: 1.8500011}
 --- !u!1 &941194060084397666
 GameObject:
   m_ObjectHideFlags: 0

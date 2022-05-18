@@ -1323,6 +1323,7 @@ GameObject:
   - component: {fileID: 5008774674018507650}
   - component: {fileID: 8227343772063077415}
   - component: {fileID: 6181633436743590125}
+  - component: {fileID: 7579294959174504276}
   m_Layer: 0
   m_Name: EstanteriaAnchaRota_03
   m_TagString: Untagged
@@ -1406,6 +1407,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7579294959174504276
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5677190489727091000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.085109, y: 1.3505081, z: 3.7093813}
+  m_Center: {x: -0.008099913, y: 0.00000005984981, z: 1.8546907}
 --- !u!1 &5715077668245249381
 GameObject:
   m_ObjectHideFlags: 0
