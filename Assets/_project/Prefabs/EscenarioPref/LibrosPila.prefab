@@ -91,6 +91,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3278043853590467337}
+  - component: {fileID: 6747613581232990474}
   m_Layer: 0
   m_Name: LibrosPila
   m_TagString: Untagged
@@ -105,9 +106,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2753426880141576627}
-  m_LocalRotation: {x: -0.5167773, y: -0.48267576, z: -0.4831734, w: 0.516245}
+  m_LocalRotation: {x: -0.51601243, y: -0.48295188, z: -0.48342416, w: 0.516517}
   m_LocalPosition: {x: 115.53918, y: 8.131039, z: 119.50166}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2934, y: 1.2934, z: 1.2934}
   m_Children:
   - {fileID: 4928199935381884674}
   - {fileID: 3773311582459322381}
@@ -117,6 +118,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -89.944, y: 0, z: -86.209}
+--- !u!65 &6747613581232990474
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2753426880141576627}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3353540346221288830
 GameObject:
   m_ObjectHideFlags: 0
