@@ -64,4 +64,11 @@ public class AudioManager : MonoBehaviour
         audioSource.clip = audioClips[0];
         audioSource.Play();
     }
+
+    public void OpenDoor()
+    {
+        audioSource.Stop();
+        audioSource.clip = audioClips[1];
+        audioSource.Play();
+    }
 }
