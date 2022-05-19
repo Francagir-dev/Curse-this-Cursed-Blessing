@@ -153,6 +153,10 @@ MonoBehaviour:
     m_Key: changeLocale
     m_Metadata:
       m_Items: []
+  - m_Id: 17301382869069824
+    m_Key: credits
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
