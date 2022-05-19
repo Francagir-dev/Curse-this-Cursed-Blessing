@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 589122046955229466}
   - component: {fileID: -2753765563669243294}
   - component: {fileID: 3379310541970159799}
+  - component: {fileID: 8744123166277939713}
   m_Layer: 0
   m_Name: ColumnaCuadrada
   m_TagString: Untagged
@@ -108,3 +109,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.7269911, y: 0.7269931, z: 8.090199}
   m_Center: {x: -4.2156464e-14, y: -0.0000011182285, z: 4.0451016}
+--- !u!114 &8744123166277939713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381486956712669391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82272ce3721616e4787744fc2369fc25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
