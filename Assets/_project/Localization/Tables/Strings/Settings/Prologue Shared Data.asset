@@ -167,6 +167,26 @@ MonoBehaviour:
     m_Key: Narrador_38
     m_Metadata:
       m_Items: []
+  - m_Id: 29596481414017024
+    m_Key: MainMenu/Credits/BackGround/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29596624729190400
+    m_Key: MainMenu/Credits/BackGround/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29596800919318528
+    m_Key: MainMenu/Credits/BackGround/Text (TMP) 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29597113730510848
+    m_Key: MainMenu/Credits/BackGround/Text (TMP) 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29597627004268544
+    m_Key: MainMenu/Credits/BackGround/Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

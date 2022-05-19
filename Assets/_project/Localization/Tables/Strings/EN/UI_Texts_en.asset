@@ -43,7 +43,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2072475890921472
-    m_Localized: Main Menu
+    m_Localized: Curse This Cursed Blessing
     m_Metadata:
       m_Items: []
   - m_Id: 2072966423162880
@@ -152,6 +152,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 12950597055893504
     m_Localized: Change Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17301382869069824
+    m_Localized: Credits
     m_Metadata:
       m_Items: []
   references:
