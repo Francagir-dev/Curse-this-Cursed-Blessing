@@ -44,8 +44,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.7961216, y: 9.303873, z: 5.716065}
-  m_Center: {x: 0.24627143, y: -1.0371816, z: 5.4241242}
+  m_Size: {x: 5.7961216, y: 7.3921638, z: 5.7160654}
+  m_Center: {x: 0.24627165, y: -1.9930365, z: 5.4241242}
 --- !u!114 &776190470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,6 +77,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: Interact
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -129,8 +141,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 83.81742, y: 87.157524, z: 34.370308}
-  m_Center: {x: 3.4432595, y: -11.609205, z: 49.53906}
+  m_Size: {x: 83.81742, y: 77.84189, z: 34.370304}
+  m_Center: {x: 3.443257, y: -16.267006, z: 49.539066}
 --- !u!1 &3243785558848702253
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,7 +169,7 @@ Transform:
   m_GameObject: {fileID: 3243785558848702253}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.426154, y: 1.426154, z: 1.426154}
+  m_LocalScale: {x: 1.7877651, y: 1.7877653, z: 1.7877651}
   m_Children:
   - {fileID: 2502751756260278219}
   - {fileID: 776190469}
