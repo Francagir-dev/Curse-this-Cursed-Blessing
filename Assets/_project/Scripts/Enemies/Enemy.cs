@@ -79,7 +79,7 @@ public abstract class Enemy : MonoBehaviour
     
     protected virtual void Awake()
     {
-        playerTransf = FindObjectOfType<Movement>().transform;
+        playerTransf = Movement.Instance.transform;
         navMeshAgent = GetComponent<NavMeshAgent>();
         speedMovement = navMeshAgent.speed;
         OnDamageReceived.AddListener(ReceiveDamage);
