@@ -8,6 +8,7 @@ public class MainMenuController : MonoBehaviour
     public GameObject optionsPanel;
     public GameObject mainMenuPanel;
     public GameObject controlPanel;
+    public GameObject creditsPanel;
 
     public void StartButton()
     {
@@ -18,6 +19,7 @@ public class MainMenuController : MonoBehaviour
     {
         mainMenuPanel.SetActive(false);
         optionsPanel.SetActive(true);
+        controlPanel.SetActive(false);
     }
 
     public void Quit()
@@ -29,5 +31,15 @@ public class MainMenuController : MonoBehaviour
     {
         controlPanel.SetActive(active);
         mainMenuPanel.SetActive(!active);
+        optionsPanel.SetActive(false);
     }
+
+    public void Credits()
+    {
+        controlPanel.SetActive(false);
+        mainMenuPanel.SetActive(false);
+        optionsPanel.SetActive(false);
+        creditsPanel.SetActive(true);
+    }
+
 }

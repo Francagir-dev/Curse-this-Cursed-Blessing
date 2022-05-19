@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.33374104, g: 0.49984264, b: 0.8330078, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1120,7 +1120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1191,6 +1191,7 @@ MonoBehaviour:
   optionsPanel: {fileID: 1888876231}
   mainMenuPanel: {fileID: 130271262}
   controlPanel: {fileID: 768959457}
+  creditsPanel: {fileID: 1447400187}
 --- !u!4 &44868528
 Transform:
   m_ObjectHideFlags: 0
@@ -1386,7 +1387,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 44868527}
         m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
-        m_MethodName: Options
+        m_MethodName: Credits
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1571,8 +1572,9 @@ GameObject:
   - component: {fileID: 91637324}
   - component: {fileID: 91637326}
   - component: {fileID: 91637325}
+  - component: {fileID: 91637327}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Titles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1670,8 +1672,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1745,6 +1747,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91637323}
   m_CullTransparentMesh: 1
+--- !u!95 &91637327
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91637323}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1158152ef43661a41952235294f3ccd4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &99335088
 GameObject:
   m_ObjectHideFlags: 0
@@ -3757,7 +3778,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 411122600}
-  - component: {fileID: 411122601}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -3786,25 +3806,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -1161}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &411122601
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411122599}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fd77e3a2ce398db4bb51db9e22b2d3ce, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &411349410
 GameObject:
   m_ObjectHideFlags: 0
@@ -11017,7 +11018,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:86d7b47efafda744785c9e5d45fe8270
     m_TableEntryReference:
-      m_KeyId: 576756994048
+      m_KeyId: 17301382869069824
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -11933,13 +11934,14 @@ GameObject:
   - component: {fileID: 1447400190}
   - component: {fileID: 1447400189}
   - component: {fileID: 1447400188}
+  - component: {fileID: 1447400192}
   m_Layer: 5
   m_Name: Credits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1447400188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12021,6 +12023,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1447400192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447400187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5904dc991f4882f4ea43233f4a4ac3fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 91637327}
+  mainMenuCanvas: {fileID: 130271262}
+  creditCanvas: {fileID: 1447400187}
 --- !u!1 &1462010018
 GameObject:
   m_ObjectHideFlags: 0
@@ -12779,54 +12796,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476732623}
   m_CullTransparentMesh: 1
---- !u!1 &1486059791
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1486059793}
-  - component: {fileID: 1486059792}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1486059792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486059791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: dfcfd2ebfbf37b24485f770f86b88952, type: 2}
---- !u!4 &1486059793
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486059791}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 349.17084, y: -204.38062, z: 187.32825}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1494551321
 GameObject:
   m_ObjectHideFlags: 0
@@ -15636,7 +15605,7 @@ GameObject:
   - component: {fileID: 1805678115}
   - component: {fileID: 1805678114}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: Names
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15658,7 +15627,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 910.00006, y: 0}
+  m_AnchoredPosition: {x: 910.00006, y: 2}
   m_SizeDelta: {x: 960, y: 979.61}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!95 &1805678114
@@ -15671,7 +15640,7 @@ Animator:
   m_GameObject: {fileID: 1805678112}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fd77e3a2ce398db4bb51db9e22b2d3ce, type: 2}
+  m_Controller: {fileID: 9100000, guid: 01f377477cdb4154a93c84245b985229, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -15701,17 +15670,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "C\xE9sar Mar\xED\n\nGuillem Gorba - Lead Design\nPablo Gimeno \nMiguel
-    Gandia\n\nFrancisco Carrasco - Lead\nC\xE9sar Mari\nGuillermo Edo\nPablo Gimeno\nRicardo
+    Gandia\n\nFrancisco Carrasco - Lead\nC\xE9sar Mar\xED\nGuillermo Edo\nPablo Gimeno\nRicardo
     Rodilla\nMiguel Gandia\n\nJes\xFAs S\xE1ez\nM\xF3nica Garc\xEDa\nAdri\xE1n Ben\xEDtez\nEmilio
     Esteban\nJuan De La Fuente\n\nPablo Gimeno\n\nJes\xFAs S\xE1ez - Lead\nM\xF3nica
     Garc\xEDa\nEmilio Esteban\nJuan De La Fuente\n\nJes\xFAs S\xE1ez\nM\xF3nica Garc\xEDa\n\nGuillermo
     Edo - Rigger\nPablo Gimeno - Animator\nGuillem Gorba - Animator\n\nM\xF3nica
-    Garc\xEDa - Narrative Designer and Translations\nC\xE9sar Mar\xED\nGuillem Gorba\n\nTesk__
-    (Help with Audio Configuration)\nEnrique Camacho - Main concept\nColega de Guillem
+    Garc\xEDa - Narrative Designer and Translations\nC\xE9sar Mar\xED\nGuillem Gorba\n\nTeskk
+    - Help with Audio Configuration\nEnrique Camacho - Main concept\nFernando Martinez
     - Musica & SfX\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
