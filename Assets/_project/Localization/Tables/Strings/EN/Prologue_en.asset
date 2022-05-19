@@ -212,36 +212,5 @@ MonoBehaviour:
     m_Localized: Quickly, he grabbed the ghost and ran away.
     m_Metadata:
       m_Items: []
-  - m_Id: 29596481414017024
-    m_Localized: New Text
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29596624729190400
-    m_Localized: 'Design
-
-      Guillem Gorba - Lead Designer'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29596800919318528
-    m_Localized: 'Design
-
-      Guillem Gorba - Lead Designer
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29597113730510848
-    m_Localized: 'Design
-
-      Guillem Gorba - Lead Designer
-
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29597627004268544
-    m_Localized: Button
-    m_Metadata:
-      m_Items: []
   references:
     version: 1

@@ -211,42 +211,5 @@ MonoBehaviour:
     m_Localized: "R\xE1pidamente agarr\xF3 al esp\xEDritu y huy\xF3 del lugar."
     m_Metadata:
       m_Items: []
-  - m_Id: 29596481414017024
-    m_Localized: 'Design
-
-      Guillem Gorba - Lead Designer'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29596624729190400
-    m_Localized: 'Design
-
-      Guillem Gorba - Lead Designer
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29596800919318528
-    m_Localized: 'Design
-
-      Guillem Gorba - Lead Designer
-
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29597113730510848
-    m_Localized: 'Design
-
-      Guillem Gorba - Lead Designer
-
-
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29597627004268544
-    m_Localized: vsdg
-    m_Metadata:
-      m_Items: []
   references:
     version: 1
