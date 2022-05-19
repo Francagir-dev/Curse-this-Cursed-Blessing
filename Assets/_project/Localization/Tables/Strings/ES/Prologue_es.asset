@@ -16,7 +16,8 @@ MonoBehaviour:
     m_Code: es
   m_SharedData: {fileID: 11400000, guid: ad2fdecba7a4d4d49a7c5dcea2083dca, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - id: 0
   m_TableData:
   - m_Id: 16301494272
     m_Localized: "Lucha, lucha hasta que caigas, lucha hasta que no puedas m\xE1s,
@@ -29,24 +30,20 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 17273248331427840
-    m_Localized: "And you may think, my dear spectator, \u201CBut he still had time,
-      he could solve the misunderstanding\u201D.\r\nBut you have to consider that
-      our protagonist isn\u2019t the most social being, he doesn\u2019t talk to anyone
-      and he spends 16 hours a day sleeping.\r"
+    m_Localized: "Los monstruos no tardaron en celebrar, encantados de que el h\xE9roe
+      hubiera sido derrotado.\r Comenzaron a gritar que la planta lo hab\xEDa hecho,
+      que era el monstruo m\xE1s fuerte."
     m_Metadata:
       m_Items: []
   - m_Id: 17274486146035712
-    m_Localized: "Sin embargo, nuestra peque\xF1a planta viendo c\xF3mo el esp\xEDritu
-      empezaba a abrir la boca, pudo ver pasar ante sus ojos la humillaci\xF3n, su
-      reputaci\xF3n arruinada, como no pod\xEDa evadir el hecho de que hab\xEDa admitido
-      haber matado al h\xE9roe, como se hab\xEDa atribuido un honor que no le correspond\xEDa."
+    m_Localized: "La confusi\xF3n se apoder\xF3 de la multitud r\xE1pidamente.\r\nLa
+      confusi\xF3n dio paso al reconocimiento, y el reconocimiento dio paso a la
+      burla."
     m_Metadata:
       m_Items: []
   - m_Id: 17274483734310912
-    m_Localized: "El esp\xEDritu del h\xE9roe no pudo evitar sentirse ofendido, \xBFc\xF3mo
-      que esta planta me ha vencido? \xBFNo veis que eso es imposible?\r\nNo tard\xF3
-      en tratar de decirlo en voz alta, esta planta no hab\xEDa acabado con su vida,
-      hab\xEDa sido una criatura poderosa por el amor de un dios.\r"
+    m_Localized: "Una peque\xF1a sombra empez\xF3 a emerger del cad\xE1ver, nada
+      m\xE1s y nada menos, que el espectro del h\xE9roe."
     m_Metadata:
       m_Items: []
   - m_Id: 1631506993152
@@ -81,14 +78,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 17270716762779648
-    m_Localized: That day, the day the earth trembled, monsters and humans alike,
-      ran away.
+    m_Localized: "Aquel d\xEDa, el d\xEDa que la tierra tembl\xF3, monstruos y humanos
+      por igual, huyeron.\r"
     m_Metadata:
       m_Items: []
   - m_Id: 17270825722408960
     m_Localized: "Esconderse es lo m\xE1s sensato, buscar refugio y sobrevivir. Mantenerse
-      con vida es lo que todo ser vivo suele priorizar, no es com\xFAn que alguien
-      quiera cambiar la palabra tras \u201Cser\u201D de vivo a muerto."
+      con vida es lo que todo ser vivo suele priorizar."
     m_Metadata:
       m_Items: []
   - m_Id: 17270950377123840
@@ -102,9 +98,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 17271187619540992
-    m_Localized: No.
+    m_Localized: ' <b>No.</b>'
     m_Metadata:
-      m_Items: []
+      m_Items:
+      - id: 0
   - m_Id: 17271279353163776
     m_Localized: "Se qued\xF3 dormido."
     m_Metadata:
@@ -129,87 +126,113 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 17272256969928704
     m_Localized: "No sab\xEDa qu\xE9 pensar, no sol\xEDa ver muchos humanos por aqu\xED,
-      y siempre que lo hac\xEDa, se escond\xEDa de ellos.\r\nPero este est\xE1 delante
-      suya, y \xE9l es d\xE9bil, y el humano est\xE1 enfrente suya, \xBFpero el humano
-      tambi\xE9n parece estar d\xE9bil? No, espera, tiene un hacha, \xBFes este el
-      fin?\r"
+      y siempre que lo hac\xEDa, se escond\xEDa de ellos.\r\n"
     m_Metadata:
       m_Items: []
   - m_Id: 17272386368401408
-    m_Localized: "Antes de poder reaccionar, el humano se desplom\xF3 frente a \xE9l.\r\n"
+    m_Localized: "Pero este est\xE1 delante suya, y \xE9l es d\xE9bil, y el humano
+      est\xE1 enfrente suya, \xBFpero el humano tambi\xE9n parece estar d\xE9bil?
+      No, espera, tiene un hacha, \xBFes este el fin?\r"
     m_Metadata:
       m_Items: []
   - m_Id: 17272583714598912
-    m_Localized: "Nuestro protagonista estaba tan sorprendido que se qued\xF3 congelado
-      en el sitio.\r\nCasi pod\xEDas ver los engranajes girando en su cabeza.\r"
+    m_Localized: "Antes de poder reaccionar, el humano se desplom\xF3 frente a \xE9l.\r\n"
     m_Metadata:
       m_Items: []
   - m_Id: 17272712643309568
-    m_Localized: "Inadvertido a que los dem\xE1s seres empezaron a salir de sus escondites.\r\nSeres
-      que, sin haber visto qu\xE9 hab\xEDa ocurrido, se encontraron con la planta
-      en pie y al humano en el suelo.\r"
+    m_Localized: "Nuestro protagonista estaba tan sorprendido que se qued\xF3 congelado
+      en el sitio.\r Casi pod\xEDas ver los engranajes girando en su cabeza.\r"
     m_Metadata:
       m_Items: []
   - m_Id: 17272851470577664
+    m_Localized: "Inadvertido a que los dem\xE1s seres empezaron a salir de sus escondites.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273000561307648
+    m_Localized: "Seres que, sin haber visto qu\xE9 hab\xEDa ocurrido, se encontraron
+      con la planta en pie y al humano en el suelo.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273141057908736
     m_Localized: "La planta hab\xEDa derrotado al h\xE9roe, el h\xE9roe del mundo,
       el humano m\xE1s poderoso."
     m_Metadata:
       m_Items: []
-  - m_Id: 17273000561307648
-    m_Localized: "Los monstruos no tardaron en celebrar, encantados de que el h\xE9roe
-      hubiera sido derrotado.\r\nComenzaron a gritar que la planta lo hab\xEDa hecho,
-      que era el monstruo m\xE1s fuerte."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 17273141057908736
+  - m_Id: 17273467227959296
     m_Localized: "El protagonista pod\xEDa ver como toda su vida se desmoronaba en
       un instante, su rutina, sus siestas, por primera vez en su vida, no sab\xEDa
       lo que iba a ocurrir al d\xEDa siguiente."
     m_Metadata:
       m_Items: []
-  - m_Id: 17273467227959296
-    m_Localized: Le dio pereza.
+  - m_Id: 17273558709923840
+    m_Localized: "Y t\xFA pensar\xE1s, querido espectador, \u201CPero a\xFAn estaba
+      a tiempo, a\xFAn pod\xEDa solucionar el malentendido\u201D.\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 17273558709923840
+  - m_Id: 17273648212176896
+    m_Localized: "Pero ten\xE9is que tener en cuenta que nuestro protagonista no
+      es el ser m\xE1s social, no habla con nadie y pasa 16 horas al d\xEDa durmiendo.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273800402497536
+    m_Localized: ' <b>Le dio pereza.</b>'
+    m_Metadata:
+      m_Items:
+      - id: 0
+  - m_Id: 17273920892268544
     m_Localized: "Pens\xF3 que le dejar\xEDan en paz si simplemente lo confirmaba,
       era m\xE1s r\xE1pido decir \u201Cs\xED\u201D que tener que explicar todo el
       malentendido, pens\xF3 que podr\xEDa volver a su vida tranquilamente."
     m_Metadata:
       m_Items: []
-  - m_Id: 17273648212176896
+  - m_Id: 17274104556646400
     m_Localized: Pero oh desafortunada planta, la providencia no es tu talento.
     m_Metadata:
       m_Items: []
-  - m_Id: 17273800402497536
+  - m_Id: 17274108415406080
     m_Localized: Al humano le quedaban demasiados asuntos pendientes, demasiados
       remordimientos.
     m_Metadata:
       m_Items: []
-  - m_Id: 17273920892268544
+  - m_Id: 17274112915894272
     m_Localized: Demasiado que discutir consigo mismo.
     m_Metadata:
       m_Items: []
-  - m_Id: 17274104556646400
-    m_Localized: "Una peque\xF1a sombra empez\xF3 a emerger del cad\xE1ver, nada
-      m\xE1s y nada menos, que el espectro del h\xE9roe."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 17274108415406080
-    m_Localized: "La confusi\xF3n se apoder\xF3 de la multitud r\xE1pidamente.\r\nLa
-      confusi\xF3n dio paso al reconocimiento, y el reconocimiento dio paso a la
-      burla."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 17274112915894272
+  - m_Id: 17274488171884544
     m_Localized: "\u201C\xBFTan j\xF3ven y ya has muerto?\u201D \u201C\xBFNo eras
       el h\xE9roe m\xE1s fuerte?\u201D \u201C\xA1Nuestro \xEDdolo te ha vencido en
       tan solo 2 minutos!\u201D, entre otras cosas hirientes."
     m_Metadata:
       m_Items: []
-  - m_Id: 17274488171884544
+  - m_Id: 29755803194298368
+    m_Localized: "El esp\xEDritu del h\xE9roe no pudo evitar sentirse ofendido, \xBFc\xF3mo
+      que esta planta me ha vencido? \xBFNo veis que eso es imposible?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29755967715872768
+    m_Localized: "No tard\xF3 en tratar de decirlo en voz alta, esta planta no hab\xEDa
+      acabado con su vida, hab\xEDa sido una criatura poderosa por el amor de un
+      dios.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29756347078086656
     m_Localized: "R\xE1pidamente agarr\xF3 al esp\xEDritu y huy\xF3 del lugar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29756344741859328
+    m_Localized: "Como no pod\xEDa evadir el hecho de que hab\xEDa admitido haber
+      matado al h\xE9roe, como se hab\xEDa atribuido un honor que no le correspond\xEDa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29756233928347648
+    m_Localized: "Sin embargo, nuestra peque\xF1a planta viendo c\xF3mo el esp\xEDritu
+      empezaba a abrir la boca, pudo ver pasar ante sus ojos la humillaci\xF3n, su
+      reputaci\xF3n arruinada."
     m_Metadata:
       m_Items: []
   references:
     version: 1
+    00000000:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0070e9ba0d5c3d000070e9106e5e3d00
