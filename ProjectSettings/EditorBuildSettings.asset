@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/_project/Scenes/MainMenu/MainMenu.unity
     guid: de6cb46218a9adc49b15de1431cd6be6
   - enabled: 1
+    path: Assets/_project/Prologue/Prologue.unity
+    guid: 1482675bf4049fb4cbfa95ca6543719e
+  - enabled: 1
     path: Assets/_project/Scenes/Exploracion1/Exploracion1.unity
     guid: ebc46d6e7f409b14aabdf8ef60ebb8fc
   - enabled: 0
