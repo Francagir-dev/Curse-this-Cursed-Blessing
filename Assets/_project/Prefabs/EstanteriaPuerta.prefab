@@ -246,10 +246,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2030197162929313955, guid: 51898b8a38c777544a35ec658ab3c14c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b83fab897696884a8582338d62eb18f, type: 2}
     - target: {fileID: 919132149155446097, guid: 51898b8a38c777544a35ec658ab3c14c, type: 3}
       propertyPath: m_Name
       value: EstanteriaMagica
       objectReference: {fileID: 0}
+    - target: {fileID: 8835409689826365435, guid: 51898b8a38c777544a35ec658ab3c14c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8d54560930a50594f80e143fd92944f5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51898b8a38c777544a35ec658ab3c14c, type: 3}
 --- !u!4 &2320759482156796880 stripped
