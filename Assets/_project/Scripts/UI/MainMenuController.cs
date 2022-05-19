@@ -12,7 +12,7 @@ public class MainMenuController : MonoBehaviour
 
     public void StartButton()
     {
-        Transition.Instance.Do("Exploracion1");
+        Transition.Instance.Do("Prologue");
     }
 
     public void Options()
