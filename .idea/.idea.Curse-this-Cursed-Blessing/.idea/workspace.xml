@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Managers/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Managers/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Spanish (es).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Spanish (es).asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Enemies/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Enemies/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Sequences/CombatTutorial.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Sequences/CombatTutorial.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,14 +20,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Dropdown.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Options/LocaleDropDown.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@1.1.1/Editor/Asset Pipeline/LocalizationAssetPostProcessor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.19.15/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@1.1.1/Runtime/Settings/LocalizationSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Options/LocaleDropDown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Dropdown.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/UI/QuitOptionMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/be28439f7b014fc38435d198c0640ff713ae00/83/8fc15ad7/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@1.1.1/Editor/Asset Pipeline/LocalizationAssetPostProcessor.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,10 +67,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="7156">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="7156" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -145,6 +150,7 @@
       <workItem from="1652797540611" duration="1947000" />
       <workItem from="1652893096611" duration="138000" />
       <workItem from="1652893263184" duration="491000" />
+      <workItem from="1652952301101" duration="1684000" />
     </task>
     <servers />
   </component>
@@ -164,7 +170,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -199,21 +204,61 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
-          <line>56</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="41" containingFunctionPresentation="method 'ActivateItem'" />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
-          <line>49</line>
-          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="34" containingFunctionPresentation="method 'ActivateVolumePanel'" />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
           <line>41</line>
           <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="28" containingFunctionPresentation="method 'ActivateGraphicPanel'" />
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs</url>
+          <line>195</line>
+          <properties documentPath="C:\Users\frcagi\Documents\Proyecto\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Pistachito\Movement.cs" initialLine="195" containingFunctionPresentation="method 'OnInteract'">
+            <startOffsets>
+              <option value="5749" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5773" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs</url>
+          <line>190</line>
+          <properties documentPath="C:\Users\frcagi\Documents\Proyecto\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Pistachito\Movement.cs" initialLine="190" containingFunctionPresentation="method 'OnInteract'">
+            <startOffsets>
+              <option value="5516" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5551" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs</url>
+          <line>203</line>
+          <properties documentPath="C:\Users\frcagi\Documents\Proyecto\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Pistachito\Movement.cs" initialLine="203" containingFunctionPresentation="method 'OnInteract'">
+            <startOffsets>
+              <option value="5970" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5976" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs</url>
+          <line>197</line>
+          <properties documentPath="C:\Users\frcagi\Documents\Proyecto\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Pistachito\Movement.cs" initialLine="197" containingFunctionPresentation="method 'OnInteract'">
+            <startOffsets>
+              <option value="5791" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5820" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
