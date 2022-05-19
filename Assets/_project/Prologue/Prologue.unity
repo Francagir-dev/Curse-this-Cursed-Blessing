@@ -252,8 +252,8 @@ MonoBehaviour:
   audioSource: {fileID: 142414706}
   showToKey: 0
   tableName: FirstEnemyTuto
-  timeChangingText: 0
-  timeBetweenChar: 0
+  timeChangingText: 2
+  timeBetweenChar: 0.01
   automaticText: 1
   references:
     version: 1
