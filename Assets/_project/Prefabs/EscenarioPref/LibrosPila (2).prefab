@@ -91,6 +91,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 691314028356457064}
+  - component: {fileID: 6134478631000400846}
   m_Layer: 0
   m_Name: LibrosPila (2)
   m_TagString: Untagged
@@ -121,6 +122,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -89.944, y: 0, z: -86.209}
+--- !u!65 &6134478631000400846
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203747058046077138}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1848251, y: 2.2384381, z: 1}
+  m_Center: {x: -0.63287264, y: 0.6192195, z: 1.0362548e-11}
 --- !u!1 &510545649015119899
 GameObject:
   m_ObjectHideFlags: 0
