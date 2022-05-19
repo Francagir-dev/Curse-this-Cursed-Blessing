@@ -38,6 +38,7 @@ public class DialogueManager : MonoBehaviour
 
     private StringTable stringTable;
     [SerializeField] private bool automaticText;
+    public bool AutomaticText => automaticText;
 
     public Action onDialogueEnd;
 
@@ -207,7 +208,7 @@ public class DialogueManager : MonoBehaviour
                 specialChar = true;
 
             //While en vez de WaitForSeconds para poder detectar input
-            while (timer > 0 || specialChar)
+            while (timer > 0 && !specialChar)
             {
                 timer -= Time.deltaTime;
                 //TODO: Poner input de verdad, esto es temporal y para testear

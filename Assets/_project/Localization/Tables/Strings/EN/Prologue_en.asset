@@ -16,7 +16,8 @@ MonoBehaviour:
     m_Code: en
   m_SharedData: {fileID: 11400000, guid: ad2fdecba7a4d4d49a7c5dcea2083dca, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - id: 0
   m_TableData:
   - m_Id: 16301494272
     m_Localized: "Fight, fight until you fall, fight until you can\u2019t anymore,
@@ -56,15 +57,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 17270716762779648
-    m_Localized: "Aquel d\xEDa, el d\xEDa que la tierra tembl\xF3, monstruos y humanos
-      por igual, huyeron.\r"
+    m_Localized: That day, the day the earth trembled, monsters and humans alike,
+      ran away.
     m_Metadata:
       m_Items: []
   - m_Id: 17270825722408960
-    m_Localized: "To hide was the most sensible thing to do, seek shelter and survive.
-      Staying alive is what any living being usually prioritizes, it\u2019s not common
-      that someone wants to exchange the word in front of \u201Cbeing\u201D from
-      living to dead."
+    m_Localized: To hide was the most sensible thing to do, seek shelter and survive.
+      Staying alive is what any living being usually prioritizes.
     m_Metadata:
       m_Items: []
   - m_Id: 17270950377123840
@@ -78,9 +77,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 17271187619540992
-    m_Localized: No.
+    m_Localized: ' <b>No.</b>'
     m_Metadata:
-      m_Items: []
+      m_Items:
+      - id: 0
   - m_Id: 17271279353163776
     m_Localized: He overslept.
     m_Metadata:
@@ -110,107 +110,131 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 17272256969928704
     m_Localized: "He didn\u2019t know what to think, he didn\u2019t usually see many
-      humans around here, and whenever he did, he hid.\r\nBut this one is in front
-      of him, and he\u2019s weak, and the human is in front of him, but the human
-      appears to be weak as well? No, wait, he has an axe, is this the end?\r"
+      humans around here, and whenever he did, he hid.\r"
     m_Metadata:
       m_Items: []
   - m_Id: 17272386368401408
-    m_Localized: Before he could react, the human collapsed.
+    m_Localized: "But this one is in front of him, and he\u2019s weak, and the human
+      is in front of him, but the human appears to be weak as well? No, wait, he
+      has an axe, is this the end?\r"
     m_Metadata:
       m_Items: []
   - m_Id: 17272583714598912
-    m_Localized: "Our protagonist was so surprised that he froze on the spot.\r\nYou
-      could almost see the gears turning in his head.\r"
+    m_Localized: Before he could react, the human collapsed.
     m_Metadata:
       m_Items: []
   - m_Id: 17272712643309568
-    m_Localized: "Unaware of the other beings that were starting to come out of their
-      hiding spots.\r\nBeings that, without having seen what had happened, found
-      the plant standing and the human on the ground.\r\nOne can only assume.\r"
+    m_Localized: "Our protagonist was so surprised that he froze on the spot.\r You
+      could almost see the gears turning in his head.\r"
     m_Metadata:
       m_Items: []
   - m_Id: 17272851470577664
+    m_Localized: "Unaware of the other beings that were starting to come out of their
+      hiding spots.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273000561307648
+    m_Localized: "Beings that, without having seen what had happened, found the plant
+      standing and the human on the ground.\r\nOne can only assume.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273141057908736
     m_Localized: The plant had defeated the hero, the hero of the world, the most
       powerful human.
     m_Metadata:
       m_Items: []
-  - m_Id: 17273000561307648
+  - m_Id: 17273248331427840
     m_Localized: "The monsters didn\u2019t take long before they started cheering,
-      delighted that the hero had been defeated.\r\nThey started shouting that the
+      delighted that the hero had been defeated.\r They started shouting that the
       plant had done it, that he was the strongest monster.\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 17273141057908736
+  - m_Id: 17273467227959296
     m_Localized: "The protagonist could see his life crumbling in an instant, his
       routine, his naps, for the first time in his life, he didn\u2019t know what
       would happen next."
     m_Metadata:
       m_Items: []
-  - m_Id: 17273248331427840
-    m_Localized: "Y t\xFA pensar\xE1s, querido espectador, \u201CPero a\xFAn estaba
-      a tiempo, a\xFAn pod\xEDa solucionar el malentendido\u201D.\r\nPero ten\xE9is
-      que tener en cuenta que nuestro protagonista no es el ser m\xE1s social, no
-      habla con nadie y pasa 16 horas al d\xEDa durmiendo.\r\n"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 17273467227959296
-    m_Localized: He was too lazy.
-    m_Metadata:
-      m_Items: []
   - m_Id: 17273558709923840
+    m_Localized: "And you may think, my dear spectator, \u201CBut he still had time,
+      he could solve the misunderstanding\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273648212176896
+    m_Localized: "But you have to consider that our protagonist isn\u2019t the most
+      social being, he doesn\u2019t talk to anyone and he spends 16 hours a day sleeping.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273800402497536
+    m_Localized: ' <b>He was too lazy.</b>'
+    m_Metadata:
+      m_Items:
+      - id: 0
+  - m_Id: 17273920892268544
     m_Localized: "He thought that they would leave him alone if he simply admitted
       to it, it was faster to say \u201Cyes\u201D than to have to explain the whole
       ordeal, he thought he could happily go back to his life."
     m_Metadata:
       m_Items: []
-  - m_Id: 17273648212176896
+  - m_Id: 17274104556646400
     m_Localized: But oh unfortunate plant, providence is not your gift.
     m_Metadata:
       m_Items: []
-  - m_Id: 17273800402497536
+  - m_Id: 17274108415406080
     m_Localized: The human had way too much unfinished business, too many regrets.
     m_Metadata:
       m_Items: []
-  - m_Id: 17273920892268544
+  - m_Id: 17274112915894272
     m_Localized: Way too much to discuss with himself.
     m_Metadata:
       m_Items: []
-  - m_Id: 17274104556646400
+  - m_Id: 17274483734310912
     m_Localized: "A little shadow started to emerge from the corpse, none other than
       the hero\u2019s ghost himself."
     m_Metadata:
       m_Items: []
-  - m_Id: 17274108415406080
+  - m_Id: 17274486146035712
     m_Localized: 'Confusion spread rapidly among the crowd.
 
       Confusion gave
       way to recognition, and recognition gave way to mockery.'
     m_Metadata:
       m_Items: []
-  - m_Id: 17274112915894272
+  - m_Id: 17274488171884544
     m_Localized: "\u201CSo young and dead already?\u201D \u201CWeren\u2019t you the
       strongest hero?\u201D \u201COur idol defeated you in like 2 minutes!\u201D
       among other hurtful stuff."
     m_Metadata:
       m_Items: []
-  - m_Id: 17274483734310912
+  - m_Id: 29755803194298368
     m_Localized: "The hero\u2019s spirit couldn\u2019t help but feel offended, what
-      do you mean this plant has defeated me? Can\u2019t you see that\u2019s impossible?\nHe
-      didn\u2019t take long before he tried to say as much, this plant hadn\u2019t
-      ended his life, it had been a powerful creature for the love of god."
+      do you mean this plant has defeated me? Can\u2019t you see that\u2019s impossible?"
     m_Metadata:
       m_Items: []
-  - m_Id: 17274486146035712
-    m_Localized: "However, our little plant, seeing how the spirit started to open
-      his mouth, could see the humiliation flashing in front of his eyes, his ruined
-      reputation, how he couldn\u2019t deny the fact that he had admitted to killing
+  - m_Id: 29755967715872768
+    m_Localized: "He didn\u2019t take long before he tried to say as much, this plant
+      hadn\u2019t ended his life, it had been a powerful creature for the love of
+      god."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29756347078086656
+    m_Localized: Quickly, he grabbed the ghost and ran away.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29756344741859328
+    m_Localized: "How he couldn\u2019t deny the fact that he had admitted to killing
       the hero, how he had taken credit for glory that he didn\u2019t deserve.\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 17274488171884544
-    m_Localized: Quickly, he grabbed the ghost and ran away.
+  - m_Id: 29756233928347648
+    m_Localized: 'However, our little plant, seeing how the spirit started to open
+      his mouth, could see the humiliation flashing in front of his eyes, his ruined
+      reputation, '
     m_Metadata:
       m_Items: []
   references:
     version: 1
+    00000000:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0070e9ba0d5c3d000070e9106e5e3d00
