@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2763852259645145724}
   - component: {fileID: 1293931026891951577}
   - component: {fileID: 3895613816185075987}
+  - component: {fileID: 7146902674686462002}
   m_Layer: 0
   m_Name: ColumnaRota_03
   m_TagString: Untagged
@@ -25,9 +26,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3247372752021035206}
-  m_LocalRotation: {x: -0.9993267, y: -4.4932385e-18, z: 1.2238227e-16, w: -0.036689896}
+  m_LocalRotation: {x: -0.9993268, y: 0, z: 0, w: -0.036687277}
   m_LocalPosition: {x: 101.5, y: -58.32, z: -318.82}
-  m_LocalScale: {x: 2.5891, y: 2.5891, z: 2.5891}
+  m_LocalScale: {x: 2.5890992, y: 2.5890996, z: 2.5890996}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7146902674686462002
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247372752021035206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.72699153, y: 0.7269909, z: 1.4738348}
+  m_Center: {x: 0.000030297959, y: -0.0000018991129, z: 0.7369379}
