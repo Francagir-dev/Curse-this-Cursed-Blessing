@@ -30,9 +30,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 17273248331427840
-    m_Localized: "Los monstruos no tardaron en celebrar, encantados de que el h\xE9roe
-      hubiera sido derrotado.\r Comenzaron a gritar que la planta lo hab\xEDa hecho,
-      que era el monstruo m\xE1s fuerte."
+    m_Localized: "Los monstruos no tardaron en celebrar. Comenzaron a gritar que
+      la planta lo hab\xEDa hecho, que era el monstruo m\xE1s fuerte."
     m_Metadata:
       m_Items: []
   - m_Id: 17274486146035712
@@ -141,7 +140,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 17272712643309568
     m_Localized: "Nuestro protagonista estaba tan sorprendido que se qued\xF3 congelado
-      en el sitio.\r Casi pod\xEDas ver los engranajes girando en su cabeza.\r"
+      en el sitio.\r \nCasi pod\xEDas ver los engranajes girando en su cabeza.\r"
     m_Metadata:
       m_Items: []
   - m_Id: 17272851470577664
@@ -216,18 +215,17 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 29756347078086656
-    m_Localized: "R\xE1pidamente agarr\xF3 al esp\xEDritu y huy\xF3 del lugar."
+    m_Localized: "... r\xE1pidamente agarr\xF3 al esp\xEDritu y huy\xF3 del lugar."
     m_Metadata:
       m_Items: []
   - m_Id: 29756344741859328
     m_Localized: "Como no pod\xEDa evadir el hecho de que hab\xEDa admitido haber
-      matado al h\xE9roe, como se hab\xEDa atribuido un honor que no le correspond\xEDa."
+      matado al h\xE9roe, como se hab\xEDa atribuido un honor que no le correspond\xEDa..."
     m_Metadata:
       m_Items: []
   - m_Id: 29756233928347648
-    m_Localized: "Sin embargo, nuestra peque\xF1a planta viendo c\xF3mo el esp\xEDritu
-      empezaba a abrir la boca, pudo ver pasar ante sus ojos la humillaci\xF3n, su
-      reputaci\xF3n arruinada."
+    m_Localized: "Sin embargo, nuestra peque\xF1a planta, viendo c\xF3mo el esp\xEDritu
+      empezaba a abrir la boca, pudo ver pasar ante sus ojos la humillaci\xF3n."
     m_Metadata:
       m_Items: []
   references:

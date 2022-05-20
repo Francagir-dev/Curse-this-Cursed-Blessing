@@ -62,9 +62,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 14840209436672
-    m_Localized: "<b>Los renacidos</b> son criaturas que rechazan la muerte. Sin
-      embargo, al contrario que los zombies o esqueletos andantes, los renacidos
-      tienen capacidad de razonamiento, y, desde luego, son mucho <b>m\xE1s fuertes.</b>"
+    m_Localized: "<b>Los renacidos</b> son criaturas que rechazan la muerte. Pero,
+      al contrario que los zombies, los renacidos tienen capacidad de razonamiento,
+      y, desde luego, son mucho <b>m\xE1s fuertes.</b>"
     m_Metadata:
       m_Items: []
   - m_Id: 14847281033216
@@ -96,7 +96,7 @@ MonoBehaviour:
   - m_Id: 15529224531968
     m_Localized: "<b>Dragones:</b> De todas las criaturas fuertes grabadas en este
       libro, esta\u2026 es la m\xE1s com\xFAn de todas. Hay de distintos tipos, pero
-      todos se pueden adaptar a cualquier entorno en menos de una semana."
+      todos se pueden adaptar a cualquier entorno."
     m_Metadata:
       m_Items: []
   - m_Id: 15530294079488

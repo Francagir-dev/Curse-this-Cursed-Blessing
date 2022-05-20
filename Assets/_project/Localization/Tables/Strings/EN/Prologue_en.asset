@@ -218,18 +218,17 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 29756347078086656
-    m_Localized: Quickly, he grabbed the ghost and ran away.
+    m_Localized: ... quickly, he grabbed the ghost and ran away.
     m_Metadata:
       m_Items: []
   - m_Id: 29756344741859328
     m_Localized: "How he couldn\u2019t deny the fact that he had admitted to killing
-      the hero, how he had taken credit for glory that he didn\u2019t deserve.\r"
+      the hero, how he had taken credit for glory that he didn\u2019t deserve..."
     m_Metadata:
       m_Items: []
   - m_Id: 29756233928347648
     m_Localized: 'However, our little plant, seeing how the spirit started to open
-      his mouth, could see the humiliation flashing in front of his eyes, his ruined
-      reputation, '
+      his mouth, could see the humiliation flashing in front of his eyes. '
     m_Metadata:
       m_Items: []
   references:
