@@ -17,6 +17,7 @@ public class Transition : MonoBehaviour
    
     private void Awake()
     {
+        Application.targetFrameRate = 60;
         Debug.Log(LocalizationSettings.SelectedLocale);
         if (instance == null)
             Instance = this;

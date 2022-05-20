@@ -1572,7 +1572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ce4a7902e380e45804136b58fc5b67, type: 3}
   m_Name: DialogueClip
   m_EditorClassIdentifier: 
-  keysToAdd: 1
+  keysToAdd: 2
 --- !u!114 &-1929372698366210299
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1585,7 +1585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ce4a7902e380e45804136b58fc5b67, type: 3}
   m_Name: DialogueClip
   m_EditorClassIdentifier: 
-  keysToAdd: 1
+  keysToAdd: 3
 --- !u!114 &-1242310613252556528
 MonoBehaviour:
   m_ObjectHideFlags: 1
