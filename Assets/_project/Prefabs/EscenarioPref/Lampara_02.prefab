@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 6898234879538044022}
   - component: {fileID: 4643476333815700181}
   - component: {fileID: 357495072687588957}
+  - component: {fileID: 6141107599084809814}
+  - component: {fileID: 1911692631332949629}
   m_Layer: 0
   m_Name: "L\xE1mpara"
   m_TagString: Untagged
@@ -81,6 +83,31 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6141107599084809814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915254917378835169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82272ce3721616e4787744fc2369fc25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1911692631332949629
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915254917378835169}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.452096, y: 4.1468844, z: 1.7996098}
+  m_Center: {x: 0.15092307, y: 0.064574584, z: 1.6298239}
 --- !u!1 &1603106007894510741
 GameObject:
   m_ObjectHideFlags: 0
