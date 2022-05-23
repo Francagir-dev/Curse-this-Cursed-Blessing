@@ -12,6 +12,9 @@ public class ApplyOccult : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(pos);
         Physics.Raycast(ray, out RaycastHit hit);
 
+        if (hit.transform == null)
+            return;
+
         if (!hit.transform.TryGetComponent(out Occult newOccult))
         {
             if (currentOccult != null)

@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
-public class CutsceneManager : MonoBehaviour
+public class CutsceneManager : MonoBehaviour, PlayerInput.IUIControlsActions
 {
+    public PlayerInput playerInput;
     [SerializeField] string dialogueTableName;
 
     [Header("Only if Dialogue Only")]
@@ -28,6 +30,10 @@ public class CutsceneManager : MonoBehaviour
 
     private void OnEnable()
     {
+        playerInput = new PlayerInput();
+        playerInput.UIControls.SetCallbacks(this);
+        playerInput.Enable();
+
         onCutsceneStart.Invoke();
         manag.TableName = dialogueTableName;
 
@@ -66,6 +72,26 @@ public class CutsceneManager : MonoBehaviour
         };
     }
 
+    private void OnDisable()
+    {
+        playerInput.Disable();
+    }
+
+    public void Skip()
+    {
+        Stop();
+
+        manag.Close();
+
+        if (!manag.AutomaticText)
+        {
+            Movement.Instance.playerInput.Player.Enable();
+            Movement.Instance.playerInput.UIControls.Disable();
+        }
+
+        Transition.Instance.Do(onCutsceneEnd.Invoke);
+    }
+
     public void Stop()
     {
         if (direct.state == PlayState.Paused) return;
@@ -77,4 +103,31 @@ public class CutsceneManager : MonoBehaviour
         if (direct.state != PlayState.Paused) return;
         direct.Resume();
     }
+
+    public void OnJump(InputAction.CallbackContext context)
+    {
+        Skip();
+    }
+
+    #region MUDAMUDAMUDA
+    public void OnNavigate(InputAction.CallbackContext context)
+    {
+    }
+
+    public void OnSubmit(InputAction.CallbackContext context)
+    {
+    }
+
+    public void OnCancel(InputAction.CallbackContext context)
+    {
+    }
+
+    public void OnPressAnyKey(InputAction.CallbackContext context)
+    {
+    }
+
+    public void OnSkip(InputAction.CallbackContext context)
+    {
+    }
+    #endregion
 }

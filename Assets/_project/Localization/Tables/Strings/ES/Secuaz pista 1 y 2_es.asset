@@ -24,11 +24,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 899600945152
-    m_Localized: "Pero, \xBFt\xFA no te llamabas Jonathan?"
+    m_Localized: "Pero, \xBFT\xFA no te llamabas Jonathan?"
     m_Metadata:
       m_Items: []
   - m_Id: 903283544064
-    m_Localized: "... Maldita sea. Da igual, \xA1muere!"
+    m_Localized: "... Maldita sea. Da igual, \xA1Muere!"
     m_Metadata:
       m_Items: []
   - m_Id: 907024863232
@@ -37,7 +37,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 909243650048
     m_Localized: "Bueno, a pesar de lo que parezca, se le da mal socializar. Quiere
-      que se le reconozca ante el mundo, \xBFsabes?"
+      que se le reconozca ante el mundo, \xBFSabes?"
     m_Metadata:
       m_Items: []
   - m_Id: 913274376192

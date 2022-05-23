@@ -24,11 +24,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 899600945152
-    m_Localized: "But, wasn\u2019t your name Jonathan?"
+    m_Localized: "But, Wasn\u2019t your name Jonathan?"
     m_Metadata:
       m_Items: []
   - m_Id: 903283544064
-    m_Localized: "... Damn it. It doesn\u2019t matter, die!"
+    m_Localized: "... Damn it. It doesn\u2019t matter, Die!"
     m_Metadata:
       m_Items: []
   - m_Id: 907024863232
@@ -39,7 +39,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 909243650048
     m_Localized: "Well, despite what it may look like, she\u2019s pretty socially
-      awkward. She wants to be acknowledged by the world, y\u2019know?"
+      awkward. She wants to be acknowledged by the world, Y\u2019know?"
     m_Metadata:
       m_Items: []
   - m_Id: 913274376192

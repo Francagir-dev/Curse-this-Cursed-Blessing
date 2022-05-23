@@ -16,8 +16,7 @@ MonoBehaviour:
     m_Code: es
   m_SharedData: {fileID: 11400000, guid: ad2fdecba7a4d4d49a7c5dcea2083dca, type: 2}
   m_Metadata:
-    m_Items:
-    - id: 0
+    m_Items: []
   m_TableData:
   - m_Id: 16301494272
     m_Localized: "Lucha, lucha hasta que caigas, lucha hasta que no puedas m\xE1s,
@@ -99,8 +98,7 @@ MonoBehaviour:
   - m_Id: 17271187619540992
     m_Localized: ' <b>No.</b>'
     m_Metadata:
-      m_Items:
-      - id: 0
+      m_Items: []
   - m_Id: 17271279353163776
     m_Localized: "Se qued\xF3 dormido."
     m_Metadata:
@@ -131,7 +129,7 @@ MonoBehaviour:
   - m_Id: 17272386368401408
     m_Localized: "Pero este est\xE1 delante suya, y \xE9l es d\xE9bil, y el humano
       est\xE1 enfrente suya, \xBFpero el humano tambi\xE9n parece estar d\xE9bil?
-      No, espera, tiene un hacha, \xBFes este el fin?\r"
+      No, espera, tiene un hacha, \xBFEs este el fin?\r"
     m_Metadata:
       m_Items: []
   - m_Id: 17272583714598912
@@ -176,8 +174,7 @@ MonoBehaviour:
   - m_Id: 17273800402497536
     m_Localized: ' <b>Le dio pereza.</b>'
     m_Metadata:
-      m_Items:
-      - id: 0
+      m_Items: []
   - m_Id: 17273920892268544
     m_Localized: "Pens\xF3 que le dejar\xEDan en paz si simplemente lo confirmaba,
       era m\xE1s r\xE1pido decir \u201Cs\xED\u201D que tener que explicar todo el
@@ -234,7 +231,3 @@ MonoBehaviour:
       m_Items: []
   references:
     version: 1
-    00000000:
-      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
-      data:
-        m_Entries: 0070e9ba0d5c3d000070e9106e5e3d00
