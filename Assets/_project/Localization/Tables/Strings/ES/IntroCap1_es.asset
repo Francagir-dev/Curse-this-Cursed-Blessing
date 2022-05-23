@@ -35,7 +35,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 4136018186240
     m_Localized: "Sigue buscando, no queremos que nuestro peque\xF1o secreto salga
-      a la luz, \xBFverdad?"
+      a la luz, \xBFVerdad?"
     m_Metadata:
       m_Items: []
   - m_Id: 4136739606528
@@ -111,7 +111,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288018106818560
-    m_Localized: "... adelantaos vosotros, \xA1ya os alcanzar\xE9!"
+    m_Localized: "... adelantaos vosotros, \xA1Ya os alcanzar\xE9!"
     m_Metadata:
       m_Items: []
   - m_Id: 288018853404672

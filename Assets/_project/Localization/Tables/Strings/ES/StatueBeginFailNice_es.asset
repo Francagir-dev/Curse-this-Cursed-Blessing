@@ -43,7 +43,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1969773703168
-    m_Localized: "Ya te has divertido, \xBFles abrimos la puerta?"
+    m_Localized: "Ya te has divertido, \xBFLes abrimos la puerta?"
     m_Metadata:
       m_Items: []
   - m_Id: 2152993484800
@@ -76,7 +76,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3474186661888
-    m_Localized: "Ale, ya te has divertido, \xBFpodemos abrirles la entrada ya?"
+    m_Localized: "Ale, ya te has divertido, \xBFPodemos abrirles la entrada ya?"
     m_Metadata:
       m_Items: []
   - m_Id: 4238988636160

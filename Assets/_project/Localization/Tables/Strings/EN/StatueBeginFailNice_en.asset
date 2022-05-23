@@ -43,7 +43,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1969773703168
-    m_Localized: You've already had your fun, shall we open the door for them?
+    m_Localized: You've already had your fun, Shall we open the door for them?
     m_Metadata:
       m_Items: []
   - m_Id: 2152993484800
@@ -76,7 +76,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3474186661888
-    m_Localized: '''Aight, you''ve had your fun now, can we open the entrance for
+    m_Localized: '''Aight, you''ve had your fun now, Can we open the entrance for
       them already?'
     m_Metadata:
       m_Items: []

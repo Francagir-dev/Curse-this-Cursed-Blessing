@@ -155,7 +155,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 17301382869069824
-    m_Localized: Creditos
+    m_Localized: "Cr\xE9ditos"
     m_Metadata:
       m_Items: []
   references:
