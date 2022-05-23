@@ -23,7 +23,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 120937082880
-    m_Localized: "Espera, \xBFqu\xE9 ha sido eso?"
+    m_Localized: "Espera, \xBFQu\xE9 ha sido eso?"
     m_Metadata:
       m_Items: []
   - m_Id: 305012502528
@@ -47,7 +47,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1164630913024
-    m_Localized: "Las\u2026 \xBFestatuas?"
+    m_Localized: "Las\u2026 \xBFEstatuas?"
     m_Metadata:
       m_Items: []
   - m_Id: 1328334598144
@@ -67,7 +67,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2239303872512
-    m_Localized: "Llamar conjuro a un animado\u2026 \xBFno tienes modales?"
+    m_Localized: "Llamar conjuro a un animado\u2026 \xBFNo tienes modales?"
     m_Metadata:
       m_Items: []
   - m_Id: 2876456398848
@@ -84,7 +84,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3700309979136
-    m_Localized: "Ignoradla, le gusta demasiado la compa\xF1\xEDa. \xBFQue hac\xE9is
+    m_Localized: "Ignoradla, le gusta demasiado la compa\xF1\xEDa. \xBFQu\xE9 hac\xE9is
       aqu\xED?"
     m_Metadata:
       m_Items: []
@@ -93,7 +93,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4062651707392
-    m_Localized: "Tengo nombre, \xBFsabes?"
+    m_Localized: "Tengo nombre, \xBFSabes?"
     m_Metadata:
       m_Items: []
   - m_Id: 4358958313472
@@ -167,7 +167,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 8868418121728
-    m_Localized: "\xA1VALE BASTA, TE LO SUPLIC\xD3!"
+    m_Localized: "\xA1VALE BASTA, TE LO SUPLICO!"
     m_Metadata:
       m_Items: []
   - m_Id: 9513476911104

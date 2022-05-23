@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 288061064880128
-    m_Localized: "Hey, \xBFoyes eso?"
+    m_Localized: "Hey, \xBFOyes eso?"
     m_Metadata:
       m_Items: []
   - m_Id: 288062646132736
@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288063451439104
-    m_Localized: "Que est\xE1s- \xA1pero esc\xF3ndete detr\xE1s del sof\xE1!"
+    m_Localized: "Que est\xE1s- \xA1Pero esc\xF3ndete detr\xE1s del sof\xE1!"
     m_Metadata:
       m_Items: []
   - m_Id: 288064286105600
@@ -35,7 +35,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288065196269568
-    m_Localized: "Oye, \xBFese que hemos visto correr no era Johnny?"
+    m_Localized: "Oye, \xBFEse que hemos visto correr no era Johnny?"
     m_Metadata:
       m_Items: []
   - m_Id: 288066068684800
@@ -52,7 +52,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288068849508352
-    m_Localized: "Pero, \xBFno eras t\xFA John?"
+    m_Localized: "Pero, \xBFNo eras t\xFA John?"
     m_Metadata:
       m_Items: []
   - m_Id: 288069625454592
@@ -64,7 +64,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288071236067328
-    m_Localized: "... yo pensaba que Jonathan era el que hab\xEDa huido."
+    m_Localized: "... Yo pensaba que Jonathan era el que hab\xEDa huido."
     m_Metadata:
       m_Items: []
   - m_Id: 288072041373696
@@ -84,7 +84,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288075392622592
-    m_Localized: "Genial, ahora est\xE1n dentro\u2026 \xBFqu\xE9 hago?"
+    m_Localized: "Genial, ahora est\xE1n dentro\u2026 \xBFQu\xE9 hago?"
     m_Metadata:
       m_Items: []
   - m_Id: 288076269232128

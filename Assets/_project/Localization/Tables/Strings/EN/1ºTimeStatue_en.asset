@@ -23,7 +23,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 120937082880
-    m_Localized: Wait, what was that?
+    m_Localized: Wait, What was that?
     m_Metadata:
       m_Items: []
   - m_Id: 305012502528
@@ -47,7 +47,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1164630913024
-    m_Localized: The... statues?
+    m_Localized: The... Statues?
     m_Metadata:
       m_Items: []
   - m_Id: 1328334598144
@@ -67,7 +67,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2239303872512
-    m_Localized: Calling an animated spell... where are your manners?
+    m_Localized: Calling an animated spell... Where are your manners?
     m_Metadata:
       m_Items: []
   - m_Id: 2876456398848

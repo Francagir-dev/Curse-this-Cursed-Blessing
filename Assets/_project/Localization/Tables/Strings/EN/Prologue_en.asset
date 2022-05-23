@@ -16,8 +16,7 @@ MonoBehaviour:
     m_Code: en
   m_SharedData: {fileID: 11400000, guid: ad2fdecba7a4d4d49a7c5dcea2083dca, type: 2}
   m_Metadata:
-    m_Items:
-    - id: 0
+    m_Items: []
   m_TableData:
   - m_Id: 16301494272
     m_Localized: "Fight, fight until you fall, fight until you can\u2019t anymore,
@@ -79,8 +78,7 @@ MonoBehaviour:
   - m_Id: 17271187619540992
     m_Localized: ' <b>No.</b>'
     m_Metadata:
-      m_Items:
-      - id: 0
+      m_Items: []
   - m_Id: 17271279353163776
     m_Localized: He overslept.
     m_Metadata:
@@ -116,7 +114,7 @@ MonoBehaviour:
   - m_Id: 17272386368401408
     m_Localized: "But this one is in front of him, and he\u2019s weak, and the human
       is in front of him, but the human appears to be weak as well? No, wait, he
-      has an axe, is this the end?\r"
+      has an axe, Is this the end?\r"
     m_Metadata:
       m_Items: []
   - m_Id: 17272583714598912
@@ -168,8 +166,7 @@ MonoBehaviour:
   - m_Id: 17273800402497536
     m_Localized: ' <b>He was too lazy.</b>'
     m_Metadata:
-      m_Items:
-      - id: 0
+      m_Items: []
   - m_Id: 17273920892268544
     m_Localized: "He thought that they would leave him alone if he simply admitted
       to it, it was faster to say \u201Cyes\u201D than to have to explain the whole
@@ -237,7 +234,3 @@ MonoBehaviour:
       m_Items: []
   references:
     version: 1
-    00000000:
-      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
-      data:
-        m_Entries: 0070e9ba0d5c3d000070e9106e5e3d00
