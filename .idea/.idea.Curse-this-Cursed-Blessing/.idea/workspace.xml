@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Anims/UI/Anim.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Anims/UI/Anim.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Anims/UI/AnimationUI.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Anims/UI/AnimationUI.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Prefabs/OptionsMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Prefabs/OptionsMenu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/UI/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/UI/MainMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Sounds/GameAudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Sounds/GameAudioMixer.mixer" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +148,7 @@
       <workItem from="1652893263184" duration="491000" />
       <workItem from="1652952301101" duration="1684000" />
       <workItem from="1652972415577" duration="1261000" />
+      <workItem from="1653322556279" duration="215000" />
     </task>
     <servers />
   </component>

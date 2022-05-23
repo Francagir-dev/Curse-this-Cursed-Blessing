@@ -550,6 +550,14 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Jump"",
+                    ""type"": ""Button"",
+                    ""id"": ""d5a8f06e-8eea-4b53-b842-7bd7605b80d0"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -904,6 +912,28 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""action"": ""Skip"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e94361e1-2c6e-42f8-aa08-45a097aa5206"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7982f1fe-050e-4a51-b2cb-83399967cd59"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -959,6 +989,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         m_UIControls_Cancel = m_UIControls.FindAction("Cancel", throwIfNotFound: true);
         m_UIControls_PressAnyKey = m_UIControls.FindAction("PressAnyKey", throwIfNotFound: true);
         m_UIControls_Skip = m_UIControls.FindAction("Skip", throwIfNotFound: true);
+        m_UIControls_Jump = m_UIControls.FindAction("Jump", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -1094,6 +1125,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
     private readonly InputAction m_UIControls_Cancel;
     private readonly InputAction m_UIControls_PressAnyKey;
     private readonly InputAction m_UIControls_Skip;
+    private readonly InputAction m_UIControls_Jump;
     public struct UIControlsActions
     {
         private @PlayerInput m_Wrapper;
@@ -1103,6 +1135,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         public InputAction @Cancel => m_Wrapper.m_UIControls_Cancel;
         public InputAction @PressAnyKey => m_Wrapper.m_UIControls_PressAnyKey;
         public InputAction @Skip => m_Wrapper.m_UIControls_Skip;
+        public InputAction @Jump => m_Wrapper.m_UIControls_Jump;
         public InputActionMap Get() { return m_Wrapper.m_UIControls; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1127,6 +1160,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @Skip.started -= m_Wrapper.m_UIControlsActionsCallbackInterface.OnSkip;
                 @Skip.performed -= m_Wrapper.m_UIControlsActionsCallbackInterface.OnSkip;
                 @Skip.canceled -= m_Wrapper.m_UIControlsActionsCallbackInterface.OnSkip;
+                @Jump.started -= m_Wrapper.m_UIControlsActionsCallbackInterface.OnJump;
+                @Jump.performed -= m_Wrapper.m_UIControlsActionsCallbackInterface.OnJump;
+                @Jump.canceled -= m_Wrapper.m_UIControlsActionsCallbackInterface.OnJump;
             }
             m_Wrapper.m_UIControlsActionsCallbackInterface = instance;
             if (instance != null)
@@ -1146,6 +1182,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @Skip.started += instance.OnSkip;
                 @Skip.performed += instance.OnSkip;
                 @Skip.canceled += instance.OnSkip;
+                @Jump.started += instance.OnJump;
+                @Jump.performed += instance.OnJump;
+                @Jump.canceled += instance.OnJump;
             }
         }
     }
@@ -1185,5 +1224,6 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         void OnCancel(InputAction.CallbackContext context);
         void OnPressAnyKey(InputAction.CallbackContext context);
         void OnSkip(InputAction.CallbackContext context);
+        void OnJump(InputAction.CallbackContext context);
     }
 }
