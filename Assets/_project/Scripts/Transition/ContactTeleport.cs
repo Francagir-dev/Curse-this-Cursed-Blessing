@@ -9,6 +9,7 @@ public class ContactTeleport : ContactEvent
 
     Transform playertransform;
     Vector3 lastPosition;
+    bool isBack = false;
    
     private void Start()
     {
@@ -17,6 +18,10 @@ public class ContactTeleport : ContactEvent
 
     public void Teleport()
     {
+        if (isBack)
+            return;
+
+        isBack = true;
         lastPosition = playertransform.position;
         playertransform.SetPositionAndRotation(teleportTo.position, teleportTo.rotation);
     }
@@ -26,8 +31,14 @@ public class ContactTeleport : ContactEvent
         playertransform.SetPositionAndRotation(to.position, to.rotation);
     }
 
-    public void GoBack() 
-        => playertransform.position = lastPosition;
+    public void GoBack()
+    {
+        if (!isBack)
+            return;
+
+        playertransform.position = lastPosition;
+        isBack = false;
+    }
 
 }
 
