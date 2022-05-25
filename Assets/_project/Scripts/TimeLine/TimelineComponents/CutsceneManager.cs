@@ -94,13 +94,13 @@ public class CutsceneManager : MonoBehaviour, PlayerInput.IUIControlsActions
 
     public void Stop()
     {
-        if (direct.state == PlayState.Paused) return;
+        if (direct == null || direct.state == PlayState.Paused) return;
         direct.Pause();
     }
 
     public void Continue()
     {
-        if (direct.state != PlayState.Paused) return;
+        if (direct == null || direct.state != PlayState.Paused) return;
         direct.Resume();
     }
 
