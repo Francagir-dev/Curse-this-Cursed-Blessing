@@ -15,25 +15,21 @@ public class QuitOptionMenu : MonoBehaviour
     IEnumerator ActivateItem(GameObject objectToSelect)
     {
         _eventSystem.SetSelectedGameObject(null);
+        menuActivate.SetActive(true);
         yield return new WaitForEndOfFrame();
         _eventSystem.SetSelectedGameObject(objectToSelect);
         optionMenu.SetActive(false);
-        
-        
-        
     }
 
     public void MainMenuSelection()
     {
-        menuActivate.SetActive(true);
         StartCoroutine(ActivateItem(startBtn));
         
     }
 
     public void PauseMenuSelection()
     {
-        menuActivate.SetActive(true);
-        StartCoroutine(ActivateItem(startBtn));
+     StartCoroutine(ActivateItem(startBtn));
     }
 
 }
