@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI_Texts Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI_Texts
+  m_TableCollectionNameGuidString: 86d7b47efafda744785c9e5d45fe8270
+  m_Entries:
+  - m_Id: 12409196544
+    m_Key: pauseTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321202245632
+    m_Key: resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 576756994048
+    m_Key: options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 711171854336
+    m_Key: exitGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2029450846318592
+    m_Key: startGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2072352137981952
+    m_Key: restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2072475890921472
+    m_Key: mainmenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2072966423162880
+    m_Key: back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2074380394344448
+    m_Key: die
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9305374597664768
+    m_Key: resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9305597994684416
+    m_Key: quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9305673630568448
+    m_Key: fullScreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9306227178033152
+    m_Key: graphicSettings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9306345054752768
+    m_Key: audioSettings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12191370568998912
+    m_Key: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309089807290368
+    m_Key: generalVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309119628791808
+    m_Key: backgroundVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309168656011264
+    m_Key: vfxVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309236096225280
+    m_Key: uiVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9318155740860416
+    m_Key: vfx
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9319253172113408
+    m_Key: volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11586221342281728
+    m_Key: 'back
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571490489028608
+    m_Key: unbinded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571555915976704
+    m_Key: answerTop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571639269380096
+    m_Key: answerDown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571640745775104
+    m_Key: answerLeft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571641316200448
+    m_Key: answerRight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12571641886625792
+    m_Key: dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12572012864425984
+    m_Key: finishTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12572430281560064
+    m_Key: movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12572489840676864
+    m_Key: pauseMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12601121762004992
+    m_Key: interact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12950532266479616
+    m_Key: generalSettings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12950597055893504
+    m_Key: changeLocale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17301382869069824
+    m_Key: credits
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1648831914838

@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Prologue Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Prologue
+  m_TableCollectionNameGuidString: ad2fdecba7a4d4d49a7c5dcea2083dca
+  m_Entries:
+  - m_Id: 16301494272
+    m_Key: Narrador_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1634568835072
+    m_Key: Narrador_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1633868386304
+    m_Key: Narrador_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1633167937536
+    m_Key: Narrador_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1631506993152
+    m_Key: Narrador_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17270377384865792
+    m_Key: Narrador_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17270503939600384
+    m_Key: Narrador_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17270634097242112
+    m_Key: Narrador_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17270716762779648
+    m_Key: Narrador_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17270825722408960
+    m_Key: Narrador_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17270950377123840
+    m_Key: Narrador_11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17271051128500224
+    m_Key: Narrador_12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17271187619540992
+    m_Key: Narrador_13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17271279353163776
+    m_Key: Narrador_14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17271392737783808
+    m_Key: Narrador_15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17271660338573312
+    m_Key: Narrador_16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17271786079612928
+    m_Key: Narrador_17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17271998126845952
+    m_Key: Narrador_18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17272105291313152
+    m_Key: Narrador_19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17272256969928704
+    m_Key: Narrador_20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17272386368401408
+    m_Key: Narrador_21
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17272583714598912
+    m_Key: Narrador_22
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17272712643309568
+    m_Key: Narrador_23
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17272851470577664
+    m_Key: Narrador_24
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273000561307648
+    m_Key: Narrador_25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273141057908736
+    m_Key: Narrador_26
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273248331427840
+    m_Key: Narrador_27
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273467227959296
+    m_Key: Narrador_28
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273558709923840
+    m_Key: Narrador_29
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273648212176896
+    m_Key: Narrador_30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273800402497536
+    m_Key: Narrador_31
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273920892268544
+    m_Key: Narrador_32
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17274104556646400
+    m_Key: Narrador_33
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17274108415406080
+    m_Key: Narrador_34
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17274112915894272
+    m_Key: Narrador_35
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17274483734310912
+    m_Key: Narrador_36
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17274486146035712
+    m_Key: Narrador_37
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17274488171884544
+    m_Key: Narrador_38
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29755803194298368
+    m_Key: Narrador_39
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29755967715872768
+    m_Key: Narrador_40
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29756233928347648
+    m_Key: Narrador_41
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29756344741859328
+    m_Key: Narrador_42
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29756347078086656
+    m_Key: Narrador_43
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29852827654754304
+    m_Key: Narrador_44
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1645900901147

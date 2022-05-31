@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Exploration1_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: be187b99e8fef4f468c6432cc6afaceb, type: 2}
+  m_Metadata:
+    m_Items:
+    - id: 0
+  m_TableData:
+  - m_Id: 288019591602176
+    m_Localized: "That was close\u2026 Did we lose them?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288020229136384
+    m_Localized: "You\u2019 lost them, I\u2019d have fought them."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288021172854784
+    m_Localized: "I appreciate the support man, I\u2019d be worried for me too."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288021810388992
+    m_Localized: "Yeah well\u2026 wait, I think we\u2019re close."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288022544392192
+    m_Localized: Close?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288023181926400
+    m_Localized: "Yes, I think we\u2019re close to the core of the library, it should
+      be there."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288023924318208
+    m_Localized: It seems to be locked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288024461189120
+    m_Localized: "Well that\u2019s your problem, not mine."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288025128083456
+    m_Localized: "And who is gonna turn the book\u2019s pages for you?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288026340237312
+    m_Localized: ... Just find the key.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28605528874250240
+    m_Localized: "\rWell, just in case..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28606184972447744
+    m_Localized: Use this thing to interact.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28606132388458496
+    m_Localized: "And if you find some fireflies like these\u2026\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28606037899177984
+    m_Localized: "Come on, he's gone.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28605761003810816
+    m_Localized: W-Where does that come from?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28605692296916992
+    m_Localized: "\rUse this here to move"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28605525955014656
+    m_Localized: But if you just saw me run, of course I know!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28604751564861440
+    m_Localized: "\rYou remember how to move, right?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28606364220223488
+    m_Localized: B-But where does it come from?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28606482562510848
+    m_Localized: "\rThat's all for now, thanks for listening!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28606616591495168
+    m_Localized: Are you still talking to me?!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
+    00000000:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0070a959b59f6500

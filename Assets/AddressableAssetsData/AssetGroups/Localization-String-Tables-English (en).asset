@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-English (en)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-English (en)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5f24e3873cae89341a3857021a26cd8a
+  m_SerializeEntries:
+  - m_GUID: a5ac2c00c28e3b44294964ee86fe481c
+    m_Address: Prologue_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 78796cc0f4ba609469df3afc4476e18d
+    m_Address: IntroCap1_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 13ff181f52f938f4f8c3acb6c17a9245
+    m_Address: Exploration1_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: ce00d831872e6be4aa108a07b3c17f18
+    m_Address: FirstEnemyTuto_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 7366477679178624681e63c046ab2d60
+    m_Address: InnocentEnemies_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: a677c4ae4801e364a91c34e8a1b41611
+    m_Address: OpenDoor_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: e57deacb118d7114989959d57d78b947
+    m_Address: Tras desbloquear la segunda puerta_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 1693afdf41a3c6541af3e106f463b61b
+    m_Address: Puerta Final cerrada_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 7a9abb567400b304eb8d729f20b602e6
+    m_Address: Secuaz de la llave_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 1761b516e9c654f4687232db03cb1177
+    m_Address: Secuaz pista 1 y 2_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 26052763d81cf9246860ec458afdd112
+    m_Address: FinalBossFight_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 21c4b82ef88430545844c0916f8bd838
+    m_Address: UI_Texts_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 705f0cb06b0b06b45b4070a89731cb82
+    m_Address: Intro BossFight_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 9d763d9612bb1464f87a7c04acc72ba4
+    m_Address: CharacterNames_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 4070419fa90d8da4da022198984c47b9
+    m_Address: deathUI_Secuaz_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 3d7608b708392e947a38b0076b3befd5
+    m_Address: QualityDropdown_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 554093fb64e55db4988f8ff27d59848f
+    m_Address: answersLotDamage_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: ffc5197a3852aec47920c7cee86f6490
+    m_Address: answersSomeDamage_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 344fc5c7aacd0da488363555cbfebe9e
+    m_Address: noDamage_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 63aa63b86c4f0d143b666186fb2b11a4
+    m_Address: Riddle_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 474c3b4b6db3684468c6f77cd846c4b5
+    m_Address: "1\xBATimeStatue_en"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 547d6611d78a5d24192c883b7c276675
+    m_Address: Books_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: c009b3c2892493f4784d93ff6bececa4
+    m_Address: StatueBeginFailNice_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 4f5dabdfdc56c284781619916c1577cb
+    m_Address: "ExplorationIntro_2\xAA_en"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: b34e413925f06a3448392576d176f76d
+    m_Address: "FirstEnemyTuto_2\xBA_en"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ebb713125d01285439f0f2ef11d9e4b4, type: 2}
+    - {fileID: 11400000, guid: ac3c950c3412b734ca11047f00229c17, type: 2}

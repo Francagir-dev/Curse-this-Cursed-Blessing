@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Secuaz pista 1 y 2_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: bb752f729172d374a9f115ec66017c07, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 896069341184
+    m_Localized: "\xA1Vale ya lo tengo claro! Ah, as\xED que ah\xED est\xE1s\u2026\xA1Te
+      derrotar\xE9 como me llamo John!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 899600945152
+    m_Localized: "Pero, \xBFT\xFA no te llamabas Jonathan?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 903283544064
+    m_Localized: "... Maldita sea. Da igual, \xA1Muere!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 907024863232
+    m_Localized: "Ugh, da igual. Dinos por qu\xE9 nos busca tu jefa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 909243650048
+    m_Localized: "Bueno, a pesar de lo que parezca, se le da mal socializar. Quiere
+      que se le reconozca ante el mundo, \xBFSabes?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 913274376192
+    m_Localized: "Esfuerzos in\xFAtiles contra m\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 915769987072
+    m_Localized: "C-Con toda la raz\xF3n, \xA1ser supremo-maravilloso-guap\xEDsimo-genio!\u201D
+      \u201C\xA1No olvidar\xE9 esta piedad que me has ofrecido como que me llamo
+      Johnny!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 920350167040
+    m_Localized: "Deber\xEDan tener una etiqueta con sus nombres o algo as\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 924372504576
+    m_Localized: "\xA1Te encontr\xE9! \xA1Ya ver\xE1s cuando se lo ense\xF1e a Juan
+      y Jonathan/Johnny/John!\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928239652864
+    m_Localized: "\xA1\xBFPero t\xFA cu\xE1l eres?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 929032376320
+    m_Localized: "\xA1No lo s\xE9! \xA1Muere!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 929795739648
+    m_Localized: "Perd\xF3neme la vida, oh ser supremo-maravilloso-guap\xEDsimo-genio."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 930634600448
+    m_Localized: "Otra vez ese nombre\u2026 \xBFPor qu\xE9 me llam\xE1is as\xED?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 931385380864
+    m_Localized: "Nuestra jefa le llama as\xED siempre, al parecer es una gran admiradora
+      suya, ser supremo-maravi\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 932194881536
+    m_Localized: "Ya, ya\u2026 Entonces, \xBFpor qu\xE9 va a por m\xED?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 932970827776
+    m_Localized: "Mi impresi\xF3n es que quiere buscar su reconocimiento ser\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 933826465792
+    m_Localized: "Vuelve a decir eso y\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 934598217728
+    m_Localized: "\xA1S-S\xED! Adi\xF3s, no olvidar\xE9 esta piedad que tuvo conmigo,
+      \xA1tal como mi nombre es Johnny!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 935382552576
+    m_Localized: "... \xBFNo se llamaba el otro Johnny tambi\xE9n?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 936800227328
+    m_Localized: "Estoy tan confuso como t\xFA, cr\xE9eme."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

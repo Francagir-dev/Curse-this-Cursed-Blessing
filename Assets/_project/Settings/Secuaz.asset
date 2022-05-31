@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d89d755f770a4b4c896d8fc8acfb5a8, type: 3}
+  m_Name: Secuaz
+  m_EditorClassIdentifier: 
+  answersHigh:
+  - No quieres verme pelear en serio, barrilete
+  - "Tiembla ante m\xED, insecto"
+  - Bien, me toca
+  - "No me obligues a usar eso\u2026"
+  - "\xBFQuieres conocer el verdadero poder?"
+  - "Yo no necesito esos cachivaches para hacer da\xF1o"
+  - "Sigue enfadandome y ser\xE1 tu final"
+  - "Esto est\xE1 siendo divertido, pero creo que voy a ponerme serio"
+  answersLow:
+  - "\xA1R\xEDndete o te destruir\xE9!"
+  - "M\xE1s te vale no hacerme enfadar"
+  - "Podr\xEDa hacer esto con los ojos vendados"
+  - "\xBFDe verdad quieres pelear?"
+  - "Heh, pat\xE9tico\u2026"
+  - "\xBFEso es todo lo que puedes hacer?"
+  - "Tus chismes no te salvar\xE1n de m\xED"
+  - "\xBFA eso lo llamas pelear?"
+  - "\xBFNada m\xE1s?"
+  - "Cu\xE1ndo quieras terminamos el calentamiento"
+  answersNone:
+  - "No s\xE9 qu\xE9 vio tu jefa en ti la verdad"
+  - Ese ataque ha sido penoso
+  - "Uhh, \xA1qu\xE9 miedo!"
+  - "Tus hermanos parecen m\xE1s competentes"
+  - "Si sigues as\xED voy a acabar durmiendome"
+  - "\xA1Te derrotar\xE9!"
+  - "Deber\xEDas retirarte"
+  - "\xA1D\xE9jame en paz!"
+  - "\xBFQu\xE9 te he hecho yo?"
+  - "Eres d\xE9bil"
+  - "\xA1Vete de aqu\xED!"
+  - "\xA1Muere!"
+  - "He visto caracoles moverse m\xE1s r\xE1pido que t\xFA"
+  - Me aburro
+  - "\xA1Te arrepentir\xE1s de esto!"

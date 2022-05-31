@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Intro BossFight_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 1022fcf51abe94741a286bc2f0b5d55b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 424667320320
+    m_Localized: "S\xED, deber\xEDa de estar por aqu\xED..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 427632693248
+    m_Localized: "Pero, si hay un mont\xF3n de libros."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 429880840192
+    m_Localized: "\xA1Para eso est\xE1s aqu\xED! Ponte a leer."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 431994769408
+    m_Localized: "\xBFY qu\xE9 pasa con los otros?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434490380288
+    m_Localized: "Tranquilo, mientras est\xE9 la puerta cerrada no podr\xE1n entrar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 437711605760
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439796174848
+    m_Localized: "Has cerrado la puerta, \xBFno?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 442157568000
+    m_Localized: ... No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 445198438400
+    m_Localized: "... Bueno, a\xFAn est\xE1s a tiempo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 453473800192
+    m_Localized: Vaya por dios.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454367186944
+    m_Localized: "Te pill\xE9... No hay escapatoria, esto es un callej\xF3n sin salida."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455164104704
+    m_Localized: "\xA1\xBFY ahora qu\xE9 hago?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455923273728
+    m_Localized: "\xBFCrees en alg\xFAn dios? Ir\xEDa escogiendo alguno a quien rezarle."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456715997184
+    m_Localized: "Por fin, \xA1Ahora podr\xE9 demostrar al mundo lo que valgo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457420640256
+    m_Localized: "\xBFLo que vales?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 458192392192
+    m_Localized: "Oh dios m\xEDo, \xA1Me ha hablado, me ha hablado!\u201D \u201CNo
+      no no Okla, ahora no es tiempo de esto, luego le pides el aut\xF3grafo\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 459001892864
+    m_Localized: "Quiz\xE1s\u2026 pueda hacer lo mismo que con el secuaz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 459584901120
+    m_Localized: "\xBFEst\xE1s de broma, no? No puede funcionar con ella."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 460448927744
+    m_Localized: "\xBFSe te ocurre otra idea?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 461191319552
+    m_Localized: ... Adelante entonces, tipo duro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462793543680
+    m_Localized: "Ejem, \xA1mi nombre es Okla, y ahora te enfrentar\xE1s a m\xED!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

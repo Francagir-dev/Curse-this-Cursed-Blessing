@@ -1,0 +1,371 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: FinalBossFight_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 07872213d9b8316428c0d90fee47895f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1743310360576
+    m_Localized: "Tiene raz\xF3n, no soy suficiente\u2026y nunca lo ser\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1749304020992
+    m_Localized: "\xBFLo he conseguido?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1751950626816
+    m_Localized: "\xBFLo ha conseguido?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1754181996544
+    m_Localized: "Vaya vaya, plantita. Al final no eres tan in\xFAtil como pensaba."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1756732133376
+    m_Localized: Ya claro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1759135469568
+    m_Localized: "\xA1Lo digo en serio! No te ve\xEDa capaz de hacer algo as\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1761618497536
+    m_Localized: ... Gracias, supongo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1764617424896
+    m_Localized: "Pero deber\xEDamos largarnos, antes de que-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1770812411904
+    m_Localized: "\xA1No soy suficiente!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1778341187584
+    m_Localized: "\xA1A este paso se va a cargar la biblioteca, detenla!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1779335237632
+    m_Localized: "\xA1\xBFQu\xE9, c\xF3mo quieres que haga eso?!\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1780106989568
+    m_Localized: "\xA1Como mejor sabes, usa tu labia!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1780991987712
+    m_Localized: "Um\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1781650493440
+    m_Localized: "\xA1Ey ey, tranquil\xEDzate! \xA1H-Has peleado bien! \xA1Estoy
+      sorprendido!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1782447411200
+    m_Localized: "\xBFD-De verdad lo crees?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1783705702400
+    m_Localized: "\xA1Por supuesto! Tienes mucho talento, \xA1deber\xEDas buscar
+      una forma de potenciarlo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784380985344
+    m_Localized: "\xA1\xBFDe verdad?! Entonces\u2026 \xA1acepto!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784989159424
+    m_Localized: "\xBFEspera, qu\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785605722112
+    m_Localized: "\xA1Ser\xE9 tu mejor aprendiz, oh maestro-supremo-maravilloso-guap\xEDsimo-genio!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1786201313280
+    m_Localized: "\xA1\xBFC-C\xF3mo?! Yo no he dicho\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1786830458880
+    m_Localized: ... Encantado...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1787396689920
+    m_Localized: "Juro que no le decepcionar\xE9, maestro-supremo-maravilloso-guap\xEDsimo-gen-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1787988086784
+    m_Localized: "\xBFPuedes dejar de llamarme eso? Me pone inc\xF3modo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1788617232384
+    m_Localized: "\xA1Pero c\xF3mo dar a entender su magnificencia, oh maestro-supremo-maravill-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1789170880512
+    m_Localized: "\xA1Maestro!, llamame Maestro."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1789846163456
+    m_Localized: "\xA1S\xED, oh ser sup- quiero decir, Maestro!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1790466920448
+    m_Localized: "\xA1\xBFDe verdad vas a dejar que venga esa cosa?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1791100260352
+    m_Localized: "\xBFQui\xE9n es esta cosa, Maestro?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1791683268608
+    m_Localized: "Oye, un respeto, esta \u201Ccosa\u201D que dices es el mayor h\xE9roe
+      de estas tierras."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1792270471168
+    m_Localized: "\xA1Ah! \xBFEl que Maestro mat\xF3?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1792857673728
+    m_Localized: "\xBFDe qu\xE9 hablas? Este intento de arbusto jam\xE1s\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1793503596544
+    m_Localized: "\xA1S\xED, s\xED! \xA1El mismo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1794103382016
+    m_Localized: "Argh... S\xED, ese."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1794749304832
+    m_Localized: "\xBFY qu\xE9 hace con usted, maestro?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1795365867520
+    m_Localized: Tenemos un trato, estamos intentando revivirme.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1796007596032
+    m_Localized: "\xA1\xBFEh?! \xA1\xBFPor qu\xE9?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1797194584064
+    m_Localized: "\xA1N-No cuestiones mis motivos!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1797777592320
+    m_Localized: "\xA1S\xED, maestro!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1798377377792
+    m_Localized: "\xBFEh? \xBFYa est\xE1?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1799010717696
+    m_Localized: "Sus intenciones son obvias Maestro, \xA1se qued\xF3 con ganas de
+      m\xE1s pelea, as\xED que quiere volver a combatir con \xE9l!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1799635668992
+    m_Localized: JAJAJAJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1800252231680
+    m_Localized: "\xA1S-S\xED! \xA1Bien dicho, mi querido aprendiz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1800965263360
+    m_Localized: "\xA1Le ayudar\xE9 a conseguir su objetivo, Maestro!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1801514717184
+    m_Localized: "\xA1Perfecto, busca entre todo este mont\xF3n de libros la respuesta!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802152251392
+    m_Localized: "\xA1Entendido!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802752036864
+    m_Localized: "\xBFH\xE9roe?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1803385376768
+    m_Localized: "Ay dios, qu\xE9 bueno\u2026 nunca me he re\xEDdo tanto te lo juro\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1804027105280
+    m_Localized: "\xBFTan dif\xEDcil de creer es que te pudiese derrotar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1804652056576
+    m_Localized: "Ni en un mill\xF3n de a\xF1os, compa\xF1ero."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805256036352
+    m_Localized: "Bueno, esa tarea la mantendr\xE1 ocupada por un buen rato."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805969068032
+    m_Localized: "Podr\xEDamos huir, ahora que est\xE1 entretenida."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1806694682624
+    m_Localized: "Hm, s\xED quiz\xE1s deber\xEDamos-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1807336411136
+    m_Localized: "\xA1Maestro, lo encontr\xE9!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1807969751040
+    m_Localized: "\xA1\xBFEh?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1808598896640
+    m_Localized: "Aqu\xED dice algo de una antigua nigromante, viviendo en solitario
+      en un\u2026 \xBFdulce lugar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1809269985280
+    m_Localized: "\xBFDulce lugar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1809999794176
+    m_Localized: "Debe de ser un acertijo, estos libros siempre habla con met\xE1foras
+      y-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1810645716992
+    m_Localized: "Est\xE1 marcado en este mapa, en un circulito rojo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1811362942976
+    m_Localized: "... Antes se esforzaban m\xE1s\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1812021448704
+    m_Localized: "\xA1Bien hecho, mi querido aprendiz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1812692537344
+    m_Localized: "Jeje\u2026 soy mejor aprendiz que t\xFA."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1813376208896
+    m_Localized: "... Dios, lib\xE9rame de este par."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15570626041966592
+    m_Localized: "Los que faltaban\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571105203449856
+    m_Localized: "\xA1Jefa, tenga cuidado!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571146756419584
+    m_Localized: "\xA1Ese ser supremo es muy poderoso!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571418543124480
+    m_Localized: "De hecho, \xA1est\xE1 ah\xED!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571596876541952
+    m_Localized: "Lo s\xE9, lo he comprobado de primera mano, \xA1ahora soy su aprendiz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571720847585280
+    m_Localized: "\xBFC\xF3mo dice? Entonces, \xA1\xBFqu\xE9 ser\xE1 de nosotros
+      ahora?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572191071006720
+    m_Localized: "Estoy segura de que encontrar\xE9is vuestro camino."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572353575120896
+    m_Localized: Juan, recuerda ser bueno con tus hermanos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572608190345216
+    m_Localized: Jonathan, deja de tontear con los otros barriles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573080515112960
+    m_Localized: "John, recuerda pesta\xF1ear de vez en cuando."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573190707867648
+    m_Localized: "Y Johnny, nunca abandones tu sue\xF1o de ser bailar\xEDn de ballet,
+      s\xE9 que lo conseguir\xE1s."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573411307286528
+    m_Localized: Jefa, en realidad ahora me llamo Johnny.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573625363591168
+    m_Localized: "Yo tambi\xE9n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573744540545024
+    m_Localized: "Yo ya me llamaba as\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573860957646848
+    m_Localized: "Oh, \xBFa qu\xE9 viene eso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15574006097342464
+    m_Localized: "Su Maestro nos ofreci\xF3 misericordia\u2026 y lo tom\xE9 con el
+      nombre de Johnny\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15574211001675776
+    m_Localized: "No queremos ofenderle, as\xED que\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15574467193958400
+    m_Localized: Ahora nos llamamos Johnny.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15574716029431808
+    m_Localized: "\xBFVerdad, Juan?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15575455694942208
+    m_Localized: ... Necesito unas vacaciones.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15575601375703040
+    m_Localized: "Ay, mis queridos secuaces, nunca os olvidar\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15575711300022272
+    m_Localized: Yo tampoco, por desgracia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15575879260925952
+    m_Localized: "\xA1Gracias por todo, jefa!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

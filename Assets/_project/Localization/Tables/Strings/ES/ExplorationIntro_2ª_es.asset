@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: "ExplorationIntro_2\xAA_es"
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 68393799a265ffd4e9a20230a2127cfb, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 45028569088
+    m_Localized: "\xA1Hey! \xA1Esto parece un medall\xF3n!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55107481600
+    m_Localized: "\xBFNunca has visto uno?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58609725440
+    m_Localized: Solo de lejos, nunca he visto uno tan cerca.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63147962368
+    m_Localized: "Que raro\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185349009408
+    m_Localized: "\xBFA que s\xED? \xBFQu\xE9 es este dise\xF1o? \xBFSignifica algo
+      en humano?\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215447334912
+    m_Localized: "No, calla, \xBFqu\xE9 hace un medall\xF3n tirado tal cual?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236490158080
+    m_Localized: "\xBFEh? \xBFNo las dej\xE1is por ah\xED tiradas como hacen los
+      otros monstruos?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318497189888
+    m_Localized: "... No s\xE9 qu\xE9 esperaba."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689611586760704
+    m_Localized: "As\xED que seguramente dos de ellas no har\xE1n nada\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689783729385472
+    m_Localized: "Teniendo en cuenta su reacci\xF3n antes\u2026 tiene pinta que le
+      asusta <b>la distancia de poder que puede haber entre nosotros.</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689785985921024
+    m_Localized: "Si le hago parecer que soy invencible, deber\xEDa ahuyentarlo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689786946416640
+    m_Localized: Eso si no te derrota antes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689787755917312
+    m_Localized: "Exacto, tengo que estar vigilando mi vida\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689788582195200
+    m_Localized: Ser una planta tiene sus ventajas, me considero bastante robusto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689789345558528
+    m_Localized: "\xBFComo de robusto?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689791618871296
+    m_Localized: "Podr\xEDa aguantar\u2026 4 golpes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689793225289728
+    m_Localized: ... eso no es mucho.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 690987712737280
+    m_Localized: Tranquilo, puedo usar esto para esquivar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 690989117829120
+    m_Localized: Ah, ya veo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 690990313205760
+    m_Localized: "Hey, \xBFhab\xE9is terminado de revisar vuestros controles?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 690992292917248
+    m_Localized: "\xBFOsas interrumpirme?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 691130079997952
+    m_Localized: "\xA1Ah! N-No\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 691164532011008
+    m_Localized: "Jeje\u2026 esto podr\xEDa funcionar\u2026"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

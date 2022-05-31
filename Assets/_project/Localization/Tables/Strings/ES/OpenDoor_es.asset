@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: OpenDoor_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 9bcc55e5fbb94064fbf229ccc4079491, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 288061064880128
+    m_Localized: "Hey, \xBFOyes eso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288062646132736
+    m_Localized: "\xA1Ah!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288063451439104
+    m_Localized: "Que est\xE1s- \xA1Pero esc\xF3ndete detr\xE1s del sof\xE1!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288064286105600
+    m_Localized: "Es verdad\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288065196269568
+    m_Localized: "Oye, \xBFEse que hemos visto correr no era Johnny?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288066068684800
+    m_Localized: "Parec\xEDa asustado, John."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288067037569024
+    m_Localized: No, ese es Jonathan, yo soy John.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288067947732992
+    m_Localized: "\xBFSeguro? Yo jurar\xEDa que t\xFA eras John y el que se ha ido
+      era Jonathan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288068849508352
+    m_Localized: "Pero, \xBFNo eras t\xFA John?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288069625454592
+    m_Localized: ... Dejemos que Juan lo arregle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288070426566656
+    m_Localized: "Juan, \xBFqui\xE9n es qui\xE9n?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288071236067328
+    m_Localized: "... Yo pensaba que Jonathan era el que hab\xEDa huido."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288072041373696
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288072842485760
+    m_Localized: Bueno, vamos a dentro a pillar a esa planta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288073685540864
+    m_Localized: "\xBFY cu\xE1ndo cenamos?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288074553761792
+    m_Localized: "Despu\xE9s del trabajo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288075392622592
+    m_Localized: "Genial, ahora est\xE1n dentro\u2026 \xBFQu\xE9 hago?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288076269232128
+    m_Localized: "\xBFEntrar? Seguro que te las arreglas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288077141647360
+    m_Localized: "... Gracias por tu oh-tan-\xFAtil consejo."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

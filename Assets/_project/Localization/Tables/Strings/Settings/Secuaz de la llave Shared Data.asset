@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Secuaz de la llave Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Secuaz de la llave
+  m_TableCollectionNameGuidString: 8143811b699f24748b61e2340167d617
+  m_Entries:
+  - m_Id: 1149556297728
+    m_Key: Juan_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1153234702336
+    m_Key: Pistachin_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1156296544256
+    m_Key: Juan_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159551324160
+    m_Key: Pistachin_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1162424422400
+    m_Key: Juan_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1165050056704
+    m_Key: Pistachin_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1167990263808
+    m_Key: Juan_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1170859167744
+    m_Key: Juan_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1175992995840
+    m_Key: Juan_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1179516211200
+    m_Key: Pistachin_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1181621751808
+    m_Key: Juan_11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1183563714560
+    m_Key: Hero_12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1185358876672
+    m_Key: Hero_13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1186977878016
+    m_Key: Juan_14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1188672376832
+    m_Key: Hero_15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1191692275712
+    m_Key: Pistachin_16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1192652771328
+    m_Key: Hero_17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1193500020736
+    m_Key: Pistachin_18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1194364047360
+    m_Key: Hero_19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1196125655040
+    m_Key: Pistachin_20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1197488803840
+    m_Key: Hero_21
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1199363657728
+    m_Key: Pistachin_22
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1200731000832
+    m_Key: Hero_23
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1202157064192
+    m_Key: Pistachin_24
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1646301206259

@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Secuaz de la llave_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 8143811b699f24748b61e2340167d617, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1149556297728
+    m_Localized: Hello.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1153234702336
+    m_Localized: "You\u2019re not attacking me?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1156296544256
+    m_Localized: "Give me a moment, so he was John, and the other was Jonathan? I\u2019d
+      have sworn that was Johnny\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159551324160
+    m_Localized: Both of them were Johnny, at least that's what they said.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1162424422400
+    m_Localized: "Oh! Now it makes sense, it\u2019s John and Jonathan!  Thanks for
+      your help."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1165050056704
+    m_Localized: "Uhm, You\u2019re welcome?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1167990263808
+    m_Localized: Good, now die.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1170859167744
+    m_Localized: "Well, I\u2019ll figure it out later, die."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1175992995840
+    m_Localized: "(D\xEDa de los inocentes)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1179516211200
+    m_Localized: "Hey, isn\u2019t that a key?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1181621751808
+    m_Localized: Huh? This? I found it just laying around.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1183563714560
+    m_Localized: I knew it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1185358876672
+    m_Localized: Of course it was.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1186977878016
+    m_Localized: "You want it? Have it, I don\u2019t even want it!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1188672376832
+    m_Localized: Every key belongs with a lock, start looking.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1191692275712
+    m_Localized: "Actually there are decoration keys for collections and stuff like
+      that\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1192652771328
+    m_Localized: Do I look like I care?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1193500020736
+    m_Localized: "Most of the time you don\u2019t even have a face-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1194364047360
+    m_Localized: Low blow, I deserve it, please start looking for the door before
+      you make me want to cry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1196125655040
+    m_Localized: "<size=12>I think the little ball with a cape is pretty cute\u2026</size>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1197488803840
+    m_Localized: " \u2026\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1199363657728
+    m_Localized: "Hmm\u2026 I wonder what this key is fo-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1200731000832
+    m_Localized: "IT\u2019S FOR THE DOOR WE SAW YOU IDIOT!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1202157064192
+    m_Localized: "Ok, ok! There\u2019s no need to shout\u2026"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

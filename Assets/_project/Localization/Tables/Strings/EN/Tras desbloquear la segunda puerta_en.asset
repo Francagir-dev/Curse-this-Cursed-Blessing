@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tras desbloquear la segunda puerta_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 1855306796bbc364e832b43a6c5a2817, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57443422208
+    m_Localized: "Huff\u2026 huff\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61490925568
+    m_Localized: "I gotta get back into zumba class\u2026 But I\u2019m here now!
+      And this time I won\u2019t let the supreme-wonderful-extremely-beautiful-genius
+      get away."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64942837760
+    m_Localized: "And when I get him\u2026 When I get him!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70689034240
+    m_Localized: "Oops\u2026 Thank goodness this is abandoned, I wouldn\u2019t want
+      to pay for that."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73453080576
+    m_Localized: "I don\u2019t know about you, but I don\u2019t want to get anywhere
+      near that thing."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76598808576
+    m_Localized: For once, we agree.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
