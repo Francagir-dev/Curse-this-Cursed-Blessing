@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: answersLotDamage_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: d2953d8d42b34a047953f06c871d54c4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6955790061568
+    m_Localized: "You don\u2019t wanna see me fight in earnest, barrel."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7063491399680
+    m_Localized: Tremble before me, insect.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7083254960128
+    m_Localized: "Good, now it\u2019s my turn."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7162913181696
+    m_Localized: "Don\u2019t make me use that\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7218949083136
+    m_Localized: Do you wanna know real power?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7267976302592
+    m_Localized: "I don\u2019t need that junk to do harm."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7333709434880
+    m_Localized: "Keep enraging me and you will meet your end.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7380345901056
+    m_Localized: "This is fun, but I think I\u2019m going to get serious."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

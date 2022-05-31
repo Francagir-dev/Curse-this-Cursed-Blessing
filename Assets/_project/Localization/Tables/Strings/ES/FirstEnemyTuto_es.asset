@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 288034724651008
-    m_Localized: "\xA1Te pille!"
+    m_Localized: "\xA1Te pill\xE9!"
     m_Metadata:
       m_Items: []
   - m_Id: 288037144764416
@@ -36,7 +36,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288039862673408
-    m_Localized: Mira no, me niego.
+    m_Localized: ... Mira no, me niego.
     m_Metadata:
       m_Items: []
   - m_Id: 288040600870912
@@ -49,8 +49,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288042043711488
-    m_Localized: "\xA1Me da igual, sal ah\xED y hazle frente! (En letra m\xE1s peque\xF1a)
-      Tampoco es que tengas muchas opciones."
+    m_Localized: "\xA1Me da igual, sal ah\xED y hazle frente! <size=26>Tampoco es
+      que tengas muchas opciones. </size>"
     m_Metadata:
       m_Items: []
   - m_Id: 288042882572288

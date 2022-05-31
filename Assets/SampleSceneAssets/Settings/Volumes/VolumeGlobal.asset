@@ -84,17 +84,17 @@ MonoBehaviour:
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.36
     min: 0
     max: 1
   scatter:
     m_OverrideState: 1
-    m_Value: 0.65
+    m_Value: 0.47
     min: 0
     max: 1
   tint:
     m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 0.9528302, g: 0.29214135, b: 0.29214135, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 1
@@ -310,7 +310,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   skyType:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 3
   skyAmbientMode:
     m_OverrideState: 1
     m_Value: 1
@@ -339,7 +339,7 @@ MonoBehaviour:
     m_Value: 1
   length:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.49
     min: 0
     max: 1
   opacity:
@@ -349,16 +349,16 @@ MonoBehaviour:
     max: 1
   distanceScaleFactor:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.68
     min: 0
     max: 1
   maxDistance:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: 101.09
     min: 0
   minDistance:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 1.01
     min: 0
   fadeDistance:
     m_OverrideState: 1
@@ -546,7 +546,7 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.4
+    m_Value: 1.1
     min: 0
     max: 4
   directLightingStrength:
@@ -651,7 +651,7 @@ MonoBehaviour:
     m_Value: 0
   limitMin:
     m_OverrideState: 1
-    m_Value: 5
+    m_Value: 4.846154
   limitMax:
     m_OverrideState: 1
     m_Value: 13
@@ -846,7 +846,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   maxShadowDistance:
     m_OverrideState: 1
-    m_Value: 70
+    m_Value: 200
     min: 0
   directionalTransmissionMultiplier:
     m_OverrideState: 0
@@ -860,10 +860,10 @@ MonoBehaviour:
     max: 4
   cascadeShadowSplit0:
     m_OverrideState: 1
-    m_Value: 0.046875
+    m_Value: 0.140625
   cascadeShadowSplit1:
     m_OverrideState: 1
-    m_Value: 0.140625
+    m_Value: 0.26999998
   cascadeShadowSplit2:
     m_OverrideState: 1
     m_Value: 0.375

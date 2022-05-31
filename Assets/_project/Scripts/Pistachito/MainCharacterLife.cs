@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class MainCharacterLife : LifeSystem
 {
-    GameObject dead;
+   public GameObject dead;
     DamageEffect damageEffect;
     [HideInInspector] public Material material;
 
@@ -28,8 +28,9 @@ public class MainCharacterLife : LifeSystem
 
     Shaker camShake;
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         dead = GameObject.Find("--Death--");
         dead.SetActive(false);
         onDamage.AddListener(CheckDeath);
@@ -42,6 +43,7 @@ public class MainCharacterLife : LifeSystem
     private void Start()
     {
         onDamage.AddListener(ChangeImage);
+        onHeal.AddListener(ChangeImage);
         onDamage.AddListener(ChangeColorDegrade);
         onDamage.AddListener(() => camShake.BeginShake(.5f, .5f));
     }
@@ -68,10 +70,11 @@ public class MainCharacterLife : LifeSystem
 
     void CheckDeath()
     {
-        if (Life == -1)
+        if (Life <= 0)
         {
             dead.SetActive(true);
-            Time.timeScale = 0;
+            dead.GetComponent<DeathMenu>().SetEventSystem();
+            lifeImage.enabled = false;
         }
     }
 
@@ -135,7 +138,7 @@ public class MainCharacterLife : LifeSystem
         }
     }
 
-    //Por temas de velocidad del degradado prefiero pasarlo por su cuente su invencibilidad
+    //Por temas de velocidad del degradado prefiero pasarlo por su cuenta su invencibilidad
 
     IEnumerator CoolDown()
     {

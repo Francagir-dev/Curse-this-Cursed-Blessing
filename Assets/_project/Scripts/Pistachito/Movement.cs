@@ -6,25 +6,37 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody))]
 public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 {
+    public GameObject pauseMenu;
+    [SerializeField] Animator anim;
     static Movement instance;
-    public static Movement Instance { get => instance; private set => instance = value; }
+
+    public static Movement Instance
+    {
+        get => instance;
+        private set => instance = value;
+    }
 
     MainCharacterLife lifeSystem;
-    public MainCharacterLife LifeSystem { get => lifeSystem; private set => lifeSystem = value; }
+
+    public MainCharacterLife LifeSystem
+    {
+        get => lifeSystem;
+        private set => lifeSystem = value;
+    }
+
+    public bool isPaused;
 
     //Player Input Related
-    PlayerInput playerInput;
+    public PlayerInput playerInput;
     Vector3 inputMove;
     Vector3 dashDir;
     Quaternion moveDirection;
-    
-    [Header("Movement")]
-    public float speed = 1;
+
+    [Header("Movement")] public float speed = 1;
     public float acceleration = .5f;
     public float rotTime = .2f;
 
-    [Header("Dash")]
-    public float dashSpeedMult = 1.5f;
+    [Header("Dash")] public float dashSpeedMult = 1.5f;
     public float dashDurat = 1;
     public float dashCooldown = .3f;
 
@@ -34,14 +46,24 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     float origDashCooldown;
     Rigidbody rig;
     float dashActualDuration;
+    Transform interactionDisplayer;
+    Coroutine interactionCoroutine;
 
     //TEMPORAL
-    ChoiceController choice;
-    Interactable[] interactables;
+    [HideInInspector] public ChoiceController choice;
+    [HideInInspector] public ChoiceController_Riddle riddle;
+    List<Interactable> interactables;
+    public List<Interactable> Interactables => interactables;
+
 
     private void Awake()
     {
         instance = this;
+
+        interactables = new List<Interactable>();
+        interactionDisplayer = transform.Find("--Interactable--");
+        DisplayInteraction(false);
+
         LifeSystem = GetComponent<MainCharacterLife>();
         originalSpeed = speed;
         origDashCooldown = dashCooldown;
@@ -57,11 +79,6 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         choice = FindObjectOfType<ChoiceController>();
     }
 
-    private void Start()
-    {
-        interactables = FindObjectsOfType<Interactable>();
-    }
-
     public void OnMovement(InputAction.CallbackContext context)
     {
         var input = context.ReadValue<Vector2>();
@@ -71,7 +88,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         inputMove = new Vector3(input.x, rig.velocity.y, input.y);
 
         //No puede sacar una rotación si el movimiento es zero
-        if (inputMove != Vector3.zero) 
+        if (inputMove != Vector3.zero)
             moveDirection = Quaternion.LookRotation(inputMove);
     }
 
@@ -88,6 +105,7 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
 
         dashActualDuration = dashDurat;
         dashing = true;
+        anim.SetTrigger("Dash");
     }
 
     public void OnSelectOption(InputAction.CallbackContext context)
@@ -104,6 +122,37 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
         if (trueAnsw == -1) return;
 
         choice.ChooseOption(trueAnsw);
+        if (riddle != null)
+            riddle.ChooseOption(trueAnsw);
+    }
+
+    public void DisplayInteraction(bool display)
+    {
+        float maxTime = .3f;
+        int multiplier = display ? 1 : -1;
+        float time = display ? 0 : maxTime;
+        if (interactionCoroutine != null)
+            StopCoroutine(interactionCoroutine);
+
+        if (!gameObject.activeInHierarchy)
+        {
+            interactionDisplayer.localScale =
+                display ? Vector3.one : Vector3.zero;
+            return;
+        }
+
+        interactionCoroutine = StartCoroutine(Displayer());
+
+        IEnumerator Displayer()
+        {
+            while (display ? time < maxTime : time > 0)
+            {
+                time += Time.deltaTime * multiplier;
+                interactionDisplayer.localScale = Vector3.one *
+                                                  Mathf.Lerp(0, 1, time / maxTime);
+                yield return null;
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -112,9 +161,11 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
             dashActualDuration -= Time.deltaTime;
         else if (dashCooldown > 0)
             dashCooldown -= Time.deltaTime;
-        
+
         rig.velocity = Vector3.Lerp(rig.velocity, (dashing ? dashDir : inputMove) * speed, acceleration);
-        if (!dashing && inputMove.sqrMagnitude > .03f)
+        anim.SetFloat("Speed", rig.velocity.magnitude / speed);
+
+        if (!dashing && inputMove.magnitude > .03f)
             transform.rotation = Quaternion.Slerp(transform.rotation, moveDirection, rotTime);
 
         if (dashing && dashActualDuration <= 0)
@@ -139,28 +190,43 @@ public class Movement : MonoBehaviour, PlayerInput.IPlayerActions
     {
         foreach (var item in interactables)
         {
-            if (item.PlayerDetected)
+            if (item.PlayerDetected && item.isActiveAndEnabled)
             {
-                item.onTrigger.Invoke();
+                if (item.needTransition) Transition.Instance.Do(item.onTrigger.Invoke);
+                else item.onTrigger.Invoke();
+
+                if (!item.isActiveAndEnabled)
+                {
+                    DisplayInteraction(false);
+                    item.PlayerDetected = false;
+                }
+
                 break;
             }
         }
     }
 
     #region NotImplemented
-    public void OnCameraMov(UnityEngine.InputSystem.InputAction.CallbackContext context)
+
+    public void OnCameraMov(InputAction.CallbackContext context)
     {
         //throw new System.NotImplementedException();
     }
-    
-    public void OnOpenDialog(UnityEngine.InputSystem.InputAction.CallbackContext context)
+
+    public void OnOpenDialog(InputAction.CallbackContext context)
     {
         //throw new System.NotImplementedException();
     }
 
     public void OnPause(InputAction.CallbackContext context)
     {
-        Application.Quit();
+        if (context.started && !isPaused)
+        {
+            pauseMenu.SetActive(true);
+            isPaused = true;
+            Time.timeScale = 0f;
+        }
     }
+
     #endregion
 }

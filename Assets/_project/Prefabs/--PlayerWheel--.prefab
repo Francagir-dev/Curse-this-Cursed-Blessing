@@ -473,7 +473,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.3
+  m_fontSize: 10
   m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -891,7 +891,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.005567929, y: 0.024}
   m_AnchorMax: {x: 0.5553408, y: 0.29455504}
-  m_AnchoredPosition: {x: 1.3214722, y: 0.6367798}
+  m_AnchoredPosition: {x: 236.22998, y: 0.84454346}
   m_SizeDelta: {x: -3.144104, y: -1.6891022}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &6255740553783416945
@@ -1062,7 +1062,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.25
+  m_fontSize: 10
   m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1154,10 +1154,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263c2cf98fce67341a7d0c315f9929eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enableTime: 0
   intervals: 10
   choiceDuration: 10
   timeSlow: 0.5
   timeSlowDuration: 3
+  enemy: {fileID: 0}
   answerPool: {fileID: 11400000, guid: bad0976b687dfcf4ca5bce2ee51cc460, type: 2}
   textBoxReducedSizeMult: 0.8
 --- !u!1 &6255740555203349539
@@ -1327,7 +1329,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.1
+  m_fontSize: 10
   m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1715,7 +1717,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.25
+  m_fontSize: 10
   m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 1

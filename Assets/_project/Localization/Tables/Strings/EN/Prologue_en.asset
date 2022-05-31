@@ -23,205 +23,213 @@ MonoBehaviour:
       fight. It\u2019s what everyone expects from you, right?"
     m_Metadata:
       m_Items: []
-  - m_Id: 40930447360
-    m_Localized: "Even in his last moments, that\u2019s all he could think about."
+  - m_Id: 1631506993152
+    m_Localized: "This is the story of a harmless little plant.\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 45913280512
+  - m_Id: 1633167937536
+    m_Localized: But this is not the story of a battle between two formidable powers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1633868386304
     m_Localized: At the end of the day, that was his quest, that was his destiny,
       that is the person he chose to be, or at least, the one they forced him to
       be.
     m_Metadata:
       m_Items: []
-  - m_Id: 51659476992
-    m_Localized: But this is not the story of a battle between two formidable powers.
+  - m_Id: 1634568835072
+    m_Localized: "Even in his last moments, that\u2019s all he could think about."
     m_Metadata:
       m_Items: []
-  - m_Id: 59980976128
-    m_Localized: This is the story of a harmless little plant.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1631506993152
+  - m_Id: 17270377384865792
     m_Localized: "Its desires weren\u2019t different from those any other plant may
       have; to live peacefully, with no interruptions, no nuisance in sight."
     m_Metadata:
       m_Items: []
-  - m_Id: 1633167937536
+  - m_Id: 17270503939600384
     m_Localized: "It\u2019s not surprising he went unnoticed among other monsters."
     m_Metadata:
       m_Items: []
-  - m_Id: 1633868386304
+  - m_Id: 17270634097242112
     m_Localized: "It\u2019s not like he could do much anyway, he couldn\u2019t hurt
       a fly."
     m_Metadata:
       m_Items: []
-  - m_Id: 1634568835072
+  - m_Id: 17270716762779648
     m_Localized: That day, the day the earth trembled, monsters and humans alike,
       ran away.
     m_Metadata:
       m_Items: []
-  - m_Id: 1635214757888
-    m_Localized: "To hide was the most sensible thing to do, seek shelter and survive.
-      Staying alive is what any living being usually prioritizes, it\u2019s not common
-      that someone wants to exchange the word in front of \u201Cbeing\u201D from
-      living to dead."
+  - m_Id: 17270825722408960
+    m_Localized: To hide was the most sensible thing to do, seek shelter and survive.
+      Staying alive is what any living being usually prioritizes.
     m_Metadata:
       m_Items: []
-  - m_Id: 1636577906688
+  - m_Id: 17270950377123840
     m_Localized: So everyone ran, everyone except for our protagonist.
     m_Metadata:
       m_Items: []
-  - m_Id: 1690516656128
+  - m_Id: 17271051128500224
     m_Localized: You may ask what his motivation was, maybe he was a heroic being
       like the hero of the story? Maybe he wanted to sacrifice himself for the greater
       good, help evacuate?
     m_Metadata:
       m_Items: []
-  - m_Id: 1693570109440
-    m_Localized: No.
+  - m_Id: 17271187619540992
+    m_Localized: ' <b>No.</b>'
     m_Metadata:
       m_Items: []
-  - m_Id: 1694274752512
+  - m_Id: 17271279353163776
     m_Localized: He overslept.
     m_Metadata:
       m_Items: []
-  - m_Id: 1694941646848
+  - m_Id: 17271392737783808
     m_Localized: "It\u2019s not impossible, it has happened in history before, I
       figure you\u2019ve heard about Pompeii."
     m_Metadata:
       m_Items: []
-  - m_Id: 1695692427264
+  - m_Id: 17271660338573312
     m_Localized: "What matters is the fact that our protagonist didn\u2019t bother
-      hiding."
+      hiding.\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 1696376098816
-    m_Localized: "Eventually our protagonist woke up.\nIt didn\u2019t take him long
-      to realize he was completely alone.\n"
+  - m_Id: 17271786079612928
+    m_Localized: "Eventually our protagonist woke up.\r\nIt didn\u2019t take him
+      long to realize he was completely alone.\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 1697105907712
+  - m_Id: 17271998126845952
     m_Localized: Well, not completely.
     m_Metadata:
       m_Items: []
-  - m_Id: 1697726664704
+  - m_Id: 17272105291313152
     m_Localized: There was a badly injured human in front of him.
     m_Metadata:
       m_Items: []
-  - m_Id: 1698401947648
+  - m_Id: 17272256969928704
     m_Localized: "He didn\u2019t know what to think, he didn\u2019t usually see many
-      humans around here, and whenever he did, he hid.\nBut this one is in front
-      of him, and he\u2019s weak, and the human is in front of him, but the human
-      appears to be weak as well? No, wait, he has an axe, is this the end?\n"
+      humans around here, and whenever he did, he hid.\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 1699098202112
+  - m_Id: 17272386368401408
+    m_Localized: "But this one is in front of him, and he\u2019s weak, and the human
+      is in front of him, but the human appears to be weak as well? No, wait, he
+      has an axe, Is this the end?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17272583714598912
     m_Localized: Before he could react, the human collapsed.
     m_Metadata:
       m_Items: []
-  - m_Id: 1699811233792
-    m_Localized: 'Our protagonist was so surprised that he froze on the spot.
-
-      You
-      could almost see the gears turning in his head.
-
-'
+  - m_Id: 17272712643309568
+    m_Localized: "Our protagonist was so surprised that he froze on the spot.\r You
+      could almost see the gears turning in his head.\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 1700520071168
-    m_Localized: 'Unaware of the other beings that were starting to come out of their
-      hiding spots.
-
-      Beings that, without having seen what had happened, found
-      the plant standing and the human on the ground.
-
-      One can only assume.
-
-'
+  - m_Id: 17272851470577664
+    m_Localized: "Unaware of the other beings that were starting to come out of their
+      hiding spots.\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 1701207937024
+  - m_Id: 17273000561307648
+    m_Localized: "Beings that, without having seen what had happened, found the plant
+      standing and the human on the ground.\r\nOne can only assume.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273141057908736
     m_Localized: The plant had defeated the hero, the hero of the world, the most
       powerful human.
     m_Metadata:
       m_Items: []
-  - m_Id: 1701782556672
+  - m_Id: 17273248331427840
     m_Localized: "The monsters didn\u2019t take long before they started cheering,
-      delighted that the hero had been defeated.\nThey started shouting that the
-      plant had done it, that he was the strongest monster.\n"
+      delighted that the hero had been defeated.\r They started shouting that the
+      plant had done it, that he was the strongest monster.\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 4122952929280
+  - m_Id: 17273467227959296
     m_Localized: "The protagonist could see his life crumbling in an instant, his
       routine, his naps, for the first time in his life, he didn\u2019t know what
       would happen next."
     m_Metadata:
       m_Items: []
-  - m_Id: 4123695321088
-    m_Localized: "And you may think, my dear spectator, \u201Cbut he still had time,
-      he could solve the misunderstanding\u201D.\nBut you have to consider that our
-      protagonist isn\u2019t the most social being, he doesn\u2019t talk to anyone
-      and he spends 16 hours a day sleeping. \n"
+  - m_Id: 17273558709923840
+    m_Localized: "And you may think, my dear spectator, \u201CBut he still had time,
+      he could solve the misunderstanding\u201D."
     m_Metadata:
       m_Items: []
-  - m_Id: 4124727119872
-    m_Localized: He was too lazy.
+  - m_Id: 17273648212176896
+    m_Localized: "But you have to consider that our protagonist isn\u2019t the most
+      social being, he doesn\u2019t talk to anyone and he spends 16 hours a day sleeping.\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 4126245457920
+  - m_Id: 17273800402497536
+    m_Localized: ' <b>He was too lazy.</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17273920892268544
     m_Localized: "He thought that they would leave him alone if he simply admitted
       to it, it was faster to say \u201Cyes\u201D than to have to explain the whole
       ordeal, he thought he could happily go back to his life."
     m_Metadata:
       m_Items: []
-  - m_Id: 4126954295296
+  - m_Id: 17274104556646400
     m_Localized: But oh unfortunate plant, providence is not your gift.
     m_Metadata:
       m_Items: []
-  - m_Id: 4127600218112
+  - m_Id: 17274108415406080
     m_Localized: The human had way too much unfinished business, too many regrets.
     m_Metadata:
       m_Items: []
-  - m_Id: 4129043058688
+  - m_Id: 17274112915894272
     m_Localized: Way too much to discuss with himself.
     m_Metadata:
       m_Items: []
-  - m_Id: 4129688981504
+  - m_Id: 17274483734310912
     m_Localized: "A little shadow started to emerge from the corpse, none other than
       the hero\u2019s ghost himself."
     m_Metadata:
       m_Items: []
-  - m_Id: 4130389430272
+  - m_Id: 17274486146035712
     m_Localized: 'Confusion spread rapidly among the crowd.
 
       Confusion gave
-      way to recognition, and recognition gave way to mockery.
-
-'
+      way to recognition, and recognition gave way to mockery.'
     m_Metadata:
       m_Items: []
-  - m_Id: 4131081490432
+  - m_Id: 17274488171884544
     m_Localized: "\u201CSo young and dead already?\u201D \u201CWeren\u2019t you the
       strongest hero?\u201D \u201COur idol defeated you in like 2 minutes!\u201D
       among other hurtful stuff."
     m_Metadata:
       m_Items: []
-  - m_Id: 4131794522112
+  - m_Id: 29755803194298368
     m_Localized: "The hero\u2019s spirit couldn\u2019t help but feel offended, what
       do you mean this plant has defeated me? Can\u2019t you see that\u2019s impossible?"
     m_Metadata:
       m_Items: []
-  - m_Id: 4132524331008
+  - m_Id: 29755967715872768
     m_Localized: "He didn\u2019t take long before he tried to say as much, this plant
       hadn\u2019t ended his life, it had been a powerful creature for the love of
-      god.\nHowever, our little plant, seeing how the spirit started to open his
-      mouth, could see the humiliation flashing in front of his eyes, his ruined
-      reputation, how he couldn\u2019t deny the fact that he had admitted to killing
-      the hero, how he had taken credit for glory that he didn\u2019t deserve.\n"
+      god."
     m_Metadata:
       m_Items: []
-  - m_Id: 4133224779776
-    m_Localized: Quickly, he grabbed the ghost and ran away.
+  - m_Id: 29756347078086656
+    m_Localized: ... quickly, he grabbed the ghost and ran away.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29756344741859328
+    m_Localized: "How he couldn\u2019t deny the fact that he had admitted to killing
+      the hero, how he had taken credit for glory that he didn\u2019t deserve..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29756233928347648
+    m_Localized: 'However, our little plant, seeing how the spirit started to open
+      his mouth, could see the humiliation flashing in front of his eyes. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29852827654754304
+    m_Localized: And between them, reluctantly, came to an accord...
     m_Metadata:
       m_Items: []
   references:

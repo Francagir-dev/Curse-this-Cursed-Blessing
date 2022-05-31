@@ -260,7 +260,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1811362942976
-    m_Localized: ... They used to put more effort into these things.
+    m_Localized: ... They used to put more effort into these things...
     m_Metadata:
       m_Items: []
   - m_Id: 1812021448704
@@ -273,6 +273,99 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1813376208896
     m_Localized: ... God, deliver me from this pair.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15570626041966592
+    m_Localized: Why do I even bother asking.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571105203449856
+    m_Localized: Boss, be careful!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571146756419584
+    m_Localized: That supreme being is very powerful!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571418543124480
+    m_Localized: "In fact, it\u2019s there!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571596876541952
+    m_Localized: "I know, I\u2019ve seen it first hand, I\u2019m his apprentice now!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15571720847585280
+    m_Localized: "I\u2019m sorry, what? Then, what\u2019s gonna happen to us now?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572191071006720
+    m_Localized: "I\u2019m sure you will find your way."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572353575120896
+    m_Localized: Juan, remember to be kind to your brothers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15572608190345216
+    m_Localized: Jonathan, stop flirting with other barrels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573080515112960
+    m_Localized: John, remember to blink every once in a while.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573190707867648
+    m_Localized: And Johnny, never abandon your dream to become a ballet dancer,
+      I know you will make it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573411307286528
+    m_Localized: Boss, my name is actually Johnny now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573625363591168
+    m_Localized: Mine too.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573744540545024
+    m_Localized: It was already my name.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15573860957646848
+    m_Localized: Oh, why is that?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15574006097342464
+    m_Localized: "Your master showed us mercy, and I took it with Johnny\u2019s name\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15574211001675776
+    m_Localized: "We didn\u2019t want to upset him, so\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15574467193958400
+    m_Localized: Now we are all called Johnny.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15574716029431808
+    m_Localized: Right, Juan?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15575455694942208
+    m_Localized: ... I need a vacation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15575601375703040
+    m_Localized: Oh, my dear minions, I will never forget you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15575711300022272
+    m_Localized: Me neither, unfortunately.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15575879260925952
+    m_Localized: Thanks for everything, boss!
     m_Metadata:
       m_Items: []
   references:

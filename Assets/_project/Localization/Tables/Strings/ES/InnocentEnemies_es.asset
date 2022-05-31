@@ -23,7 +23,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288056098824192
-    m_Localized: "No sois muy originales, \xBFverdad? Y estamos a mitad de Febrero."
+    m_Localized: "No sois muy originales, \xBFverdad? Y estamos a mitad de febrero."
     m_Metadata:
       m_Items: []
   - m_Id: 288056841216000
@@ -43,7 +43,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288060192464896
-    m_Localized: "... perd\xF3n."
+    m_Localized: "... Perd\xF3n."
     m_Metadata:
       m_Items: []
   references:

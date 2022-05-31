@@ -41,11 +41,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1165050056704
-    m_Localized: "Uhm, you\u2019re welcome?"
+    m_Localized: "Uhm, You\u2019re welcome?"
     m_Metadata:
       m_Items: []
   - m_Id: 1167990263808
-    m_Localized: Good, now die
+    m_Localized: Good, now die.
     m_Metadata:
       m_Items: []
   - m_Id: 1170859167744
@@ -99,7 +99,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1196125655040
-    m_Localized: "I think the little ball with a cape is pretty cute\u2026"
+    m_Localized: "<size=12>I think the little ball with a cape is pretty cute\u2026</size>"
     m_Metadata:
       m_Items: []
   - m_Id: 1197488803840

@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 424667320320
-    m_Localized: "S\xED, deber\xEDa de estar por aqu\xED."
+    m_Localized: "S\xED, deber\xEDa de estar por aqu\xED..."
     m_Metadata:
       m_Items: []
   - m_Id: 427632693248
@@ -71,7 +71,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 456715997184
-    m_Localized: "Por fin, \xA1ahora podr\xE9 demostrar al mundo lo que valgo!"
+    m_Localized: "Por fin, \xA1Ahora podr\xE9 demostrar al mundo lo que valgo!"
     m_Metadata:
       m_Items: []
   - m_Id: 457420640256
@@ -79,7 +79,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 458192392192
-    m_Localized: "Oh dios m\xEDo, \xA1me ha hablado, me ha hablado!\u201D \u201CNo
+    m_Localized: "Oh dios m\xEDo, \xA1Me ha hablado, me ha hablado!\u201D \u201CNo
       no no Okla, ahora no es tiempo de esto, luego le pides el aut\xF3grafo\u2026"
     m_Metadata:
       m_Items: []

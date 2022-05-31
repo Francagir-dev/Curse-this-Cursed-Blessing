@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: CharacterNames_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: a72ca933ecdfd9f4297e07625e5fc344, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7232495616
+    m_Localized: "<color=#A1D7E5>H\xE9roe</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105354043392
+    m_Localized: "<color=#1A7719>Pistach\xEDn</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 594216951808
+    m_Localized: <color=#E1C800>Secuaz</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 747262910464
+    m_Localized: <color=#CDCD64>Jhonny</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1210209214464
+    m_Localized: <color=#CDCD32>Jonathan</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1242748624896
+    m_Localized: <color=#CDCD00>John</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1329398751232
+    m_Localized: <color=#FFFF00>Juan</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1538925207552
+    m_Localized: <color=#D13232>Aprendiz</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1639433314304
+    m_Localized: Narrador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1756144017408
+    m_Localized: <color=#878787>Estatua Encapuchada</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1792751902720
+    m_Localized: "<color=#\rBCBCBC\r>\rEstatua Calva</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2897018643640320
+    m_Localized: "<color=#19C864>H\xE9roe & Pistach\xEDn</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2900050341097472
+    m_Localized: <color=#E1C800>Secuaces</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2903204826804224
+    m_Localized: <color=#E1C800>Jhonny, Jonathan & John</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12410729716338688
+    m_Localized: Libro
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

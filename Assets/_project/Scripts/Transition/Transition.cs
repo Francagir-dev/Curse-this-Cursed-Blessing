@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Events;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 [RequireComponent(typeof(Animator))]
 public class Transition : MonoBehaviour
@@ -12,15 +14,18 @@ public class Transition : MonoBehaviour
 
     Animator anim;
     float closeDuration;
-
+   
     private void Awake()
     {
+        Application.targetFrameRate = 60;
+        Debug.Log(LocalizationSettings.SelectedLocale);
         if (instance == null)
             Instance = this;
         else Destroy(gameObject);
 
         anim = GetComponent<Animator>();
         closeDuration = anim.GetCurrentAnimatorStateInfo(0).length;
+   
     }
 
     public void Do(UnityAction actions)
@@ -43,7 +48,7 @@ public class Transition : MonoBehaviour
             anim.SetBool("Close", true);
             yield return new WaitForSeconds(closeDuration);
             AsyncOperation operation = 
-                SceneManager.LoadSceneAsync(SceneManager.GetSceneByName(sceneName).buildIndex, LoadSceneMode.Single);
+                SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Single);
             yield return new WaitUntil(() => operation.isDone);
             anim.SetBool("Close", false);
         }

@@ -83,6 +83,86 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     - Preload
+  - m_GUID: 21c4b82ef88430545844c0916f8bd838
+    m_Address: UI_Texts_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 705f0cb06b0b06b45b4070a89731cb82
+    m_Address: Intro BossFight_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 9d763d9612bb1464f87a7c04acc72ba4
+    m_Address: CharacterNames_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 4070419fa90d8da4da022198984c47b9
+    m_Address: deathUI_Secuaz_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 3d7608b708392e947a38b0076b3befd5
+    m_Address: QualityDropdown_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 554093fb64e55db4988f8ff27d59848f
+    m_Address: answersLotDamage_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: ffc5197a3852aec47920c7cee86f6490
+    m_Address: answersSomeDamage_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 344fc5c7aacd0da488363555cbfebe9e
+    m_Address: noDamage_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 63aa63b86c4f0d143b666186fb2b11a4
+    m_Address: Riddle_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 474c3b4b6db3684468c6f77cd846c4b5
+    m_Address: "1\xBATimeStatue_en"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 547d6611d78a5d24192c883b7c276675
+    m_Address: Books_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: c009b3c2892493f4784d93ff6bececa4
+    m_Address: StatueBeginFailNice_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 4f5dabdfdc56c284781619916c1577cb
+    m_Address: "ExplorationIntro_2\xAA_en"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: b34e413925f06a3448392576d176f76d
+    m_Address: "FirstEnemyTuto_2\xBA_en"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
   m_SchemaSet:

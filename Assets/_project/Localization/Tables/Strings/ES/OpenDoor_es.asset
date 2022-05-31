@@ -18,36 +18,8 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 288055259963392
-    m_Localized: "\xA1V-Vamos no te pongas as\xED, si es el d\xEDa de los inocentes!"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288056098824192
-    m_Localized: "No sois muy originales, \xBFverdad? Y estamos a mitad de Febrero."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288056841216000
-    m_Localized: "\xA1F-Feliz d\xEDa de los inocentes!"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288057713631232
-    m_Localized: "\xBFEn serio? \xBFNo ten\xE9is otra cosa?"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288058518937600
-    m_Localized: "\xA1E-Era una broma!"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288059320049664
-    m_Localized: "\xA1YA LO S\xC9, EL D\xCDA DE LOS INOCENTES!"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288060192464896
-    m_Localized: "... perd\xF3n."
-    m_Metadata:
-      m_Items: []
   - m_Id: 288061064880128
-    m_Localized: "Hey, \xBFoyes eso?"
+    m_Localized: "Hey, \xBFOyes eso?"
     m_Metadata:
       m_Items: []
   - m_Id: 288062646132736
@@ -55,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288063451439104
-    m_Localized: "Que est\xE1s- \xA1pero esc\xF3ndete detr\xE1s del sof\xE1!"
+    m_Localized: "Que est\xE1s- \xA1Pero esc\xF3ndete detr\xE1s del sof\xE1!"
     m_Metadata:
       m_Items: []
   - m_Id: 288064286105600
@@ -63,7 +35,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288065196269568
-    m_Localized: "Oye, \xBFese que hemos visto correr no era Johnny?"
+    m_Localized: "Oye, \xBFEse que hemos visto correr no era Johnny?"
     m_Metadata:
       m_Items: []
   - m_Id: 288066068684800
@@ -80,11 +52,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288068849508352
-    m_Localized: "Pero, \xBFno eras t\xFA John?"
+    m_Localized: "Pero, \xBFNo eras t\xFA John?"
     m_Metadata:
       m_Items: []
   - m_Id: 288069625454592
-    m_Localized: ... dejemos que Juan lo arregle.
+    m_Localized: ... Dejemos que Juan lo arregle.
     m_Metadata:
       m_Items: []
   - m_Id: 288070426566656
@@ -92,7 +64,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288071236067328
-    m_Localized: "... yo pensaba que Jonathan era el que hab\xEDa huido."
+    m_Localized: "... Yo pensaba que Jonathan era el que hab\xEDa huido."
     m_Metadata:
       m_Items: []
   - m_Id: 288072041373696
@@ -100,13 +72,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288072842485760
-    m_Localized: 'Bueno, vamos a dentro a pillar a esa planta.
-
-'
+    m_Localized: Bueno, vamos a dentro a pillar a esa planta.
     m_Metadata:
       m_Items: []
   - m_Id: 288073685540864
-    m_Localized: "\xBFY cuando cenamos?\n"
+    m_Localized: "\xBFY cu\xE1ndo cenamos?"
     m_Metadata:
       m_Items: []
   - m_Id: 288074553761792
@@ -114,7 +84,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288075392622592
-    m_Localized: "Genial, ahora est\xE1n dentro\u2026 \xBFqu\xE9 hago?"
+    m_Localized: "Genial, ahora est\xE1n dentro\u2026 \xBFQu\xE9 hago?"
     m_Metadata:
       m_Items: []
   - m_Id: 288076269232128
@@ -122,7 +92,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288077141647360
-    m_Localized: "... gracias por tu oh-tan-\xFAtil consejo."
+    m_Localized: "... Gracias por tu oh-tan-\xFAtil consejo."
     m_Metadata:
       m_Items: []
   references:

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: answersLotDamage Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: answersLotDamage
+  m_TableCollectionNameGuidString: d2953d8d42b34a047953f06c871d54c4
+  m_Entries:
+  - m_Id: 6955790061568
+    m_Key: wantSee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7063491399680
+    m_Key: bug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7083254960128
+    m_Key: myTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7162913181696
+    m_Key: useThat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7218949083136
+    m_Key: truePower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7267976302592
+    m_Key: dontNeed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7333709434880
+    m_Key: continueAngry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7380345901056
+    m_Key: funnyBut
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1652083140825

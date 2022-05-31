@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: "FirstEnemyTuto_2\xBA"
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 925a20b5b3e862740a9fceea0a8ba627, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: b34e413925f06a3448392576d176f76d, type: 2}
+  - {fileID: 11400000, guid: 62d5621b8c9bbae4d9d53e28fa861524, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 1

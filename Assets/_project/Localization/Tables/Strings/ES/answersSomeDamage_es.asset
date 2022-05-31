@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: answersSomeDamage_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: b63109f6bc29f994abfa847365940435, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 680159170560
+    m_Localized: "\xBFNada m\xE1s?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182681161728
+    m_Localized: "\xA1R\xEDndete o te destruir\xE9!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241871179776
+    m_Localized: "M\xE1s te vale no hacerme enfadar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299719020544
+    m_Localized: "Podr\xEDa hacer esto con los ojos vendados."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365519261696
+    m_Localized: "\xBFDe verdad quieres pelear?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 416891097088
+    m_Localized: "Heh, pat\xE9tico\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 447962501120
+    m_Localized: "\xBFEso es todo lo que puedes hacer?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505776787456
+    m_Localized: "Tus chismes no te salvar\xE1n de m\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 605768994816
+    m_Localized: "\xBFA eso lo llamas pelear?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 764582121472
+    m_Localized: Cuando quieras terminamos el calentamiento.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

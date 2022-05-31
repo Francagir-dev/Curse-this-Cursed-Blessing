@@ -89,6 +89,80 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     - Preload
+  - m_GUID: 7d6f4864ba65d2c4bb7e472b1aad850e
+    m_Address: UI_Texts_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: 1c670bc1a0fad1248bb0539276c4854b
+    m_Address: CharacterNames_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: ecde2772f44b427439776d32ee723964
+    m_Address: deathUI_Secuaz_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 07fe064b58e376a47814a32e52d6584a
+    m_Address: QualityDropdown_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: 410eceb4ad736054b8f4f0ebfc9872bf
+    m_Address: answersLotDamage_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 7001bdf6897563e47aa2e5387faf8104
+    m_Address: answersSomeDamage_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 73a788883d3951c4a85847b6533223e3
+    m_Address: noDamage_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 29b6c7466361b8541974a3fd57c2c3a8
+    m_Address: Riddle_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: c7591a8f20a70814199e4c042f6c31c1
+    m_Address: "1\xBATimeStatue_es"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: 7e81091461b2c9b48bfc520137e13f31
+    m_Address: Books_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: 065645e5f4651de44afbcd4a43e8c230
+    m_Address: StatueBeginFailNice_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: 180a062b7d7b75f449839f1bc212f69a
+    m_Address: "ExplorationIntro_2\xAA_es"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
+  - m_GUID: 62d5621b8c9bbae4d9d53e28fa861524
+    m_Address: "FirstEnemyTuto_2\xBA_es"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: c9f1dd0b93d9ea44eacf8c345305a7ea, type: 2}
   m_SchemaSet:

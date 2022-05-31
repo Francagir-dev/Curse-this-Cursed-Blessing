@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: "1\xBATimeStatue_es"
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 9cba4cdf04a9fcf40a25af0f56c11d16, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 35050319872
+    m_Localized: "Zzzzzzzzzz\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120937082880
+    m_Localized: "Espera, \xBFQu\xE9 ha sido eso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 305012502528
+    m_Localized: "Zzzzzzzzzz\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 460877033472
+    m_Localized: "Hey\u2026 yo tambi\xE9n lo oigo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 695841943552
+    m_Localized: "\xBFDe d\xF3nde viene?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 844022509568
+    m_Localized: "Zzzzzz\u2026 \xBFmh?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041041551360
+    m_Localized: "Que es esto\u2026 \xBFUn monstruito y un esp\xEDritu?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164630913024
+    m_Localized: "Las\u2026 \xBFEstatuas?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1328334598144
+    m_Localized: "Oh\u2026 \xA1Oooooh! \xA1Visitantes!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1578159927296
+    m_Localized: "Lo que faltaba\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2235289923584
+    m_Localized: "\xA1No sab\xEDa que las estatuas pod\xEDan hablar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2237705842688
+    m_Localized: "\xA1Porque no lo hacen! Debe de ser alg\xFAn conjuro\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2239303872512
+    m_Localized: "Llamar conjuro a un animado\u2026 \xBFNo tienes modales?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2876456398848
+    m_Localized: "\xBFAnimado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2883179868160
+    m_Localized: "He visto de esos antes, y normalmente son un poco m\xE1s\u2026
+      Bueno, animados."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2884522045440
+    m_Localized: "\xA1Qu\xE9 cruel destino no tener articulaciones!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3700309979136
+    m_Localized: "Ignoradla, le gusta demasiado la compa\xF1\xEDa. \xBFQu\xE9 hac\xE9is
+      aqu\xED?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4011892240384
+    m_Localized: Buscamos una manera de revivir a este.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4062651707392
+    m_Localized: "Tengo nombre, \xBFSabes?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4358958313472
+    m_Localized: "\xA1Ah! Eso est\xE1 en la Gran sala principal."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4677347930112
+    m_Localized: "Detr\xE1s de una puerta bien grande. No pod\xE9is perderlo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4854737629184
+    m_Localized: "S\xED, la hemos visto. \xBFSab\xE9is c\xF3mo entrar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5117921816576
+    m_Localized: "Ah, s\xED. Necesitas 2 amuletos. Hay uno en el s\xF3tano, junto
+      con nuestro hermano\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5968006574080
+    m_Localized: "\xA1Pero solo os dejaremos entrar si resolv\xE9is un acertijo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6322110689280
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7094126866432
+    m_Localized: "\xA1P-Pero hace mucho que no viene nadie!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7096878329856
+    m_Localized: "Es una p\xE9rdida de tiempo y quiero seguir durmiendo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7099122282496
+    m_Localized: "\xA1Si te pasas todo el d\xEDa durmiendo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7969276784640
+    m_Localized: "\xA1Y tu todo el d\xEDa cantando!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7970954506240
+    m_Localized: "\xA1Y si no me dejas jugar, cantar\xE9 m\xE1s alto!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7972439289856
+    m_Localized: "\xA1Oh por el amor de los dioses, \xBFc\xF3mo podr\xEDa ser m\xE1s
+      alto?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8154119761920
+    m_Localized: "\xA1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8607498858496
+    m_Localized: "S-Solo es ruido\u2026 en cualquier momento\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8604076306432
+    m_Localized: "\xA1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8861052923904
+    m_Localized: "\xA1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8866996252672
+    m_Localized: "S-Se tiene que cansar\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8868418121728
+    m_Localized: "\xA1VALE BASTA, TE LO SUPLICO!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9513476911104
+    m_Localized: "\xA1Yay!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10657896951808
+    m_Localized: "\xBFVeis lo que tengo que aguantar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10789539377152
+    m_Localized: "Mi p\xE9same."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11861825777664
+    m_Localized: "Debe de ser duro\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12054927339520
+    m_Localized: "\xA1Vuelve a hablar con nosotros cuando est\xE9s listo!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

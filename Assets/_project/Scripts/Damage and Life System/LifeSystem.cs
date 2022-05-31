@@ -5,13 +5,19 @@ using UnityEngine.Events;
 
 public class LifeSystem: MonoBehaviour
 {
-    [SerializeField] int life;
+    [SerializeField] int maxLife;
+    int life;
     public int Life { get => life; protected set => life = value; }
     bool inv = false;
     public bool Inv { private get => inv; set => inv = value; }
 
     public UnityEvent onHeal;
     public UnityEvent onDamage;
+
+    protected virtual void Awake()
+    {
+        life = maxLife;
+    }
 
     /// <summary>
     /// Recibe daño
@@ -32,6 +38,7 @@ public class LifeSystem: MonoBehaviour
     public void Heal(int heal)
     {
         life += heal;
+        life = maxLife;
         onHeal.Invoke();
     }
 }

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: answersSomeDamage_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: b63109f6bc29f994abfa847365940435, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 182681161728
+    m_Localized: "Give up or I\u2019ll destroy you!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241871179776
+    m_Localized: You better do not make me angry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299719020544
+    m_Localized: I could do this eyes closed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365519261696
+    m_Localized: Do you really want to fight?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 416891097088
+    m_Localized: "Hah, pathetic\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 447962501120
+    m_Localized: Is that all you can do?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505776787456
+    m_Localized: "Your junk won\u2019t save you from me."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 605768994816
+    m_Localized: You call that fighting?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 680159170560
+    m_Localized: "That\u2019s all?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 764582121472
+    m_Localized: "We can finish warming up whenever you want.\r"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

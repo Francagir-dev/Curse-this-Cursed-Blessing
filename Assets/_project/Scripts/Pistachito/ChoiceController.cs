@@ -101,7 +101,7 @@ public class ChoiceController : MonoBehaviour
             distance = Vector3.Distance(enemy.transform.position, player.transform.position);
             modyfier = 10;
         }
-        timeLeft -= Time.unscaledDeltaTime * modyfier / distance;
+        timeLeft -= Time.deltaTime * modyfier / distance;
 
         bar.Current = Mathf.FloorToInt((timeLeft / choiceDuration) * 100);
 
@@ -312,7 +312,7 @@ public class ChoiceController : MonoBehaviour
         //StartCoroutine(ChangeSize(obj, obj.localScale == Vector3.zero ? Vector3.one * .8f : Vector3.zero, 2));
     }
 
-    void EnableUI(bool enable)
+    public void EnableUI(bool enable)
     {
         if (!enable)
         {

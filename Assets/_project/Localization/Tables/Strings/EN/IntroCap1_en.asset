@@ -29,14 +29,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4135338708992
-    m_Localized: 'This seems to be the X category, not the advanced witchcraft one.
-
-'
+    m_Localized: "\u2018Monster history part 5, Monsters; where do they come from,
+      where do they go, Monsters and humans; a complicated history, El lazarillo
+      de Tormes by Mr. Iamnotamonster\u2026\u2019 This seems to be the history category,
+      not the advanced witchcraft one."
     m_Metadata:
       m_Items: []
   - m_Id: 4136018186240
     m_Localized: "Keep looking, we don\u2019t want our little secret to see the light
-      of day, do we?\n"
+      of day, Do we?\n"
     m_Metadata:
       m_Items: []
   - m_Id: 4136739606528

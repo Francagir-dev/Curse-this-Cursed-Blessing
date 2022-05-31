@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: "FirstEnemyTuto_2\xBA_es"
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 925a20b5b3e862740a9fceea0a8ba627, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 42822365184
+    m_Localized: "Vale, necesito absoluta concentraci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316198711296
+    m_Localized: Tan solo tengo que escoger de entre 4 frases.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 375871074304
+    m_Localized: "\xA1Ah! \xA1As\xED que ahora eres t\xFA el que hace aparecer cosas
+      raras!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 433261735936
+    m_Localized: "Quiz\xE1s alguna otra tambi\xE9n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 417218523136
+    m_Localized: "Estoy bastante seguro que una de ellas ser\xE1 muy efectiva\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698211725312
+    m_Localized: "Pero no soy tan listo como parece\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 724631646208
+    m_Localized: En eso estamos de acuerdo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 768839610368
+    m_Localized: "As\xED que seguramente dos de ellas no har\xE1n nada\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837873659904
+    m_Localized: "Teniendo en cuenta su reacci\xF3n antes\u2026 tiene pinta que le
+      asusta <b>la distancia de poder que puede haber entre nosotros.</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 868227837952
+    m_Localized: "Si le hago parecer que soy invencible, deber\xEDa ahuyentarlo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1361008226304
+    m_Localized: Eso si no te derrota antes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1363050852352
+    m_Localized: "Exacto, tengo que estar vigilando mi vida\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1365076701184
+    m_Localized: Ser una planta tiene sus ventajas, me considero bastante robusto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1521100615680
+    m_Localized: "\xBFComo de robusto?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1551790338048
+    m_Localized: "Podr\xEDa aguantar\u2026 4 golpes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1590788976640
+    m_Localized: ... eso no es mucho.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1619264106496
+    m_Localized: Tranquilo, puedo usar esto para esquivar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1938672939008
+    m_Localized: Ah, ya veo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1940585541632
+    m_Localized: "Hey, \xBFhab\xE9is terminado de revisar vuestros controles?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1942049353728
+    m_Localized: "\xBFOsas interrumpirme?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1943282479104
+    m_Localized: "\xA1Ah! N-No\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2153291280384
+    m_Localized: "Jeje\u2026 esto podr\xEDa funcionar\u2026"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

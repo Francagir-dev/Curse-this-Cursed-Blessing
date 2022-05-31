@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12030cf5-05d6-46f0-8482-fcc9f9d26c1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curse-this-Cursed-Blessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SampleSceneAssets/Settings/Volumes/VolumeGlobal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SampleSceneAssets/Settings/Volumes/VolumeGlobal.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/Boss1Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/Boss1Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Prefabs/OptionsMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Prefabs/OptionsMenu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/Exploracion1/Exploracion1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/MainMenu/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Sounds/GameAudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Sounds/GameAudioMixer.mixer" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +14,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Dropdown.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Options/LocaleDropDown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@1.1.1/Editor/Asset Pipeline/LocalizationAssetPostProcessor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.19.15/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@1.1.1/Runtime/Settings/LocalizationSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/UI/QuitOptionMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -24,7 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.21072589" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.20855905" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -35,6 +45,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Curse\Curse this Cursed Blessing.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Francagir\Desktop\Curse" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -93,6 +111,44 @@
       <workItem from="1645701401757" duration="2993000" />
       <workItem from="1645892502812" duration="493000" />
       <workItem from="1645894678670" duration="637000" />
+      <workItem from="1647540182896" duration="2146000" />
+      <workItem from="1648712543920" duration="444000" />
+      <workItem from="1648832658736" duration="3973000" />
+      <workItem from="1648838362375" duration="1314000" />
+      <workItem from="1648910436068" duration="1171000" />
+      <workItem from="1649163674258" duration="2681000" />
+      <workItem from="1649166959492" duration="3000" />
+      <workItem from="1649167004240" duration="3294000" />
+      <workItem from="1649316141405" duration="429000" />
+      <workItem from="1649327178780" duration="24000" />
+      <workItem from="1650549332064" duration="1423000" />
+      <workItem from="1650973332325" duration="1467000" />
+      <workItem from="1651053525305" duration="1255000" />
+      <workItem from="1651483589711" duration="344000" />
+      <workItem from="1651484611155" duration="729000" />
+      <workItem from="1651591035998" duration="4120000" />
+      <workItem from="1651838089042" duration="6134000" />
+      <workItem from="1651918076620" duration="2045000" />
+      <workItem from="1651923414177" duration="195000" />
+      <workItem from="1651923690154" duration="4204000" />
+      <workItem from="1652085372008" duration="234000" />
+      <workItem from="1652189659792" duration="1642000" />
+      <workItem from="1652263424266" duration="1307000" />
+      <workItem from="1652283590105" duration="893000" />
+      <workItem from="1652292167540" duration="980000" />
+      <workItem from="1652299319414" duration="1423000" />
+      <workItem from="1652340925479" duration="3416000" />
+      <workItem from="1652350589682" duration="1000" />
+      <workItem from="1652350827711" duration="2079000" />
+      <workItem from="1652368453763" duration="2277000" />
+      <workItem from="1652432571815" duration="87000" />
+      <workItem from="1652711007241" duration="3256000" />
+      <workItem from="1652797540611" duration="1947000" />
+      <workItem from="1652893096611" duration="138000" />
+      <workItem from="1652893263184" duration="491000" />
+      <workItem from="1652952301101" duration="1684000" />
+      <workItem from="1652972415577" duration="1261000" />
+      <workItem from="1653322556279" duration="215000" />
     </task>
     <servers />
   </component>
@@ -144,6 +200,36 @@
           <line>172</line>
           <properties documentPath="C:\Users\frcagi\Documents\Proyecto\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Enemies\Enemy.cs" initialLine="174" containingFunctionPresentation="method 'ReceiveDamage'" />
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Options/ActivateBtnOption.cs</url>
+          <line>41</line>
+          <properties documentPath="D:\projects\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Options\ActivateBtnOption.cs" initialLine="28" containingFunctionPresentation="method 'ActivateGraphicPanel'" />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs</url>
+          <line>195</line>
+          <properties documentPath="C:\Users\frcagi\Documents\Proyecto\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Pistachito\Movement.cs" initialLine="195" containingFunctionPresentation="method 'OnInteract'" />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs</url>
+          <line>190</line>
+          <properties documentPath="C:\Users\frcagi\Documents\Proyecto\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Pistachito\Movement.cs" initialLine="190" containingFunctionPresentation="method 'OnInteract'" />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs</url>
+          <line>203</line>
+          <properties documentPath="C:\Users\frcagi\Documents\Proyecto\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Pistachito\Movement.cs" initialLine="203" containingFunctionPresentation="method 'OnInteract'" />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_project/Scripts/Pistachito/Movement.cs</url>
+          <line>197</line>
+          <properties documentPath="C:\Users\frcagi\Documents\Proyecto\Curse-this-Cursed-Blessing\Assets\_project\Scripts\Pistachito\Movement.cs" initialLine="197" containingFunctionPresentation="method 'OnInteract'" />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: "1\xBATimeStatue Shared Data"
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: "1\xBATimeStatue"
+  m_TableCollectionNameGuidString: 9cba4cdf04a9fcf40a25af0f56c11d16
+  m_Entries:
+  - m_Id: 35050319872
+    m_Key: Estatua1_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120937082880
+    m_Key: Hero_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 305012502528
+    m_Key: Estatua2_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 460877033472
+    m_Key: Pistachin_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 695841943552
+    m_Key: Hero_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 844022509568
+    m_Key: Estatua2_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041041551360
+    m_Key: Estatua1_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164630913024
+    m_Key: Hero_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1328334598144
+    m_Key: Estatua2_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1578159927296
+    m_Key: Estatua1_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2235289923584
+    m_Key: Pistachin_11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2237705842688
+    m_Key: Hero_12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2239303872512
+    m_Key: Estatua1_13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2876456398848
+    m_Key: Hero_14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2883179868160
+    m_Key: Hero_15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2884522045440
+    m_Key: Estatua2_16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3700309979136
+    m_Key: Estatua1_17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4011892240384
+    m_Key: Pistachin_18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4062651707392
+    m_Key: Hero_19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4358958313472
+    m_Key: Estatua2_20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4677347930112
+    m_Key: Estatua1_21
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4854737629184
+    m_Key: Hero_22
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5117921816576
+    m_Key: Estatua1_23
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5968006574080
+    m_Key: Estatua2_24
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6322110689280
+    m_Key: Estatua1_25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7094126866432
+    m_Key: Estatua2_26
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7096878329856
+    m_Key: Estatua1_27
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7099122282496
+    m_Key: Estatua2_28
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7969276784640
+    m_Key: Estatua1_29
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7970954506240
+    m_Key: Estatua2_30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7972439289856
+    m_Key: Estatua1_31
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8154119761920
+    m_Key: Estatua2_32
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8604076306432
+    m_Key: Estatua2_33
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8607498858496
+    m_Key: Estatua1_34
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8861052923904
+    m_Key: Estatua2_36
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8866996252672
+    m_Key: Estatua1_35
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8868418121728
+    m_Key: Estatua1_37
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9513476911104
+    m_Key: Estatua2_38
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10657896951808
+    m_Key: Estatua1_39
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10789539377152
+    m_Key: Hero_40
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11861825777664
+    m_Key: Pistachin_41
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12054927339520
+    m_Key: Estatua2_42
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1652286844053

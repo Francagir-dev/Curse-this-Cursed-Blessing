@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: "ExplorationIntro_2\xAA Shared Data"
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: "ExplorationIntro_2\xAA"
+  m_TableCollectionNameGuidString: 68393799a265ffd4e9a20230a2127cfb
+  m_Entries:
+  - m_Id: 45028569088
+    m_Key: Pistachin_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55107481600
+    m_Key: Hero_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58609725440
+    m_Key: Pistachin_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63147962368
+    m_Key: Hero_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185349009408
+    m_Key: Pistachin_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215447334912
+    m_Key: Hero_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236490158080
+    m_Key: Pistachin_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318497189888
+    m_Key: Hero_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689611586760704
+    m_Key: Pistachin_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689783729385472
+    m_Key: Pistachin_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689785985921024
+    m_Key: Pistachin_11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689786946416640
+    m_Key: Hero_12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689787755917312
+    m_Key: Pistachin_13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689788582195200
+    m_Key: Pistachin_14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689789345558528
+    m_Key: Hero_15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689791618871296
+    m_Key: Pistachin_16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689793225289728
+    m_Key: Hero_17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 690987712737280
+    m_Key: Pistachin_18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 690989117829120
+    m_Key: Hero_19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 690990313205760
+    m_Key: Secuaz_20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 690992292917248
+    m_Key: Pistachin_21
+    m_Metadata:
+      m_Items: []
+  - m_Id: 691130079997952
+    m_Key: Secuaz_22
+    m_Metadata:
+      m_Items: []
+  - m_Id: 691164532011008
+    m_Key: Pistachin_23
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1652722082976

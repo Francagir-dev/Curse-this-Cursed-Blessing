@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Books Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Books
+  m_TableCollectionNameGuidString: 4d7a8184edb7e764fad751402921821c
+  m_Entries:
+  - m_Id: 10713647640576
+    m_Key: book_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11305552015360
+    m_Key: book_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11409570754560
+    m_Key: book_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11560452452352
+    m_Key: book_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11664873844736
+    m_Key: book_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11872332509184
+    m_Key: book_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14760563798016
+    m_Key: book_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14832831655936
+    m_Key: book_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14840209436672
+    m_Key: book_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14847281033216
+    m_Key: book_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14852955926528
+    m_Key: book_11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15282087751680
+    m_Key: book_12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15521699950592
+    m_Key: book_13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15527563587584
+    m_Key: book_14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15529224531968
+    m_Key: book_15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15530294079488
+    m_Key: book_16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15531262963712
+    m_Key: book_17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15535121723392
+    m_Key: book_18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15962533883904
+    m_Key: book_19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16122953428992
+    m_Key: book_20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16128942895104
+    m_Key: book_21
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1652021823490
